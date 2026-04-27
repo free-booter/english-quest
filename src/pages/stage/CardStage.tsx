@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Volume2 } from 'lucide-react'
+import { Volume2, X, ChevronRight, BookOpen } from 'lucide-react'
 import { db } from '../../db/db'
 import { speak } from '../../tts/tts'
 import { buildFallbackScenario, getStageScenario } from '../../data/stage-scenarios'
@@ -22,6 +22,30 @@ function shuffle<T>(arr: T[]): T[] {
     ;[copy[i], copy[j]] = [copy[j], copy[i]]
   }
   return copy
+}
+
+function buildFallbackExamples(word: Word): Array<{ en: string; zh: string }> {
+  return [
+    {
+      en: `I need my ${word.word} before I leave.`,
+      zh: `出发前我需要${word.meaning}。`,
+    },
+  ]
+}
+
+function buildMemoryHint(word: Word): string {
+  if (word.roots) return word.roots
+  if (word.rootHint) return word.rootHint
+  const parts = word.word.split(/[\s-]+/).filter(Boolean)
+  if (parts.length > 1) {
+    return `把短语拆成 ${parts.join(' + ')}，和「${word.meaning}」场景绑定记忆。`
+  }
+  return `想象在场景中使用「${word.meaning}」的画面。`
+}
+
+function buildRelatedWords(word: Word): string[] {
+  if (word.family && word.family.length > 0) return word.family
+  return []
 }
 
 interface CardStageProps {
@@ -50,6 +74,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
   const [pickedTokens, setPickedTokens] = useState<string[]>([])
   const [poolTokens, setPoolTokens] = useState<string[]>([])
   const [reorderResult, setReorderResult] = useState<'pending' | 'correct' | 'wrong'>('pending')
+  const [showWordDetail, setShowWordDetail] = useState(false)
   const autoContinueTimer = useRef<number | null>(null)
 
   const scenario = useMemo(() => {
@@ -61,7 +86,16 @@ export default function CardStage({ onComplete }: CardStageProps) {
   const currentStep = scenario?.steps[stepIndex]
   const currentWord = words?.[learningIndex]
 
-  // 句子重组池：从词汇例句里挑短句（≤10 词），最多 2 句
+  const learningExamples = useMemo(() => {
+    if (!currentWord) return []
+    return currentWord.examples && currentWord.examples.length > 0
+      ? currentWord.examples
+      : buildFallbackExamples(currentWord)
+  }, [currentWord])
+
+  const memoryHint = useMemo(() => currentWord ? buildMemoryHint(currentWord) : '', [currentWord])
+  const relatedWords = useMemo(() => currentWord ? buildRelatedWords(currentWord) : [], [currentWord])
+
   const reorderPool = useMemo(() => {
     if (!words) return [] as Array<{ en: string; zh: string }>
     const candidates: Array<{ en: string; zh: string }> = []
@@ -77,16 +111,11 @@ export default function CardStage({ onComplete }: CardStageProps) {
   }, [words])
 
   const currentReorder = reorderPool[reorderIndex]
-  const correctTokens = useMemo(
-    () => (currentReorder ? tokenize(currentReorder.en) : []),
-    [currentReorder]
-  )
-
+  const correctTokens = useMemo(() => (currentReorder ? tokenize(currentReorder.en) : []), [currentReorder])
   const hasReorder = reorderPool.length > 0
 
   const progressPercent = useMemo(() => {
     if (phase === 'intro') return 0
-    // 学习段占 40%，quiz 占 40%，重组占 20%（如有）
     const learningWeight = 40
     const quizWeight = hasReorder ? 40 : 60
     const reorderWeight = hasReorder ? 20 : 0
@@ -113,18 +142,16 @@ export default function CardStage({ onComplete }: CardStageProps) {
 
   useEffect(() => {
     return () => {
-      if (autoContinueTimer.current) {
-        window.clearTimeout(autoContinueTimer.current)
-      }
+      if (autoContinueTimer.current) window.clearTimeout(autoContinueTimer.current)
     }
   }, [])
 
-  const handlePlayWordAudio = (word: Word) => {
-    speak(word.word)
-  }
+  const handlePlayWordAudio = (word: Word) => speak(word.word)
+  const handlePlayExampleAudio = (sentence: string) => speak(sentence)
 
   const handleContinueLearning = () => {
     if (!words) return
+    setShowWordDetail(false)
     if (learningIndex < words.length - 1) {
       setLearningIndex((prev) => prev + 1)
     } else {
@@ -200,35 +227,21 @@ export default function CardStage({ onComplete }: CardStageProps) {
     setFeedbackText(correct ? currentStep.successFeedback : currentStep.failFeedback)
 
     if (correct) {
-      const nextCombo = combo + 1
-      setCombo(nextCombo)
+      setCombo((c) => c + 1)
       setCorrectCount((prev) => prev + 1)
+      if (!hasFailedCurrentStep) adjustWordMastery(1)
+      else markWrongAnswerResolved()
 
-      // 第一次就答对：mastery +1；否则只是修复，不奖励
-      if (!hasFailedCurrentStep) {
-        adjustWordMastery(1)
-      } else {
-        markWrongAnswerResolved()
-      }
-
-      if (autoContinueTimer.current) {
-        window.clearTimeout(autoContinueTimer.current)
-      }
-      autoContinueTimer.current = window.setTimeout(() => {
-        handleContinueQuiz()
-      }, 700)
+      if (autoContinueTimer.current) window.clearTimeout(autoContinueTimer.current)
+      autoContinueTimer.current = window.setTimeout(() => handleContinueQuiz(), 700)
     } else {
       setCombo(0)
-      // 第一次错才扣 mastery 并记录错题
       if (!hasFailedCurrentStep) {
         adjustWordMastery(-1)
         setHasFailedCurrentStep(true)
       }
       recordWrongAnswer(option)
-
-      if (autoContinueTimer.current) {
-        window.clearTimeout(autoContinueTimer.current)
-      }
+      if (autoContinueTimer.current) window.clearTimeout(autoContinueTimer.current)
     }
   }
 
@@ -272,12 +285,8 @@ export default function CardStage({ onComplete }: CardStageProps) {
     const correct = pickedTokens.every((t, i) => t === correctTokens[i])
     setReorderResult(correct ? 'correct' : 'wrong')
     if (correct) {
-      if (autoContinueTimer.current) {
-        window.clearTimeout(autoContinueTimer.current)
-      }
-      autoContinueTimer.current = window.setTimeout(() => {
-        handleContinueReorder()
-      }, 900)
+      if (autoContinueTimer.current) window.clearTimeout(autoContinueTimer.current)
+      autoContinueTimer.current = window.setTimeout(() => handleContinueReorder(), 900)
     }
   }
 
@@ -305,10 +314,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
     const earnedStars = calcStars()
     await completeStageWithProgress(stage.id, earnedStars)
     setShowXpGain(true)
-
-    setTimeout(() => {
-      onComplete()
-    }, 1000)
+    setTimeout(() => onComplete(), 1000)
   }
 
   if (!stage || !scenario || !words) {
@@ -320,130 +326,132 @@ export default function CardStage({ onComplete }: CardStageProps) {
   }
 
   return (
-    <div className="space-y-4 pb-24">
-      <div className="mb-4 card border border-white/80 bg-white/80">
-        <div className="flex items-center justify-between mb-2">
-          <span className="text-sm font-semibold text-gray-700">学习进度</span>
-          <span className="text-xs text-gray-500">{progressPercent}%</span>
+    <div className="flex flex-col h-full">
+      {/* 进度条 */}
+      {phase !== 'intro' && (
+        <div className="mb-4">
+          <div className="mb-2 flex items-center justify-between">
+            <span className="text-xs font-semibold text-gray-500">学习进度</span>
+            <span className="text-xs font-semibold text-gray-500">{progressPercent}%</span>
+          </div>
+          <div className="h-2 w-full overflow-hidden rounded-full bg-gray-200">
+            <motion.div
+              className="h-full bg-gradient-to-r from-brand-400 to-brand-600"
+              animate={{ width: `${progressPercent}%` }}
+              transition={{ duration: 0.35 }}
+            />
+          </div>
         </div>
-        <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-          <motion.div
-            className="h-full bg-gradient-to-r from-brand-400 to-brand-600"
-            animate={{ width: `${progressPercent}%` }}
-            transition={{ duration: 0.35 }}
-          />
-        </div>
-      </div>
+      )}
 
       <AnimatePresence mode="wait">
+        {/* ========== INTRO ========== */}
         {phase === 'intro' && (
           <motion.div
             key="intro"
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -12 }}
-            className="card mb-6 border border-brand-100"
+            className="card"
           >
-            <p className="text-sm text-gray-500 mb-2">场景导入</p>
-            <p className="text-lg font-semibold text-gray-800 mb-3">{scenario.intro}</p>
-            <p className="text-xs text-gray-600 mb-4">
-              💡 接下来，我们先学习这个舞台的词汇，然后再进行理解练习
-            </p>
-            <button onClick={() => setPhase('learning')} className="w-full btn-primary py-3 rounded-2xl">
-              开始学习词汇 →
+            <p className="mb-2 text-xs font-bold text-brand-600 uppercase">本关任务</p>
+            <p className="mb-3 text-xl font-bold text-gray-900">{scenario.intro}</p>
+            <p className="mb-5 text-sm text-gray-500">先学习 {words.length} 个词汇，再进入练习。</p>
+            <button onClick={() => setPhase('learning')} className="w-full btn-primary py-3 rounded-xl">
+              开始学习 →
             </button>
           </motion.div>
         )}
 
+        {/* ========== LEARNING - 简化版 ========== */}
         {phase === 'learning' && currentWord && (
           <motion.div
             key={`learning-${learningIndex}`}
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -16 }}
-            className="card mb-6 border border-emerald-100"
+            className="flex-1 flex flex-col"
           >
-            <div className="text-center mb-6">
-              <p className="text-xs text-gray-500 font-semibold uppercase mb-4">
-                词汇学习 {learningIndex + 1}/{words.length}
+            {/* 主卡片 */}
+            <div className="card flex-1 flex flex-col">
+              {/* 进度标识 */}
+              <p className="text-xs font-bold text-brand-600 uppercase tracking-wider mb-4">
+                词汇 {learningIndex + 1}/{words.length}
               </p>
 
-              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 mb-6 border border-emerald-100">
-                <p className="text-5xl font-bold text-brand-700 mb-3" style={{ fontFamily: 'Poppins' }}>
+              {/* 核心信息区 */}
+              <div className="flex-1 flex flex-col items-center justify-center text-center">
+                {/* 单词 */}
+                <h2 className="text-4xl font-black text-gray-900 mb-2" style={{ fontFamily: 'Poppins' }}>
                   {currentWord.word}
-                </p>
-                {currentWord.phonetic && (
-                  <p className="text-lg text-gray-600 mb-4">{currentWord.phonetic}</p>
-                )}
-                <button
-                  onClick={() => handlePlayWordAudio(currentWord)}
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500 text-white rounded-full font-semibold hover:bg-emerald-600 transition"
-                >
-                  <Volume2 size={18} />
-                  听发音
-                </button>
-              </div>
+                </h2>
 
-              <div className="space-y-3 text-left">
-                {currentWord.pos && (
-                  <div className="bg-gray-50 rounded-xl p-4">
-                    <p className="text-xs text-gray-500 font-semibold mb-1">词性</p>
-                    <p className="text-base font-semibold text-gray-800">{currentWord.pos}</p>
-                  </div>
-                )}
-
-                <div className="bg-blue-50 rounded-xl p-4 border-l-4 border-blue-400">
-                  <p className="text-xs text-gray-500 font-semibold mb-1">中文释义</p>
-                  <p className="text-base font-semibold text-gray-800">{currentWord.meaning}</p>
+                {/* 音标 + 发音 */}
+                <div className="flex items-center gap-2 mb-4">
+                  {currentWord.phonetic && (
+                    <span className="text-gray-500">{currentWord.phonetic}</span>
+                  )}
+                  <button
+                    onClick={() => handlePlayWordAudio(currentWord)}
+                    className="p-2 bg-brand-100 rounded-full text-brand-600 hover:bg-brand-200 transition"
+                  >
+                    <Volume2 size={18} />
+                  </button>
                 </div>
 
-                {currentWord.examples && currentWord.examples.length > 0 && (
-                  <div className="bg-amber-50 rounded-xl p-4 border-l-4 border-amber-400">
-                    <p className="text-xs text-gray-500 font-semibold mb-3">例句</p>
-                    <div className="space-y-2">
-                      {currentWord.examples.map((ex: { en: string; zh: string }, idx: number) => (
-                        <div key={idx} className="space-y-1">
-                          <p className="text-sm text-gray-700 italic">{ex.en}</p>
-                          <p className="text-xs text-gray-600">{ex.zh}</p>
-                        </div>
-                      ))}
-                    </div>
+                {/* 词性 + 含义 */}
+                <div className="bg-emerald-50 rounded-2xl px-5 py-3 mb-4">
+                  <div className="flex items-center justify-center gap-2">
+                    {currentWord.pos && (
+                      <span className="px-2 py-0.5 bg-white text-emerald-700 text-xs font-bold rounded-full">
+                        {currentWord.pos}
+                      </span>
+                    )}
+                    <span className="text-lg font-bold text-gray-900">{currentWord.meaning}</span>
                   </div>
-                )}
+                </div>
 
-                {currentWord.roots && (
-                  <div className="bg-purple-50 rounded-xl p-4 border-l-4 border-purple-400">
-                    <p className="text-xs text-gray-500 font-semibold mb-2">📜 词根</p>
-                    <p className="text-sm text-gray-800">{currentWord.roots}</p>
-                  </div>
-                )}
-
-                {currentWord.family && currentWord.family.length > 0 && (
-                  <div className="bg-indigo-50 rounded-xl p-4 border-l-4 border-indigo-400">
-                    <p className="text-xs text-gray-500 font-semibold mb-2">🌳 同族词</p>
-                    <div className="flex flex-wrap gap-2">
-                      {currentWord.family.map((w: string, idx: number) => (
-                        <span
-                          key={idx}
-                          className="px-2 py-1 bg-white rounded-md text-xs font-semibold text-indigo-700 border border-indigo-200"
-                        >
-                          {w}
-                        </span>
-                      ))}
+                {/* 一个例句预览 */}
+                {learningExamples[0] && (
+                  <div className="w-full bg-gray-50 rounded-xl p-3 mb-4">
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="text-left flex-1">
+                        <p className="text-sm font-medium text-gray-800">{learningExamples[0].en}</p>
+                        <p className="text-xs text-gray-500 mt-1">{learningExamples[0].zh}</p>
+                      </div>
+                      <button
+                        onClick={() => handlePlayExampleAudio(learningExamples[0].en)}
+                        className="p-1.5 text-gray-400 hover:text-brand-600 transition"
+                      >
+                        <Volume2 size={16} />
+                      </button>
                     </div>
                   </div>
                 )}
               </div>
-            </div>
 
-            <button onClick={handleContinueLearning} className="w-full py-3 rounded-2xl font-semibold bg-emerald-500 hover:bg-emerald-600 text-white transition">
-              {learningIndex === words.length - 1
-                ? '全部学完，开始答题 →'
-                : `下一个词汇 (${learningIndex + 2}/${words.length})`}
-            </button>
+              {/* 底部按钮 - 始终可见 */}
+              <div className="flex gap-3 mt-auto pt-4">
+                <button
+                  onClick={() => setShowWordDetail(true)}
+                  className="flex-1 py-3 border-2 border-gray-200 rounded-xl font-semibold text-gray-700 hover:bg-gray-50 transition flex items-center justify-center gap-2"
+                >
+                  <BookOpen size={18} />
+                  详情
+                </button>
+                <button
+                  onClick={handleContinueLearning}
+                  className="flex-[2] py-3 bg-brand-500 text-white rounded-xl font-semibold hover:bg-brand-600 transition flex items-center justify-center gap-2"
+                >
+                  {learningIndex === words.length - 1 ? '开始答题' : '下一个'}
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+            </div>
           </motion.div>
         )}
 
+        {/* ========== QUIZ ========== */}
         {phase === 'quiz' && currentStep && (
           <motion.div
             key={`quiz-${stepIndex}`}
@@ -453,7 +461,9 @@ export default function CardStage({ onComplete }: CardStageProps) {
             className="space-y-4"
           >
             <div className="card">
-              <p className="text-xs text-gray-500 font-semibold uppercase mb-2">第 {stepIndex + 1}/{totalSteps} 题</p>
+              <p className="text-xs text-gray-500 font-semibold uppercase mb-2">
+                第 {stepIndex + 1}/{totalSteps} 题
+              </p>
               <p className="text-xs text-gray-500 mb-2">{currentStep.context}</p>
               <p className="text-lg font-semibold text-gray-800">{currentStep.prompt}</p>
             </div>
@@ -471,7 +481,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
                       ? isStepCorrect
                         ? 'border-green-500 bg-green-50 text-green-900'
                         : 'border-red-500 bg-red-50 text-red-900'
-                      : 'border-transparent hover:border-emerald-300'
+                      : 'border-transparent hover:border-brand-300'
                   } ${selectedOption !== null && isStepCorrect === true ? 'opacity-60' : ''}`}
                 >
                   {option}
@@ -480,11 +490,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
             </div>
 
             {selectedOption && (
-              <motion.div
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="space-y-3"
-              >
+              <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="space-y-3">
                 <div
                   className={`p-3 rounded-xl text-sm font-semibold ${
                     isStepCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
@@ -503,6 +509,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
           </motion.div>
         )}
 
+        {/* ========== REORDER ========== */}
         {phase === 'reorder' && currentReorder && (
           <motion.div
             key={`reorder-${reorderIndex}`}
@@ -515,19 +522,18 @@ export default function CardStage({ onComplete }: CardStageProps) {
               <p className="text-xs text-gray-500 font-semibold uppercase mb-2">
                 句子重组 {reorderIndex + 1}/{reorderPool.length}
               </p>
-              <p className="text-xs text-gray-500 mb-1">把下方词块按正确顺序排好</p>
+              <p className="text-xs text-gray-500 mb-1">把词块按正确顺序排好</p>
               <div className="flex items-start gap-2 mt-2">
                 <p className="text-base font-semibold text-gray-800 flex-1">{currentReorder.zh}</p>
                 <button
                   onClick={() => speak(currentReorder.en)}
-                  className="p-2 hover:bg-brand-100 rounded-full transition flex-shrink-0"
+                  className="p-2 hover:bg-brand-100 rounded-full transition"
                 >
                   <Volume2 size={18} className="text-brand-500" />
                 </button>
               </div>
             </div>
 
-            {/* 已选区域 */}
             <div
               className={`min-h-[64px] p-3 rounded-2xl border-2 border-dashed flex flex-wrap gap-2 ${
                 reorderResult === 'correct'
@@ -538,7 +544,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
               }`}
             >
               {pickedTokens.length === 0 && (
-                <p className="text-xs text-gray-400 self-center mx-auto">从下方点击词块来组句</p>
+                <p className="text-xs text-gray-400 self-center mx-auto">点击下方词块来组句</p>
               )}
               {pickedTokens.map((token, i) => (
                 <motion.button
@@ -552,7 +558,6 @@ export default function CardStage({ onComplete }: CardStageProps) {
               ))}
             </div>
 
-            {/* 候选词块 */}
             <div className="flex flex-wrap gap-2">
               {poolTokens.map((token, i) => (
                 <motion.button
@@ -568,23 +573,15 @@ export default function CardStage({ onComplete }: CardStageProps) {
               ))}
             </div>
 
-            {/* 反馈与操作 */}
-            {reorderResult === 'wrong' && (
+            {reorderResult !== 'pending' && (
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="p-3 rounded-xl bg-red-100 text-red-800 text-sm font-semibold"
+                className={`p-3 rounded-xl text-sm font-semibold ${
+                  reorderResult === 'correct' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                }`}
               >
-                ✗ 顺序不对，再看看汉语意思试试？
-              </motion.div>
-            )}
-            {reorderResult === 'correct' && (
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="p-3 rounded-xl bg-green-100 text-green-800 text-sm font-semibold"
-              >
-                ✓ 完美！下一句...
+                {reorderResult === 'correct' ? '✓ 完美！' : '✗ 顺序不对，再试试？'}
               </motion.div>
             )}
 
@@ -607,16 +604,17 @@ export default function CardStage({ onComplete }: CardStageProps) {
           </motion.div>
         )}
 
+        {/* ========== SUMMARY ========== */}
         {phase === 'summary' && (
           <motion.div
             key="summary"
             initial={{ opacity: 0, y: 12, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0 }}
-            className="card mb-6"
+            className="card"
           >
             <p className="text-sm text-gray-500 mb-1">学习完成！</p>
-            <p className="text-lg font-semibold text-gray-800 mb-4">很棒！你成功学习了这个舞台的全部内容。</p>
+            <p className="text-lg font-semibold text-gray-800 mb-4">你已完成这个舞台的全部内容</p>
 
             <div className="grid grid-cols-2 gap-3 mb-4">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-3">
@@ -625,7 +623,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl p-3">
                 <p className="text-xs text-gray-600 font-semibold">星级评分</p>
-                <p className="text-2xl font-bold text-amber-600">{'★'.repeat(calcStars())}</p>
+                <p className="text-2xl font-bold text-amber-600">{'★'.repeat(calcStars()) || '-'}</p>
               </div>
             </div>
 
@@ -636,13 +634,128 @@ export default function CardStage({ onComplete }: CardStageProps) {
               </p>
             </div>
 
-            <button onClick={handleCompleteStage} className="w-full btn-primary py-3 rounded-2xl font-semibold">
-              完成关卡并领取 +20 XP
+            <button onClick={handleCompleteStage} className="w-full btn-primary py-3 rounded-xl font-semibold">
+              完成关卡 +20 XP
             </button>
           </motion.div>
         )}
       </AnimatePresence>
 
+      {/* ========== 词汇详情弹窗 ========== */}
+      <AnimatePresence>
+        {showWordDetail && currentWord && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-end sm:items-center justify-center"
+            onClick={() => setShowWordDetail(false)}
+          >
+            <div className="absolute inset-0 bg-black/40" />
+            <motion.div
+              initial={{ y: '100%' }}
+              animate={{ y: 0 }}
+              exit={{ y: '100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+              onClick={(e) => e.stopPropagation()}
+              className="relative w-full max-w-lg bg-white rounded-t-3xl sm:rounded-3xl max-h-[85vh] overflow-hidden flex flex-col"
+            >
+              {/* 头部 */}
+              <div className="flex items-center justify-between p-4 border-b border-gray-100">
+                <div className="flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-gray-900">{currentWord.word}</h3>
+                  <button
+                    onClick={() => handlePlayWordAudio(currentWord)}
+                    className="p-2 bg-brand-100 rounded-full text-brand-600"
+                  >
+                    <Volume2 size={16} />
+                  </button>
+                </div>
+                <button onClick={() => setShowWordDetail(false)} className="p-2 hover:bg-gray-100 rounded-full">
+                  <X size={20} className="text-gray-500" />
+                </button>
+              </div>
+
+              {/* 内容区 - 可滚动 */}
+              <div className="flex-1 overflow-y-auto p-4 space-y-4">
+                {/* 基本信息 */}
+                <div className="bg-emerald-50 rounded-xl p-4">
+                  <div className="flex items-center gap-2 mb-2">
+                    {currentWord.phonetic && (
+                      <span className="text-gray-600">{currentWord.phonetic}</span>
+                    )}
+                    {currentWord.pos && (
+                      <span className="px-2 py-0.5 bg-white text-emerald-700 text-xs font-bold rounded-full">
+                        {currentWord.pos}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-lg font-bold text-gray-900">{currentWord.meaning}</p>
+                </div>
+
+                {/* 所有例句 */}
+                {learningExamples.length > 0 && (
+                  <div>
+                    <p className="text-xs font-bold text-gray-500 uppercase mb-2">例句</p>
+                    <div className="space-y-2">
+                      {learningExamples.map((ex, idx) => (
+                        <div key={idx} className="bg-gray-50 rounded-xl p-3">
+                          <div className="flex items-start justify-between gap-2">
+                            <div className="flex-1">
+                              <p className="text-sm font-medium text-gray-800">{ex.en}</p>
+                              <p className="text-xs text-gray-500 mt-1">{ex.zh}</p>
+                            </div>
+                            <button
+                              onClick={() => handlePlayExampleAudio(ex.en)}
+                              className="p-1.5 text-gray-400 hover:text-brand-600 transition shrink-0"
+                            >
+                              <Volume2 size={16} />
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* 记忆提示 */}
+                <div>
+                  <p className="text-xs font-bold text-gray-500 uppercase mb-2">记忆提示</p>
+                  <div className="bg-purple-50 rounded-xl p-3">
+                    <p className="text-sm text-purple-800">{memoryHint}</p>
+                  </div>
+                </div>
+
+                {/* 相关词 */}
+                {relatedWords.length > 0 && (
+                  <div>
+                    <p className="text-xs font-bold text-gray-500 uppercase mb-2">相关词</p>
+                    <div className="flex flex-wrap gap-2">
+                      {relatedWords.map((w, idx) => (
+                        <span key={idx} className="px-3 py-1.5 bg-gray-100 text-gray-700 text-sm rounded-full">
+                          {w}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* 底部按钮 */}
+              <div className="p-4 border-t border-gray-100">
+                <button
+                  onClick={() => setShowWordDetail(false)}
+                  className="w-full py-3 bg-gray-100 text-gray-700 rounded-xl font-semibold hover:bg-gray-200 transition"
+                >
+                  返回学习
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* XP 动画 */}
       <AnimatePresence>
         {showXpGain && (
           <motion.div

@@ -2,6 +2,27 @@
 
 A gamified English learning PWA that turns vocabulary practice into an addictive quest experience. Learn new words daily, practice listening and speaking, and track your progress with spaced repetition.
 
+## 📌 Current Focus
+
+v1 的核心学习闭环已经可用。当前优先优化三个主入口：
+
+- **首页**：改成更清晰的今日任务中心。
+- **赛道**：重做视觉层级和路径感，这是当前最需要提升的 UI 模块。
+- **我的**：从设置菜单升级为学习档案和成就反馈。
+
+真实 AI API、云同步、自定义词包等能力放到 v2。
+
+## 📚 Documentation
+
+| 文档 | 用途 |
+| --- | --- |
+| [`docs/README.md`](docs/README.md) | 文档中心和维护方式 |
+| [`docs/ROADMAP.md`](docs/ROADMAP.md) | v1/v2 优先级和近期路线图 |
+| [`docs/DOCS_GUIDE.md`](docs/DOCS_GUIDE.md) | Markdown 文档维护规则 |
+| [`UI_OPTIMIZATION_PLAN.md`](UI_OPTIMIZATION_PLAN.md) | 首页、赛道、我的页面 UI 优化计划 |
+| [`ILLUSTRATION_GUIDE.md`](ILLUSTRATION_GUIDE.md) | 插画资源规范和接入指南 |
+| [`CLAUDE.md`](CLAUDE.md) | 开发上下文、阶段记录和 AI 协作说明 |
+
 ## 🎮 Features
 
 ### Core Learning Flow

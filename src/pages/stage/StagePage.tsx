@@ -86,11 +86,6 @@ export default function StagePage() {
         <div className="w-10" />
       </div>
 
-      <div className="card mb-4 border border-white/70 bg-white/80 backdrop-blur">
-        <p className="text-xs text-gray-500 mb-1">学习主题</p>
-        <p className="text-base font-semibold text-gray-800">{stage.theme}</p>
-      </div>
-
       {/* 模式切换 - 仅在多模式时显示 */}
       {availableModes.length > 1 && (
         <motion.div className={`mb-4 p-1 rounded-2xl bg-white/80 border border-gray-100 grid gap-1 ${availableModes.length === 2 ? 'grid-cols-2' : 'grid-cols-1'}`}>

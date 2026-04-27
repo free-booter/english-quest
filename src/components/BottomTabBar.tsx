@@ -30,9 +30,9 @@ export default function BottomTabBar() {
   }
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 max-w-screen-sm mx-auto">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 max-w-screen-sm mx-auto">
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-white/70 backdrop-blur-xl border-t border-white/50" />
+      <div className="absolute inset-0 bg-white/80 backdrop-blur-xl border-t border-white/50 shadow-[0_-8px_24px_rgba(15,23,42,0.08)]" />
 
       {/* Content */}
       <div className="relative flex justify-around items-center h-20 px-2">

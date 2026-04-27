@@ -21,16 +21,106 @@
           "title": "出发清单",
           "theme": "出发前必备物品",
           "words": [
-            {"word": "suitcase", "phonetic": "[ˈsuːtkeɪs]", "pos": "n.", "meaning": "行李箱"},
-            {"word": "passport", "phonetic": "[ˈpæspɔːrt]", "pos": "n.", "meaning": "护照"},
-            {"word": "ticket", "phonetic": "[ˈtɪkɪt]", "pos": "n.", "meaning": "机票"},
-            {"word": "visa", "phonetic": "[ˈviːzə]", "pos": "n.", "meaning": "签证"},
-            {"word": "itinerary", "phonetic": "[aɪˈtɪnəˌrɛri]", "pos": "n.", "meaning": "行程单"},
-            {"word": "luggage", "phonetic": "[ˈlʌɡɪdʒ]", "pos": "n.", "meaning": "行李"},
-            {"word": "backpack", "phonetic": "[ˈbækpæk]", "pos": "n.", "meaning": "背包"},
-            {"word": "charger", "phonetic": "[ˈtʃɑːrdʒər]", "pos": "n.", "meaning": "充电器"},
-            {"word": "adapter", "phonetic": "[əˈdæptər]", "pos": "n.", "meaning": "转接器"},
-            {"word": "insurance", "phonetic": "[ɪnˈʃɔːrəns]", "pos": "n.", "meaning": "保险"}
+            {
+              "word": "suitcase",
+              "phonetic": "[ˈsuːtkeɪs]",
+              "pos": "n.",
+              "meaning": "行李箱",
+              "examples": [
+                {"en": "I need to pack my suitcase tonight.", "zh": "我今晚需要收拾行李箱。"},
+                {"en": "This suitcase is too heavy to carry.", "zh": "这个行李箱太重了，拿不动。"}
+              ]
+            },
+            {
+              "word": "passport",
+              "phonetic": "[ˈpæspɔːrt]",
+              "pos": "n.",
+              "meaning": "护照",
+              "examples": [
+                {"en": "Don't forget to bring your passport!", "zh": "别忘了带护照！"},
+                {"en": "My passport expires next month.", "zh": "我的护照下个月到期。"}
+              ]
+            },
+            {
+              "word": "ticket",
+              "phonetic": "[ˈtɪkɪt]",
+              "pos": "n.",
+              "meaning": "机票",
+              "examples": [
+                {"en": "I booked a round-trip ticket online.", "zh": "我在网上订了往返机票。"},
+                {"en": "Can I see your ticket, please?", "zh": "请让我看一下你的机票好吗？"}
+              ]
+            },
+            {
+              "word": "visa",
+              "phonetic": "[ˈviːzə]",
+              "pos": "n.",
+              "meaning": "签证",
+              "examples": [
+                {"en": "You need a visa to enter this country.", "zh": "进入这个国家需要签证。"},
+                {"en": "My visa application was approved.", "zh": "我的签证申请通过了。"}
+              ]
+            },
+            {
+              "word": "itinerary",
+              "phonetic": "[aɪˈtɪnəˌrɛri]",
+              "pos": "n.",
+              "meaning": "行程单",
+              "examples": [
+                {"en": "I printed out our travel itinerary.", "zh": "我打印了我们的旅行行程单。"},
+                {"en": "The itinerary includes three cities.", "zh": "行程单包含三个城市。"}
+              ]
+            },
+            {
+              "word": "luggage",
+              "phonetic": "[ˈlʌɡɪdʒ]",
+              "pos": "n.",
+              "meaning": "行李",
+              "examples": [
+                {"en": "Please keep an eye on your luggage.", "zh": "请看好你的行李。"},
+                {"en": "How many pieces of luggage do you have?", "zh": "你有几件行李？"}
+              ]
+            },
+            {
+              "word": "backpack",
+              "phonetic": "[ˈbækpæk]",
+              "pos": "n.",
+              "meaning": "背包",
+              "examples": [
+                {"en": "I always carry a backpack when traveling.", "zh": "旅行时我总是背着背包。"},
+                {"en": "Put your water bottle in the backpack.", "zh": "把水瓶放进背包里。"}
+              ]
+            },
+            {
+              "word": "charger",
+              "phonetic": "[ˈtʃɑːrdʒər]",
+              "pos": "n.",
+              "meaning": "充电器",
+              "examples": [
+                {"en": "Did you pack the phone charger?", "zh": "你装了手机充电器吗？"},
+                {"en": "I forgot my charger at the hotel.", "zh": "我把充电器忘在酒店了。"}
+              ]
+            },
+            {
+              "word": "adapter",
+              "phonetic": "[əˈdæptər]",
+              "pos": "n.",
+              "meaning": "转接器",
+              "examples": [
+                {"en": "You'll need a power adapter for Europe.", "zh": "去欧洲需要电源转接器。"},
+                {"en": "This universal adapter works everywhere.", "zh": "这个万能转接器到哪都能用。"}
+              ]
+            },
+            {
+              "word": "insurance",
+              "phonetic": "[ɪnˈʃɔːrəns]",
+              "pos": "n.",
+              "meaning": "保险",
+              "examples": [
+                {"en": "Travel insurance is highly recommended.", "zh": "强烈建议购买旅行保险。"},
+                {"en": "Does your insurance cover lost luggage?", "zh": "你的保险包含行李丢失吗？"}
+              ]
+            }
           ]
         }
       ]
@@ -49,16 +139,106 @@
           "title": "值机安检",
           "theme": "机场高频词",
           "words": [
-            {"word": "terminal", "phonetic": "[ˈtɜːrmɪnəl]", "pos": "n.", "meaning": "航站楼"},
-            {"word": "gate", "phonetic": "[ɡeɪt]", "pos": "n.", "meaning": "登机口"},
-            {"word": "check-in", "phonetic": "[ˈtʃɛkˌɪn]", "pos": "n.", "meaning": "值机"},
-            {"word": "boarding", "phonetic": "[ˈbɔːrdɪŋ]", "pos": "n.", "meaning": "登机"},
-            {"word": "security", "phonetic": "[sɪˈkjʊrɪti]", "pos": "n.", "meaning": "安检"},
-            {"word": "departure", "phonetic": "[dɪˈpɑːrtʃər]", "pos": "n.", "meaning": "出发"},
-            {"word": "arrival", "phonetic": "[əˈraɪvəl]", "pos": "n.", "meaning": "到达"},
-            {"word": "runway", "phonetic": "[ˈrʌnweɪ]", "pos": "n.", "meaning": "跑道"},
-            {"word": "airline", "phonetic": "[ˈɛrlaɪn]", "pos": "n.", "meaning": "航空公司"},
-            {"word": "boarding pass", "phonetic": "[ˈbɔːrdɪŋ pæs]", "pos": "n.", "meaning": "登机牌"}
+            {
+              "word": "terminal",
+              "phonetic": "[ˈtɜːrmɪnəl]",
+              "pos": "n.",
+              "meaning": "航站楼",
+              "examples": [
+                {"en": "Which terminal does the flight depart from?", "zh": "航班从哪个航站楼出发？"},
+                {"en": "Terminal 2 is for international flights.", "zh": "2号航站楼是国际航班。"}
+              ]
+            },
+            {
+              "word": "gate",
+              "phonetic": "[ɡeɪt]",
+              "pos": "n.",
+              "meaning": "登机口",
+              "examples": [
+                {"en": "Please proceed to gate 15.", "zh": "请前往15号登机口。"},
+                {"en": "The gate has been changed to A8.", "zh": "登机口已改为A8。"}
+              ]
+            },
+            {
+              "word": "check-in",
+              "phonetic": "[ˈtʃɛkˌɪn]",
+              "pos": "n.",
+              "meaning": "值机",
+              "examples": [
+                {"en": "Online check-in opens 24 hours before.", "zh": "网上值机在起飞前24小时开放。"},
+                {"en": "Where is the check-in counter?", "zh": "值机柜台在哪里？"}
+              ]
+            },
+            {
+              "word": "boarding",
+              "phonetic": "[ˈbɔːrdɪŋ]",
+              "pos": "n.",
+              "meaning": "登机",
+              "examples": [
+                {"en": "Boarding will begin in 20 minutes.", "zh": "20分钟后开始登机。"},
+                {"en": "Last call for boarding flight CA123.", "zh": "CA123航班最后登机通知。"}
+              ]
+            },
+            {
+              "word": "security",
+              "phonetic": "[sɪˈkjʊrɪti]",
+              "pos": "n.",
+              "meaning": "安检",
+              "examples": [
+                {"en": "Please remove your laptop for security.", "zh": "安检时请取出笔记本电脑。"},
+                {"en": "The security line is quite long today.", "zh": "今天安检队伍很长。"}
+              ]
+            },
+            {
+              "word": "departure",
+              "phonetic": "[dɪˈpɑːrtʃər]",
+              "pos": "n.",
+              "meaning": "出发",
+              "examples": [
+                {"en": "Check the departure time on the screen.", "zh": "在屏幕上查看出发时间。"},
+                {"en": "The departure lounge is upstairs.", "zh": "出发大厅在楼上。"}
+              ]
+            },
+            {
+              "word": "arrival",
+              "phonetic": "[əˈraɪvəl]",
+              "pos": "n.",
+              "meaning": "到达",
+              "examples": [
+                {"en": "Expected arrival time is 3 PM.", "zh": "预计到达时间是下午3点。"},
+                {"en": "Follow signs to the arrival hall.", "zh": "跟着指示牌走到到达大厅。"}
+              ]
+            },
+            {
+              "word": "runway",
+              "phonetic": "[ˈrʌnweɪ]",
+              "pos": "n.",
+              "meaning": "跑道",
+              "examples": [
+                {"en": "The plane is taxiing on the runway.", "zh": "飞机正在跑道上滑行。"},
+                {"en": "We're waiting for the runway to clear.", "zh": "我们在等跑道空出来。"}
+              ]
+            },
+            {
+              "word": "airline",
+              "phonetic": "[ˈɛrlaɪn]",
+              "pos": "n.",
+              "meaning": "航空公司",
+              "examples": [
+                {"en": "Which airline are you flying with?", "zh": "你坐哪家航空公司的飞机？"},
+                {"en": "This airline has great service.", "zh": "这家航空公司服务很好。"}
+              ]
+            },
+            {
+              "word": "boarding pass",
+              "phonetic": "[ˈbɔːrdɪŋ pæs]",
+              "pos": "n.",
+              "meaning": "登机牌",
+              "examples": [
+                {"en": "Please show your boarding pass.", "zh": "请出示您的登机牌。"},
+                {"en": "I have my boarding pass on my phone.", "zh": "我的登机牌在手机上。"}
+              ]
+            }
           ]
         }
       ]

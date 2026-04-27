@@ -13,6 +13,9 @@ import ReviewPage from './pages/review/ReviewPage'
 import AchievementsPage from './pages/achievements/AchievementsPage'
 import WrongAnswersPage from './pages/wrong-answers/WrongAnswersPage'
 import VocabularyPage from './pages/vocabulary/VocabularyPage'
+import QuickQuizPage from './pages/quick-quiz/QuickQuizPage'
+import ChallengePage from './pages/challenge/ChallengePage'
+import DialoguePracticePage from './pages/dialogue-practice/DialoguePracticePage'
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +34,9 @@ export const router = createBrowserRouter([
       { path: 'wrong-answers', element: <WrongAnswersPage /> },
       { path: 'vocabulary', element: <VocabularyPage /> },
       { path: 'achievements', element: <AchievementsPage /> },
+      { path: 'quick-quiz/:trackId', element: <QuickQuizPage /> },
+      { path: 'challenge/:trackId', element: <ChallengePage /> },
+      { path: 'dialogue/:trackId', element: <DialoguePracticePage /> },
     ],
   },
   {
