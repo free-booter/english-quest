@@ -1,0 +1,91 @@
+{
+  "id": "travel-ch1-st1",
+  "stageId": "travel-ch1-st1",
+  "illustration": "/illustrations/travel/ch1/packing.png",
+  "intro": "你在房间里收拾行李，准备出国旅行。点击画面中的物品，学习英文表达。收集完所有物品后，我们来测试你的理解！",
+  "hotspots": [
+    {
+      "id": "h1",
+      "x": 120,
+      "y": 180,
+      "radius": 35,
+      "wordId": "travel-ch1-st1-w1",
+      "hint": "用来装衣服和其他行李的大箱子"
+    },
+    {
+      "id": "h2",
+      "x": 280,
+      "y": 150,
+      "radius": 30,
+      "wordId": "travel-ch1-st1-w2",
+      "hint": "出入国境必须携带的官方证件"
+    },
+    {
+      "id": "h3",
+      "x": 420,
+      "y": 200,
+      "radius": 30,
+      "wordId": "travel-ch1-st1-w3",
+      "hint": "飞机或其他交通工具的乘坐证明"
+    },
+    {
+      "id": "h4",
+      "x": 180,
+      "y": 300,
+      "radius": 28,
+      "wordId": "travel-ch1-st1-w4",
+      "hint": "进入某些国家需要事先获得的许可证"
+    },
+    {
+      "id": "h5",
+      "x": 350,
+      "y": 280,
+      "radius": 25,
+      "wordId": "travel-ch1-st1-w5",
+      "hint": "详细的旅游计划和日程安排"
+    },
+    {
+      "id": "h6",
+      "x": 70,
+      "y": 320,
+      "radius": 30,
+      "wordId": "travel-ch1-st1-w6",
+      "hint": "所有的箱子、包和其他行李物品"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "出国时最重要的证件是什么？",
+      "relatedItems": ["h2"],
+      "options": [
+        "ticket",
+        "passport",
+        "visa"
+      ],
+      "correctOption": "passport"
+    },
+    {
+      "id": "q2",
+      "prompt": "用来装衣服的大箱子叫什么？",
+      "relatedItems": ["h1"],
+      "options": [
+        "backpack",
+        "suitcase",
+        "luggage"
+      ],
+      "correctOption": "suitcase"
+    },
+    {
+      "id": "q3",
+      "prompt": "详细的旅游计划用英文叫什么？",
+      "relatedItems": ["h5"],
+      "options": [
+        "schedule",
+        "itinerary",
+        "plan"
+      ],
+      "correctOption": "itinerary"
+    }
+  ]
+}

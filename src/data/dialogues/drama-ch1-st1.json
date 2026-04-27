@@ -1,0 +1,91 @@
+{
+  "id": "drama-ch1-st1",
+  "stageId": "drama-ch1-st1",
+  "intro": "Alice 和 Bob 在街上偶遇，两个朋友开始了热情的寒暄。听听他们怎么打招呼吧！",
+  "lines": [
+    {
+      "id": "d1",
+      "speaker": "Alice",
+      "text": "Hey! Long time no see!",
+      "audio": "/audio/dialogues/drama-ch1-st1/d1.mp3",
+      "wordsInLine": ["drama-ch1-st1-w1", "drama-ch1-st1-w7"]
+    },
+    {
+      "id": "d2",
+      "speaker": "Bob",
+      "text": "Alice! How's it going?",
+      "audio": "/audio/dialogues/drama-ch1-st1/d2.mp3",
+      "wordsInLine": ["drama-ch1-st1-w3"]
+    },
+    {
+      "id": "d3",
+      "speaker": "Alice",
+      "text": "I'm great, thanks for asking! What's up with you?",
+      "audio": "/audio/dialogues/drama-ch1-st1/d3.mp3",
+      "wordsInLine": ["drama-ch1-st1-w2"]
+    },
+    {
+      "id": "d4",
+      "speaker": "Bob",
+      "text": "Pretty good! Haven't seen you in forever.",
+      "audio": "/audio/dialogues/drama-ch1-st1/d4.mp3",
+      "wordsInLine": []
+    },
+    {
+      "id": "d5",
+      "speaker": "Alice",
+      "text": "I know right! We should catch you later and grab coffee.",
+      "audio": "/audio/dialogues/drama-ch1-st1/d5.mp3",
+      "wordsInLine": ["drama-ch1-st1-w9"]
+    },
+    {
+      "id": "d6",
+      "speaker": "Bob",
+      "text": "Sounds great! Nice to meet you here!",
+      "audio": "/audio/dialogues/drama-ch1-st1/d6.mp3",
+      "wordsInLine": ["drama-ch1-st1-w8"]
+    },
+    {
+      "id": "d7",
+      "speaker": "Alice",
+      "text": "Have a good one, see you soon!",
+      "audio": "/audio/dialogues/drama-ch1-st1/d7.mp3",
+      "wordsInLine": ["drama-ch1-st1-w5", "drama-ch1-st1-w4"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Alice 对 Bob 说的第一句话是什么？",
+      "relatedItems": ["d1"],
+      "options": [
+        "How's it going?",
+        "Hey! Long time no see!",
+        "What's up with you?"
+      ],
+      "correctOption": "Hey! Long time no see!"
+    },
+    {
+      "id": "q2",
+      "prompt": "Bob 问 Alice 怎么样的时候用了哪个短语？",
+      "relatedItems": ["d2"],
+      "options": [
+        "What's up",
+        "How's it going",
+        "How are you"
+      ],
+      "correctOption": "How's it going"
+    },
+    {
+      "id": "q3",
+      "prompt": "Alice 建议去做什么？",
+      "relatedItems": ["d5"],
+      "options": [
+        "去看电影",
+        "去喝咖啡",
+        "去散步"
+      ],
+      "correctOption": "去喝咖啡"
+    }
+  ]
+}

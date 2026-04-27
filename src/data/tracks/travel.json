@@ -1,0 +1,151 @@
+{
+  "track": {
+    "id": "travel",
+    "name": "旅行家",
+    "icon": "🌍",
+    "description": "从出发到归程的旅行场景词汇",
+    "color": "#3b82f6"
+  },
+  "chapters": [
+    {
+      "id": "travel-ch1",
+      "level": 1,
+      "index": 1,
+      "title": "准备行李",
+      "scenario": "你正在为一次出国旅行收拾行李。",
+      "scenarioImage": "🧳📱🔌",
+      "stages": [
+        {
+          "id": "travel-ch1-st1",
+          "index": 1,
+          "title": "出发清单",
+          "theme": "出发前必备物品",
+          "words": [
+            {"word": "suitcase", "phonetic": "[ˈsuːtkeɪs]", "pos": "n.", "meaning": "行李箱"},
+            {"word": "passport", "phonetic": "[ˈpæspɔːrt]", "pos": "n.", "meaning": "护照"},
+            {"word": "ticket", "phonetic": "[ˈtɪkɪt]", "pos": "n.", "meaning": "机票"},
+            {"word": "visa", "phonetic": "[ˈviːzə]", "pos": "n.", "meaning": "签证"},
+            {"word": "itinerary", "phonetic": "[aɪˈtɪnəˌrɛri]", "pos": "n.", "meaning": "行程单"},
+            {"word": "luggage", "phonetic": "[ˈlʌɡɪdʒ]", "pos": "n.", "meaning": "行李"},
+            {"word": "backpack", "phonetic": "[ˈbækpæk]", "pos": "n.", "meaning": "背包"},
+            {"word": "charger", "phonetic": "[ˈtʃɑːrdʒər]", "pos": "n.", "meaning": "充电器"},
+            {"word": "adapter", "phonetic": "[əˈdæptər]", "pos": "n.", "meaning": "转接器"},
+            {"word": "insurance", "phonetic": "[ɪnˈʃɔːrəns]", "pos": "n.", "meaning": "保险"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-ch2",
+      "level": 1,
+      "index": 2,
+      "title": "机场出发",
+      "scenario": "你来到机场办理登机手续。",
+      "scenarioImage": "✈️🛂🎫",
+      "stages": [
+        {
+          "id": "travel-ch2-st1",
+          "index": 2,
+          "title": "值机安检",
+          "theme": "机场高频词",
+          "words": [
+            {"word": "terminal", "phonetic": "[ˈtɜːrmɪnəl]", "pos": "n.", "meaning": "航站楼"},
+            {"word": "gate", "phonetic": "[ɡeɪt]", "pos": "n.", "meaning": "登机口"},
+            {"word": "check-in", "phonetic": "[ˈtʃɛkˌɪn]", "pos": "n.", "meaning": "值机"},
+            {"word": "boarding", "phonetic": "[ˈbɔːrdɪŋ]", "pos": "n.", "meaning": "登机"},
+            {"word": "security", "phonetic": "[sɪˈkjʊrɪti]", "pos": "n.", "meaning": "安检"},
+            {"word": "departure", "phonetic": "[dɪˈpɑːrtʃər]", "pos": "n.", "meaning": "出发"},
+            {"word": "arrival", "phonetic": "[əˈraɪvəl]", "pos": "n.", "meaning": "到达"},
+            {"word": "runway", "phonetic": "[ˈrʌnweɪ]", "pos": "n.", "meaning": "跑道"},
+            {"word": "airline", "phonetic": "[ˈɛrlaɪn]", "pos": "n.", "meaning": "航空公司"},
+            {"word": "boarding pass", "phonetic": "[ˈbɔːrdɪŋ pæs]", "pos": "n.", "meaning": "登机牌"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-ch3",
+      "level": 2,
+      "index": 3,
+      "title": "入境海关",
+      "scenario": "你抵达目的地并通过海关。",
+      "scenarioImage": "🛂🧾🧳",
+      "stages": [
+        {
+          "id": "travel-ch3-st1",
+          "index": 3,
+          "title": "入境流程",
+          "theme": "海关交流",
+          "words": [
+            {"word": "customs", "phonetic": "[ˈkʌstəmz]", "pos": "n.", "meaning": "海关"},
+            {"word": "immigration", "phonetic": "[ˌɪmɪˈɡreɪʃən]", "pos": "n.", "meaning": "入境管理"},
+            {"word": "declare", "phonetic": "[dɪˈklɛr]", "pos": "v.", "meaning": "申报"},
+            {"word": "baggage", "phonetic": "[ˈbæɡɪdʒ]", "pos": "n.", "meaning": "行李"},
+            {"word": "stamp", "phonetic": "[stæmp]", "pos": "n.", "meaning": "盖章"},
+            {"word": "counter", "phonetic": "[ˈkaʊntər]", "pos": "n.", "meaning": "柜台"},
+            {"word": "queue", "phonetic": "[kjuː]", "pos": "n.", "meaning": "队伍"},
+            {"word": "officer", "phonetic": "[ˈɔːfɪsər]", "pos": "n.", "meaning": "官员"},
+            {"word": "clearance", "phonetic": "[ˈklɪrəns]", "pos": "n.", "meaning": "清关"},
+            {"word": "permit", "phonetic": "[ˈpɜːrmɪt]", "pos": "n.", "meaning": "许可证"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-ch4",
+      "level": 2,
+      "index": 4,
+      "title": "酒店入住",
+      "scenario": "你到酒店办理入住并确认房间信息。",
+      "scenarioImage": "🏨🔑🛏️",
+      "stages": [
+        {
+          "id": "travel-ch4-st1",
+          "index": 4,
+          "title": "前台沟通",
+          "theme": "酒店住宿词汇",
+          "words": [
+            {"word": "reservation", "phonetic": "[ˌrɛzərˈveɪʃən]", "pos": "n.", "meaning": "预订"},
+            {"word": "lobby", "phonetic": "[ˈlɑːbi]", "pos": "n.", "meaning": "大堂"},
+            {"word": "reception", "phonetic": "[rɪˈsɛpʃən]", "pos": "n.", "meaning": "前台"},
+            {"word": "key card", "phonetic": "[kiː kɑːrd]", "pos": "n.", "meaning": "房卡"},
+            {"word": "checkout", "phonetic": "[ˈtʃɛkaʊt]", "pos": "n.", "meaning": "退房"},
+            {"word": "suite", "phonetic": "[swiːt]", "pos": "n.", "meaning": "套房"},
+            {"word": "single room", "phonetic": "[ˈsɪŋɡəl rum]", "pos": "n.", "meaning": "单人房"},
+            {"word": "double room", "phonetic": "[ˈdʌbəl rum]", "pos": "n.", "meaning": "双人房"},
+            {"word": "amenities", "phonetic": "[əˈmɛnɪtiz]", "pos": "n.", "meaning": "设施"},
+            {"word": "breakfast", "phonetic": "[ˈbrɛkfəst]", "pos": "n.", "meaning": "早餐"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-ch5",
+      "level": 3,
+      "index": 5,
+      "title": "问路购物",
+      "scenario": "你在城市中问路、逛街并购物。",
+      "scenarioImage": "🗺️🛍️🚶",
+      "stages": [
+        {
+          "id": "travel-ch5-st1",
+          "index": 5,
+          "title": "城市探索",
+          "theme": "问路与购物表达",
+          "words": [
+            {"word": "direction", "phonetic": "[dəˈrɛkʃən]", "pos": "n.", "meaning": "方向"},
+            {"word": "landmark", "phonetic": "[ˈlændmɑːrk]", "pos": "n.", "meaning": "地标"},
+            {"word": "intersection", "phonetic": "[ˌɪntərˈsɛkʃən]", "pos": "n.", "meaning": "十字路口"},
+            {"word": "souvenir", "phonetic": "[ˌsuːvəˈnɪr]", "pos": "n.", "meaning": "纪念品"},
+            {"word": "bargain", "phonetic": "[ˈbɑːrɡɪn]", "pos": "n.", "meaning": "便宜货"},
+            {"word": "discount", "phonetic": "[ˈdɪskaʊnt]", "pos": "n.", "meaning": "折扣"},
+            {"word": "receipt", "phonetic": "[rɪˈsiːt]", "pos": "n.", "meaning": "收据"},
+            {"word": "cashier", "phonetic": "[kæʃˈɪr]", "pos": "n.", "meaning": "收银员"},
+            {"word": "avenue", "phonetic": "[ˈævəˌnjuː]", "pos": "n.", "meaning": "大街"},
+            {"word": "downtown", "phonetic": "[ˌdaʊnˈtaʊn]", "pos": "n.", "meaning": "市中心"}
+          ]
+        }
+      ]
+    }
+  ]
+}

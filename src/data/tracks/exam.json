@@ -1,0 +1,151 @@
+{
+  "track": {
+    "id": "exam",
+    "name": "应试派",
+    "icon": "📚",
+    "description": "CET4 高频学术词汇分级学习",
+    "color": "#ef4444"
+  },
+  "chapters": [
+    {
+      "id": "exam-ch1",
+      "level": 1,
+      "index": 1,
+      "title": "高频动词",
+      "scenario": "你在阅读和写作中频繁使用基础动词。",
+      "scenarioImage": "✍️📄🧠",
+      "stages": [
+        {
+          "id": "exam-ch1-st1",
+          "index": 1,
+          "title": "核心动词",
+          "theme": "考试高频动作词",
+          "words": [
+            {"word": "abandon", "phonetic": "[əˈbændən]", "pos": "v.", "meaning": "放弃", "examples": [{"en": "Don't abandon your dream just because it's hard.", "zh": "不要因为困难就放弃梦想。"}], "roots": "a-（去）+ bandon（控制）→ 放弃控制权", "family": ["abandonment", "abandoned"]},
+            {"word": "accept", "phonetic": "[əkˈsɛpt]", "pos": "v.", "meaning": "接受", "examples": [{"en": "I accept your apology.", "zh": "我接受你的道歉。"}], "roots": "ac-（朝向）+ cept（拿）→ 朝自己拿过来", "family": ["acceptance", "acceptable", "accepted"]},
+            {"word": "achieve", "phonetic": "[əˈtʃiv]", "pos": "v.", "meaning": "实现", "examples": [{"en": "She achieved her goal after years of effort.", "zh": "经过多年努力她实现了目标。"}], "family": ["achievement", "achievable"]},
+            {"word": "acquire", "phonetic": "[əˈkwaɪər]", "pos": "v.", "meaning": "获得", "examples": [{"en": "He acquired English by watching movies.", "zh": "他通过看电影学会了英语。"}], "roots": "ac-（朝向）+ quire（寻求）→ 朝目标寻求", "family": ["acquisition", "require", "inquire", "request"]},
+            {"word": "adapt", "phonetic": "[əˈdæpt]", "pos": "v.", "meaning": "适应", "examples": [{"en": "We must adapt to the new environment.", "zh": "我们必须适应新环境。"}], "roots": "ad-（朝向）+ apt（合适）→ 让自己合适", "family": ["adaptation", "adaptive", "adapter"]},
+            {"word": "adjust", "phonetic": "[əˈdʒʌst]", "pos": "v.", "meaning": "调整", "examples": [{"en": "Please adjust the volume.", "zh": "请调整音量。"}], "roots": "ad-（朝向）+ just（公正/恰当）→ 调到恰当", "family": ["adjustment", "adjustable", "just"]},
+            {"word": "advance", "phonetic": "[ədˈvæns]", "pos": "v.", "meaning": "进步", "examples": [{"en": "Technology advances every year.", "zh": "技术每年都在进步。"}], "roots": "ad-（朝向）+ vance（前面）→ 向前推进", "family": ["advanced", "advancement"]},
+            {"word": "analyze", "phonetic": "[ˈænəˌlaɪz]", "pos": "v.", "meaning": "分析", "examples": [{"en": "Let's analyze the data carefully.", "zh": "让我们仔细分析数据。"}], "roots": "ana-（彻底）+ lyze（分解）→ 彻底分解", "family": ["analysis", "analyst", "analytical"]},
+            {"word": "apply", "phonetic": "[əˈplaɪ]", "pos": "v.", "meaning": "应用", "examples": [{"en": "You can apply this rule everywhere.", "zh": "这条规则到处都适用。"}], "roots": "ap-（朝向）+ ply（折叠）→ 折向某处", "family": ["application", "applicable", "applicant"]},
+            {"word": "arrange", "phonetic": "[əˈreɪndʒ]", "pos": "v.", "meaning": "安排", "examples": [{"en": "Can you arrange a meeting tomorrow?", "zh": "你能安排明天的会议吗？"}], "roots": "ar-（朝向）+ range（行列）→ 排成行列", "family": ["arrangement", "rearrange", "range"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-ch2",
+      "level": 1,
+      "index": 2,
+      "title": "思维动词",
+      "scenario": "你需要描述推理、判断和结论。",
+      "scenarioImage": "🤔📈📝",
+      "stages": [
+        {
+          "id": "exam-ch2-st1",
+          "index": 2,
+          "title": "逻辑表达",
+          "theme": "思维过程词汇",
+          "words": [
+            {"word": "assume", "phonetic": "[əˈsum]", "pos": "v.", "meaning": "假设"},
+            {"word": "conclude", "phonetic": "[kənˈklud]", "pos": "v.", "meaning": "得出结论"},
+            {"word": "consider", "phonetic": "[kənˈsɪdər]", "pos": "v.", "meaning": "考虑"},
+            {"word": "predict", "phonetic": "[prɪˈdɪkt]", "pos": "v.", "meaning": "预测"},
+            {"word": "compare", "phonetic": "[kəmˈpɛr]", "pos": "v.", "meaning": "比较"},
+            {"word": "contrast", "phonetic": "[ˈkɑːntræst]", "pos": "v.", "meaning": "对比"},
+            {"word": "clarify", "phonetic": "[ˈklɛrəˌfaɪ]", "pos": "v.", "meaning": "澄清"},
+            {"word": "demonstrate", "phonetic": "[ˈdɛmənˌstreɪt]", "pos": "v.", "meaning": "证明"},
+            {"word": "evaluate", "phonetic": "[ɪˈvæljueɪt]", "pos": "v.", "meaning": "评估"},
+            {"word": "summarize", "phonetic": "[ˈsʌməˌraɪz]", "pos": "v.", "meaning": "总结"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-ch3",
+      "level": 2,
+      "index": 3,
+      "title": "抽象名词",
+      "scenario": "你在作文中表达抽象概念。",
+      "scenarioImage": "🧩📘💡",
+      "stages": [
+        {
+          "id": "exam-ch3-st1",
+          "index": 3,
+          "title": "概念词汇",
+          "theme": "抽象名词积累",
+          "words": [
+            {"word": "ability", "phonetic": "[əˈbɪləti]", "pos": "n.", "meaning": "能力"},
+            {"word": "advantage", "phonetic": "[ədˈvæntɪdʒ]", "pos": "n.", "meaning": "优势"},
+            {"word": "benefit", "phonetic": "[ˈbɛnɪfɪt]", "pos": "n.", "meaning": "益处"},
+            {"word": "character", "phonetic": "[ˈkɛrəktər]", "pos": "n.", "meaning": "性格"},
+            {"word": "concept", "phonetic": "[ˈkɑːnsɛpt]", "pos": "n.", "meaning": "概念"},
+            {"word": "context", "phonetic": "[ˈkɑːntɛkst]", "pos": "n.", "meaning": "语境"},
+            {"word": "contribution", "phonetic": "[ˌkɑːntrɪˈbjuʃən]", "pos": "n.", "meaning": "贡献"},
+            {"word": "challenge", "phonetic": "[ˈtʃælɪndʒ]", "pos": "n.", "meaning": "挑战"},
+            {"word": "confidence", "phonetic": "[ˈkɑːnfɪdəns]", "pos": "n.", "meaning": "自信"},
+            {"word": "capacity", "phonetic": "[kəˈpæsɪti]", "pos": "n.", "meaning": "能力"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-ch4",
+      "level": 2,
+      "index": 4,
+      "title": "学术名词",
+      "scenario": "你在论文和阅读理解中处理学术表达。",
+      "scenarioImage": "🔬📚📊",
+      "stages": [
+        {
+          "id": "exam-ch4-st1",
+          "index": 4,
+          "title": "学术场景",
+          "theme": "研究相关词汇",
+          "words": [
+            {"word": "research", "phonetic": "[rɪˈsɜːrtʃ]", "pos": "n.", "meaning": "研究"},
+            {"word": "theory", "phonetic": "[ˈθiəri]", "pos": "n.", "meaning": "理论"},
+            {"word": "evidence", "phonetic": "[ˈɛvɪdəns]", "pos": "n.", "meaning": "证据"},
+            {"word": "analysis", "phonetic": "[əˈnæləsɪs]", "pos": "n.", "meaning": "分析"},
+            {"word": "hypothesis", "phonetic": "[haɪˈpɑːθəsɪs]", "pos": "n.", "meaning": "假说"},
+            {"word": "method", "phonetic": "[ˈmɛθəd]", "pos": "n.", "meaning": "方法"},
+            {"word": "approach", "phonetic": "[əˈproʊtʃ]", "pos": "n.", "meaning": "途径"},
+            {"word": "data", "phonetic": "[ˈdeɪtə]", "pos": "n.", "meaning": "数据"},
+            {"word": "survey", "phonetic": "[ˈsɜːrveɪ]", "pos": "n.", "meaning": "调查"},
+            {"word": "outcome", "phonetic": "[ˈaʊtkʌm]", "pos": "n.", "meaning": "结果"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-ch5",
+      "level": 3,
+      "index": 5,
+      "title": "描述性形容词",
+      "scenario": "你需要精准描述观点和现象。",
+      "scenarioImage": "🎯📖✨",
+      "stages": [
+        {
+          "id": "exam-ch5-st1",
+          "index": 5,
+          "title": "高分描述",
+          "theme": "高级形容词",
+          "words": [
+            {"word": "abstract", "phonetic": "[ˈæbstrækt]", "pos": "adj.", "meaning": "抽象的"},
+            {"word": "accurate", "phonetic": "[ˈækjərət]", "pos": "adj.", "meaning": "准确的"},
+            {"word": "adequate", "phonetic": "[ˈædɪkwət]", "pos": "adj.", "meaning": "充分的"},
+            {"word": "ambitious", "phonetic": "[æmˈbɪʃəs]", "pos": "adj.", "meaning": "雄心勃勃的"},
+            {"word": "brilliant", "phonetic": "[ˈbrɪljənt]", "pos": "adj.", "meaning": "杰出的"},
+            {"word": "complex", "phonetic": "[ˈkɑːmplɛks]", "pos": "adj.", "meaning": "复杂的"},
+            {"word": "crucial", "phonetic": "[ˈkruːʃəl]", "pos": "adj.", "meaning": "关键的"},
+            {"word": "efficient", "phonetic": "[ɪˈfɪʃənt]", "pos": "adj.", "meaning": "高效的"},
+            {"word": "essential", "phonetic": "[ɪˈsɛnʃəl]", "pos": "adj.", "meaning": "必不可少的"},
+            {"word": "significant", "phonetic": "[sɪɡˈnɪfɪkənt]", "pos": "adj.", "meaning": "重要的"}
+          ]
+        }
+      ]
+    }
+  ]
+}
