@@ -7,6 +7,7 @@ import { db } from '../../db/db'
 import CheckInCalendar from '../../components/CheckInCalendar'
 import { AVATARS, DAILY_GOALS } from '../../constants/game'
 import { aggregateWeeklyStats, calcConsecutiveCheckInDays } from '../../utils/stats'
+import { UserSettings } from '../../types'
 
 type ModalType = 'avatar' | 'nickname' | 'settings' | 'about' | null
 
@@ -30,7 +31,7 @@ export default function MePage() {
       ? Math.round((completedStages.reduce((sum, s) => sum + (s.stars ?? 0), 0) / completedStages.length) * 10) / 10
       : 0
 
-  const updateSettings = async (updates: Partial<typeof settings>) => {
+  const updateSettings = async (updates: Partial<UserSettings>) => {
     const ids = (await db.userSettings.toCollection().primaryKeys()) as number[]
     if (ids.length > 0) {
       await db.userSettings.update(ids[0], updates)
@@ -38,7 +39,7 @@ export default function MePage() {
   }
 
   const handleAvatarSelect = async (avatarId: string) => {
-    await updateSettings({ avatar: avatarId as typeof settings.avatar })
+    await updateSettings({ avatar: avatarId as UserSettings['avatar'] })
     setModal(null)
   }
 

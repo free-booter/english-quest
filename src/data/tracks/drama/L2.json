@@ -1,0 +1,162 @@
+{
+  "level": 2,
+  "name": "日常交流",
+  "chapters": [
+    {
+      "id": "drama-ch3",
+      "level": 2,
+      "index": 3,
+      "title": "友情",
+      "scenario": "你和朋友约饭、聚会、聊天。",
+      "scenarioImage": "🧑‍🤝‍🧑🍔🎉",
+      "stages": [
+        {
+          "id": "drama-ch3-st1",
+          "index": 3,
+          "title": "朋友关系",
+          "theme": "社交场景常用词",
+          "words": [
+            {
+              "word": "buddy",
+              "phonetic": "[ˈbʌdi]",
+              "pos": "n.",
+              "meaning": "伙伴"
+            },
+            {
+              "word": "pal",
+              "phonetic": "[pæl]",
+              "pos": "n.",
+              "meaning": "朋友"
+            },
+            {
+              "word": "hang out",
+              "phonetic": "[hæŋ aʊt]",
+              "pos": "phrase",
+              "meaning": "一起玩"
+            },
+            {
+              "word": "chill",
+              "phonetic": "[tʃɪl]",
+              "pos": "v.",
+              "meaning": "放松/冷静"
+            },
+            {
+              "word": "squad",
+              "phonetic": "[skwɑːd]",
+              "pos": "n.",
+              "meaning": "小团体"
+            },
+            {
+              "word": "teammate",
+              "phonetic": "[ˈtiːmeɪt]",
+              "pos": "n.",
+              "meaning": "队友"
+            },
+            {
+              "word": "supportive",
+              "phonetic": "[səˈpɔːrtɪv]",
+              "pos": "adj.",
+              "meaning": "支持的"
+            },
+            {
+              "word": "trust",
+              "phonetic": "[trʌst]",
+              "pos": "n./v.",
+              "meaning": "信任"
+            },
+            {
+              "word": "argument",
+              "phonetic": "[ˈɑːrɡjumənt]",
+              "pos": "n.",
+              "meaning": "争论"
+            },
+            {
+              "word": "reconcile",
+              "phonetic": "[ˈrɛkənˌsaɪl]",
+              "pos": "v.",
+              "meaning": "和好"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drama-ch4",
+      "level": 2,
+      "index": 4,
+      "title": "恋爱",
+      "scenario": "剧情进入感情线，关系变化频繁。",
+      "scenarioImage": "💘💔📱",
+      "stages": [
+        {
+          "id": "drama-ch4-st1",
+          "index": 4,
+          "title": "感情线",
+          "theme": "恋爱剧情表达",
+          "words": [
+            {
+              "word": "crush",
+              "phonetic": "[krʌʃ]",
+              "pos": "n.",
+              "meaning": "暗恋对象"
+            },
+            {
+              "word": "date",
+              "phonetic": "[deɪt]",
+              "pos": "v./n.",
+              "meaning": "约会"
+            },
+            {
+              "word": "breakup",
+              "phonetic": "[ˈbreɪkʌp]",
+              "pos": "n.",
+              "meaning": "分手"
+            },
+            {
+              "word": "hook up",
+              "phonetic": "[hʊk ʌp]",
+              "pos": "phrase",
+              "meaning": "勾搭"
+            },
+            {
+              "word": "ex",
+              "phonetic": "[ɛks]",
+              "pos": "n.",
+              "meaning": "前任"
+            },
+            {
+              "word": "romantic",
+              "phonetic": "[roʊˈmæntɪk]",
+              "pos": "adj.",
+              "meaning": "浪漫的"
+            },
+            {
+              "word": "jealous",
+              "phonetic": "[ˈdʒɛləs]",
+              "pos": "adj.",
+              "meaning": "嫉妒的"
+            },
+            {
+              "word": "commitment",
+              "phonetic": "[kəˈmɪtmənt]",
+              "pos": "n.",
+              "meaning": "承诺"
+            },
+            {
+              "word": "heartbroken",
+              "phonetic": "[ˈhɑːrtbroʊkən]",
+              "pos": "adj.",
+              "meaning": "伤心欲绝的"
+            },
+            {
+              "word": "proposal",
+              "phonetic": "[prəˈpoʊzəl]",
+              "pos": "n.",
+              "meaning": "求婚"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

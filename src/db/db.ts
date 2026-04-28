@@ -62,6 +62,35 @@ export class EnglishQuestDB extends Dexie {
       achievements: 'id, trackId',
       wrongAnswers: '++id, wordId, stageId, resolved, lastWrongAt',
     })
+
+    this.version(5).stores({
+      tracks: 'id',
+      chapters: 'id, trackId, level',
+      stages: 'id, chapterId, trackId',
+      words: 'id, *trackTags, difficulty, mastery',
+      reviews: 'wordId, nextReviewDate',
+      checkIns: 'date',
+      trackProgress: 'trackId',
+      userSettings: '++id',
+      achievements: 'id, trackId',
+      wrongAnswers: '++id, wordId, stageId, resolved, lastWrongAt',
+    }).upgrade(async (tx) => {
+      await tx.table('trackProgress').toCollection().modify((progress) => {
+        if (!progress.unlockedLevels) {
+          progress.unlockedLevels = [1]
+        }
+        if (!progress.levelProgress) {
+          progress.levelProgress = {
+            1: { completed: 0, total: 40 },
+            2: { completed: 0, total: 60 },
+            3: { completed: 0, total: 80 },
+            4: { completed: 0, total: 100 },
+            5: { completed: 0, total: 100 },
+            6: { completed: 0, total: 120 },
+          }
+        }
+      })
+    })
   }
 }
 

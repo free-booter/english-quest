@@ -1,0 +1,267 @@
+{
+  "trackId": "travel",
+  "level": 1,
+  "levelName": "入门基础",
+  "chapters": [
+    {
+      "title": "行李准备",
+      "scenario": "出发前，你需要整理好所有旅行必备物品和证件。",
+      "stages": [
+        {
+          "title": "出发证件",
+          "theme": "护照签证必备词",
+          "words": ["passport", "visa", "ticket", "itinerary", "insurance", "permit", "document", "currency", "luggage", "suitcase"]
+        },
+        {
+          "title": "换洗衣物",
+          "theme": "旅行衣物词汇",
+          "words": ["clothes", "shirt", "pants", "jacket", "shoes", "socks", "hat", "umbrella", "coat", "dress"]
+        },
+        {
+          "title": "洗漱护理",
+          "theme": "个人护理用品",
+          "words": ["toothbrush", "shampoo", "towel", "sunscreen", "razor", "comb", "lotion", "soap", "medicine", "bandage"]
+        },
+        {
+          "title": "电子设备",
+          "theme": "旅行科技好物",
+          "words": ["camera", "laptop", "tablet", "headphone", "charger", "adapter", "cable", "battery", "wallet", "backpack"]
+        }
+      ]
+    },
+    {
+      "title": "机场出发",
+      "scenario": "你来到机场，开始了解登机全流程。",
+      "stages": [
+        {
+          "title": "航站设施",
+          "theme": "机场基础设施",
+          "words": ["terminal", "gate", "lounge", "runway", "security", "customs", "departure", "arrival", "airline", "check-in"]
+        },
+        {
+          "title": "登机流程",
+          "theme": "从值机到登机",
+          "words": ["boarding", "delay", "cancel", "announcement", "crew", "captain", "flight", "seat", "aisle", "window"]
+        },
+        {
+          "title": "机舱体验",
+          "theme": "飞机上的词汇",
+          "words": ["belt", "tray", "pillow", "blanket", "headset", "meal", "takeoff", "landing", "turbulence", "altitude"]
+        },
+        {
+          "title": "过境转机",
+          "theme": "转机入境词汇",
+          "words": ["transit", "connection", "layover", "immigration", "stamp", "baggage", "claim", "carousel", "trolley", "exit"]
+        }
+      ]
+    },
+    {
+      "title": "酒店住宿",
+      "scenario": "终于到了目的地，你需要办理酒店入住手续。",
+      "stages": [
+        {
+          "title": "入住手续",
+          "theme": "前台办理词汇",
+          "words": ["hotel", "reservation", "lobby", "reception", "checkout", "suite", "upgrade", "single", "double", "deposit"]
+        },
+        {
+          "title": "客房设施",
+          "theme": "房间内物品",
+          "words": ["bathroom", "shower", "bathtub", "towel", "soap", "toilet", "mirror", "refrigerator", "heating", "remote"]
+        },
+        {
+          "title": "酒店服务",
+          "theme": "服务与设施",
+          "words": ["breakfast", "concierge", "laundry", "gym", "pool", "parking", "wifi", "housekeeping", "amenity", "service"]
+        },
+        {
+          "title": "退房结算",
+          "theme": "离开前的词汇",
+          "words": ["bill", "receipt", "charge", "refund", "tip", "complaint", "feedback", "extension", "key card", "baggage"]
+        }
+      ]
+    },
+    {
+      "title": "交通出行",
+      "scenario": "在陌生城市，你需要搞懂各种交通方式。",
+      "stages": [
+        {
+          "title": "地面交通",
+          "theme": "城市交通词汇",
+          "words": ["taxi", "bus", "subway", "train", "station", "platform", "schedule", "fare", "route", "transfer"]
+        },
+        {
+          "title": "租车驾车",
+          "theme": "自驾旅行词汇",
+          "words": ["rental", "license", "traffic", "highway", "speed", "limit", "parking", "fuel", "map", "toll"]
+        },
+        {
+          "title": "水上交通",
+          "theme": "水路出行词汇",
+          "words": ["ferry", "boat", "port", "dock", "cruise", "cabin", "deck", "passenger", "sail", "anchor"]
+        },
+        {
+          "title": "特殊交通",
+          "theme": "特色出行方式",
+          "words": ["bicycle", "scooter", "tram", "cable car", "gondola", "rickshaw", "helicopter", "shuttle", "pedestrian", "crosswalk"]
+        }
+      ]
+    },
+    {
+      "title": "问路导航",
+      "scenario": "迷路了不要慌，学会问路和看地图。",
+      "stages": [
+        {
+          "title": "方向指引",
+          "theme": "基础方向词汇",
+          "words": ["direction", "left", "right", "straight", "turn", "corner", "block", "intersection", "landmark", "distance"]
+        },
+        {
+          "title": "方位描述",
+          "theme": "位置关系词汇",
+          "words": ["north", "south", "east", "west", "near", "far", "opposite", "beside", "behind", "front"]
+        },
+        {
+          "title": "城市道路",
+          "theme": "道路设施词汇",
+          "words": ["street", "avenue", "road", "lane", "bridge", "tunnel", "square", "roundabout", "alley", "highway"]
+        },
+        {
+          "title": "导航工具",
+          "theme": "现代导航词汇",
+          "words": ["navigate", "address", "floor", "elevator", "escalator", "entrance", "exit", "sign", "map", "route"]
+        }
+      ]
+    },
+    {
+      "title": "餐厅用餐",
+      "scenario": "品尝当地美食是旅行的重要部分，学会点菜！",
+      "stages": [
+        {
+          "title": "点餐服务",
+          "theme": "餐厅服务词汇",
+          "words": ["restaurant", "menu", "order", "waiter", "reservation", "table", "booth", "counter", "buffet", "recommend"]
+        },
+        {
+          "title": "饮料选择",
+          "theme": "常见饮品词汇",
+          "words": ["water", "juice", "coffee", "tea", "wine", "beer", "soda", "smoothie", "cocktail", "lemonade"]
+        },
+        {
+          "title": "食物菜品",
+          "theme": "常见食材词汇",
+          "words": ["chicken", "beef", "pork", "fish", "shrimp", "vegetable", "salad", "soup", "bread", "dessert"]
+        },
+        {
+          "title": "口味描述",
+          "theme": "食物味道词汇",
+          "words": ["spicy", "sweet", "sour", "salty", "bitter", "fresh", "crispy", "tender", "raw", "grilled"]
+        }
+      ]
+    },
+    {
+      "title": "购物消费",
+      "scenario": "逛街购物，带些纪念品回家！",
+      "stages": [
+        {
+          "title": "商店类型",
+          "theme": "各类购物场所",
+          "words": ["shop", "store", "mall", "market", "supermarket", "pharmacy", "bookstore", "department", "outlet", "boutique"]
+        },
+        {
+          "title": "支付方式",
+          "theme": "结账付款词汇",
+          "words": ["pay", "cash", "card", "credit", "debit", "change", "receipt", "refund", "discount", "tax"]
+        },
+        {
+          "title": "商品选购",
+          "theme": "挑选商品词汇",
+          "words": ["price", "cheap", "expensive", "quality", "brand", "size", "style", "color", "material", "design"]
+        },
+        {
+          "title": "纪念礼品",
+          "theme": "伴手礼词汇",
+          "words": ["souvenir", "gift", "jewelry", "handicraft", "postcard", "magnet", "keychain", "artwork", "fabric", "package"]
+        }
+      ]
+    },
+    {
+      "title": "景点游览",
+      "scenario": "探索当地著名景点，感受不同文化。",
+      "stages": [
+        {
+          "title": "景点类型",
+          "theme": "各类景点词汇",
+          "words": ["museum", "gallery", "temple", "palace", "castle", "church", "park", "garden", "beach", "mountain"]
+        },
+        {
+          "title": "参观票务",
+          "theme": "入场购票词汇",
+          "words": ["tour", "guide", "ticket", "entrance", "admission", "hours", "open", "close", "group", "reservation"]
+        },
+        {
+          "title": "拍照记录",
+          "theme": "摄影旅拍词汇",
+          "words": ["photo", "picture", "video", "selfie", "landscape", "scenery", "view", "capture", "album", "filter"]
+        },
+        {
+          "title": "文化了解",
+          "theme": "文化习俗词汇",
+          "words": ["history", "culture", "tradition", "local", "authentic", "famous", "popular", "heritage", "architecture", "legend"]
+        }
+      ]
+    },
+    {
+      "title": "紧急求助",
+      "scenario": "出现意外情况时，你需要知道如何寻求帮助。",
+      "stages": [
+        {
+          "title": "医疗急救",
+          "theme": "医疗健康词汇",
+          "words": ["hospital", "doctor", "nurse", "medicine", "pain", "fever", "injury", "allergy", "ambulance", "prescription"]
+        },
+        {
+          "title": "报警求助",
+          "theme": "求助报警词汇",
+          "words": ["police", "lost", "stolen", "missing", "report", "claim", "embassy", "consulate", "contact", "identity"]
+        },
+        {
+          "title": "紧急状况",
+          "theme": "危险情况词汇",
+          "words": ["emergency", "danger", "fire", "flood", "accident", "rescue", "safe", "warning", "evacuation", "shelter"]
+        },
+        {
+          "title": "沟通协助",
+          "theme": "求助沟通词汇",
+          "words": ["translate", "explain", "understand", "assist", "cooperate", "patient", "calm", "clear", "help", "solve"]
+        }
+      ]
+    },
+    {
+      "title": "货币金融",
+      "scenario": "了解货币兑换和消费管理，让旅行更顺畅。",
+      "stages": [
+        {
+          "title": "货币兑换",
+          "theme": "外汇兑换词汇",
+          "words": ["currency", "exchange", "rate", "bank", "withdraw", "deposit", "convert", "fee", "transaction", "foreign"]
+        },
+        {
+          "title": "主要货币",
+          "theme": "世界货币词汇",
+          "words": ["dollar", "euro", "pound", "yen", "yuan", "peso", "rupee", "franc", "baht", "ringgit"]
+        },
+        {
+          "title": "消费预算",
+          "theme": "花销管理词汇",
+          "words": ["cash", "coin", "note", "budget", "spend", "save", "afford", "cost", "value", "expense"]
+        },
+        {
+          "title": "账单结算",
+          "theme": "付款结账词汇",
+          "words": ["total", "split", "include", "exclude", "service", "charge", "calculate", "invoice", "payment", "balance"]
+        }
+      ]
+    }
+  ]
+}

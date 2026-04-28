@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowLeft, Volume2, Zap, Clock, Trophy, RotateCcw, Play } from 'lucide-react'
 import { db } from '../../db/db'
 import { speak } from '../../tts/tts'
-import { Word } from '../../types'
 
 function shuffle<T>(arr: T[]): T[] {
   const copy = [...arr]

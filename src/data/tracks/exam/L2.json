@@ -1,0 +1,162 @@
+{
+  "level": 2,
+  "name": "日常交流",
+  "chapters": [
+    {
+      "id": "exam-ch3",
+      "level": 2,
+      "index": 3,
+      "title": "抽象名词",
+      "scenario": "你在作文中表达抽象概念。",
+      "scenarioImage": "🧩📘💡",
+      "stages": [
+        {
+          "id": "exam-ch3-st1",
+          "index": 3,
+          "title": "概念词汇",
+          "theme": "抽象名词积累",
+          "words": [
+            {
+              "word": "ability",
+              "phonetic": "[əˈbɪləti]",
+              "pos": "n.",
+              "meaning": "能力"
+            },
+            {
+              "word": "advantage",
+              "phonetic": "[ədˈvæntɪdʒ]",
+              "pos": "n.",
+              "meaning": "优势"
+            },
+            {
+              "word": "benefit",
+              "phonetic": "[ˈbɛnɪfɪt]",
+              "pos": "n.",
+              "meaning": "益处"
+            },
+            {
+              "word": "character",
+              "phonetic": "[ˈkɛrəktər]",
+              "pos": "n.",
+              "meaning": "性格"
+            },
+            {
+              "word": "concept",
+              "phonetic": "[ˈkɑːnsɛpt]",
+              "pos": "n.",
+              "meaning": "概念"
+            },
+            {
+              "word": "context",
+              "phonetic": "[ˈkɑːntɛkst]",
+              "pos": "n.",
+              "meaning": "语境"
+            },
+            {
+              "word": "contribution",
+              "phonetic": "[ˌkɑːntrɪˈbjuʃən]",
+              "pos": "n.",
+              "meaning": "贡献"
+            },
+            {
+              "word": "challenge",
+              "phonetic": "[ˈtʃælɪndʒ]",
+              "pos": "n.",
+              "meaning": "挑战"
+            },
+            {
+              "word": "confidence",
+              "phonetic": "[ˈkɑːnfɪdəns]",
+              "pos": "n.",
+              "meaning": "自信"
+            },
+            {
+              "word": "capacity",
+              "phonetic": "[kəˈpæsɪti]",
+              "pos": "n.",
+              "meaning": "能力"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-ch4",
+      "level": 2,
+      "index": 4,
+      "title": "学术名词",
+      "scenario": "你在论文和阅读理解中处理学术表达。",
+      "scenarioImage": "🔬📚📊",
+      "stages": [
+        {
+          "id": "exam-ch4-st1",
+          "index": 4,
+          "title": "学术场景",
+          "theme": "研究相关词汇",
+          "words": [
+            {
+              "word": "research",
+              "phonetic": "[rɪˈsɜːrtʃ]",
+              "pos": "n.",
+              "meaning": "研究"
+            },
+            {
+              "word": "theory",
+              "phonetic": "[ˈθiəri]",
+              "pos": "n.",
+              "meaning": "理论"
+            },
+            {
+              "word": "evidence",
+              "phonetic": "[ˈɛvɪdəns]",
+              "pos": "n.",
+              "meaning": "证据"
+            },
+            {
+              "word": "analysis",
+              "phonetic": "[əˈnæləsɪs]",
+              "pos": "n.",
+              "meaning": "分析"
+            },
+            {
+              "word": "hypothesis",
+              "phonetic": "[haɪˈpɑːθəsɪs]",
+              "pos": "n.",
+              "meaning": "假说"
+            },
+            {
+              "word": "method",
+              "phonetic": "[ˈmɛθəd]",
+              "pos": "n.",
+              "meaning": "方法"
+            },
+            {
+              "word": "approach",
+              "phonetic": "[əˈproʊtʃ]",
+              "pos": "n.",
+              "meaning": "途径"
+            },
+            {
+              "word": "data",
+              "phonetic": "[ˈdeɪtə]",
+              "pos": "n.",
+              "meaning": "数据"
+            },
+            {
+              "word": "survey",
+              "phonetic": "[ˈsɜːrveɪ]",
+              "pos": "n.",
+              "meaning": "调查"
+            },
+            {
+              "word": "outcome",
+              "phonetic": "[ˈaʊtkʌm]",
+              "pos": "n.",
+              "meaning": "结果"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

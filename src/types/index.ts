@@ -12,7 +12,7 @@ export interface Track {
 export interface Chapter {
   id: string
   trackId: string
-  level: 1 | 2 | 3 | 4 | 5
+  level: 1 | 2 | 3 | 4 | 5 | 6
   index: number
   title: string
   scenario: string
@@ -46,12 +46,44 @@ export interface Word {
   pos: string
   meaning: string
   examples?: Array<{ en: string; zh: string }> // 例句：英文和中文
+  definition?: string // 英文释义，用于辅助理解，不直接等同于教学例句
+  senses?: WordSense[] // 按中文义项拆分的教学内容
+  teachingExamples?: WordExample[] // 兼容全词级教学例句展示
+  phrases?: WordPhrase[] // 常见词组、搭配或场景表达
+  relatedWords?: RelatedWord[] // 同族词、近义词、反义词、易混词等
+  contentStatus?: 'raw' | 'generated' | 'reviewed'
   roots?: string // 词根分解提示，例：'ac-（朝向）+ quire（寻求）'
   family?: string[] // 同族词，例：['acquisition', 'require', 'inquire']
   rootHint?: string
   trackTags: string[]
-  difficulty: 1 | 2 | 3 | 4 | 5
+  difficulty: 1 | 2 | 3 | 4 | 5 | 6
   mastery: 0 | 1 | 2 | 3 | 4 | 5
+}
+
+export interface WordExample {
+  en: string
+  zh: string
+  source: 'manual' | 'generated' | 'dictionary'
+  checked: boolean
+  note?: string
+}
+
+export interface WordSense {
+  meaning: string
+  important: boolean
+  example: WordExample
+}
+
+export interface WordPhrase {
+  phrase: string
+  meaning: string
+  example?: { en: string; zh: string }
+}
+
+export interface RelatedWord {
+  word: string
+  type: 'synonym' | 'antonym' | 'family' | 'confusable' | 'collocation'
+  meaning?: string
 }
 
 export interface DailyCheckIn {
@@ -82,11 +114,22 @@ export interface WrongAnswer {
 
 export interface TrackProgress {
   trackId: string
-  currentLevel: 1 | 2 | 3 | 4 | 5
+  currentLevel: 1 | 2 | 3 | 4 | 5 | 6
   totalXP: number
   completedChapters: string[]
   startedAt: number
   lastStudiedAt: number
+  unlockedLevels: number[]
+  levelProgress: Record<number, { completed: number; total: number }>
+}
+
+export interface LevelMeta {
+  level: 1 | 2 | 3 | 4 | 5 | 6
+  name: string
+  stageCount: number
+  wordCount: number
+  unlockCondition: string
+  color: string
 }
 
 export interface UserSettings {

@@ -1,0 +1,84 @@
+{
+  "level": 3,
+  "name": "场景扩展",
+  "chapters": [
+    {
+      "id": "travel-ch5",
+      "level": 3,
+      "index": 5,
+      "title": "问路购物",
+      "scenario": "你在城市中问路、逛街并购物。",
+      "scenarioImage": "🗺️🛍️🚶",
+      "stages": [
+        {
+          "id": "travel-ch5-st1",
+          "index": 5,
+          "title": "城市探索",
+          "theme": "问路与购物表达",
+          "words": [
+            {
+              "word": "direction",
+              "phonetic": "[dəˈrɛkʃən]",
+              "pos": "n.",
+              "meaning": "方向"
+            },
+            {
+              "word": "landmark",
+              "phonetic": "[ˈlændmɑːrk]",
+              "pos": "n.",
+              "meaning": "地标"
+            },
+            {
+              "word": "intersection",
+              "phonetic": "[ˌɪntərˈsɛkʃən]",
+              "pos": "n.",
+              "meaning": "十字路口"
+            },
+            {
+              "word": "souvenir",
+              "phonetic": "[ˌsuːvəˈnɪr]",
+              "pos": "n.",
+              "meaning": "纪念品"
+            },
+            {
+              "word": "bargain",
+              "phonetic": "[ˈbɑːrɡɪn]",
+              "pos": "n.",
+              "meaning": "便宜货"
+            },
+            {
+              "word": "discount",
+              "phonetic": "[ˈdɪskaʊnt]",
+              "pos": "n.",
+              "meaning": "折扣"
+            },
+            {
+              "word": "receipt",
+              "phonetic": "[rɪˈsiːt]",
+              "pos": "n.",
+              "meaning": "收据"
+            },
+            {
+              "word": "cashier",
+              "phonetic": "[kæʃˈɪr]",
+              "pos": "n.",
+              "meaning": "收银员"
+            },
+            {
+              "word": "avenue",
+              "phonetic": "[ˈævəˌnjuː]",
+              "pos": "n.",
+              "meaning": "大街"
+            },
+            {
+              "word": "downtown",
+              "phonetic": "[ˌdaʊnˈtaʊn]",
+              "pos": "n.",
+              "meaning": "市中心"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

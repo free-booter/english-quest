@@ -1,0 +1,267 @@
+{
+  "trackId": "exam",
+  "level": 1,
+  "levelName": "四级基础",
+  "chapters": [
+    {
+      "title": "基础行为动词 I",
+      "scenario": "这些动词是四级考试的绝对核心，也是读懂一切英文句子的基础。",
+      "stages": [
+        {
+          "title": "动词 A–C",
+          "theme": "高频行为动词第一组",
+          "words": ["achieve", "affect", "allow", "assume", "cause", "claim", "combine", "compare", "complete", "consider"]
+        },
+        {
+          "title": "动词 D–E",
+          "theme": "高频行为动词第二组",
+          "words": ["decide", "define", "depend", "describe", "develop", "discuss", "divide", "enable", "establish", "examine"]
+        },
+        {
+          "title": "动词 F–I",
+          "theme": "高频行为动词第三组",
+          "words": ["explain", "fail", "focus", "form", "generate", "identify", "improve", "increase", "indicate", "involve"]
+        },
+        {
+          "title": "动词 K–P",
+          "theme": "高频行为动词第四组",
+          "words": ["keep", "lead", "maintain", "manage", "obtain", "offer", "organize", "perform", "prepare", "produce"]
+        }
+      ]
+    },
+    {
+      "title": "基础行为动词 II",
+      "scenario": "继续积累核心动词，这些词在四级阅读和写作中高频出现。",
+      "stages": [
+        {
+          "title": "动词 P–S",
+          "theme": "高频行为动词第五组",
+          "words": ["provide", "realize", "reduce", "reflect", "relate", "remain", "require", "reveal", "seek", "solve"]
+        },
+        {
+          "title": "动词 S–W",
+          "theme": "高频行为动词第六组",
+          "words": ["suggest", "support", "survive", "tend", "treat", "view", "work", "promote", "select", "assess"]
+        },
+        {
+          "title": "认知与思维动词",
+          "theme": "表达思维与认知",
+          "words": ["believe", "doubt", "expect", "imagine", "notice", "observe", "recognize", "remember", "suppose", "wonder"]
+        },
+        {
+          "title": "变化与发展动词",
+          "theme": "表达变化与转变",
+          "words": ["adapt", "convert", "expand", "grow", "modify", "shift", "transform", "vary", "strengthen", "weaken"]
+        }
+      ]
+    },
+    {
+      "title": "核心名词 I",
+      "scenario": "名词是句子的主干，这些是四级文章中出现率最高的名词。",
+      "stages": [
+        {
+          "title": "名词 A–C",
+          "theme": "四级核心名词第一组",
+          "words": ["ability", "approach", "argument", "attitude", "challenge", "change", "choice", "concept", "concern", "condition"]
+        },
+        {
+          "title": "名词 C–E",
+          "theme": "四级核心名词第二组",
+          "words": ["context", "culture", "decision", "development", "difference", "difficulty", "education", "effect", "effort", "element"]
+        },
+        {
+          "title": "名词 E–G",
+          "theme": "四级核心名词第三组",
+          "words": ["environment", "evidence", "example", "experience", "explanation", "factor", "field", "feature", "goal", "growth"]
+        },
+        {
+          "title": "名词 I–L",
+          "theme": "四级核心名词第四组",
+          "words": ["impact", "importance", "influence", "information", "interest", "issue", "knowledge", "language", "level", "limitation"]
+        }
+      ]
+    },
+    {
+      "title": "核心名词 II",
+      "scenario": "继续扩充名词词汇量，让你读懂四级文章不再卡壳。",
+      "stages": [
+        {
+          "title": "名词 M–O",
+          "theme": "四级核心名词第五组",
+          "words": ["method", "mind", "model", "nature", "need", "objective", "opportunity", "order", "organization", "pattern"]
+        },
+        {
+          "title": "名词 P",
+          "theme": "四级核心名词第六组",
+          "words": ["performance", "period", "perspective", "plan", "policy", "position", "possibility", "problem", "process", "progress"]
+        },
+        {
+          "title": "名词 P–R",
+          "theme": "四级核心名词第七组",
+          "words": ["purpose", "quality", "reason", "relationship", "requirement", "resource", "result", "role", "situation", "skill"]
+        },
+        {
+          "title": "名词 S–T",
+          "theme": "四级核心名词第八组",
+          "words": ["society", "solution", "standard", "strategy", "structure", "subject", "system", "topic", "trend", "type"]
+        }
+      ]
+    },
+    {
+      "title": "核心形容词",
+      "scenario": "形容词让描述更精准，这批是四级写作和阅读中的高频形容词。",
+      "stages": [
+        {
+          "title": "形容词 A–C",
+          "theme": "四级核心形容词第一组",
+          "words": ["able", "accurate", "active", "appropriate", "available", "basic", "capable", "certain", "clear", "common"]
+        },
+        {
+          "title": "形容词 C–E",
+          "theme": "四级核心形容词第二组",
+          "words": ["complex", "consistent", "critical", "current", "different", "difficult", "effective", "efficient", "equal", "essential"]
+        },
+        {
+          "title": "形容词 G–N",
+          "theme": "四级核心形容词第三组",
+          "words": ["general", "global", "important", "individual", "initial", "limited", "local", "major", "multiple", "national"]
+        },
+        {
+          "title": "形容词 N–T",
+          "theme": "四级核心形容词第四组",
+          "words": ["negative", "obvious", "particular", "positive", "primary", "public", "significant", "similar", "specific", "traditional"]
+        }
+      ]
+    },
+    {
+      "title": "频率与程度副词",
+      "scenario": "副词决定语气轻重，这些词在四级听力和阅读中无处不在。",
+      "stages": [
+        {
+          "title": "频率副词",
+          "theme": "表示动作发生频率",
+          "words": ["always", "often", "usually", "sometimes", "rarely", "never", "frequently", "occasionally", "regularly", "constantly"]
+        },
+        {
+          "title": "程度副词",
+          "theme": "表示程度强弱",
+          "words": ["very", "quite", "rather", "fairly", "extremely", "highly", "largely", "mainly", "mostly", "partly"]
+        },
+        {
+          "title": "方式副词",
+          "theme": "表示动作方式",
+          "words": ["clearly", "carefully", "quickly", "slowly", "directly", "effectively", "gradually", "immediately", "naturally", "rapidly"]
+        },
+        {
+          "title": "语气副词",
+          "theme": "表示说话者态度",
+          "words": ["actually", "apparently", "certainly", "definitely", "obviously", "particularly", "probably", "seriously", "simply", "surely"]
+        }
+      ]
+    },
+    {
+      "title": "逻辑连接词",
+      "scenario": "连接词是读懂长难句的钥匙，也是写作拿高分的利器。",
+      "stages": [
+        {
+          "title": "转折与让步",
+          "theme": "表达转折对比关系",
+          "words": ["although", "however", "despite", "whereas", "while", "yet", "nevertheless", "otherwise", "still", "instead"]
+        },
+        {
+          "title": "因果与结论",
+          "theme": "表达原因结果关系",
+          "words": ["because", "since", "therefore", "thus", "hence", "consequently", "accordingly", "due", "owing", "thereby"]
+        },
+        {
+          "title": "递进与补充",
+          "theme": "表达递进补充关系",
+          "words": ["moreover", "furthermore", "additionally", "besides", "also", "equally", "similarly", "likewise", "meanwhile", "plus"]
+        },
+        {
+          "title": "条件与假设",
+          "theme": "表达条件假设关系",
+          "words": ["if", "unless", "once", "provided", "assuming", "given", "whether", "whenever", "wherever", "until"]
+        }
+      ]
+    },
+    {
+      "title": "学习与教育",
+      "scenario": "教育类话题是四级必考主题，这些词专为此类文章准备。",
+      "stages": [
+        {
+          "title": "学习行为",
+          "theme": "学习过程词汇",
+          "words": ["study", "learn", "practice", "review", "memorize", "apply", "master", "concentrate", "absorb", "comprehend"]
+        },
+        {
+          "title": "教育机构",
+          "theme": "教育场所词汇",
+          "words": ["school", "university", "college", "campus", "classroom", "library", "laboratory", "department", "faculty", "institution"]
+        },
+        {
+          "title": "考试测评",
+          "theme": "考试相关词汇",
+          "words": ["exam", "test", "score", "grade", "pass", "certificate", "register", "compete", "rank", "graduate"]
+        },
+        {
+          "title": "能力素养",
+          "theme": "个人能力发展词汇",
+          "words": ["talent", "creativity", "intelligence", "capacity", "potential", "competence", "curiosity", "motivation", "discipline", "dedication"]
+        }
+      ]
+    },
+    {
+      "title": "社会与生活",
+      "scenario": "社会类话题同样是四级热门主题，积累这些词轻松读懂相关文章。",
+      "stages": [
+        {
+          "title": "社会结构",
+          "theme": "社会组织词汇",
+          "words": ["community", "government", "authority", "regulation", "sector", "media", "population", "welfare", "citizen", "democracy"]
+        },
+        {
+          "title": "人际交往",
+          "theme": "人际关系词汇",
+          "words": ["communication", "cooperation", "conflict", "agreement", "collaboration", "negotiation", "partnership", "interaction", "bond", "tension"]
+        },
+        {
+          "title": "经济发展",
+          "theme": "经济社会词汇",
+          "words": ["economy", "market", "income", "trade", "production", "investment", "competition", "innovation", "consumption", "budget"]
+        },
+        {
+          "title": "价值理念",
+          "theme": "价值观念词汇",
+          "words": ["value", "belief", "principle", "ideal", "norm", "ethic", "justice", "equality", "freedom", "respect"]
+        }
+      ]
+    },
+    {
+      "title": "四级写作高频词",
+      "scenario": "这些词是四级写作评分最看重的词汇，掌握它们让你的作文脱颖而出。",
+      "stages": [
+        {
+          "title": "高阶描述形容词",
+          "theme": "写作增分描述词",
+          "words": ["substantial", "considerable", "remarkable", "dominant", "evident", "visible", "notable", "outstanding", "dramatic", "radical"]
+        },
+        {
+          "title": "高阶评价形容词",
+          "theme": "写作增分评价词",
+          "words": ["successful", "productive", "beneficial", "harmful", "practical", "reasonable", "rational", "realistic", "reliable", "sustainable"]
+        },
+        {
+          "title": "写作论述动词",
+          "theme": "论点表达词汇",
+          "words": ["argue", "state", "illustrate", "demonstrate", "emphasize", "contrast", "evaluate", "critique", "summarize", "conclude"]
+        },
+        {
+          "title": "写作程度副词",
+          "theme": "论述语气词汇",
+          "words": ["primarily", "fundamentally", "essentially", "broadly", "typically", "specifically", "ultimately", "literally", "genuinely", "notably"]
+        }
+      ]
+    }
+  ]
+}

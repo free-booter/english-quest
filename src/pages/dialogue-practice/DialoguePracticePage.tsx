@@ -1,11 +1,10 @@
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ArrowLeft, Volume2, MessageCircle, User, RotateCcw, Sparkles } from 'lucide-react'
+import { ArrowLeft, Volume2, MessageCircle, RotateCcw, Sparkles } from 'lucide-react'
 import { db } from '../../db/db'
 import { speak } from '../../tts/tts'
-import { Word } from '../../types'
 
 function shuffle<T>(arr: T[]): T[] {
   const copy = [...arr]

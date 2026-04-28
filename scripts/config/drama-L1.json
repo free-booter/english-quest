@@ -1,0 +1,267 @@
+{
+  "trackId": "drama",
+  "level": 1,
+  "levelName": "入门基础",
+  "chapters": [
+    {
+      "title": "打招呼问候",
+      "scenario": "见面问好是一切交流的开始，掌握最基础的问候用语。",
+      "stages": [
+        {
+          "title": "日常问候",
+          "theme": "见面打招呼词汇",
+          "words": ["hello", "greet", "wave", "nod", "welcome", "nice", "glad", "meet", "introduce", "acquaintance"]
+        },
+        {
+          "title": "告别道别",
+          "theme": "离别送别词汇",
+          "words": ["goodbye", "farewell", "later", "soon", "see", "again", "bye", "leave", "depart", "wave"]
+        },
+        {
+          "title": "近况询问",
+          "theme": "问候近况词汇",
+          "words": ["fine", "great", "good", "bad", "okay", "alright", "wonderful", "terrible", "awful", "lately"]
+        },
+        {
+          "title": "自我介绍",
+          "theme": "认识新朋友词汇",
+          "words": ["name", "age", "hometown", "job", "hobby", "first", "last", "nickname", "call", "remember"]
+        }
+      ]
+    },
+    {
+      "title": "情绪表达",
+      "scenario": "美剧里角色情绪丰富，学会读懂和表达各种情绪。",
+      "stages": [
+        {
+          "title": "基础情绪",
+          "theme": "常见情绪词汇",
+          "words": ["happy", "sad", "angry", "scared", "excited", "nervous", "bored", "tired", "confused", "calm"]
+        },
+        {
+          "title": "表达喜好",
+          "theme": "喜欢与讨厌词汇",
+          "words": ["love", "hate", "like", "enjoy", "prefer", "want", "need", "hope", "wish", "adore"]
+        },
+        {
+          "title": "情绪反应",
+          "theme": "情绪动作词汇",
+          "words": ["laugh", "cry", "smile", "frown", "shout", "whisper", "sigh", "worry", "panic", "giggle"]
+        },
+        {
+          "title": "强烈情绪",
+          "theme": "情绪形容词汇",
+          "words": ["amazing", "awesome", "terrible", "horrible", "wonderful", "awful", "fantastic", "miserable", "brilliant", "dreadful"]
+        }
+      ]
+    },
+    {
+      "title": "日常对话",
+      "scenario": "美剧中的日常聊天，掌握这些就能轻松跟上剧情。",
+      "stages": [
+        {
+          "title": "表达观点",
+          "theme": "观点意见词汇",
+          "words": ["think", "believe", "know", "feel", "consider", "suppose", "assume", "realize", "wonder", "imagine"]
+        },
+        {
+          "title": "对话技巧",
+          "theme": "沟通交流词汇",
+          "words": ["agree", "disagree", "argue", "discuss", "suggest", "advise", "remind", "warn", "convince", "persuade"]
+        },
+        {
+          "title": "礼貌请求",
+          "theme": "礼貌用语词汇",
+          "words": ["please", "sorry", "excuse", "mind", "bother", "request", "favor", "appreciate", "polite", "manner"]
+        },
+        {
+          "title": "感谢表达",
+          "theme": "感谢感激词汇",
+          "words": ["thank", "appreciate", "grateful", "welcome", "pleasure", "kind", "generous", "thoughtful", "support", "help"]
+        }
+      ]
+    },
+    {
+      "title": "家庭关系",
+      "scenario": "美剧中家庭戏份最温情，这些词帮你读懂家庭故事。",
+      "stages": [
+        {
+          "title": "核心家庭",
+          "theme": "直系家庭词汇",
+          "words": ["family", "mother", "father", "sister", "brother", "son", "daughter", "parent", "child", "sibling"]
+        },
+        {
+          "title": "亲戚关系",
+          "theme": "亲属称谓词汇",
+          "words": ["uncle", "aunt", "cousin", "grandparent", "nephew", "niece", "husband", "wife", "spouse", "relative"]
+        },
+        {
+          "title": "家庭生活",
+          "theme": "居家日常词汇",
+          "words": ["home", "house", "cook", "clean", "chore", "gather", "celebrate", "routine", "dinner", "weekend"]
+        },
+        {
+          "title": "家庭关爱",
+          "theme": "亲情表达词汇",
+          "words": ["care", "support", "raise", "protect", "provide", "share", "trust", "bond", "memory", "generation"]
+        }
+      ]
+    },
+    {
+      "title": "工作职场",
+      "scenario": "职场剧最接地气，学这些词让你听懂办公室的一切。",
+      "stages": [
+        {
+          "title": "职场人员",
+          "theme": "职场角色词汇",
+          "words": ["boss", "manager", "employee", "colleague", "team", "client", "customer", "partner", "assistant", "intern"]
+        },
+        {
+          "title": "工作内容",
+          "theme": "日常工作词汇",
+          "words": ["task", "project", "meeting", "deadline", "report", "presentation", "email", "schedule", "goal", "plan"]
+        },
+        {
+          "title": "职业发展",
+          "theme": "职场晋升词汇",
+          "words": ["hire", "promote", "resign", "retire", "salary", "raise", "bonus", "benefit", "performance", "career"]
+        },
+        {
+          "title": "职场状态",
+          "theme": "工作氛围词汇",
+          "words": ["busy", "stressed", "productive", "efficient", "professional", "creative", "focused", "motivated", "teamwork", "communication"]
+        }
+      ]
+    },
+    {
+      "title": "爱情浪漫",
+      "scenario": "爱情线是美剧永恒主题，这些词让你读懂每段恋情。",
+      "stages": [
+        {
+          "title": "初识恋爱",
+          "theme": "暗恋追求词汇",
+          "words": ["crush", "attract", "flirt", "charm", "date", "romantic", "interest", "notice", "admire", "pursue"]
+        },
+        {
+          "title": "恋爱关系",
+          "theme": "恋爱关系词汇",
+          "words": ["boyfriend", "girlfriend", "couple", "relationship", "love", "care", "trust", "respect", "support", "commitment"]
+        },
+        {
+          "title": "甜蜜时光",
+          "theme": "甜蜜浪漫词汇",
+          "words": ["kiss", "hug", "together", "forever", "promise", "surprise", "special", "memory", "perfect", "cherish"]
+        },
+        {
+          "title": "分手失恋",
+          "theme": "分手失恋词汇",
+          "words": ["breakup", "separate", "hurt", "heal", "miss", "lonely", "heartbreak", "recover", "accept", "move"]
+        }
+      ]
+    },
+    {
+      "title": "社交娱乐",
+      "scenario": "派对、聚会、狂欢——美剧里的社交场景词汇大全。",
+      "stages": [
+        {
+          "title": "聚会派对",
+          "theme": "派对社交词汇",
+          "words": ["party", "invite", "guest", "host", "celebrate", "dance", "drink", "gather", "toast", "cheer"]
+        },
+        {
+          "title": "影视娱乐",
+          "theme": "看剧追剧词汇",
+          "words": ["movie", "film", "series", "episode", "actor", "director", "scene", "plot", "character", "review"]
+        },
+        {
+          "title": "竞技运动",
+          "theme": "体育竞技词汇",
+          "words": ["game", "play", "competition", "win", "lose", "team", "score", "practice", "challenge", "champion"]
+        },
+        {
+          "title": "社交媒体",
+          "theme": "网络社交词汇",
+          "words": ["post", "share", "comment", "like", "follow", "message", "trending", "viral", "connect", "online"]
+        }
+      ]
+    },
+    {
+      "title": "人物描述",
+      "scenario": "用准确的词描述剧中人物，让你对角色了如指掌。",
+      "stages": [
+        {
+          "title": "外貌特征",
+          "theme": "描述外貌词汇",
+          "words": ["tall", "short", "thin", "strong", "young", "old", "pretty", "handsome", "attractive", "appearance"]
+        },
+        {
+          "title": "性格特点",
+          "theme": "描述性格词汇",
+          "words": ["kind", "mean", "funny", "serious", "shy", "outgoing", "smart", "clever", "brave", "honest"]
+        },
+        {
+          "title": "行为举止",
+          "theme": "描述行为词汇",
+          "words": ["patient", "impatient", "calm", "dramatic", "generous", "selfish", "loyal", "reliable", "independent", "sociable"]
+        },
+        {
+          "title": "穿着风格",
+          "theme": "穿搭形象词汇",
+          "words": ["hair", "eyes", "voice", "style", "fashion", "wear", "outfit", "casual", "formal", "trendy"]
+        }
+      ]
+    },
+    {
+      "title": "场景描述",
+      "scenario": "用生动的词汇描述各种场景，让你的英语更有画面感。",
+      "stages": [
+        {
+          "title": "尺寸大小",
+          "theme": "大小尺寸词汇",
+          "words": ["big", "small", "huge", "tiny", "wide", "narrow", "deep", "long", "thick", "flat"]
+        },
+        {
+          "title": "环境氛围",
+          "theme": "环境状态词汇",
+          "words": ["bright", "dark", "noisy", "quiet", "clean", "dirty", "neat", "messy", "crowded", "empty"]
+        },
+        {
+          "title": "温度感受",
+          "theme": "温度舒适词汇",
+          "words": ["hot", "cold", "warm", "cool", "wet", "dry", "fresh", "stuffy", "comfortable", "pleasant"]
+        },
+        {
+          "title": "新旧特点",
+          "theme": "事物特征词汇",
+          "words": ["new", "old", "modern", "ancient", "beautiful", "ugly", "colorful", "plain", "fancy", "simple"]
+        }
+      ]
+    },
+    {
+      "title": "常用核心词",
+      "scenario": "这些超高频基础词是你听懂一切美剧的基石。",
+      "stages": [
+        {
+          "title": "基础动作",
+          "theme": "超高频动词",
+          "words": ["come", "go", "give", "take", "make", "put", "keep", "turn", "leave", "bring"]
+        },
+        {
+          "title": "感知动词",
+          "theme": "感官感知词汇",
+          "words": ["look", "see", "hear", "feel", "touch", "smell", "taste", "watch", "listen", "notice"]
+        },
+        {
+          "title": "方向介词",
+          "theme": "位置方向词汇",
+          "words": ["up", "down", "inside", "outside", "over", "under", "through", "around", "across", "along"]
+        },
+        {
+          "title": "程度副词",
+          "theme": "语气程度词汇",
+          "words": ["really", "very", "quite", "rather", "pretty", "fairly", "extremely", "absolutely", "totally", "completely"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "level": 2,
+  "name": "日常交流",
+  "chapters": [
+    {
+      "id": "travel-ch3",
+      "level": 2,
+      "index": 3,
+      "title": "入境海关",
+      "scenario": "你抵达目的地并通过海关。",
+      "scenarioImage": "🛂🧾🧳",
+      "stages": [
+        {
+          "id": "travel-ch3-st1",
+          "index": 3,
+          "title": "入境流程",
+          "theme": "海关交流",
+          "words": [
+            {
+              "word": "customs",
+              "phonetic": "[ˈkʌstəmz]",
+              "pos": "n.",
+              "meaning": "海关"
+            },
+            {
+              "word": "immigration",
+              "phonetic": "[ˌɪmɪˈɡreɪʃən]",
+              "pos": "n.",
+              "meaning": "入境管理"
+            },
+            {
+              "word": "declare",
+              "phonetic": "[dɪˈklɛr]",
+              "pos": "v.",
+              "meaning": "申报"
+            },
+            {
+              "word": "baggage",
+              "phonetic": "[ˈbæɡɪdʒ]",
+              "pos": "n.",
+              "meaning": "行李"
+            },
+            {
+              "word": "stamp",
+              "phonetic": "[stæmp]",
+              "pos": "n.",
+              "meaning": "盖章"
+            },
+            {
+              "word": "counter",
+              "phonetic": "[ˈkaʊntər]",
+              "pos": "n.",
+              "meaning": "柜台"
+            },
+            {
+              "word": "queue",
+              "phonetic": "[kjuː]",
+              "pos": "n.",
+              "meaning": "队伍"
+            },
+            {
+              "word": "officer",
+              "phonetic": "[ˈɔːfɪsər]",
+              "pos": "n.",
+              "meaning": "官员"
+            },
+            {
+              "word": "clearance",
+              "phonetic": "[ˈklɪrəns]",
+              "pos": "n.",
+              "meaning": "清关"
+            },
+            {
+              "word": "permit",
+              "phonetic": "[ˈpɜːrmɪt]",
+              "pos": "n.",
+              "meaning": "许可证"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-ch4",
+      "level": 2,
+      "index": 4,
+      "title": "酒店入住",
+      "scenario": "你到酒店办理入住并确认房间信息。",
+      "scenarioImage": "🏨🔑🛏️",
+      "stages": [
+        {
+          "id": "travel-ch4-st1",
+          "index": 4,
+          "title": "前台沟通",
+          "theme": "酒店住宿词汇",
+          "words": [
+            {
+              "word": "reservation",
+              "phonetic": "[ˌrɛzərˈveɪʃən]",
+              "pos": "n.",
+              "meaning": "预订"
+            },
+            {
+              "word": "lobby",
+              "phonetic": "[ˈlɑːbi]",
+              "pos": "n.",
+              "meaning": "大堂"
+            },
+            {
+              "word": "reception",
+              "phonetic": "[rɪˈsɛpʃən]",
+              "pos": "n.",
+              "meaning": "前台"
+            },
+            {
+              "word": "key card",
+              "phonetic": "[kiː kɑːrd]",
+              "pos": "n.",
+              "meaning": "房卡"
+            },
+            {
+              "word": "checkout",
+              "phonetic": "[ˈtʃɛkaʊt]",
+              "pos": "n.",
+              "meaning": "退房"
+            },
+            {
+              "word": "suite",
+              "phonetic": "[swiːt]",
+              "pos": "n.",
+              "meaning": "套房"
+            },
+            {
+              "word": "single room",
+              "phonetic": "[ˈsɪŋɡəl rum]",
+              "pos": "n.",
+              "meaning": "单人房"
+            },
+            {
+              "word": "double room",
+              "phonetic": "[ˈdʌbəl rum]",
+              "pos": "n.",
+              "meaning": "双人房"
+            },
+            {
+              "word": "amenities",
+              "phonetic": "[əˈmɛnɪtiz]",
+              "pos": "n.",
+              "meaning": "设施"
+            },
+            {
+              "word": "breakfast",
+              "phonetic": "[ˈbrɛkfəst]",
+              "pos": "n.",
+              "meaning": "早餐"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

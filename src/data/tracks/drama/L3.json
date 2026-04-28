@@ -1,0 +1,84 @@
+{
+  "level": 3,
+  "name": "场景扩展",
+  "chapters": [
+    {
+      "id": "drama-ch5",
+      "level": 3,
+      "index": 5,
+      "title": "剧情用语",
+      "scenario": "你分析剧情走向和关键反转。",
+      "scenarioImage": "📺🧩🎭",
+      "stages": [
+        {
+          "id": "drama-ch5-st1",
+          "index": 5,
+          "title": "剧情分析",
+          "theme": "影视讨论关键词",
+          "words": [
+            {
+              "word": "plot twist",
+              "phonetic": "[plɑːt twɪst]",
+              "pos": "n.",
+              "meaning": "剧情反转"
+            },
+            {
+              "word": "cliffhanger",
+              "phonetic": "[ˈklɪfˌhæŋər]",
+              "pos": "n.",
+              "meaning": "悬念/留白结尾"
+            },
+            {
+              "word": "flashback",
+              "phonetic": "[ˈflæʃbæk]",
+              "pos": "n.",
+              "meaning": "闪回"
+            },
+            {
+              "word": "spoiler",
+              "phonetic": "[ˈspoɪlər]",
+              "pos": "n.",
+              "meaning": "剧透"
+            },
+            {
+              "word": "season finale",
+              "phonetic": "[ˈsiːzən fɪˈnɑːl]",
+              "pos": "n.",
+              "meaning": "季结局"
+            },
+            {
+              "word": "character arc",
+              "phonetic": "[ˈkɛrəktər ɑːrk]",
+              "pos": "n.",
+              "meaning": "人物成长线"
+            },
+            {
+              "word": "scene",
+              "phonetic": "[siːn]",
+              "pos": "n.",
+              "meaning": "场景"
+            },
+            {
+              "word": "dialogue",
+              "phonetic": "[ˈdaɪəlɔːɡ]",
+              "pos": "n.",
+              "meaning": "对白"
+            },
+            {
+              "word": "soundtrack",
+              "phonetic": "[ˈsaʊndtræk]",
+              "pos": "n.",
+              "meaning": "原声音乐"
+            },
+            {
+              "word": "ending",
+              "phonetic": "[ˈɛndɪŋ]",
+              "pos": "n.",
+              "meaning": "结局"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

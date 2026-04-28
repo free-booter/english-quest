@@ -44,6 +44,9 @@ function buildMemoryHint(word: Word): string {
 }
 
 function buildRelatedWords(word: Word): string[] {
+  if (word.relatedWords && word.relatedWords.length > 0) {
+    return word.relatedWords.map((item) => item.word)
+  }
   if (word.family && word.family.length > 0) return word.family
   return []
 }
@@ -64,7 +67,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
   const [learningIndex, setLearningIndex] = useState(0)
   const [stepIndex, setStepIndex] = useState(0)
   const [correctCount, setCorrectCount] = useState(0)
-  const [combo, setCombo] = useState(0)
+  const [, setCombo] = useState(0)
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
   const [isStepCorrect, setIsStepCorrect] = useState<boolean | null>(null)
   const [feedbackText, setFeedbackText] = useState('')
@@ -86,11 +89,13 @@ export default function CardStage({ onComplete }: CardStageProps) {
   const currentStep = scenario?.steps[stepIndex]
   const currentWord = words?.[learningIndex]
 
-  const learningExamples = useMemo(() => {
+  const learningExamples = useMemo<Array<{ en: string; zh: string }>>(() => {
     if (!currentWord) return []
-    return currentWord.examples && currentWord.examples.length > 0
-      ? currentWord.examples
-      : buildFallbackExamples(currentWord)
+    if (currentWord.teachingExamples && currentWord.teachingExamples.length > 0) {
+      return currentWord.teachingExamples
+    }
+    if (currentWord.examples && currentWord.examples.length > 0) return currentWord.examples
+    return buildFallbackExamples(currentWord)
   }, [currentWord])
 
   const memoryHint = useMemo(() => currentWord ? buildMemoryHint(currentWord) : '', [currentWord])
@@ -690,7 +695,25 @@ export default function CardStage({ onComplete }: CardStageProps) {
                       </span>
                     )}
                   </div>
-                  <p className="text-lg font-bold text-gray-900">{currentWord.meaning}</p>
+                  {currentWord.senses && currentWord.senses.length > 0 ? (
+                    <div className="space-y-3">
+                      {currentWord.senses.map((sense: NonNullable<Word['senses']>[number], idx: number) => (
+                        <div key={`${sense.meaning}-${idx}`} className="rounded-lg bg-white/70 p-3">
+                          <p
+                            className={sense.important ? 'text-lg font-bold text-gray-900' : 'text-sm font-medium text-gray-700'}
+                          >
+                            {sense.meaning}
+                          </p>
+                          <div className="mt-2 border-l-2 border-emerald-200 pl-3">
+                            <p className="text-sm text-gray-800">{sense.example.en}</p>
+                            <p className="text-xs text-gray-500 mt-1">{sense.example.zh}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-lg font-bold text-gray-900">{currentWord.meaning}</p>
+                  )}
                 </div>
 
                 {/* 所有例句 */}

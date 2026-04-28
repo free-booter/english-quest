@@ -1,7 +1,26 @@
 import { db } from './db'
-import travelData from '../data/tracks/travel.json'
-import dramaData from '../data/tracks/drama.json'
-import examData from '../data/tracks/exam.json'
+import { LEVEL_CONFIG } from '../data/levels'
+
+// Track metadata
+import travelIndex from '../data/tracks/travel/index.json'
+import dramaIndex from '../data/tracks/drama/index.json'
+import examIndex from '../data/tracks/exam/index.json'
+
+// Travel level data
+import travelL1 from '../data/tracks/travel/L1.json'
+import travelL2 from '../data/tracks/travel/L2.json'
+import travelL3 from '../data/tracks/travel/L3.json'
+
+// Drama level data
+import dramaL1 from '../data/tracks/drama/L1.json'
+import dramaL2 from '../data/tracks/drama/L2.json'
+import dramaL3 from '../data/tracks/drama/L3.json'
+
+// Exam level data
+import examL1 from '../data/tracks/exam/L1.json'
+import examL2 from '../data/tracks/exam/L2.json'
+import examL3 from '../data/tracks/exam/L3.json'
+
 import { Achievement, Chapter, Stage, Track, TrackProgress, UserSettings, Word } from '../types'
 
 interface WordData {
@@ -10,30 +29,68 @@ interface WordData {
   pos: string
   meaning: string
   examples?: Array<{ en: string; zh: string }>
+  definition?: string
+  senses?: Word['senses']
+  teachingExamples?: Word['teachingExamples']
+  phrases?: Word['phrases']
+  relatedWords?: Word['relatedWords']
+  contentStatus?: Word['contentStatus']
   roots?: string
   family?: string[]
+  rootHint?: string
 }
 
-interface TrackSeed {
-  track: Pick<Track, 'id' | 'name' | 'icon' | 'description' | 'color'>
-  chapters: Array<{
-    id: string
-    level: 1 | 2 | 3 | 4 | 5
-    index: number
-    title: string
-    scenario: string
-    scenarioImage?: string
-    stages: Array<{
-      id: string
-      index: number
-      title: string
-      theme: string
-      words: Array<string | WordData>
-    }>
-  }>
+interface StageSeed {
+  id: string
+  index: number
+  title: string
+  theme: string
+  words: Array<string | WordData>
 }
 
-const TRACK_SEEDS: TrackSeed[] = [travelData as TrackSeed, dramaData as TrackSeed, examData as TrackSeed]
+interface ChapterSeed {
+  id: string
+  level: 1 | 2 | 3 | 4 | 5 | 6
+  index: number
+  title: string
+  scenario: string
+  scenarioImage?: string
+  stages: StageSeed[]
+}
+
+interface LevelData {
+  level: number
+  name: string
+  chapters: ChapterSeed[]
+}
+
+interface TrackIndexData {
+  id: string
+  name: string
+  icon: string
+  description: string
+  color: string
+}
+
+interface TrackBundle {
+  index: TrackIndexData
+  levels: LevelData[]
+}
+
+const TRACK_BUNDLES: TrackBundle[] = [
+  {
+    index: travelIndex as TrackIndexData,
+    levels: [travelL1, travelL2, travelL3] as LevelData[],
+  },
+  {
+    index: dramaIndex as TrackIndexData,
+    levels: [dramaL1, dramaL2, dramaL3] as LevelData[],
+  },
+  {
+    index: examIndex as TrackIndexData,
+    levels: [examL1, examL2, examL3] as LevelData[],
+  },
+]
 
 const MEANING_DICTIONARY: Record<string, string> = {
   'hey': '嘿；嗨（打招呼）',
@@ -88,8 +145,27 @@ function normalizePos(word: string): string {
   return 'n./v.'
 }
 
-function toDifficulty(level: 1 | 2 | 3 | 4 | 5): 1 | 2 | 3 | 4 | 5 {
-  return level
+function toDifficulty(level: number): 1 | 2 | 3 | 4 | 5 | 6 {
+  const clamped = Math.max(1, Math.min(6, level))
+  return clamped as 1 | 2 | 3 | 4 | 5 | 6
+}
+
+function buildInitialLevelProgress(
+  levels: LevelData[]
+): Record<number, { completed: number; total: number }> {
+  const progress: Record<number, { completed: number; total: number }> = {}
+  for (const levelData of levels) {
+    const total = levelData.chapters.reduce((sum, ch) => sum + ch.stages.length, 0)
+    progress[levelData.level] = { completed: 0, total }
+  }
+  // Fill in levels not yet in data with config values
+  for (const [lvlKey, config] of Object.entries(LEVEL_CONFIG)) {
+    const lvl = parseInt(lvlKey)
+    if (!progress[lvl]) {
+      progress[lvl] = { completed: 0, total: config.stageCount }
+    }
+  }
+  return progress
 }
 
 export async function initializeDB() {
@@ -116,35 +192,40 @@ export async function initializeDB() {
       const words: Word[] = []
       const trackProgress: TrackProgress[] = []
 
-      for (const trackSeed of TRACK_SEEDS) {
-        const stageCount = trackSeed.chapters.reduce((sum, chapter) => sum + chapter.stages.length, 0)
-        const totalWords = trackSeed.chapters.reduce(
-          (sum, chapter) => sum + chapter.stages.reduce((stageSum, stage) => stageSum + stage.words.length, 0),
+      for (const bundle of TRACK_BUNDLES) {
+        const { index: trackIndex, levels } = bundle
+
+        const allChapters = levels.flatMap((l) => l.chapters)
+        const stageCount = allChapters.reduce((sum, ch) => sum + ch.stages.length, 0)
+        const totalWords = allChapters.reduce(
+          (sum, ch) => sum + ch.stages.reduce((s, st) => s + st.words.length, 0),
           0
         )
 
         tracks.push({
-          ...trackSeed.track,
+          ...trackIndex,
           totalWords,
-          totalChapters: trackSeed.chapters.length,
+          totalChapters: allChapters.length,
         })
 
         trackProgress.push({
-          trackId: trackSeed.track.id,
+          trackId: trackIndex.id,
           currentLevel: 1,
           totalXP: 0,
           completedChapters: [],
           startedAt: Date.now(),
           lastStudiedAt: Date.now(),
+          unlockedLevels: [1],
+          levelProgress: buildInitialLevelProgress(levels),
         })
 
-        for (let chapterIdx = 0; chapterIdx < trackSeed.chapters.length; chapterIdx += 1) {
-          const chapterSeed = trackSeed.chapters[chapterIdx]
+        for (let chapterIdx = 0; chapterIdx < allChapters.length; chapterIdx += 1) {
+          const chapterSeed = allChapters[chapterIdx]
           const chapterStageIds = chapterSeed.stages.map((stage) => stage.id)
 
           chapters.push({
             id: chapterSeed.id,
-            trackId: trackSeed.track.id,
+            trackId: trackIndex.id,
             level: chapterSeed.level,
             index: chapterSeed.index,
             title: chapterSeed.title,
@@ -158,17 +239,16 @@ export async function initializeDB() {
             const stageWordIds = stageSeed.words.map((_word, wordIdx) => `${stageSeed.id}-w${wordIdx + 1}`)
             const stageGlobalIndex = stages.length + 1
 
-            // 根据轨道分配学习模式
             let modes: ('card' | 'dialogue' | 'scene')[] = ['card']
             let defaultMode: 'card' | 'dialogue' | 'scene' = 'card'
             let dialogueId: string | undefined
             let sceneId: string | undefined
 
-            if (trackSeed.track.id === 'drama') {
+            if (trackIndex.id === 'drama') {
               modes = ['card', 'dialogue']
               defaultMode = 'card'
               dialogueId = stageSeed.id
-            } else if (trackSeed.track.id === 'travel') {
+            } else if (trackIndex.id === 'travel') {
               modes = ['card', 'scene']
               defaultMode = 'card'
               sceneId = stageSeed.id
@@ -177,7 +257,7 @@ export async function initializeDB() {
             stages.push({
               id: stageSeed.id,
               chapterId: chapterSeed.id,
-              trackId: trackSeed.track.id,
+              trackId: trackIndex.id,
               index: stageGlobalIndex,
               title: stageSeed.title,
               theme: stageSeed.theme,
@@ -200,20 +280,27 @@ export async function initializeDB() {
                     pos: wordData.pos,
                     meaning: wordData.meaning,
                     examples: wordData.examples,
+                    definition: wordData.definition,
+                    senses: wordData.senses,
+                    teachingExamples: wordData.teachingExamples,
+                    phrases: wordData.phrases,
+                    relatedWords: wordData.relatedWords,
+                    contentStatus: wordData.contentStatus,
                     roots: wordData.roots,
                     family: wordData.family,
+                    rootHint: wordData.rootHint,
                   }
                 : {
                     word: wordText,
                     phonetic: '',
                     pos: normalizePos(wordText),
-                    meaning: normalizeMeaning(wordText, trackSeed.track.name),
+                    meaning: normalizeMeaning(wordText, trackIndex.name),
                   }
 
               words.push({
                 id: `${stageSeed.id}-w${wordIdx + 1}`,
                 ...wordObj,
-                trackTags: [trackSeed.track.id],
+                trackTags: [trackIndex.id],
                 difficulty: toDifficulty(chapterSeed.level),
                 mastery: 0,
               })
