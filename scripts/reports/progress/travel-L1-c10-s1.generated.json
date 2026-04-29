@@ -1,0 +1,672 @@
+[
+  {
+    "word": "currency",
+    "phonetic": "[ˈkʌrənsi]",
+    "pos": "n.",
+    "meaning": "货币",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在某个国家或地区流通的钱",
+        "important": true,
+        "example": {
+          "en": "Can we pay in local currency?",
+          "zh": "我们可以用当地货币付款吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "兑换牌价里提到的币种名称",
+        "important": false,
+        "example": {
+          "en": "The board lists today's currency rates.",
+          "zh": "牌子上写着今天的货币汇率。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We withdrew some currency at the airport ATM.",
+        "zh": "我们在机场取款机取了点当地货币。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Keep small notes in local currency for buses and tips.",
+        "zh": "留点当地货币零钱乘公交车和给小费。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "foreign currency",
+        "meaning": "外币",
+        "example": {
+          "en": "Banks sell foreign currency at the counter.",
+          "zh": "银行柜台可以兑换外币。"
+        }
+      },
+      {
+        "phrase": "currency exchange",
+        "meaning": "货币兑换（机构或窗口）",
+        "example": {
+          "en": "The currency exchange near the station closes at eight.",
+          "zh": "车站附近的货币兑换点八点关门。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "cryptocurrency", "type": "family", "meaning": "加密货币（构词延伸）" },
+      { "word": "money", "type": "synonym", "meaning": "钱（口语）" },
+      { "word": "barter", "type": "antonym", "meaning": "以物易物（不用货币）" },
+      { "word": "country", "type": "confusable", "meaning": "国家（currency/country 音节易混）" }
+    ]
+  },
+  {
+    "word": "exchange",
+    "phonetic": "[ɪksˈtʃeɪndʒ]",
+    "pos": "n.; v.",
+    "meaning": "兑换；交换",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "把现金换成另一种货币",
+        "important": true,
+        "example": {
+          "en": "Where can we exchange euros for yen?",
+          "zh": "我们在哪里可以把欧元换成日元？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "提供兑换服务的机构或柜台",
+        "important": false,
+        "example": {
+          "en": "There is an exchange booth near the exit.",
+          "zh": "出口附近有一个兑换柜台。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We exchanged dollars at a fair rate.",
+        "zh": "我们以还算公道的汇率把美元换掉了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please keep your exchange receipt for the hotel deposit.",
+        "zh": "请保留兑换水单，酒店押金有时要核对。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exchange rate",
+        "meaning": "汇率",
+        "example": {
+          "en": "Check the exchange rate before you agree.",
+          "zh": "同意前先看清汇率。"
+        }
+      },
+      {
+        "phrase": "money exchange",
+        "meaning": "货币兑换处",
+        "example": {
+          "en": "The hotel desk will point you to a nearby money exchange.",
+          "zh": "酒店前台会指路去附近的货币兑换处。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "exchangeable", "type": "family", "meaning": "可兑换的" },
+      { "word": "swap", "type": "synonym", "meaning": "互换" },
+      { "word": "retain", "type": "antonym", "meaning": "保留原币（不换汇）" },
+      { "word": "excuse", "type": "confusable", "meaning": "借口（exchange/excuse）" }
+    ]
+  },
+  {
+    "word": "rate",
+    "phonetic": "[reɪt]",
+    "pos": "n.",
+    "meaning": "汇率；比率",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "两种货币之间的比价",
+        "important": true,
+        "example": {
+          "en": "The rate looks better at the bank than at the airport kiosk.",
+          "zh": "银行的汇率看起来比机场小亭子更划算。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "费用或服务的单价（按小时等）",
+        "important": false,
+        "example": {
+          "en": "The hourly rate includes tax.",
+          "zh": "每小时单价已含税。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask for the tourist rate at this counter.",
+        "zh": "在这个柜台问问旅行汇率。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Compare rates online before you travel.",
+        "zh": "出发前先在网上比较汇率。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exchange rate",
+        "meaning": "汇率",
+        "example": {
+          "en": "Write down the exchange rate you were offered.",
+          "zh": "把你拿到的汇率写下来。"
+        }
+      },
+      {
+        "phrase": "interest rate",
+        "meaning": "利率",
+        "example": {
+          "en": "The interest rate notice is pinned on the wall.",
+          "zh": "利率告示钉在墙上。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "rating", "type": "family", "meaning": "评级" },
+      { "word": "ratio", "type": "synonym", "meaning": "比例" },
+      { "word": "flat fee", "type": "antonym", "meaning": "固定费用（不按比率浮动）" },
+      { "word": "late", "type": "confusable", "meaning": "迟到（rate/late 元音不同）" }
+    ]
+  },
+  {
+    "word": "bank",
+    "phonetic": "[bæŋk]",
+    "pos": "n.",
+    "meaning": "银行",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "提供存取款与兑换服务的金融机构",
+        "important": true,
+        "example": {
+          "en": "The bank opens late on Saturdays.",
+          "zh": "这家银行周六开门较晚。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "河岸（旅行阅读中偶见）",
+        "important": false,
+        "example": {
+          "en": "We picnicked on the river bank.",
+          "zh": "我们在河岸上野餐。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Use a bank ATM if possible—it may be safer.",
+        "zh": "尽量用银行取款机——可能更安全。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Bring your passport to the bank counter for large withdrawals.",
+        "zh": "去银行柜台大额取款记得带护照。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bank branch",
+        "meaning": "银行网点",
+        "example": {
+          "en": "This bank branch handles currency orders by appointment.",
+          "zh": "这家网点可预约办理外币业务。"
+        }
+      },
+      {
+        "phrase": "bank card",
+        "meaning": "银行卡",
+        "example": {
+          "en": "Insert your bank card and choose English on screen.",
+          "zh": "插入银行卡并在屏幕上选择英文。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "banker", "type": "family", "meaning": "银行家" },
+      { "word": "credit union", "type": "synonym", "meaning": "信用社（同类机构）" },
+      { "word": "pawnshop", "type": "antonym", "meaning": "当铺（非正规银行体系）" },
+      { "word": "thank", "type": "confusable", "meaning": "感谢（bank/thank 韵脚易混）" }
+    ]
+  },
+  {
+    "word": "withdraw",
+    "phonetic": "[wɪðˈdrɔː]",
+    "pos": "v.",
+    "meaning": "取款；撤回",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "从账户中取出现金",
+        "important": true,
+        "example": {
+          "en": "I need to withdraw cash for the hostel deposit.",
+          "zh": "我需要取现金付青年旅舍押金。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "正式撤回声明或公告",
+        "important": false,
+        "example": {
+          "en": "They withdrew the faulty notice after complaints.",
+          "zh": "接到投诉后他们撤回了有问题的通知。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How much can I withdraw per day on this card?",
+        "zh": "这张卡我每天最多能取多少？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Withdraw smaller notes if the ATM lets you choose.",
+        "zh": "如果取款机可选面额，尽量取小面额纸币。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "withdraw cash",
+        "meaning": "取现金",
+        "example": {
+          "en": "You can withdraw cash at any branded ATM in this city.",
+          "zh": "在这座城市任意联网取款机都可以取现金。"
+        }
+      },
+      {
+        "phrase": "withdraw money",
+        "meaning": "取款",
+        "example": {
+          "en": "Fees may apply when you withdraw money abroad.",
+          "zh": "在国外取款可能产生手续费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "withdrawal", "type": "family", "meaning": "取款；撤回" },
+      { "word": "take out", "type": "synonym", "meaning": "取出（口语）" },
+      { "word": "deposit", "type": "antonym", "meaning": "存款" },
+      { "word": "withhold", "type": "confusable", "meaning": "扣留（withdraw/withhold）" }
+    ]
+  },
+  {
+    "word": "deposit",
+    "phonetic": "[dɪˈpɒzɪt]",
+    "pos": "n.; v.",
+    "meaning": "存款；押金",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "把钱存入账户",
+        "important": true,
+        "example": {
+          "en": "Can I deposit euros into this account at this branch?",
+          "zh": "我可以在这家网点把欧元存入这个账户吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "酒店入住时预收的押金",
+        "important": false,
+        "example": {
+          "en": "The hotel took a small key deposit at check-in.",
+          "zh": "入住时酒店收了少量钥匙押金。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep the deposit slip with your travel documents.",
+        "zh": "把存款回执和旅行证件放在一起。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Is the room deposit refundable when we leave early?",
+        "zh": "我们提前退房的话房租押金可以退吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "security deposit",
+        "meaning": "押金",
+        "example": {
+          "en": "The landlord returned our security deposit in cash.",
+          "zh": "房东用现金退还了我们的押金。"
+        }
+      },
+      {
+        "phrase": "cash deposit",
+        "meaning": "现金存款",
+        "example": {
+          "en": "The cash deposit limit is posted on the machine.",
+          "zh": "机器上贴着现金存款限额。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "depositor", "type": "family", "meaning": "存款人" },
+      { "word": "save", "type": "synonym", "meaning": "存钱（口语）" },
+      { "word": "withdraw", "type": "antonym", "meaning": "取款" },
+      { "word": "disposal", "type": "confusable", "meaning": "处理（deposit/disposal 拼写易混）" }
+    ]
+  },
+  {
+    "word": "convert",
+    "phonetic": "[kənˈvɜːt]",
+    "pos": "v.",
+    "meaning": "兑换；转换",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "把一种货币换成另一种",
+        "important": true,
+        "example": {
+          "en": "We can convert pounds to dollars at this desk.",
+          "zh": "我们可以在这个柜台把英镑换成美元。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "改变计量单位或格式",
+        "important": false,
+        "example": {
+          "en": "Apps convert kilometres to miles in one tap.",
+          "zh": "应用能一键把公里换成英里。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How much foreign cash will you convert today?",
+        "zh": "你今天打算换多少外币现金？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "They converted our refund to store credit without asking.",
+        "zh": "他们没问过就把退款转成了商店积分。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "convert currency",
+        "meaning": "兑换货币",
+        "example": {
+          "en": "Convert currency before the bureau closes for the weekend.",
+          "zh": "兑换处在周末关门前先把货币换好。"
+        }
+      },
+      {
+        "phrase": "convert to cash",
+        "meaning": "换成现金",
+        "example": {
+          "en": "Some vouchers convert to cash at the customer desk.",
+          "zh": "有些券可在服务柜台换成现金。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "conversion", "type": "family", "meaning": "兑换；换算" },
+      { "word": "exchange", "type": "synonym", "meaning": "兑换" },
+      { "word": "keep", "type": "antonym", "meaning": "保留原样（不换算）" },
+      { "word": "concert", "type": "confusable", "meaning": "音乐会（convert/concert）" }
+    ]
+  },
+  {
+    "word": "fee",
+    "phonetic": "[fiː]",
+    "pos": "n.",
+    "meaning": "手续费；费用",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "银行或兑换点收取的服务费",
+        "important": true,
+        "example": {
+          "en": "What is the ATM fee for foreign cards?",
+          "zh": "外国卡在这台取款机的手续费是多少？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "某项服务的固定收费",
+        "important": false,
+        "example": {
+          "en": "There is a small fee for same-day currency delivery.",
+          "zh": "当日送外币要收一点费用。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The fee seems high—let's compare two counters.",
+        "zh": "手续费看起来偏高——我们比较两个柜台。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Ask whether the fee includes tax.",
+        "zh": "问问费用是否含税。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "service fee",
+        "meaning": "服务费",
+        "example": {
+          "en": "The receipt lists the service fee in bold.",
+          "zh": "收据用粗体标出服务费。"
+        }
+      },
+      {
+        "phrase": "transaction fee",
+        "meaning": "交易手续费",
+        "example": {
+          "en": "Budget apps often highlight the transaction fee.",
+          "zh": "记账类应用常会突出显示交易手续费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "fee-paying", "type": "family", "meaning": "付费的" },
+      { "word": "charge", "type": "synonym", "meaning": "收费" },
+      { "word": "free of charge", "type": "antonym", "meaning": "免费" },
+      { "word": "feed", "type": "confusable", "meaning": "喂养（fee/feed）" }
+    ]
+  },
+  {
+    "word": "transaction",
+    "phonetic": "[trænˈzækʃn]",
+    "pos": "n.",
+    "meaning": "交易；流水",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "刷卡或转账产生的一条记录",
+        "important": true,
+        "example": {
+          "en": "This card transaction failed twice at the hotel POS.",
+          "zh": "这笔刷卡交易在酒店收银机上失败了两次。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "买卖或兑换等正式交易行为",
+        "important": false,
+        "example": {
+          "en": "Keep proof for each currency transaction over this limit.",
+          "zh": "超过此限额的每笔货币兑换都要留凭证。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Check recent transactions before you report the card lost.",
+        "zh": "挂失前先核对近期交易记录。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Large transactions may require your passport copy.",
+        "zh": "大额交易可能需要护照复印件。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "card transaction",
+        "meaning": "刷卡交易",
+        "example": {
+          "en": "The card transaction shows the amount in euros.",
+          "zh": "刷卡交易金额以欧元显示。"
+        }
+      },
+      {
+        "phrase": "bank transaction",
+        "meaning": "银行交易",
+        "example": {
+          "en": "Each overseas bank transaction may carry its own fee.",
+          "zh": "每笔境外银行交易可能单独计费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "transact", "type": "family", "meaning": "办理交易" },
+      { "word": "deal", "type": "synonym", "meaning": "交易（口语）" },
+      { "word": "donation", "type": "antonym", "meaning": "无偿捐赠（非对等交易结算）" },
+      { "word": "translation", "type": "confusable", "meaning": "翻译（transaction/translation）" }
+    ]
+  },
+  {
+    "word": "foreign",
+    "phonetic": "[ˈfɒrən]",
+    "pos": "adj.",
+    "meaning": "外国的；外币的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "来自其他国家",
+        "important": true,
+        "example": {
+          "en": "Foreign visitors should carry proof of insurance.",
+          "zh": "外国游客应随身携带保险凭证。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "外币的（常见于银行卡与兑换语境）",
+        "important": false,
+        "example": {
+          "en": "Insert your foreign card and pick a language you read fluently.",
+          "zh": "插入外币卡并选择你读得最顺的语言。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Does this terminal accept foreign chip cards?",
+        "zh": "这台终端收外币芯片卡吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Count foreign banknotes twice at busy counters.",
+        "zh": "在繁忙柜台点数外币钞票要数两遍。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "foreign currency",
+        "meaning": "外币",
+        "example": {
+          "en": "We brought a little foreign currency from home for taxis.",
+          "zh": "我们从国内带了一点外币打车用。"
+        }
+      },
+      {
+        "phrase": "foreign exchange",
+        "meaning": "外汇；外币兑换",
+        "example": {
+          "en": "Compare foreign exchange counters before you queue.",
+          "zh": "排队前先比较几家外币兑换点。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "foreigner", "type": "family", "meaning": "外国人" },
+      { "word": "overseas", "type": "synonym", "meaning": "海外的" },
+      { "word": "domestic", "type": "antonym", "meaning": "国内的" },
+      { "word": "forest", "type": "confusable", "meaning": "森林（foreign/forest）" }
+    ]
+  }
+]

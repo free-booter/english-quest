@@ -38,6 +38,7 @@ interface WordData {
   roots?: string
   family?: string[]
   rootHint?: string
+  memoryAid?: string
 }
 
 interface StageSeed {

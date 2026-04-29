@@ -1,0 +1,832 @@
+[
+  {
+    "word": "total",
+    "phonetic": "[ˈtəʊtl]",
+    "pos": "n.; adj.",
+    "meaning": "总额；总计",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "账单或消费的合计金额",
+        "important": true,
+        "example": {
+          "en": "The total includes tax and service.",
+          "zh": "总额包含税费和服务费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "整体的、全部的（形容词）",
+        "important": false,
+        "example": {
+          "en": "What is the total travel time by train?",
+          "zh": "坐火车全程一共要多久？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Check the total before you tap your card.",
+        "zh": "刷卡前核对总额。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The printed total on the receipt looks wrong.",
+        "zh": "收据上打印的总额好像不对。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "grand total",
+        "meaning": "总计（含各项）",
+        "example": {
+          "en": "The receipt shows a clear grand total at the bottom.",
+          "zh": "收据底部有一个清楚的总计。"
+        }
+      },
+      {
+        "phrase": "total amount",
+        "meaning": "总金额",
+        "example": {
+          "en": "Enter the total amount on the payment form.",
+          "zh": "在付款单上填写总金额。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "totally",
+        "type": "family",
+        "meaning": "完全地"
+      },
+      {
+        "word": "sum",
+        "type": "synonym",
+        "meaning": "总和"
+      },
+      {
+        "word": "partial",
+        "type": "antonym",
+        "meaning": "部分的"
+      },
+      {
+        "word": "turtle",
+        "type": "confusable",
+        "meaning": "海龟（音节易混 total/turtle）"
+      }
+    ]
+  },
+  {
+    "word": "split",
+    "phonetic": "[splɪt]",
+    "pos": "v.; n.",
+    "meaning": "分摊；分开",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "AA 制或与同伴分摊费用",
+        "important": true,
+        "example": {
+          "en": "Let’s split the dinner bill evenly.",
+          "zh": "我们把晚餐账单平摊吧。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "把整体分成几部分",
+        "important": false,
+        "example": {
+          "en": "We split into two taxis at the hotel door.",
+          "zh": "我们在酒店门口分成两辆出租车。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Apps help you split costs with friends abroad.",
+        "zh": "出国时可以用应用和朋友分摊费用。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Split large notes at the front desk if you need change.",
+        "zh": "需要零钱时可在前台把大钞拆开。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "split the bill",
+        "meaning": "分摊账单",
+        "example": {
+          "en": "Travellers often split the bill fairly at restaurants.",
+          "zh": "旅客在餐厅常公平分摊账单。"
+        }
+      },
+      {
+        "phrase": "split payment",
+        "meaning": "分笔或分期付款",
+        "example": {
+          "en": "The shop allows split payment by two cards.",
+          "zh": "这家店允许用两张卡分笔付款。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "splitter",
+        "type": "family",
+        "meaning": "分割者"
+      },
+      {
+        "word": "share",
+        "type": "synonym",
+        "meaning": "分摊；分担"
+      },
+      {
+        "word": "cover",
+        "type": "antonym",
+        "meaning": "请客全付（相对分摊）"
+      },
+      {
+        "word": "spirit",
+        "type": "confusable",
+        "meaning": "精神（split/spirit 韵脚）"
+      }
+    ]
+  },
+  {
+    "word": "include",
+    "phonetic": "[ɪnˈkluːd]",
+    "pos": "v.",
+    "meaning": "包含",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "价格或服务中含有某项",
+        "important": true,
+        "example": {
+          "en": "Does the fare include checked luggage?",
+          "zh": "票价包含托运行李吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "把某人或某物算在名单或范围内",
+        "important": false,
+        "example": {
+          "en": "Please include me on the group ticket list.",
+          "zh": "团体票名单请把我也算进去。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Breakfast may not include drinks—check the menu.",
+        "zh": "早餐可能不包含饮品——看清菜单。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Read carefully what the tour package includes.",
+        "zh": "看清楚旅行套餐包含哪些项目。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tax included",
+        "meaning": "含税",
+        "example": {
+          "en": "The menu says prices are tax included.",
+          "zh": "菜单上标价已含税。"
+        }
+      },
+      {
+        "phrase": "service included",
+        "meaning": "含服务费",
+        "example": {
+          "en": "Ask whether service included is printed on the bill.",
+          "zh": "问问账单上是否标明含服务费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "including",
+        "type": "family",
+        "meaning": "包括"
+      },
+      {
+        "word": "contain",
+        "type": "synonym",
+        "meaning": "包含"
+      },
+      {
+        "word": "exclude",
+        "type": "antonym",
+        "meaning": "不包含"
+      },
+      {
+        "word": "increase",
+        "type": "confusable",
+        "meaning": "增加（include/increase）"
+      }
+    ]
+  },
+  {
+    "word": "exclude",
+    "phonetic": "[ɪkˈskluːd]",
+    "pos": "v.",
+    "meaning": "不包含；排除",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "明确不在套餐、标价或优惠内",
+        "important": true,
+        "example": {
+          "en": "This deal excludes alcoholic drinks.",
+          "zh": "此优惠不包含酒精饮料。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "不让进入（安检、场馆规则）",
+        "important": false,
+        "example": {
+          "en": "Oversized luggage may exclude you from this entrance.",
+          "zh": "超大行李可能不能从这个入口进。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Tips are excluded from the printed price.",
+        "zh": "标价不含小费。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Excluded items are listed in the fine print.",
+        "zh": "不包含的项目用小字列出。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "exclude tax",
+        "meaning": "不含税",
+        "example": {
+          "en": "Some shops quote prices that exclude tax.",
+          "zh": "有些店的标价不含税。"
+        }
+      },
+      {
+        "phrase": "terms and exclusions",
+        "meaning": "条款与除外项目",
+        "example": {
+          "en": "Read terms and exclusions before you pay.",
+          "zh": "付款前阅读条款与除外项目。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "exclusion",
+        "type": "family",
+        "meaning": "除外；除外条款"
+      },
+      {
+        "word": "omit",
+        "type": "synonym",
+        "meaning": "省略未列入"
+      },
+      {
+        "word": "include",
+        "type": "antonym",
+        "meaning": "包含"
+      },
+      {
+        "word": "excuse",
+        "type": "confusable",
+        "meaning": "借口（exclude/excuse）"
+      }
+    ]
+  },
+  {
+    "word": "service",
+    "phonetic": "[ˈsɜːvɪs]",
+    "pos": "n.",
+    "meaning": "服务；服务费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "餐厅等加收的服务费（常按比例）",
+        "important": true,
+        "example": {
+          "en": "Service is ten percent at this café.",
+          "zh": "这家咖啡馆加收百分之十服务费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "服务质量意义上的接待与帮助",
+        "important": false,
+        "example": {
+          "en": "The hotel service was fast and polite.",
+          "zh": "酒店服务又快又有礼貌。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask if the service charge is optional.",
+        "zh": "问问服务费是否可以不加。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Good service deserves a fair tip when allowed.",
+        "zh": "当地允许时，服务好就该给合适小费。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "service charge",
+        "meaning": "服务费",
+        "example": {
+          "en": "The receipt prints the service charge separately.",
+          "zh": "收据上单列服务费。"
+        }
+      },
+      {
+        "phrase": "room service",
+        "meaning": "客房送餐",
+        "example": {
+          "en": "We ordered room service after a long flight.",
+          "zh": "长途飞行后我们叫了客房送餐。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "serve",
+        "type": "family",
+        "meaning": "服务；端上"
+      },
+      {
+        "word": "assistance",
+        "type": "synonym",
+        "meaning": "帮助；协助"
+      },
+      {
+        "word": "self-service",
+        "type": "antonym",
+        "meaning": "自助（相对人工服务）"
+      },
+      {
+        "word": "surface",
+        "type": "confusable",
+        "meaning": "表面（service/surface）"
+      }
+    ]
+  },
+  {
+    "word": "charge",
+    "phonetic": "[tʃɑːdʒ]",
+    "pos": "n.; v.",
+    "meaning": "收费；刷卡扣款",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "收取的费用、附加费",
+        "important": true,
+        "example": {
+          "en": "There is no charge for tap water here.",
+          "zh": "这里白水不另收费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "向卡或账户扣款（动词）",
+        "important": false,
+        "example": {
+          "en": "They charged my card in euros at checkout.",
+          "zh": "结账时用欧元从我的卡里扣款。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask why the bank charged two separate fees.",
+        "zh": "问问银行为何收了两笔费用。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Late checkout may carry an extra charge.",
+        "zh": "延迟退房可能加收费用。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "extra charge",
+        "meaning": "额外收费",
+        "example": {
+          "en": "Wi‑Fi sometimes carries an extra charge in hotels.",
+          "zh": "酒店 Wi‑Fi 有时会额外收费。"
+        }
+      },
+      {
+        "phrase": "charge a fee",
+        "meaning": "收取费用",
+        "example": {
+          "en": "Some lockers charge a fee per hour.",
+          "zh": "有些寄存柜按小时收费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "chargeable",
+        "type": "family",
+        "meaning": "可收费的"
+      },
+      {
+        "word": "fee",
+        "type": "synonym",
+        "meaning": "费用"
+      },
+      {
+        "word": "complimentary",
+        "type": "antonym",
+        "meaning": "免费赠送"
+      },
+      {
+        "word": "change",
+        "type": "confusable",
+        "meaning": "改变；零钱（charge/change）"
+      }
+    ]
+  },
+  {
+    "word": "calculate",
+    "phonetic": "[ˈkælkjuleɪt]",
+    "pos": "v.",
+    "meaning": "计算",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "算出金额、小费或分摊份额",
+        "important": true,
+        "example": {
+          "en": "We calculated the tip from the bill total.",
+          "zh": "我们按账单总额算了小费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "估算时间、路程或预算",
+        "important": false,
+        "example": {
+          "en": "Calculate travel time before you book the ticket.",
+          "zh": "订票前先估算路程时间。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Currency apps calculate rates for you.",
+        "zh": "汇率应用可以替你换算。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Double-check when you calculate split bills in a noisy bar.",
+        "zh": "酒吧里吵，分摊账单要再算一遍。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "calculate the total",
+        "meaning": "计算总额",
+        "example": {
+          "en": "Let’s calculate the total before we leave.",
+          "zh": "走之前我们一起算总额。"
+        }
+      },
+      {
+        "phrase": "calculate tax",
+        "meaning": "计算税额",
+        "example": {
+          "en": "The counter can help you calculate tax refunds.",
+          "zh": "柜台人员可以帮你算退税金额。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "calculation",
+        "type": "family",
+        "meaning": "计算；演算结果"
+      },
+      {
+        "word": "compute",
+        "type": "synonym",
+        "meaning": "计算（较正式）"
+      },
+      {
+        "word": "guess",
+        "type": "antonym",
+        "meaning": "凭感觉猜（相对细算）"
+      },
+      {
+        "word": "calendar",
+        "type": "confusable",
+        "meaning": "日历（calculate/calendar）"
+      }
+    ]
+  },
+  {
+    "word": "invoice",
+    "phonetic": "[ˈɪnvɔɪs]",
+    "pos": "n.",
+    "meaning": "发票；账单明细",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商家出具的付款或报销凭证",
+        "important": true,
+        "example": {
+          "en": "Email me the invoice for my expense claim.",
+          "zh": "把发票发到邮箱，我要报销。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "列明项目与金额的明细单",
+        "important": false,
+        "example": {
+          "en": "Check each line on the hotel invoice carefully.",
+          "zh": "仔细核对酒店发票上的每一行。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep invoices when you might need a warranty.",
+        "zh": "可能要保修时务必保留发票。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The invoice lists VAT as a separate line.",
+        "zh": "发票上单列增值税一项。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tax invoice",
+        "meaning": "税务发票",
+        "example": {
+          "en": "Ask for a tax invoice at checkout if you need one.",
+          "zh": "需要的话在结账时要税务发票。"
+        }
+      },
+      {
+        "phrase": "pay an invoice",
+        "meaning": "支付发票款项",
+        "example": {
+          "en": "You can pay an invoice by bank transfer.",
+          "zh": "你可以用银行转账支付发票。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "invoicing",
+        "type": "family",
+        "meaning": "开具发票"
+      },
+      {
+        "word": "receipt",
+        "type": "synonym",
+        "meaning": "收据（常更简单）"
+      },
+      {
+        "word": "estimate",
+        "type": "antonym",
+        "meaning": "估价单（未最终确认）"
+      },
+      {
+        "word": "voice",
+        "type": "confusable",
+        "meaning": "声音（invoice/voice）"
+      }
+    ]
+  },
+  {
+    "word": "payment",
+    "phonetic": "[ˈpeɪmənt]",
+    "pos": "n.",
+    "meaning": "付款；支付",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "完成购物或服务结账的支付",
+        "important": true,
+        "example": {
+          "en": "Contactless payment works on this airport bus.",
+          "zh": "机场大巴支持非接触支付。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "分期或约定方式的付款",
+        "important": false,
+        "example": {
+          "en": "We agreed on payment in two instalments.",
+          "zh": "我们约定分两期付款。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Confirm the payment went through before you leave.",
+        "zh": "离开前确认付款已成功。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Failed payments sometimes freeze your card.",
+        "zh": "支付失败有时会导致卡被暂时冻结。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "payment method",
+        "meaning": "付款方式",
+        "example": {
+          "en": "Which payment method do you prefer—card or mobile?",
+          "zh": "你偏好哪种付款方式——卡还是手机？"
+        }
+      },
+      {
+        "phrase": "make a payment",
+        "meaning": "付款",
+        "example": {
+          "en": "You can make a payment at the self-service kiosk.",
+          "zh": "你可以在自助机上付款。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "pay",
+        "type": "family",
+        "meaning": "支付"
+      },
+      {
+        "word": "purchase",
+        "type": "synonym",
+        "meaning": "购买（含付款）"
+      },
+      {
+        "word": "refund",
+        "type": "antonym",
+        "meaning": "退款（资金流向相反）"
+      },
+      {
+        "word": "pavement",
+        "type": "confusable",
+        "meaning": "人行道（payment/pavement）"
+      }
+    ]
+  },
+  {
+    "word": "balance",
+    "phonetic": "[ˈbæləns]",
+    "pos": "n.",
+    "meaning": "余额；结余",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "银行卡或账户剩余金额",
+        "important": true,
+        "example": {
+          "en": "Check your balance before a long trip.",
+          "zh": "长途出行前查一下账户余额。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "账单上尚未付清的差额",
+        "important": false,
+        "example": {
+          "en": "The remaining balance is due at checkout.",
+          "zh": "剩余差额在退房时付清。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Low-balance alerts help you avoid surprise fees.",
+        "zh": "余额提醒能帮你避免意外手续费。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Some ATMs show your balance after withdrawal.",
+        "zh": "有些取款机取款后会显示余额。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "account balance",
+        "meaning": "账户余额",
+        "example": {
+          "en": "The ATM screen shows your account balance.",
+          "zh": "取款机屏幕上显示账户余额。"
+        }
+      },
+      {
+        "phrase": "outstanding balance",
+        "meaning": "未结余额",
+        "example": {
+          "en": "Pay the outstanding balance at the front desk.",
+          "zh": "在前台支付未结余额。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "balanced",
+        "type": "family",
+        "meaning": "平衡的"
+      },
+      {
+        "word": "remainder",
+        "type": "synonym",
+        "meaning": "剩余部分"
+      },
+      {
+        "word": "zero balance",
+        "type": "antonym",
+        "meaning": "零余额"
+      },
+      {
+        "word": "valance",
+        "type": "confusable",
+        "meaning": "帷幔（balance/valance）"
+      }
+    ]
+  }
+]

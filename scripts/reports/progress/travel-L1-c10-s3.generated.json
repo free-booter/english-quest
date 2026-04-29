@@ -1,0 +1,676 @@
+[
+  {
+    "word": "cash",
+    "phonetic": "[kæʃ]",
+    "pos": "n.; vt.",
+    "meaning": "现金；兑现（支票等）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "纸币与硬币形式的现款（相对刷卡）",
+        "important": true,
+        "example": {
+          "en": "Some rural guesthouses only take cash on arrival.",
+          "zh": "有些乡间民宿入住时只收现金。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：把支票等换成现金",
+        "important": false,
+        "example": {
+          "en": "Travelers rarely need to cash traveler’s checks nowadays.",
+          "zh": "如今旅客很少需要兑现旅行支票了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Split your cash across pockets so losing one wallet does not ruin the trip.",
+        "zh": "把现金分开放几处口袋，免得丢一个钱包就毁掉行程。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pay in cash",
+        "meaning": "用现金支付",
+        "example": {
+          "en": "Street vendors often ask you to pay in cash.",
+          "zh": "路边摊常会请你付现金。"
+        }
+      },
+      {
+        "phrase": "cash only",
+        "meaning": "仅收现金",
+        "example": {
+          "en": "The window showed a cash only sign in bold letters.",
+          "zh": "窗口贴着醒目的“仅收现金”。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "card",
+        "type": "confusable",
+        "meaning": "刷卡支付（与现金对照）"
+      },
+      {
+        "word": "ATM",
+        "type": "family",
+        "meaning": "取款机（取现金）"
+      }
+    ]
+  },
+  {
+    "word": "coin",
+    "phonetic": "[kɔɪn]",
+    "pos": "n.; vt.",
+    "meaning": "硬币；（动词）杜撰（词语）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "金属铸成的辅币",
+        "important": true,
+        "example": {
+          "en": "Keep coins for metro gates and public toilets.",
+          "zh": "留些硬币乘地铁闸机和付公厕费用。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：创造新说法（较少见于行程用语）",
+        "important": false,
+        "example": {
+          "en": "Guidebooks coin catchy nicknames for crowded viewpoints.",
+          "zh": "攻略书会给拥挤观景台杜撰好记的绰号。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Vending machines may reject bent or foreign coins.",
+        "zh": "自动售货机可能拒收弯折或外币硬币。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "loose change / small change",
+        "meaning": "零钱",
+        "example": {
+          "en": "Count your small change before leaving the checkout counter.",
+          "zh": "离开收银台前点清找零。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "note",
+        "type": "family",
+        "meaning": "纸币（与硬币相对，英式尤用）"
+      },
+      {
+        "word": "token",
+        "type": "confusable",
+        "meaning": "代币（地铁等）"
+      }
+    ]
+  },
+  {
+    "word": "note",
+    "phonetic": "[nəʊt]",
+    "pos": "n.",
+    "meaning": "纸币（英式）；便条；笔记",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（英式）面值纸币，相当于 bill（美式）",
+        "important": true,
+        "example": {
+          "en": "He handed over a twenty-pound note for the taxi fare.",
+          "zh": "他递了一张二十英镑纸币付车费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "简短笔记或备忘",
+        "important": false,
+        "example": {
+          "en": "She kept a note of daily expenses in her phone.",
+          "zh": "她在手机里记下每日开销备忘。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "In London shops prices often assume you know pound notes and coins.",
+        "zh": "在伦敦商店标价默认你分得清英镑纸币与硬币。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "five-pound note",
+        "meaning": "五英镑纸币",
+        "example": {
+          "en": "The baker broke a ten-pound note into two fives.",
+          "zh": "面包师把一张十镑纸币换成两张五镑。"
+        }
+      },
+      {
+        "phrase": "banknote",
+        "meaning": "钞票（通用说法）",
+        "example": {
+          "en": "Inspect banknotes for security threads when changing money.",
+          "zh": "换钞时留意纸币上的防伪线。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "bill",
+        "type": "synonym",
+        "meaning": "纸币（美式常用）"
+      },
+      {
+        "word": "cash",
+        "type": "family",
+        "meaning": "现金（含纸币硬币）"
+      }
+    ]
+  },
+  {
+    "word": "budget",
+    "phonetic": "[ˈbʌdʒɪt]",
+    "pos": "n.; v.; adj.",
+    "meaning": "预算；（动词）编预算；经济实惠的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "为旅行或项目设定的可支配金额上限",
+        "important": true,
+        "example": {
+          "en": "Our daily budget covers hostel beds and simple meals.",
+          "zh": "我们每日预算含青旅床位和简餐。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：规划开支",
+        "important": false,
+        "example": {
+          "en": "They budgeted extra for trains but not for souvenirs.",
+          "zh": "他们给火车多留了预算，纪念品却没留。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "形容词：廉价档（budget airline 等）",
+        "important": false,
+        "example": {
+          "en": "A budget carrier may charge for checked bags.",
+          "zh": "廉航可能对托运行李单独收费。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Round up trip costs in a spreadsheet before you book flights.",
+        "zh": "订机票前用表格把行程花费往上取整估算。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on a tight budget",
+        "meaning": "预算很紧",
+        "example": {
+          "en": "Backpackers on a tight budget cook at hostels.",
+          "zh": "预算紧的背包客常在青旅自己做饭。"
+        }
+      },
+      {
+        "phrase": "budget for",
+        "meaning": "为……留出预算",
+        "example": {
+          "en": "Budget for visas and travel insurance up front.",
+          "zh": "事先为签证和旅行保险留出预算。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "expense",
+        "type": "family",
+        "meaning": "开支（预算管理的对象）"
+      },
+      {
+        "word": "splurge",
+        "type": "confusable",
+        "meaning": "超出预算的挥霍一把"
+      }
+    ]
+  },
+  {
+    "word": "spend",
+    "phonetic": "[spend]",
+    "pos": "v.",
+    "meaning": "花费（金钱或时间）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用钱购买或支付",
+        "important": true,
+        "example": {
+          "en": "We spent more on trains than on hotels this week.",
+          "zh": "这周我们在火车上花的比住宿还多。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "度过（时间）",
+        "important": false,
+        "example": {
+          "en": "They spent three days hiking instead of shopping.",
+          "zh": "他们用三天徒步替代逛街。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Track what you spend at airports—food prices jump there.",
+        "zh": "留意在机场花了多少——那里餐饮往往涨价。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spend money on",
+        "meaning": "把钱花在……上",
+        "example": {
+          "en": "Do not spend all your money on the first souvenir stall.",
+          "zh": "别在第一家纪念品摊把钱花光。"
+        }
+      },
+      {
+        "phrase": "overspend",
+        "meaning": "超支",
+        "example": {
+          "en": "It is easy to overspend when the hotel minibar is unlocked.",
+          "zh": "迷你吧未上锁时很容易超支。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "save",
+        "type": "confusable",
+        "meaning": "节省（与 spend 相对）"
+      },
+      {
+        "word": "expense",
+        "type": "family",
+        "meaning": "开支名词形式"
+      }
+    ]
+  },
+  {
+    "word": "save",
+    "phonetic": "[seɪv]",
+    "pos": "v.",
+    "meaning": "节省；储蓄；挽救",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "少花钱、保留资金",
+        "important": true,
+        "example": {
+          "en": "Taking night buses can save a night’s hotel cost.",
+          "zh": "坐夜班大巴能省一晚住宿费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "把钱存起来以备后用",
+        "important": false,
+        "example": {
+          "en": "She saves a little each month for a longer trip next year.",
+          "zh": "她每月存一点为明年更长的旅行做准备。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Cooking lunch saves money compared with cafés near museums.",
+        "zh": "自带午餐比博物馆旁咖啡馆省得多。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "save on",
+        "meaning": "在……上省钱",
+        "example": {
+          "en": "Book early to save on peak-season flights.",
+          "zh": "提早预订可在旺季机票上省钱。"
+        }
+      },
+      {
+        "phrase": "save up",
+        "meaning": "攒钱",
+        "example": {
+          "en": "They saved up for six months before flying overseas.",
+          "zh": "他们攒了六个月钱才出国飞。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "spend",
+        "type": "confusable",
+        "meaning": "花费"
+      },
+      {
+        "word": "economize",
+        "type": "synonym",
+        "meaning": "精打细算"
+      }
+    ]
+  },
+  {
+    "word": "afford",
+    "phonetic": "[əˈfɔːd]",
+    "pos": "v.",
+    "meaning": "买得起；承担得起（后果或时间）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "有足够的钱支付",
+        "important": true,
+        "example": {
+          "en": "We could not afford a sea-view room on this route.",
+          "zh": "在这条线路上我们住不起海景房。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "抽得出（时间、精力）",
+        "important": false,
+        "example": {
+          "en": "If you can afford an extra day, visit the nearby lake.",
+          "zh": "若能多待一天，不妨去附近的湖。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Compare fares until you find a seat you can afford.",
+        "zh": "多比价直到找到买得起的座位。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "can’t afford",
+        "meaning": "负担不起",
+        "example": {
+          "en": "They skipped the tour because they could not afford the fee.",
+          "zh": "他们因付不起团费而没去跟团游。"
+        }
+      },
+      {
+        "phrase": "afford to",
+        "meaning": "有本钱去做（常接动词）",
+        "example": {
+          "en": "Do not afford to lose your passport—keep a scan offline.",
+          "zh": "护照丢不起——离线保存扫描件。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "budget",
+        "type": "family",
+        "meaning": "预算（决定能否 afford）"
+      },
+      {
+        "word": "splurge",
+        "type": "confusable",
+        "meaning": "咬牙奢侈一回"
+      }
+    ]
+  },
+  {
+    "word": "cost",
+    "phonetic": "[kɒst]",
+    "pos": "n.; v.",
+    "meaning": "费用；价钱；（动词）花费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "需要支付的金额",
+        "important": true,
+        "example": {
+          "en": "The total cost included taxes and resort fees.",
+          "zh": "总费用已含税费和度假村费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：使花费（金钱或代价）",
+        "important": false,
+        "example": {
+          "en": "That delay cost us a connecting flight.",
+          "zh": "那次延误让我们误了衔接航班。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask whether breakfast is included or adds to the nightly cost.",
+        "zh": "问清楚早餐是否包含在每晚房费里。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the cost of",
+        "meaning": "以……为代价",
+        "example": {
+          "en": "They arrived early at the cost of sleep.",
+          "zh": "他们牺牲了睡眠才提早抵达。"
+        }
+      },
+      {
+        "phrase": "cost-effective",
+        "meaning": "划算的",
+        "example": {
+          "en": "A rail pass is cost-effective if you ride often.",
+          "zh": "若经常坐火车，通票更划算。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "price",
+        "type": "synonym",
+        "meaning": "标价（常与 cost 换用）"
+      },
+      {
+        "word": "fee",
+        "type": "family",
+        "meaning": "手续费、服务费"
+      }
+    ]
+  },
+  {
+    "word": "value",
+    "phonetic": "[ˈvæljuː]",
+    "pos": "n.; v.",
+    "meaning": "价值；性价比；（动词）重视",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "物有所值、划算程度",
+        "important": true,
+        "example": {
+          "en": "That guesthouse was great value for the quiet neighborhood.",
+          "zh": "那家民宿在安静街区算是物超所值。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "名词：抽象价值；动词：珍惜",
+        "important": false,
+        "example": {
+          "en": "Travelers value flexible tickets when plans change often.",
+          "zh": "行程常变的旅客看中可改签机票。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Read reviews to judge value, not just star ratings.",
+        "zh": "看点评判断性价比，别只看星级。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "good value",
+        "meaning": "划算；物有所值",
+        "example": {
+          "en": "Street lunch stalls were good value near the station.",
+          "zh": "车站旁的路边午餐摊很划算。"
+        }
+      },
+      {
+        "phrase": "value for money",
+        "meaning": "钱花得值",
+        "example": {
+          "en": "Host guests seek value for money on long routes.",
+          "zh": "长途旅人更看重钱花得值。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "worth",
+        "type": "synonym",
+        "meaning": "值得（be worth it）"
+      },
+      {
+        "word": "cost",
+        "type": "family",
+        "meaning": "成本（与价值对照）"
+      }
+    ]
+  },
+  {
+    "word": "expense",
+    "phonetic": "[ɪkˈspens]",
+    "pos": "n.",
+    "meaning": "开支；费用；（常用复）报销支出",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "实际花出的钱款",
+        "important": true,
+        "example": {
+          "en": "Visa fees were an unexpected expense before departure.",
+          "zh": "出发前签证费是一笔没想到的开支。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "复数 expenses：各项费用总称或报销单据",
+        "important": false,
+        "example": {
+          "en": "Keep receipts if your company covers travel expenses.",
+          "zh": "若公司报销差旅，请保留收据。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Track small expenses—they add up across a two-week trip.",
+        "zh": "记下小额开支——两周行程里会积少成多。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the expense of",
+        "meaning": "以损害……为代价",
+        "example": {
+          "en": "He saved money at the expense of comfort on overnight buses.",
+          "zh": "他坐夜班大巴省钱却以舒适度为代价。"
+        }
+      },
+      {
+        "phrase": "living expenses",
+        "meaning": "生活开销",
+        "example": {
+          "en": "Students estimate living expenses before choosing a city base.",
+          "zh": "学生在选定旅居城市前先估算生活开销。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "spend",
+        "type": "family",
+        "meaning": "动词“花费”"
+      },
+      {
+        "word": "budget",
+        "type": "family",
+        "meaning": "预算（控制 expense）"
+      }
+    ]
+  }
+]

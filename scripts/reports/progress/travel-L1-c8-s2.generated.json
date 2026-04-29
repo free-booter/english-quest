@@ -1,0 +1,782 @@
+[
+  {
+    "word": "tour",
+    "phonetic": "[tʊə(r)]",
+    "pos": "n. & v.",
+    "meaning": "游览；观光；参加导览",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "有组织的参观活动或线路",
+        "important": true,
+        "example": {
+          "en": "We booked a city tour for the afternoon.",
+          "zh": "我们预定了下午的城市观光。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：在某地游览一圈",
+        "important": false,
+        "example": {
+          "en": "Let's tour the palace gardens before closing.",
+          "zh": "关门前去宫里花园逛一圈吧。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The guided tour starts at the main entrance.",
+        "zh": "导览团从主入口出发。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Do we need tickets for the museum tour?",
+        "zh": "参观博物馆的导览需要买票吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "guided tour",
+        "meaning": "有导游讲解的参观",
+        "example": {
+          "en": "A guided tour explains the history of the ruins.",
+          "zh": "导游讲解会介绍遗迹的历史。"
+        }
+      },
+      {
+        "phrase": "day tour",
+        "meaning": "一日游",
+        "example": {
+          "en": "We took a day tour to the national park.",
+          "zh": "我们参加了一日游去国家公园。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "tourism",
+        "type": "family",
+        "meaning": "旅游业；观光业"
+      },
+      {
+        "word": "visit",
+        "type": "synonym",
+        "meaning": "参观；访问"
+      },
+      {
+        "word": "trip",
+        "type": "confusable",
+        "meaning": "（泛指出行）旅行，未必是导览"
+      }
+    ]
+  },
+  {
+    "word": "guide",
+    "phonetic": "[ɡaɪd]",
+    "pos": "n. & v.",
+    "meaning": "导游；指南；带领",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "带领游客参观并讲解的人",
+        "important": true,
+        "example": {
+          "en": "Our guide speaks English and Spanish.",
+          "zh": "我们的导游会说英语和西班牙语。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "提供路线或信息的小册子/应用",
+        "important": false,
+        "example": {
+          "en": "Pick up a free guide at the ticket office.",
+          "zh": "在售票处领一本免费导览册。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The guide told us not to touch the ancient walls.",
+        "zh": "导游让我们不要碰古墙。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She works as a museum guide on weekends.",
+        "zh": "她周末在博物馆当讲解员。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tour guide",
+        "meaning": "导游",
+        "example": {
+          "en": "Our tour guide was very knowledgeable about local art.",
+          "zh": "我们的导游对当地艺术很了解。"
+        }
+      },
+      {
+        "phrase": "audio guide",
+        "meaning": "语音导览",
+        "example": {
+          "en": "You can rent an audio guide at the entrance.",
+          "zh": "你可以在入口租语音导览器。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "guidance",
+        "type": "family",
+        "meaning": "指导；指引"
+      },
+      {
+        "word": "lead",
+        "type": "synonym",
+        "meaning": "带领"
+      },
+      {
+        "word": "guard",
+        "type": "confusable",
+        "meaning": "守卫（发音或拼写易混时需注意）"
+      }
+    ]
+  },
+  {
+    "word": "ticket",
+    "phonetic": "[ˈtɪkɪt]",
+    "pos": "n.",
+    "meaning": "票；门票；车票",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "进入景点、活动或乘车的凭证",
+        "important": true,
+        "example": {
+          "en": "One ticket per person, please.",
+          "zh": "请一人一票。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "电子票或打印的入场券",
+        "important": false,
+        "example": {
+          "en": "Show the QR code on your phone for your e-ticket.",
+          "zh": "出示手机上的二维码作为电子票。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I bought the tickets online to skip the line.",
+        "zh": "我在网上买票以省去排队。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Children under six may enter free without a ticket.",
+        "zh": "六岁以下儿童可免票入场。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "admission ticket",
+        "meaning": "入场券",
+        "example": {
+          "en": "The admission ticket includes a map of the site.",
+          "zh": "门票里含景区地图。"
+        }
+      },
+      {
+        "phrase": "round-trip ticket",
+        "meaning": "往返票",
+        "example": {
+          "en": "Get a round-trip ticket for the cable car.",
+          "zh": "买缆车的往返票。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "ticketing",
+        "type": "family",
+        "meaning": "售票（系统/业务）"
+      },
+      {
+        "word": "pass",
+        "type": "synonym",
+        "meaning": "（多日或多景点）通票"
+      },
+      {
+        "word": "receipt",
+        "type": "confusable",
+        "meaning": "收据（不是入场凭证本身）"
+      }
+    ]
+  },
+  {
+    "word": "entrance",
+    "phonetic": "[ˈentrəns]",
+    "pos": "n.",
+    "meaning": "入口；进入",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "建筑物或景区的进门处",
+        "important": true,
+        "example": {
+          "en": "The main entrance is on the south side.",
+          "zh": "主入口在南边。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "与 exit 相对，指进入通道",
+        "important": false,
+        "example": {
+          "en": "Use the group entrance if you are with a school party.",
+          "zh": "若是学校团体请走团体入口。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "There is a long queue at the entrance on weekends.",
+        "zh": "周末入口排队很长。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Wheelchair users can use a separate entrance.",
+        "zh": "轮椅使用者可走无障碍入口。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "entrance fee",
+        "meaning": "门票费；入场费",
+        "example": {
+          "en": "The entrance fee is lower after 4 p.m.",
+          "zh": "下午四点后门票更便宜。"
+        }
+      },
+      {
+        "phrase": "no entrance",
+        "meaning": "禁止入内",
+        "example": {
+          "en": "No entrance beyond this point without a guide.",
+          "zh": "无导游带领者不得越过此处。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "enter",
+        "type": "family",
+        "meaning": "进入（动词）"
+      },
+      {
+        "word": "entry",
+        "type": "synonym",
+        "meaning": "进入；入口（常可互换）"
+      },
+      {
+        "word": "exit",
+        "type": "antonym",
+        "meaning": "出口；离开"
+      }
+    ]
+  },
+  {
+    "word": "admission",
+    "phonetic": "[ədˈmɪʃn]",
+    "pos": "n.",
+    "meaning": "入场；门票；入场费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "进入场所的权利或许可",
+        "important": true,
+        "example": {
+          "en": "Admission is not included in the city pass.",
+          "zh": "城市通票不含此处门票。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "收费多少（门票价格）",
+        "important": false,
+        "example": {
+          "en": "What's the admission for students?",
+          "zh": "学生票多少钱？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Free admission for children on the first Sunday each month.",
+        "zh": "每月第一个周日儿童免票。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "You can pay admission at the gate with a card.",
+        "zh": "可以在门口刷卡付门票。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "admission free",
+        "meaning": "免费入场",
+        "example": {
+          "en": "The garden is admission free in winter.",
+          "zh": "冬季花园免费开放。"
+        }
+      },
+      {
+        "phrase": "admission price",
+        "meaning": "门票价格",
+        "example": {
+          "en": "The admission price includes a short film.",
+          "zh": "门票价含一部短片。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "admit",
+        "type": "family",
+        "meaning": "准许进入；承认"
+      },
+      {
+        "word": "entry fee",
+        "type": "synonym",
+        "meaning": "入场费"
+      },
+      {
+        "word": "permission",
+        "type": "confusable",
+        "meaning": "许可（抽象），非门票"
+      }
+    ]
+  },
+  {
+    "word": "hours",
+    "phonetic": "[ˈaʊəz]",
+    "pos": "n. (pl.)",
+    "meaning": "营业时间；开放时间",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "景区或场所开放与关闭的时段",
+        "important": true,
+        "example": {
+          "en": "Check the opening hours before you go.",
+          "zh": "去之前先查开放时间。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "特指“几点到几点”",
+        "important": false,
+        "example": {
+          "en": "Museum hours are 9 a.m. to 5 p.m. on weekdays.",
+          "zh": "博物馆平日开放时间为早九点到晚五点。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The last entry is one hour before closing hours.",
+        "zh": "闭馆前一小时停止入场。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Holiday hours may differ from the website.",
+        "zh": "假日营业时间可能与网站不同。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "opening hours",
+        "meaning": "开放时间",
+        "example": {
+          "en": "The website lists opening hours and last admission.",
+          "zh": "网站列有开放与最后入场时间。"
+        }
+      },
+      {
+        "phrase": "after hours",
+        "meaning": "在闭馆/打烊之后",
+        "example": {
+          "en": "The gift shop is closed after hours unless there is an event.",
+          "zh": "没有活动时闭馆后礼品店不营业。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "hourly",
+        "type": "family",
+        "meaning": "每小时的；按小时计"
+      },
+      {
+        "word": "schedule",
+        "type": "synonym",
+        "meaning": "时间表；安排"
+      },
+      {
+        "word": "time",
+        "type": "confusable",
+        "meaning": "时间（泛指，非专指开放时段）"
+      }
+    ]
+  },
+  {
+    "word": "open",
+    "phonetic": "[ˈəʊpən]",
+    "pos": "adj. & v.",
+    "meaning": "开放的；营业的；打开",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（场所）对公众开放、可进入",
+        "important": true,
+        "example": {
+          "en": "The tower is open every day except Monday.",
+          "zh": "除周一外高塔每天开放。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：开门、开始营业",
+        "important": false,
+        "example": {
+          "en": "The ticket office opens at 8:30.",
+          "zh": "售票处八点半开始营业。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is the garden still open this late?",
+        "zh": "这么晚花园还开放吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The side gate opens for groups only.",
+        "zh": "侧门仅对团队开放。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "open to the public",
+        "meaning": "对公众开放",
+        "example": {
+          "en": "The restoration area is not open to the public yet.",
+          "zh": "修复区尚未对公众开放。"
+        }
+      },
+      {
+        "phrase": "wide open",
+        "meaning": "大敞着；完全开放",
+        "example": {
+          "en": "The main doors were wide open for the festival.",
+          "zh": "节庆期间大门完全敞开。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "opening",
+        "type": "family",
+        "meaning": "开放；开幕式"
+      },
+      {
+        "word": "accessible",
+        "type": "synonym",
+        "meaning": "可进入的；可到达的"
+      },
+      {
+        "word": "close",
+        "type": "antonym",
+        "meaning": "关闭"
+      }
+    ]
+  },
+  {
+    "word": "close",
+    "phonetic": "[kləʊz]",
+    "pos": "v. & adj.",
+    "meaning": "关闭；关门；近的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（场所）结束营业、停止参观",
+        "important": true,
+        "example": {
+          "en": "The exhibit closes at six sharp.",
+          "zh": "展览六点准时闭馆。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "关上门窗等",
+        "important": false,
+        "example": {
+          "en": "Please close the gate behind you.",
+          "zh": "请随手关上你身后的门。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We arrived ten minutes after they closed.",
+        "zh": "我们到时他们已经关门十分钟了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The ticket counter closes earlier than the museum.",
+        "zh": "售票处比博物馆更早关门。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "closing time",
+        "meaning": "闭馆/打烊时间",
+        "example": {
+          "en": "Last tickets are sold thirty minutes before closing time.",
+          "zh": "闭馆前三十分钟停售门票。"
+        }
+      },
+      {
+        "phrase": "closed for renovation",
+        "meaning": "因修缮关闭",
+        "example": {
+          "en": "The east wing is closed for renovation until spring.",
+          "zh": "东翼修缮关闭至春季。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "closure",
+        "type": "family",
+        "meaning": "关闭；停业"
+      },
+      {
+        "word": "shut",
+        "type": "synonym",
+        "meaning": "关上"
+      },
+      {
+        "word": "open",
+        "type": "antonym",
+        "meaning": "开放"
+      }
+    ]
+  },
+  {
+    "word": "group",
+    "phonetic": "[ɡruːp]",
+    "pos": "n.",
+    "meaning": "团体；一组人",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "一起参观或订票的一群人",
+        "important": true,
+        "example": {
+          "en": "Groups of ten or more get a discount.",
+          "zh": "十人及以上团体有折扣。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "集体入口或团队预订",
+        "important": false,
+        "example": {
+          "en": "Your group leader should check in at the desk first.",
+          "zh": "领队应先到服务台登记。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We joined a small group tour of the old town.",
+        "zh": "我们参加了老城小团导览。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "School groups must book two weeks ahead.",
+        "zh": "学校团体须提前两周预约。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "group rate",
+        "meaning": "团体价",
+        "example": {
+          "en": "Ask about the group rate before you buy separate tickets.",
+          "zh": "分开买票前先问团体价。"
+        }
+      },
+      {
+        "phrase": "group booking",
+        "meaning": "团体预订",
+        "example": {
+          "en": "Group bookings require a deposit.",
+          "zh": "团体预订需要付定金。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "grouping",
+        "type": "family",
+        "meaning": "分组；归类"
+      },
+      {
+        "word": "party",
+        "type": "synonym",
+        "meaning": "（一队）同行的人"
+      },
+      {
+        "word": "crowd",
+        "type": "confusable",
+        "meaning": "人群（未必是同一团队）"
+      }
+    ]
+  },
+  {
+    "word": "reservation",
+    "phonetic": "[ˌrezəˈveɪʃn]",
+    "pos": "n.",
+    "meaning": "预约；预订",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "提前预订门票或参观时段",
+        "important": true,
+        "example": {
+          "en": "You need a reservation for the weekend slots.",
+          "zh": "周末时段需要预约。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "保留名额或座位的确认",
+        "important": false,
+        "example": {
+          "en": "Show your reservation email at the gate.",
+          "zh": "在门口出示预约邮件。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I made an online reservation for 10 a.m. entry.",
+        "zh": "我在网上预约了上午十点入场。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Walk-ins are welcome if there are spots without reservation.",
+        "zh": "若有未约满名额可现场排队入场。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make a reservation",
+        "meaning": "进行预约",
+        "example": {
+          "en": "Call to make a reservation for the guided walk.",
+          "zh": "打电话预约导览步行。"
+        }
+      },
+      {
+        "phrase": "confirm a reservation",
+        "meaning": "确认预约",
+        "example": {
+          "en": "They emailed to confirm our reservation two days before.",
+          "zh": "他们在两天前发邮件确认预约。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "reserve",
+        "type": "family",
+        "meaning": "预订；保留"
+      },
+      {
+        "word": "booking",
+        "type": "synonym",
+        "meaning": "预订"
+      },
+      {
+        "word": "preservation",
+        "type": "confusable",
+        "meaning": "保护；保存（词形相近义不同）"
+      }
+    ]
+  }
+]

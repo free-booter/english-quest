@@ -1,6 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import { Home, Map, Headphones, Mic2, User } from 'lucide-react'
-import { useState } from 'react'
 
 const tabs = [
   { path: '/', label: '首页', icon: Home },
@@ -14,7 +13,6 @@ export default function BottomTabBar() {
   const location = useLocation()
   const navigate = useNavigate()
   const currentPath = location.pathname
-  const [hoveredPath, setHoveredPath] = useState<string | null>(null)
 
   const isTabActive = (path: string) => {
     if (path === '/') return currentPath === '/'
@@ -30,56 +28,24 @@ export default function BottomTabBar() {
   }
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 max-w-screen-sm mx-auto">
-      {/* Backdrop */}
-      <div className="absolute inset-0 bg-white/80 backdrop-blur-xl border-t border-white/50 shadow-[0_-8px_24px_rgba(15,23,42,0.08)]" />
-
-      {/* Content */}
-      <div className="relative flex justify-around items-center h-20 px-2">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 max-w-screen-sm mx-auto bg-white border-t border-gray-100">
+      <div className="flex justify-around items-center h-16 px-1">
         {tabs.map(({ path, label, icon: Icon }) => {
           const isActive = isTabActive(path)
-          const isHovered = hoveredPath === path
-
           return (
             <button
               key={path}
               onClick={() => navigate(path)}
-              onMouseEnter={() => setHoveredPath(path)}
-              onMouseLeave={() => setHoveredPath(null)}
-              className="relative flex flex-col items-center justify-center flex-1 h-20 group transition-all duration-200"
+              className="flex flex-col items-center justify-center flex-1 h-full gap-0.5"
             >
-              {/* Active indicator background */}
-              {isActive && (
-                <div className="absolute inset-0 bg-brand-500/10 rounded-2xl" />
-              )}
-
-              {/* Icon container */}
-              <div className={`relative z-10 transition-all duration-200 ${
-                isActive
-                  ? 'text-brand-500 scale-110'
-                  : isHovered
-                  ? 'text-brand-400 scale-105'
-                  : 'text-gray-400 scale-100'
-              }`}>
-                <Icon
-                  size={isActive ? 28 : 24}
-                  strokeWidth={isActive ? 2.5 : 2}
-                />
-              </div>
-
-              {/* Label */}
-              <span className={`text-xs mt-1 font-medium transition-all duration-200 ${
-                isActive
-                  ? 'text-brand-600'
-                  : 'text-gray-500'
-              }`}>
+              <Icon
+                size={22}
+                className={isActive ? 'text-brand-500' : 'text-gray-400'}
+                strokeWidth={isActive ? 2.5 : 1.8}
+              />
+              <span className={`text-[10px] font-semibold ${isActive ? 'text-brand-500' : 'text-gray-400'}`}>
                 {label}
               </span>
-
-              {/* Active dot */}
-              {isActive && (
-                <div className="absolute bottom-0 w-1 h-1 bg-brand-500 rounded-full animate-pulse" />
-              )}
             </button>
           )
         })}

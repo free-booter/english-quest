@@ -1,0 +1,822 @@
+[
+  {
+    "word": "navigate",
+    "phonetic": "[ˈnævɪɡeɪt]",
+    "pos": "v.",
+    "meaning": "导航；确定路线",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "使用地图或导航应用找到路",
+        "important": true,
+        "example": {
+          "en": "I use my phone to navigate downtown.",
+          "zh": "我用手机在市中心导航。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "在复杂道路中判断方向前进",
+        "important": false,
+        "example": {
+          "en": "It is hard to navigate in heavy traffic.",
+          "zh": "在车流很大时很难判断路线前进。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you navigate us to the train station?",
+        "zh": "你能帮我们导航到火车站吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This app can navigate without internet.",
+        "zh": "这个应用没网也能导航。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "navigate to",
+        "meaning": "导航到",
+        "example": {
+          "en": "Please navigate to the nearest subway exit.",
+          "zh": "请导航到最近的地铁出口。"
+        }
+      },
+      {
+        "phrase": "navigate through traffic",
+        "meaning": "在车流中穿行导航",
+        "example": {
+          "en": "The driver can navigate through traffic quickly.",
+          "zh": "司机能很快在车流中穿行。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "navigation",
+        "type": "family",
+        "meaning": "导航"
+      },
+      {
+        "word": "guide",
+        "type": "synonym",
+        "meaning": "引导"
+      },
+      {
+        "word": "lose",
+        "type": "antonym",
+        "meaning": "迷路；丢失方向"
+      },
+      {
+        "word": "locate",
+        "type": "confusable",
+        "meaning": "定位（找到位置）"
+      }
+    ]
+  },
+  {
+    "word": "address",
+    "phonetic": "[əˈdres]",
+    "pos": "n.",
+    "meaning": "地址",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "街道、门牌等完整地点信息",
+        "important": true,
+        "example": {
+          "en": "Please enter the hotel address in the app.",
+          "zh": "请在应用里输入酒店地址。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于导航或快递定位的地点信息",
+        "important": false,
+        "example": {
+          "en": "I sent you the restaurant address by message.",
+          "zh": "我把餐厅地址发消息给你了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The address is near the city museum.",
+        "zh": "这个地址在城市博物馆附近。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Double-check the address before booking a taxi.",
+        "zh": "打车前再确认一下地址。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "home address",
+        "meaning": "家庭住址",
+        "example": {
+          "en": "The form asks for your home address.",
+          "zh": "表格要求填写你的家庭住址。"
+        }
+      },
+      {
+        "phrase": "wrong address",
+        "meaning": "错误地址",
+        "example": {
+          "en": "We arrived late because of a wrong address.",
+          "zh": "我们因为地址错了所以到晚了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "location",
+        "type": "synonym",
+        "meaning": "位置"
+      },
+      {
+        "word": "addressee",
+        "type": "family",
+        "meaning": "收件人"
+      },
+      {
+        "word": "destination",
+        "type": "confusable",
+        "meaning": "目的地"
+      }
+    ]
+  },
+  {
+    "word": "floor",
+    "phonetic": "[flɔː(r)]",
+    "pos": "n.",
+    "meaning": "楼层；地面",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "建筑物中的楼层",
+        "important": true,
+        "example": {
+          "en": "Our room is on the tenth floor.",
+          "zh": "我们的房间在十楼。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "室内地面",
+        "important": false,
+        "example": {
+          "en": "Your map fell on the floor.",
+          "zh": "你的地图掉在地上了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Take the elevator to the third floor.",
+        "zh": "坐电梯到三楼。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The food court is on the ground floor.",
+        "zh": "美食广场在一楼。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ground floor",
+        "meaning": "一楼（英式）",
+        "example": {
+          "en": "The entrance is on the ground floor.",
+          "zh": "入口在一楼。"
+        }
+      },
+      {
+        "phrase": "top floor",
+        "meaning": "顶楼",
+        "example": {
+          "en": "The rooftop bar is on the top floor.",
+          "zh": "屋顶酒吧在顶楼。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "level",
+        "type": "synonym",
+        "meaning": "楼层；层级"
+      },
+      {
+        "word": "flooring",
+        "type": "family",
+        "meaning": "地板材料"
+      },
+      {
+        "word": "ceiling",
+        "type": "antonym",
+        "meaning": "天花板"
+      },
+      {
+        "word": "story",
+        "type": "confusable",
+        "meaning": "楼层（美式常用）"
+      }
+    ]
+  },
+  {
+    "word": "elevator",
+    "phonetic": "[ˈelɪveɪtə(r)]",
+    "pos": "n.",
+    "meaning": "电梯",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在楼层间上下运送人的电梯",
+        "important": true,
+        "example": {
+          "en": "The elevator is next to the lobby desk.",
+          "zh": "电梯在大堂服务台旁边。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "商场或酒店内的升降设备",
+        "important": false,
+        "example": {
+          "en": "We waited for the elevator during rush hour.",
+          "zh": "高峰时段我们在等电梯。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Take the elevator up to floor five.",
+        "zh": "坐电梯上到五楼。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This elevator only goes to even floors.",
+        "zh": "这部电梯只停双数楼层。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "elevator button",
+        "meaning": "电梯按钮",
+        "example": {
+          "en": "Press the elevator button for floor two.",
+          "zh": "按下去二楼的电梯按钮。"
+        }
+      },
+      {
+        "phrase": "take the elevator",
+        "meaning": "乘电梯",
+        "example": {
+          "en": "Take the elevator instead of the stairs.",
+          "zh": "别走楼梯了，坐电梯吧。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "lift",
+        "type": "synonym",
+        "meaning": "电梯（英式）"
+      },
+      {
+        "word": "elevate",
+        "type": "family",
+        "meaning": "提升；抬高"
+      },
+      {
+        "word": "stairs",
+        "type": "antonym",
+        "meaning": "楼梯"
+      },
+      {
+        "word": "escalator",
+        "type": "confusable",
+        "meaning": "自动扶梯"
+      }
+    ]
+  },
+  {
+    "word": "escalator",
+    "phonetic": "[ˈeskəleɪtə(r)]",
+    "pos": "n.",
+    "meaning": "自动扶梯",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "自动运行的扶手电梯",
+        "important": true,
+        "example": {
+          "en": "Take the escalator to the subway hall.",
+          "zh": "乘自动扶梯到地铁大厅。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "商场或车站常见的斜向输送通道",
+        "important": false,
+        "example": {
+          "en": "The escalator is crowded after work.",
+          "zh": "下班后自动扶梯很拥挤。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Stand on the right side of the escalator.",
+        "zh": "在自动扶梯上请站右侧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The escalator goes directly to the food floor.",
+        "zh": "这条自动扶梯直达美食层。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "up escalator",
+        "meaning": "上行扶梯",
+        "example": {
+          "en": "Use the up escalator to reach platform one.",
+          "zh": "用上行扶梯到一号站台。"
+        }
+      },
+      {
+        "phrase": "escalator safety",
+        "meaning": "扶梯安全",
+        "example": {
+          "en": "The station plays an escalator safety message.",
+          "zh": "车站会播放扶梯安全提示。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "stairway",
+        "type": "confusable",
+        "meaning": "楼梯通道"
+      },
+      {
+        "word": "elevate",
+        "type": "family",
+        "meaning": "抬高；升高"
+      },
+      {
+        "word": "elevator",
+        "type": "synonym",
+        "meaning": "电梯（功能近似）"
+      },
+      {
+        "word": "ramp",
+        "type": "antonym",
+        "meaning": "坡道（非自动）"
+      }
+    ]
+  },
+  {
+    "word": "entrance",
+    "phonetic": "[ˈentrəns]",
+    "pos": "n.",
+    "meaning": "入口",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "建筑物或场所的进入口",
+        "important": true,
+        "example": {
+          "en": "The entrance is behind the bus stop.",
+          "zh": "入口在公交站后面。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "景点或商场的主入口区域",
+        "important": false,
+        "example": {
+          "en": "Meet me at the main entrance at noon.",
+          "zh": "中午在主入口见我。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We found the entrance near the parking lot.",
+        "zh": "我们在停车场附近找到了入口。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please line up at the side entrance.",
+        "zh": "请在侧门入口排队。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "main entrance",
+        "meaning": "主入口",
+        "example": {
+          "en": "Security checks bags at the main entrance.",
+          "zh": "安保在主入口检查行李。"
+        }
+      },
+      {
+        "phrase": "entrance fee",
+        "meaning": "入场费",
+        "example": {
+          "en": "The museum entrance fee is ten dollars.",
+          "zh": "博物馆入场费是十美元。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "entry",
+        "type": "synonym",
+        "meaning": "进入；入口"
+      },
+      {
+        "word": "enter",
+        "type": "family",
+        "meaning": "进入"
+      },
+      {
+        "word": "exit",
+        "type": "antonym",
+        "meaning": "出口"
+      },
+      {
+        "word": "gateway",
+        "type": "confusable",
+        "meaning": "大门；门道"
+      }
+    ]
+  },
+  {
+    "word": "exit",
+    "phonetic": "[ˈeksɪt]",
+    "pos": "n.",
+    "meaning": "出口",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "离开建筑物或场所的通道",
+        "important": true,
+        "example": {
+          "en": "Follow the green sign to the exit.",
+          "zh": "跟着绿色标志走到出口。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "地铁或高速路编号出口",
+        "important": false,
+        "example": {
+          "en": "Take exit B for the shopping street.",
+          "zh": "去购物街请走 B 出口。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The emergency exit is on your left.",
+        "zh": "紧急出口在你的左边。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We missed the highway exit by mistake.",
+        "zh": "我们不小心错过了高速出口。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "emergency exit",
+        "meaning": "紧急出口",
+        "example": {
+          "en": "Keep the emergency exit clear at all times.",
+          "zh": "请始终保持紧急出口畅通。"
+        }
+      },
+      {
+        "phrase": "exit sign",
+        "meaning": "出口标志",
+        "example": {
+          "en": "The exit sign is above the glass door.",
+          "zh": "出口标志在玻璃门上方。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "way out",
+        "type": "synonym",
+        "meaning": "出口（口语）"
+      },
+      {
+        "word": "entrance",
+        "type": "antonym",
+        "meaning": "入口"
+      },
+      {
+        "word": "exiting",
+        "type": "family",
+        "meaning": "离开（进行时）"
+      },
+      {
+        "word": "escape",
+        "type": "confusable",
+        "meaning": "逃离；逃脱"
+      }
+    ]
+  },
+  {
+    "word": "sign",
+    "phonetic": "[saɪn]",
+    "pos": "n.",
+    "meaning": "标志；指示牌",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "写有方向或信息的标识牌",
+        "important": true,
+        "example": {
+          "en": "The sign points to the train station.",
+          "zh": "这个指示牌指向火车站。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "提醒或警告信息标识",
+        "important": false,
+        "example": {
+          "en": "Read the warning sign before crossing.",
+          "zh": "过马路前先看警示牌。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I cannot see the street sign at night.",
+        "zh": "晚上我看不清路牌。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "That blue sign marks the bus route.",
+        "zh": "那个蓝色标志标明了公交路线。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "street sign",
+        "meaning": "路牌",
+        "example": {
+          "en": "The street sign says Oak Avenue.",
+          "zh": "路牌上写着橡树大道。"
+        }
+      },
+      {
+        "phrase": "traffic sign",
+        "meaning": "交通标志",
+        "example": {
+          "en": "Watch every traffic sign when you drive abroad.",
+          "zh": "在国外开车时要注意每个交通标志。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "signal",
+        "type": "synonym",
+        "meaning": "信号；标志"
+      },
+      {
+        "word": "signature",
+        "type": "family",
+        "meaning": "签名"
+      },
+      {
+        "word": "mark",
+        "type": "confusable",
+        "meaning": "记号；标记"
+      }
+    ]
+  },
+  {
+    "word": "map",
+    "phonetic": "[mæp]",
+    "pos": "n.",
+    "meaning": "地图",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "显示地点和路线的图",
+        "important": true,
+        "example": {
+          "en": "Open the map before we leave the hotel.",
+          "zh": "离开酒店前先打开地图。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "手机导航应用中的地图页面",
+        "important": false,
+        "example": {
+          "en": "The map shows a faster route to the museum.",
+          "zh": "地图显示了去博物馆更快的路线。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you share the map with me?",
+        "zh": "你能把地图分享给我吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This paper map is useful without battery.",
+        "zh": "这张纸质地图没电时也很好用。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "city map",
+        "meaning": "城市地图",
+        "example": {
+          "en": "The visitor center offers a free city map.",
+          "zh": "游客中心提供免费城市地图。"
+        }
+      },
+      {
+        "phrase": "map app",
+        "meaning": "地图应用",
+        "example": {
+          "en": "My map app works well in this country.",
+          "zh": "我的地图应用在这个国家很好用。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "mapping",
+        "type": "family",
+        "meaning": "地图绘制；映射"
+      },
+      {
+        "word": "chart",
+        "type": "synonym",
+        "meaning": "图表；航海图"
+      },
+      {
+        "word": "atlas",
+        "type": "confusable",
+        "meaning": "地图集"
+      },
+      {
+        "word": "blind",
+        "type": "antonym",
+        "meaning": "无方向信息的（反义概念）"
+      }
+    ]
+  },
+  {
+    "word": "route",
+    "phonetic": "[ruːt]",
+    "pos": "n.",
+    "meaning": "路线",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "从起点到终点的行进路线",
+        "important": true,
+        "example": {
+          "en": "This route avoids the evening traffic jam.",
+          "zh": "这条路线能避开晚高峰堵车。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "公交或步行推荐线路",
+        "important": false,
+        "example": {
+          "en": "The app gives a bus route to the airport.",
+          "zh": "应用给出了去机场的公交路线。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "What is the fastest route to the old town?",
+        "zh": "去老城区最快的路线是什么？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We changed route after the road closure.",
+        "zh": "道路封闭后我们改了路线。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bus route",
+        "meaning": "公交线路",
+        "example": {
+          "en": "Bus route 12 stops at the central station.",
+          "zh": "12 路公交会停中央车站。"
+        }
+      },
+      {
+        "phrase": "scenic route",
+        "meaning": "风景路线",
+        "example": {
+          "en": "We chose the scenic route along the coast.",
+          "zh": "我们选了沿海的风景路线。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "routable",
+        "type": "family",
+        "meaning": "可路由的"
+      },
+      {
+        "word": "path",
+        "type": "synonym",
+        "meaning": "路径；路线"
+      },
+      {
+        "word": "detour",
+        "type": "confusable",
+        "meaning": "绕行路线"
+      },
+      {
+        "word": "dead end",
+        "type": "antonym",
+        "meaning": "死胡同"
+      }
+    ]
+  }
+]

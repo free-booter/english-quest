@@ -1,0 +1,672 @@
+[
+  {
+    "word": "street",
+    "phonetic": "[striːt]",
+    "pos": "n.",
+    "meaning": "街道",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "城市里两侧有建筑的道路",
+        "important": true,
+        "example": {
+          "en": "Turn left at the next street near the bank.",
+          "zh": "在银行附近的下一条街左转。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "街区路段（用于问路定位）",
+        "important": false,
+        "example": {
+          "en": "Our hostel is on a quiet street behind the station.",
+          "zh": "我们的旅舍在车站后面一条安静的街上。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Cross the street when the light turns green.",
+        "zh": "绿灯亮了再过街。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This street leads directly to the city museum.",
+        "zh": "这条街可以直达城市博物馆。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "main street",
+        "meaning": "主街",
+        "example": {
+          "en": "Walk along the main street for two blocks.",
+          "zh": "沿着主街走两个街区。"
+        }
+      },
+      {
+        "phrase": "across the street",
+        "meaning": "在街对面",
+        "example": {
+          "en": "The pharmacy is across the street from the hotel.",
+          "zh": "药店在酒店街对面。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "road", "type": "synonym", "meaning": "道路（泛称）" },
+      { "word": "streetlight", "type": "family", "meaning": "路灯" },
+      { "word": "avenue", "type": "confusable", "meaning": "林荫大道；大街" },
+      { "word": "highway", "type": "antonym", "meaning": "高速公路（非城市街道）" }
+    ]
+  },
+  {
+    "word": "avenue",
+    "phonetic": "[ˈævənjuː]",
+    "pos": "n.",
+    "meaning": "大街；林荫大道",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "城市中较宽的主干道",
+        "important": true,
+        "example": {
+          "en": "Take a taxi to Fifth Avenue before rush hour.",
+          "zh": "高峰前打车去第五大道。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "两侧常有树木的景观大道",
+        "important": false,
+        "example": {
+          "en": "We walked down the avenue lined with tall trees.",
+          "zh": "我们沿着两旁高树的大道散步。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The bus stops on the avenue outside city hall.",
+        "zh": "公交车停在市政厅外的大街上。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Go straight along the avenue to reach the bridge.",
+        "zh": "沿着这条大道直走就到桥边。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tree-lined avenue",
+        "meaning": "林荫大道",
+        "example": {
+          "en": "The café sits on a beautiful tree-lined avenue.",
+          "zh": "那家咖啡馆在一条很美的林荫大道上。"
+        }
+      },
+      {
+        "phrase": "avenue entrance",
+        "meaning": "大道入口",
+        "example": {
+          "en": "Meet me at the avenue entrance of the square.",
+          "zh": "在广场的大道入口见我。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "boulevard", "type": "synonym", "meaning": "林荫大道" },
+      { "word": "avenue-side", "type": "family", "meaning": "临街大道一侧的" },
+      { "word": "street", "type": "confusable", "meaning": "普通街道" },
+      { "word": "alley", "type": "antonym", "meaning": "小巷" }
+    ]
+  },
+  {
+    "word": "road",
+    "phonetic": "[rəʊd]",
+    "pos": "n.",
+    "meaning": "道路",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "供车辆和行人通行的路",
+        "important": true,
+        "example": {
+          "en": "This road is closed for repairs until tonight.",
+          "zh": "这条路因维修封闭到今晚。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "某条具体路线",
+        "important": false,
+        "example": {
+          "en": "Is this the right road to the old town gate?",
+          "zh": "去老城门走这条路对吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Follow this road and turn right at the tunnel.",
+        "zh": "沿着这条路走，在隧道口右转。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The road gets busy after six in the evening.",
+        "zh": "傍晚六点后这条路会很拥堵。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "road sign",
+        "meaning": "路标",
+        "example": {
+          "en": "Read the road sign before you change direction.",
+          "zh": "改道前先看路标。"
+        }
+      },
+      {
+        "phrase": "on the road",
+        "meaning": "在路上",
+        "example": {
+          "en": "We are already on the road to the airport.",
+          "zh": "我们已经在去机场的路上了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "route", "type": "synonym", "meaning": "路线" },
+      { "word": "roadway", "type": "family", "meaning": "车行道" },
+      { "word": "street", "type": "confusable", "meaning": "街道（更偏城市）" },
+      { "word": "lane", "type": "family", "meaning": "车道" }
+    ]
+  },
+  {
+    "word": "lane",
+    "phonetic": "[leɪn]",
+    "pos": "n.",
+    "meaning": "车道；小路",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "道路上供单列车辆行驶的车道",
+        "important": true,
+        "example": {
+          "en": "Keep to the right lane after the traffic light.",
+          "zh": "过红绿灯后请保持右侧车道。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "乡间或居民区的狭窄小路",
+        "important": false,
+        "example": {
+          "en": "The guesthouse is at the end of a narrow lane.",
+          "zh": "民宿在一条窄巷的尽头。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Use the bus lane only if local signs allow it.",
+        "zh": "只有当地标识允许时才可走公交专用道。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "That lane leads to the riverside square.",
+        "zh": "那条小路通向河边广场。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bus lane",
+        "meaning": "公交专用道",
+        "example": {
+          "en": "Taxis may use the bus lane in some cities.",
+          "zh": "有些城市出租车可以走公交专用道。"
+        }
+      },
+      {
+        "phrase": "bike lane",
+        "meaning": "自行车道",
+        "example": {
+          "en": "Do not stand in the bike lane while checking maps.",
+          "zh": "看地图时不要站在自行车道上。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "track", "type": "synonym", "meaning": "小道" },
+      { "word": "laneway", "type": "family", "meaning": "小巷道" },
+      { "word": "line", "type": "confusable", "meaning": "线（拼写易混）" },
+      { "word": "highway", "type": "antonym", "meaning": "高速主干道" }
+    ]
+  },
+  {
+    "word": "bridge",
+    "phonetic": "[brɪdʒ]",
+    "pos": "n.",
+    "meaning": "桥",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "跨越河流或道路的桥梁",
+        "important": true,
+        "example": {
+          "en": "Walk across the bridge to reach the train station.",
+          "zh": "过桥就能到火车站。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "连接两地的通道",
+        "important": false,
+        "example": {
+          "en": "The new bridge shortens the trip to downtown.",
+          "zh": "新桥缩短了去市中心的路程。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The bridge is crowded with tourists at sunset.",
+        "zh": "日落时这座桥上游客很多。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Take photos from the bridge for a city view.",
+        "zh": "在桥上拍照能看到城市全景。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cross the bridge",
+        "meaning": "过桥",
+        "example": {
+          "en": "Cross the bridge and you will see the museum.",
+          "zh": "过桥后你就会看到博物馆。"
+        }
+      },
+      {
+        "phrase": "bridge entrance",
+        "meaning": "桥头入口",
+        "example": {
+          "en": "Meet at the bridge entrance at seven tonight.",
+          "zh": "今晚七点在桥头入口见。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "overpass", "type": "synonym", "meaning": "立交桥；天桥" },
+      { "word": "bridgehead", "type": "family", "meaning": "桥头" },
+      { "word": "tunnel", "type": "antonym", "meaning": "隧道（地下通行）" },
+      { "word": "pier", "type": "confusable", "meaning": "码头（非桥）" }
+    ]
+  },
+  {
+    "word": "tunnel",
+    "phonetic": "[ˈtʌnl]",
+    "pos": "n.",
+    "meaning": "隧道",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "穿过山体或地下的通道",
+        "important": true,
+        "example": {
+          "en": "Drive through the tunnel to avoid city traffic.",
+          "zh": "穿过隧道可以避开市区拥堵。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "地铁或车道的地下段",
+        "important": false,
+        "example": {
+          "en": "The metro tunnel is closed for maintenance tonight.",
+          "zh": "今晚地铁隧道因维护关闭。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The tunnel entrance is right after the roundabout.",
+        "zh": "隧道入口就在环岛后面。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Signal may drop when you enter the tunnel.",
+        "zh": "进入隧道后信号可能变弱。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tunnel entrance",
+        "meaning": "隧道入口",
+        "example": {
+          "en": "Slow down near the tunnel entrance after rain.",
+          "zh": "雨后经过隧道入口请减速。"
+        }
+      },
+      {
+        "phrase": "road tunnel",
+        "meaning": "公路隧道",
+        "example": {
+          "en": "This road tunnel connects the airport and downtown.",
+          "zh": "这条公路隧道连接机场和市区。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "underpass", "type": "synonym", "meaning": "地下通道" },
+      { "word": "tunneling", "type": "family", "meaning": "挖隧道；隧道工程" },
+      { "word": "bridge", "type": "antonym", "meaning": "桥（地上通行）" },
+      { "word": "subway", "type": "confusable", "meaning": "地铁（不一定指隧道本体）" }
+    ]
+  },
+  {
+    "word": "square",
+    "phonetic": "[skweə(r)]",
+    "pos": "n.",
+    "meaning": "广场",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "城市中心开放式公共广场",
+        "important": true,
+        "example": {
+          "en": "The city square is full of street musicians tonight.",
+          "zh": "今晚城市广场上有很多街头艺人。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "以广场命名的区域",
+        "important": false,
+        "example": {
+          "en": "Our tour starts at Central Square at nine.",
+          "zh": "我们的行程九点在中央广场开始。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Wait for me by the fountain in the square.",
+        "zh": "在广场喷泉旁等我。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Many buses stop near the main square.",
+        "zh": "很多公交车停在主广场附近。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "city square",
+        "meaning": "城市广场",
+        "example": {
+          "en": "The parade passes through the city square every year.",
+          "zh": "每年游行都会经过城市广场。"
+        }
+      },
+      {
+        "phrase": "in the square",
+        "meaning": "在广场上",
+        "example": {
+          "en": "There is a weekend market in the square.",
+          "zh": "周末广场上有集市。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "plaza", "type": "synonym", "meaning": "广场" },
+      { "word": "squareside", "type": "family", "meaning": "广场边的" },
+      { "word": "park", "type": "confusable", "meaning": "公园（功能不同）" },
+      { "word": "alley", "type": "antonym", "meaning": "小巷（非开阔空间）" }
+    ]
+  },
+  {
+    "word": "roundabout",
+    "phonetic": "[ˈraʊndəbaʊt]",
+    "pos": "n.",
+    "meaning": "环岛",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "车辆绕中心岛通行的环形路口",
+        "important": true,
+        "example": {
+          "en": "Take the second exit at the roundabout ahead.",
+          "zh": "前方环岛走第二个出口。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "多出口交通分流节点",
+        "important": false,
+        "example": {
+          "en": "Traffic was smoother after they rebuilt the roundabout.",
+          "zh": "重建环岛后交通更顺畅了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Go around the roundabout and follow signs to downtown.",
+        "zh": "绕过环岛并按指示牌去市中心。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Buses use the outer lane at this busy roundabout.",
+        "zh": "在这个繁忙环岛，公交车走外侧车道。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "roundabout exit",
+        "meaning": "环岛出口",
+        "example": {
+          "en": "Miss that roundabout exit and you add ten minutes.",
+          "zh": "错过那个环岛出口会多花十分钟。"
+        }
+      },
+      {
+        "phrase": "at the roundabout",
+        "meaning": "在环岛处",
+        "example": {
+          "en": "Turn right at the roundabout near the hospital.",
+          "zh": "在医院附近的环岛处右转。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "traffic circle", "type": "synonym", "meaning": "环形路口" },
+      { "word": "roundabout lane", "type": "family", "meaning": "环岛车道" },
+      { "word": "intersection", "type": "confusable", "meaning": "十字路口" },
+      { "word": "dead end", "type": "antonym", "meaning": "死胡同（无循环通行）" }
+    ]
+  },
+  {
+    "word": "alley",
+    "phonetic": "[ˈæli]",
+    "pos": "n.",
+    "meaning": "小巷",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "建筑间狭窄的小路",
+        "important": true,
+        "example": {
+          "en": "The café is hidden in a small alley behind the market.",
+          "zh": "那家咖啡馆藏在市场后面的小巷里。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "步行近道",
+        "important": false,
+        "example": {
+          "en": "Use this alley to save five minutes to the station.",
+          "zh": "走这条小巷去车站能省五分钟。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "That alley is dark, so walk on the main street.",
+        "zh": "那条小巷很暗，还是走主街吧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "A mural in the alley helps us find the hostel.",
+        "zh": "小巷里的壁画帮助我们找到旅舍。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "back alley",
+        "meaning": "后巷",
+        "example": {
+          "en": "Delivery vans park in the back alley every morning.",
+          "zh": "送货车每天早上停在后巷。"
+        }
+      },
+      {
+        "phrase": "narrow alley",
+        "meaning": "狭窄小巷",
+        "example": {
+          "en": "We walked through a narrow alley to reach the temple.",
+          "zh": "我们穿过一条狭窄小巷到达寺庙。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "lane", "type": "synonym", "meaning": "小路；小巷" },
+      { "word": "alleyway", "type": "family", "meaning": "小巷通道" },
+      { "word": "avenue", "type": "antonym", "meaning": "宽阔大道" },
+      { "word": "gallery", "type": "confusable", "meaning": "画廊（拼写易混）" }
+    ]
+  },
+  {
+    "word": "highway",
+    "phonetic": "[ˈhaɪweɪ]",
+    "pos": "n.",
+    "meaning": "高速公路",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "连接城市的高速主干道",
+        "important": true,
+        "example": {
+          "en": "Take the highway if you need to reach the airport fast.",
+          "zh": "想快点到机场就走高速公路。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "长距离公路线路",
+        "important": false,
+        "example": {
+          "en": "There is a rest area every fifty kilometers on this highway.",
+          "zh": "这条高速每五十公里有一个服务区。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Avoid the highway toll road during holiday traffic.",
+        "zh": "假期车多时尽量避开这条收费高速。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Our bus leaves the highway near the old bridge.",
+        "zh": "我们的巴士在老桥附近下高速。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "highway exit",
+        "meaning": "高速出口",
+        "example": {
+          "en": "Get off at highway exit 12 for the city center.",
+          "zh": "去市中心请从高速12号出口下。"
+        }
+      },
+      {
+        "phrase": "highway toll",
+        "meaning": "高速通行费",
+        "example": {
+          "en": "Prepare cash or card for the highway toll.",
+          "zh": "请准备现金或银行卡支付高速通行费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "motorway", "type": "synonym", "meaning": "高速公路（英式）" },
+      { "word": "expressway", "type": "synonym", "meaning": "快速路；高速" },
+      { "word": "high-speed", "type": "family", "meaning": "高速的" },
+      { "word": "street", "type": "antonym", "meaning": "城市街道（低速）" }
+    ]
+  }
+]

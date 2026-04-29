@@ -1,0 +1,662 @@
+[
+  {
+    "word": "hospital",
+    "phonetic": "[ˈhɒspɪtl]",
+    "pos": "n.",
+    "meaning": "医院",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "提供住院与急诊等医疗服务的机构",
+        "important": true,
+        "example": {
+          "en": "Take me to the nearest hospital, please.",
+          "zh": "请送我去最近的医院。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "大型综合医疗中心（与诊所相对）",
+        "important": false,
+        "example": {
+          "en": "The hospital has a 24-hour emergency department.",
+          "zh": "这家医院设有二十四小时急诊科。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Which hospital treats travellers without insurance?",
+        "zh": "哪家医院可以为没有保险的旅客看病？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We waited three hours in the hospital A&E.",
+        "zh": "我们在医院急诊室等了三个小时。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "go to hospital",
+        "meaning": "去医院看病（英式常用）",
+        "example": {
+          "en": "She had to go to hospital after the fall.",
+          "zh": "她摔倒后不得不去医院。"
+        }
+      },
+      {
+        "phrase": "hospital emergency room",
+        "meaning": "医院急诊室",
+        "example": {
+          "en": "Call an ambulance if you need the hospital emergency room.",
+          "zh": "若需要进医院急诊室，请叫救护车。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "hospitalise", "type": "family", "meaning": "收治入院" },
+      { "word": "clinic", "type": "synonym", "meaning": "诊所（规模常较小）" },
+      { "word": "hostel", "type": "confusable", "meaning": "青年旅舍（拼写易混）" }
+    ]
+  },
+  {
+    "word": "doctor",
+    "phonetic": "[ˈdɒktə(r)]",
+    "pos": "n.",
+    "meaning": "医生",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "具备行医资格、诊断与治疗疾病的人",
+        "important": true,
+        "example": {
+          "en": "The doctor examined my throat and listened to my chest.",
+          "zh": "医生检查了我的喉咙并听了心肺。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "博士学位持有者（Dr.）",
+        "important": false,
+        "example": {
+          "en": "Ask at reception for Doctor Patel.",
+          "zh": "到前台找帕特尔医生。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I need to see a doctor—my allergy is getting worse.",
+        "zh": "我需要看医生，我的过敏越来越严重了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The hotel called a doctor for the guest with a high fever.",
+        "zh": "酒店为发高烧的客人请了医生。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "see a doctor",
+        "meaning": "看医生；就诊",
+        "example": {
+          "en": "You should see a doctor if the pain continues.",
+          "zh": "如果疼痛持续，你应该去看医生。"
+        }
+      },
+      {
+        "phrase": "family doctor",
+        "meaning": "家庭医生；全科医师",
+        "example": {
+          "en": "Your family doctor can refer you to a specialist.",
+          "zh": "你的家庭医生可以把你转给专科医生。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "doctoral", "type": "family", "meaning": "博士的；博士级别的" },
+      { "word": "physician", "type": "synonym", "meaning": "内科医生（尤正式）" },
+      { "word": "dock", "type": "confusable", "meaning": "码头（发音/拼写联想）" }
+    ]
+  },
+  {
+    "word": "nurse",
+    "phonetic": "[nɜːs]",
+    "pos": "n.",
+    "meaning": "护士",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在医院等场所照护病人、协助医生的护理人员",
+        "important": true,
+        "example": {
+          "en": "A nurse took my temperature at triage.",
+          "zh": "分诊时一名护士给我量了体温。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（动词）护理；哺育",
+        "important": false,
+        "example": {
+          "en": "She nursed her sore ankle with ice packs.",
+          "zh": "她用冰袋护理扭伤了的脚踝。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The nurse explained how to take the medicine after meals.",
+        "zh": "护士说明了饭后如何服药。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Ask the nurse on duty if you feel dizzy.",
+        "zh": "若感到头晕，请问值班护士。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "staff nurse",
+        "meaning": "病房护士；在编护士",
+        "example": {
+          "en": "The staff nurse will change your dressing.",
+          "zh": "病房护士会来给你换药。"
+        }
+      },
+      {
+        "phrase": "nurse's station",
+        "meaning": "护士站",
+        "example": {
+          "en": "Wait by the nurse's station until your name is called.",
+          "zh": "在护士站等候叫号。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "nursing", "type": "family", "meaning": "护理（专业/行为）" },
+      { "word": "carer", "type": "synonym", "meaning": "照护者（更广）" },
+      { "word": "curse", "type": "confusable", "meaning": "诅咒（拼写相近）" }
+    ]
+  },
+  {
+    "word": "medicine",
+    "phonetic": "[ˈmedsn]",
+    "pos": "n.",
+    "meaning": "药；医学",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用于治疗疾病的药物",
+        "important": true,
+        "example": {
+          "en": "Take this medicine three times a day after food.",
+          "zh": "这药每天饭后服用三次。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "医学（学科）",
+        "important": false,
+        "example": {
+          "en": "She studies medicine at university.",
+          "zh": "她在大学读医学。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you need a prescription to buy this medicine here?",
+        "zh": "在这里买这种药需要处方吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Keep your medicine in the original bottle when travelling.",
+        "zh": "旅行时请把药品留在原包装瓶里。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "over-the-counter medicine",
+        "meaning": "非处方药",
+        "example": {
+          "en": "You can get basic pain relief as over-the-counter medicine.",
+          "zh": "你可以买到基本的非处方止痛药。"
+        }
+      },
+      {
+        "phrase": "take medicine",
+        "meaning": "服药",
+        "example": {
+          "en": "He forgot to take his medicine before the flight.",
+          "zh": "他登机前忘了吃药。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "medicinal", "type": "family", "meaning": "药用的" },
+      { "word": "medication", "type": "synonym", "meaning": "药物（常指具体用药）" },
+      { "word": "meditation", "type": "confusable", "meaning": "冥想（拼写易混）" }
+    ]
+  },
+  {
+    "word": "pain",
+    "phonetic": "[peɪn]",
+    "pos": "n.",
+    "meaning": "疼痛",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "身体受伤或疾病引起的不适感",
+        "important": true,
+        "example": {
+          "en": "I have sharp pain in my lower back.",
+          "zh": "我下背部有刺痛。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "精神上的痛苦（引申）",
+        "important": false,
+        "example": {
+          "en": "It took time to get over the pain of the accident.",
+          "zh": "从事故的阴影中走出来需要时间。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "On a scale of one to ten, how bad is the pain?",
+        "zh": "从一到十，你的疼痛有多严重？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The injury causes pain when I bend my knee.",
+        "zh": "屈膝时这次受伤就会疼。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "chest pain",
+        "meaning": "胸痛",
+        "example": {
+          "en": "Chest pain can be an emergency—seek help immediately.",
+          "zh": "胸痛可能是急症，请立即求助。"
+        }
+      },
+      {
+        "phrase": "pain relief",
+        "meaning": "止痛；缓解疼痛",
+        "example": {
+          "en": "The pharmacist suggested pain relief for my headache.",
+          "zh": "药剂师建议我用止痛药缓解头痛。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "painful", "type": "family", "meaning": "疼痛的；令人痛苦的" },
+      { "word": "ache", "type": "synonym", "meaning": "隐痛；酸痛" },
+      { "word": "pane", "type": "confusable", "meaning": "窗格玻璃（同音异义）" }
+    ]
+  },
+  {
+    "word": "fever",
+    "phonetic": "[ˈfiːvə(r)]",
+    "pos": "n.",
+    "meaning": "发烧",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "体温升高，常伴随感染",
+        "important": true,
+        "example": {
+          "en": "He developed a fever on the second day of the trip.",
+          "zh": "旅行第二天他开始发烧。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "一阵狂热或兴奋（引申）",
+        "important": false,
+        "example": {
+          "en": "Gold fever drew crowds to the river.",
+          "zh": "淘金热把人群吸引到河边。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "She stayed in the hotel with fever and chills.",
+        "zh": "她因发烧发冷待在酒店里。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "High fever in a child needs prompt medical advice.",
+        "zh": "幼儿高烧需要尽快就医。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "have a fever",
+        "meaning": "发烧",
+        "example": {
+          "en": "I think I have a fever—my face feels hot.",
+          "zh": "我觉得自己发烧了，脸很烫。"
+        }
+      },
+      {
+        "phrase": "run a fever",
+        "meaning": "持续发烧",
+        "example": {
+          "en": "The toddler began to run a fever at night.",
+          "zh": "幼儿夜里开始发烧。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "febrile", "type": "family", "meaning": "发热的（医学用语）" },
+      { "word": "temperature", "type": "synonym", "meaning": "体温（常一起描述）" },
+      { "word": "favour", "type": "confusable", "meaning": "恩惠；偏爱（英式拼写 favour）" }
+    ]
+  },
+  {
+    "word": "injury",
+    "phonetic": "[ˈɪndʒəri]",
+    "pos": "n.",
+    "meaning": "受伤；损伤",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "对身体造成的伤害",
+        "important": true,
+        "example": {
+          "en": "He reported a knee injury after the hike.",
+          "zh": "徒步后他报告了膝盖受伤。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（法律/保险语境）损害",
+        "important": false,
+        "example": {
+          "en": "The policy covers injury caused in a traffic accident.",
+          "zh": "保单涵盖交通事故造成的伤害。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Minor injuries can be treated at a walk-in clinic.",
+        "zh": "轻伤可以在无需预约的诊所处理。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Ice the injury for fifteen minutes to reduce swelling.",
+        "zh": "冰敷伤处十五分钟以减轻肿胀。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "serious injury",
+        "meaning": "重伤",
+        "example": {
+          "en": "Serious injury requires an ambulance, not a taxi.",
+          "zh": "重伤需要救护车，不要坐出租车。"
+        }
+      },
+      {
+        "phrase": "sports injury",
+        "meaning": "运动损伤",
+        "example": {
+          "en": "A sports injury stopped him from skiing.",
+          "zh": "运动损伤使他无法继续滑雪。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "injure", "type": "family", "meaning": "使受伤" },
+      { "word": "wound", "type": "synonym", "meaning": "伤口（常指开放性）" },
+      { "word": "jury", "type": "confusable", "meaning": "陪审团（拼写相近）" }
+    ]
+  },
+  {
+    "word": "allergy",
+    "phonetic": "[ˈælədʒi]",
+    "pos": "n.",
+    "meaning": "过敏",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "免疫系统对物质过度反应",
+        "important": true,
+        "example": {
+          "en": "I have an allergy to peanuts.",
+          "zh": "我对花生过敏。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "反感；不耐受（非医学引申）",
+        "important": false,
+        "example": {
+          "en": "She has an allergy to long queues at airports.",
+          "zh": "她特别受不了在机场排长队。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Tell the doctor about any drug allergy before treatment.",
+        "zh": "治疗前请告知医生是否有药物过敏。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Seasonal allergies can ruin a spring holiday.",
+        "zh": "季节性过敏会破坏春日假期。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "food allergy",
+        "meaning": "食物过敏",
+        "example": {
+          "en": "Restaurants should list ingredients for food allergy guests.",
+          "zh": "餐厅应为食物过敏客人列出配料。"
+        }
+      },
+      {
+        "phrase": "allergy test",
+        "meaning": "过敏测试",
+        "example": {
+          "en": "The clinic offers an allergy test by appointment.",
+          "zh": "该诊所可预约做过敏测试。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "allergic", "type": "family", "meaning": "过敏的" },
+      { "word": "hypersensitivity", "type": "synonym", "meaning": "过敏（医学术语）" },
+      { "word": "allegory", "type": "confusable", "meaning": "寓言（拼写易混）" }
+    ]
+  },
+  {
+    "word": "ambulance",
+    "phonetic": "[ˈæmbjələns]",
+    "pos": "n.",
+    "meaning": "救护车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "运送伤病员并配备急救设备的车辆",
+        "important": true,
+        "example": {
+          "en": "Call an ambulance—she cannot walk after the fall.",
+          "zh": "叫救护车，她摔倒后走不了了。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "固定航线医疗转运（引申）",
+        "important": false,
+        "example": {
+          "en": "Some islands rely on air ambulance for emergencies.",
+          "zh": "一些岛屿依赖空中救护应对急症。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The ambulance arrived within eight minutes.",
+        "zh": "救护车在八分钟内到达。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Dial the local emergency number for an ambulance abroad.",
+        "zh": "在国外请拨打当地急救号码叫救护车。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "call an ambulance",
+        "meaning": "叫救护车",
+        "example": {
+          "en": "If breathing is difficult, call an ambulance now.",
+          "zh": "若呼吸困难，请立即叫救护车。"
+        }
+      },
+      {
+        "phrase": "ambulance crew",
+        "meaning": "救护车上医护人员",
+        "example": {
+          "en": "The ambulance crew stabilised him before moving him.",
+          "zh": "救护人员在搬运前先稳定了他的状况。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "ambulant", "type": "family", "meaning": "能行走的（医学）" },
+      { "word": "paramedic", "type": "synonym", "meaning": "急救医护（常随车）" },
+      { "word": "ambassador", "type": "confusable", "meaning": "大使（前半拼写相近）" }
+    ]
+  },
+  {
+    "word": "prescription",
+    "phonetic": "[prɪˈskrɪpʃn]",
+    "pos": "n.",
+    "meaning": "处方；药方",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "医生开具的正式用药指示",
+        "important": true,
+        "example": {
+          "en": "The pharmacy needs a valid prescription for antibiotics.",
+          "zh": "药房需要有效处方才能配抗生素。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "规定；惯例（引申）",
+        "important": false,
+        "example": {
+          "en": "There is no single prescription for staying healthy while travelling.",
+          "zh": "旅行保持健康并没有唯一万能做法。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you refill this prescription at another branch?",
+        "zh": "你能在这家药房的另一家分店续配这张处方吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Keep a copy of your prescription with your passport.",
+        "zh": "把处方复印件和护照放在一起保管。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "on prescription",
+        "meaning": "凭处方（获取药品）",
+        "example": {
+          "en": "Strong painkillers are only available on prescription.",
+          "zh": "强效止痛药只能凭处方购买。"
+        }
+      },
+      {
+        "phrase": "repeat prescription",
+        "meaning": "重复处方；长期用药续方",
+        "example": {
+          "en": "Ask your doctor for a repeat prescription before you travel.",
+          "zh": "出行前请医生给你开重复处方。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "prescribe", "type": "family", "meaning": "开处方；规定" },
+      { "word": "script", "type": "synonym", "meaning": "处方（口语）" },
+      { "word": "subscription", "type": "confusable", "meaning": "订阅（拼写易混）" }
+    ]
+  }
+]

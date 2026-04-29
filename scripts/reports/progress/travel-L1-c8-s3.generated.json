@@ -1,0 +1,832 @@
+[
+  {
+    "word": "photo",
+    "phonetic": "[ˈfəʊtəʊ]",
+    "pos": "n.",
+    "meaning": "照片",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "旅行时拍摄的静态影像",
+        "important": true,
+        "example": {
+          "en": "We took a photo in front of the gate.",
+          "zh": "我们在大门前拍了张照片。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "印刷或数字形式的图片记录",
+        "important": false,
+        "example": {
+          "en": "Can you send me that photo tonight?",
+          "zh": "你今晚能把那张照片发我吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This photo shows the whole old town.",
+        "zh": "这张照片拍下了整座老城。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "No flash photos are allowed inside.",
+        "zh": "馆内禁止使用闪光灯拍照。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take a photo",
+        "meaning": "拍照",
+        "example": {
+          "en": "Let me take a photo of you two.",
+          "zh": "让我给你们俩拍一张。"
+        }
+      },
+      {
+        "phrase": "photo spot",
+        "meaning": "拍照打卡点",
+        "example": {
+          "en": "There is a famous photo spot by the lake.",
+          "zh": "湖边有个著名的拍照打卡点。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "photograph",
+        "type": "synonym",
+        "meaning": "照片（更正式）"
+      },
+      {
+        "word": "photographer",
+        "type": "family",
+        "meaning": "摄影师"
+      },
+      {
+        "word": "video",
+        "type": "antonym",
+        "meaning": "视频（非静态）"
+      },
+      {
+        "word": "postcard",
+        "type": "confusable",
+        "meaning": "明信片（与照片纪念品常一起出现，易混概念）"
+      }
+    ]
+  },
+  {
+    "word": "picture",
+    "phonetic": "[ˈpɪktʃə]",
+    "pos": "n.",
+    "meaning": "图片；照片",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "墙上或屏幕上的图像",
+        "important": true,
+        "example": {
+          "en": "The guide showed a picture of the ruin.",
+          "zh": "导游展示了一张遗址的图片。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "明信片或宣传册上的配图",
+        "important": false,
+        "example": {
+          "en": "I bought a picture postcard at the stall.",
+          "zh": "我在小摊买了张图画明信片。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Does this picture match the real view?",
+        "zh": "这张图和实景一致吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Tap the picture to zoom in.",
+        "zh": "点击图片可放大。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take a picture",
+        "meaning": "拍照",
+        "example": {
+          "en": "May I take a picture here?",
+          "zh": "我可以在这里拍照吗？"
+        }
+      },
+      {
+        "phrase": "picture frame",
+        "meaning": "相框",
+        "example": {
+          "en": "They sell picture frames near the exit.",
+          "zh": "出口附近有卖相框的。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "photo",
+        "type": "synonym",
+        "meaning": "照片"
+      },
+      {
+        "word": "picturesque",
+        "type": "family",
+        "meaning": "风景如画的"
+      },
+      {
+        "word": "text",
+        "type": "antonym",
+        "meaning": "文字（相对图像）"
+      },
+      {
+        "word": "pitcher",
+        "type": "confusable",
+        "meaning": "水壶；投手（发音可能混淆）"
+      }
+    ]
+  },
+  {
+    "word": "video",
+    "phonetic": "[ˈvɪdiəʊ]",
+    "pos": "n.",
+    "meaning": "视频",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用手机录制的动态影像",
+        "important": true,
+        "example": {
+          "en": "I filmed a short video of the parade.",
+          "zh": "我录了一段游行的短视频。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "景点官方宣传片或导览视频",
+        "important": false,
+        "example": {
+          "en": "Watch the safety video before the boat tour.",
+          "zh": "乘船游览前先观看安全视频。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This video is shaky — hold steady.",
+        "zh": "这段视频很晃——拿稳一点。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Upload the video when Wi-Fi is free.",
+        "zh": "有免费 Wi‑Fi 时再上传视频。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "video clip",
+        "meaning": "短视频片段",
+        "example": {
+          "en": "She sent me a cute video clip.",
+          "zh": "她给我发了一段可爱的短视频。"
+        }
+      },
+      {
+        "phrase": "slow-motion video",
+        "meaning": "慢动作视频",
+        "example": {
+          "en": "The slow-motion video looks amazing.",
+          "zh": "慢动作视频看起来很惊艳。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "audio",
+        "type": "antonym",
+        "meaning": "音频（相对画面）"
+      },
+      {
+        "word": "videography",
+        "type": "family",
+        "meaning": "摄影摄像（专业）"
+      },
+      {
+        "word": "clip",
+        "type": "synonym",
+        "meaning": "短视频片段"
+      },
+      {
+        "word": "radio",
+        "type": "confusable",
+        "meaning": "收音机（video/audio 场景不同）"
+      }
+    ]
+  },
+  {
+    "word": "selfie",
+    "phonetic": "[ˈselfi]",
+    "pos": "n.",
+    "meaning": "自拍",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "举着手机给自己拍的合影",
+        "important": true,
+        "example": {
+          "en": "We took a selfie with the tower behind us.",
+          "zh": "我们和身后的塔楼合了张自拍。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "热门景点的自拍打卡行为",
+        "important": false,
+        "example": {
+          "en": "The bridge is crowded with selfie tourists.",
+          "zh": "桥上挤满了自拍打卡的游客。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Turn on the wide lens for this selfie.",
+        "zh": "这张自拍请打开广角镜头。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Mind your step while taking a selfie.",
+        "zh": "自拍时注意脚下。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take a selfie",
+        "meaning": "自拍",
+        "example": {
+          "en": "Can we take a selfie on these steps?",
+          "zh": "我们能在这几级台阶上自拍吗？"
+        }
+      },
+      {
+        "phrase": "selfie stick",
+        "meaning": "自拍杆",
+        "example": {
+          "en": "Selfie sticks are banned in this hall.",
+          "zh": "此展厅禁止使用自拍杆。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "photo",
+        "type": "synonym",
+        "meaning": "照片（自拍是一种照片）"
+      },
+      {
+        "word": "self",
+        "type": "family",
+        "meaning": "自己"
+      },
+      {
+        "word": "group photo",
+        "type": "antonym",
+        "meaning": "集体照（由他人拍摄）"
+      },
+      {
+        "word": "shelf",
+        "type": "confusable",
+        "meaning": "架子（selfie/shelf 拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "landscape",
+    "phonetic": "[ˈlændskeɪp]",
+    "pos": "n.",
+    "meaning": "风景；（摄影）风景照",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "开阔的自然或城市景观",
+        "important": true,
+        "example": {
+          "en": "The landscape here looks unreal at sunrise.",
+          "zh": "日出时这里的风景美得不真实。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "横向构图的风景摄影作品",
+        "important": false,
+        "example": {
+          "en": "He shoots landscapes with a wide lens.",
+          "zh": "他用广角镜头拍风景。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This trail offers classic alpine landscapes.",
+        "zh": "这条步道能看到经典的阿尔卑斯式风景。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Landscape mode fits this panorama.",
+        "zh": "横屏模式适合这幅全景。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "landscape photo",
+        "meaning": "风景照",
+        "example": {
+          "en": "I prefer landscape photos without people.",
+          "zh": "我更喜欢没有人的风景照。"
+        }
+      },
+      {
+        "phrase": "landscape mode",
+        "meaning": "横屏模式",
+        "example": {
+          "en": "Switch to landscape mode for the cliff shot.",
+          "zh": "拍悬崖请切换到横屏模式。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "scenery",
+        "type": "synonym",
+        "meaning": "景色"
+      },
+      {
+        "word": "landscaping",
+        "type": "family",
+        "meaning": "园艺造景"
+      },
+      {
+        "word": "portrait",
+        "type": "antonym",
+        "meaning": "肖像；竖屏构图"
+      },
+      {
+        "word": "landslide",
+        "type": "confusable",
+        "meaning": "山体滑坡（词形相近）"
+      }
+    ]
+  },
+  {
+    "word": "scenery",
+    "phonetic": "[ˈsiːnəri]",
+    "pos": "n.",
+    "meaning": "景色；风光",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "沿途或景区内看到的整体风光",
+        "important": true,
+        "example": {
+          "en": "The train ride has beautiful scenery.",
+          "zh": "这段火车沿途风光很美。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "舞台布景（旅行语境少用）",
+        "important": false,
+        "example": {
+          "en": "The museum shows old theater scenery.",
+          "zh": "博物馆展出古老的舞台布景。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Don’t rush — enjoy the scenery.",
+        "zh": "别着急——好好欣赏景色。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Cloudy days soften the scenery.",
+        "zh": "阴天会让景色显得更柔和。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "natural scenery",
+        "meaning": "自然风光",
+        "example": {
+          "en": "We came for the natural scenery.",
+          "zh": "我们是冲着自然风光来的。"
+        }
+      },
+      {
+        "phrase": "scenic route",
+        "meaning": "风景路线",
+        "example": {
+          "en": "Let’s take the scenic route home.",
+          "zh": "我们回家走风景路线吧。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "view",
+        "type": "synonym",
+        "meaning": "视野；景色"
+      },
+      {
+        "word": "scene",
+        "type": "family",
+        "meaning": "场景；景象"
+      },
+      {
+        "word": "eyesore",
+        "type": "antonym",
+        "meaning": "煞风景的东西"
+      },
+      {
+        "word": "stationery",
+        "type": "confusable",
+        "meaning": "文具（scenery/stationery 音近）"
+      }
+    ]
+  },
+  {
+    "word": "view",
+    "phonetic": "[vjuː]",
+    "pos": "n.",
+    "meaning": "景色；视野",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "从某处望见的景象",
+        "important": true,
+        "example": {
+          "en": "Our room has a sea view.",
+          "zh": "我们的房间能看到海景。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "观点（旅行讨论中偶见）",
+        "important": false,
+        "example": {
+          "en": "In my view, we should start early.",
+          "zh": "依我看，我们应该早点出发。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Climb ten minutes for a better view.",
+        "zh": "再爬十分钟视野更好。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Fog hid the view this morning.",
+        "zh": "今早雾气挡住了景色。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "point of view",
+        "meaning": "观点；视角",
+        "example": {
+          "en": "From a safety point of view, stay back.",
+          "zh": "从安全角度请往后站。"
+        }
+      },
+      {
+        "phrase": "room with a view",
+        "meaning": "景观房",
+        "example": {
+          "en": "We booked a room with a view.",
+          "zh": "我们订了景观房。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "scenery",
+        "type": "synonym",
+        "meaning": "景色"
+      },
+      {
+        "word": "viewer",
+        "type": "family",
+        "meaning": "观看者；取景器"
+      },
+      {
+        "word": "blind spot",
+        "type": "antonym",
+        "meaning": "盲区（看不见）"
+      },
+      {
+        "word": "few",
+        "type": "confusable",
+        "meaning": "少数（view/few 元音不同）"
+      }
+    ]
+  },
+  {
+    "word": "capture",
+    "phonetic": "[ˈkæptʃə]",
+    "pos": "v.",
+    "meaning": "拍摄；捕捉",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用相机记录下景象",
+        "important": true,
+        "example": {
+          "en": "I tried to capture the lightning over the bay.",
+          "zh": "我想拍下海湾上的闪电。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "抓住（抽象）瞬间或氛围",
+        "important": false,
+        "example": {
+          "en": "Good photos capture the mood of a place.",
+          "zh": "好照片能抓住一个地方的氛围。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Use burst mode to capture birds in flight.",
+        "zh": "用连拍模式抓拍飞鸟。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Low light makes capture harder.",
+        "zh": "光线暗时更难拍清楚。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "capture the moment",
+        "meaning": "定格瞬间",
+        "example": {
+          "en": "We captured the moment at sunset.",
+          "zh": "我们在日落时分定格了这一刻。"
+        }
+      },
+      {
+        "phrase": "screen capture",
+        "meaning": "截图",
+        "example": {
+          "en": "Send me a screen capture of the map.",
+          "zh": "把地图截图发我。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "shoot",
+        "type": "synonym",
+        "meaning": "拍摄"
+      },
+      {
+        "word": "captive",
+        "type": "family",
+        "meaning": "被俘的（同源不同义）"
+      },
+      {
+        "word": "miss",
+        "type": "antonym",
+        "meaning": "错过（未拍到）"
+      },
+      {
+        "word": "caption",
+        "type": "confusable",
+        "meaning": "说明文字（capture/caption）"
+      }
+    ]
+  },
+  {
+    "word": "album",
+    "phonetic": "[ˈælbəm]",
+    "pos": "n.",
+    "meaning": "相册；专辑",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "存放旅行照片的相册（纸质或电子）",
+        "important": true,
+        "example": {
+          "en": "I saved every ticket stub in my album.",
+          "zh": "我把每张票根都保存在相册里。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "手机里的相册应用或图集",
+        "important": false,
+        "example": {
+          "en": "Open your album and pick five shots.",
+          "zh": "打开相册选五张照片。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Back up your album before you fly home.",
+        "zh": "回国前请备份相册。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This album is almost full.",
+        "zh": "这个相册快满了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "photo album",
+        "meaning": "相册",
+        "example": {
+          "en": "Grandma loves our photo album.",
+          "zh": "奶奶很喜欢我们的相册。"
+        }
+      },
+      {
+        "phrase": "album cover",
+        "meaning": "专辑封面；（相册）封面",
+        "example": {
+          "en": "She bought a leather album cover.",
+          "zh": "她买了个皮质相册封面。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "gallery",
+        "type": "synonym",
+        "meaning": "画廊；（手机）相册页"
+      },
+      {
+        "word": "scrapbook",
+        "type": "family",
+        "meaning": "剪贴簿；手账式相册"
+      },
+      {
+        "word": "single photo",
+        "type": "antonym",
+        "meaning": "单张照片（非合集）"
+      },
+      {
+        "word": "alumnus",
+        "type": "confusable",
+        "meaning": "校友（album/alumnus 拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "filter",
+    "phonetic": "[ˈfɪltə]",
+    "pos": "n.",
+    "meaning": "滤镜",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "修图软件里的色彩或风格滤镜",
+        "important": true,
+        "example": {
+          "en": "I added a warm filter to the sunset shot.",
+          "zh": "我给日落照片加了暖色滤镜。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "相机镜头的物理滤镜（偏振等）",
+        "important": false,
+        "example": {
+          "en": "A polarizing filter cuts glare on water.",
+          "zh": "偏振镜能减弱水面反光。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Try a softer filter for skin tones.",
+        "zh": "肤色可以试试更柔和的滤镜。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Too strong a filter looks fake.",
+        "zh": "滤镜太强会显得不真实。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beauty filter",
+        "meaning": "美颜滤镜",
+        "example": {
+          "en": "She turned off the beauty filter.",
+          "zh": "她关掉了美颜滤镜。"
+        }
+      },
+      {
+        "phrase": "filter effect",
+        "meaning": "滤镜效果",
+        "example": {
+          "en": "This filter effect suits night shots.",
+          "zh": "这个滤镜效果适合夜景。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "edit",
+        "type": "synonym",
+        "meaning": "后期编辑"
+      },
+      {
+        "word": "filtration",
+        "type": "family",
+        "meaning": "过滤（名词）"
+      },
+      {
+        "word": "raw photo",
+        "type": "antonym",
+        "meaning": "未修原图"
+      },
+      {
+        "word": "filler",
+        "type": "confusable",
+        "meaning": "填充物（filter/filler）"
+      }
+    ]
+  }
+]

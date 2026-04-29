@@ -1,0 +1,832 @@
+[
+  {
+    "word": "spicy",
+    "phonetic": "[ˈspaɪsi]",
+    "pos": "adj.",
+    "meaning": "辣的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物味道很辣，带明显辛辣感",
+        "important": true,
+        "example": {
+          "en": "This curry is too spicy for me.",
+          "zh": "这份咖喱对我来说太辣了。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "口味偏重，常含辣椒或胡椒",
+        "important": false,
+        "example": {
+          "en": "Do you like spicy street food?",
+          "zh": "你喜欢辛辣的街头小吃吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can we order something less spicy?",
+        "zh": "我们可以点一点没那么辣的吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The soup is spicy but very tasty.",
+        "zh": "这碗汤很辣，但很好吃。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "spicy food",
+        "meaning": "辣味食物",
+        "example": {
+          "en": "I can eat spicy food every day.",
+          "zh": "我每天都能吃辣味食物。"
+        }
+      },
+      {
+        "phrase": "extra spicy",
+        "meaning": "特辣",
+        "example": {
+          "en": "He asked for extra spicy noodles.",
+          "zh": "他点了特辣面。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "spice",
+        "type": "family",
+        "meaning": "香料；调味料"
+      },
+      {
+        "word": "hot",
+        "type": "synonym",
+        "meaning": "辣的（口语常用）"
+      },
+      {
+        "word": "mild",
+        "type": "antonym",
+        "meaning": "清淡不辣的"
+      },
+      {
+        "word": "peppery",
+        "type": "confusable",
+        "meaning": "胡椒味重的"
+      }
+    ]
+  },
+  {
+    "word": "sweet",
+    "phonetic": "[swiːt]",
+    "pos": "adj.",
+    "meaning": "甜的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物含糖，尝起来有甜味",
+        "important": true,
+        "example": {
+          "en": "This mango drink is very sweet.",
+          "zh": "这杯芒果饮料很甜。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "甜点类口味，偏甜香",
+        "important": false,
+        "example": {
+          "en": "I want a sweet dessert after dinner.",
+          "zh": "晚饭后我想吃个甜口甜点。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is this sauce sweet or salty?",
+        "zh": "这个酱是甜的还是咸的？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The cake looks sweet and soft.",
+        "zh": "这个蛋糕看起来又甜又软。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sweet taste",
+        "meaning": "甜味",
+        "example": {
+          "en": "The tea has a light sweet taste.",
+          "zh": "这杯茶有淡淡的甜味。"
+        }
+      },
+      {
+        "phrase": "sweet tooth",
+        "meaning": "爱吃甜食",
+        "example": {
+          "en": "She has a sweet tooth after meals.",
+          "zh": "她饭后总爱吃甜食。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "sweetness",
+        "type": "family",
+        "meaning": "甜度；甜味"
+      },
+      {
+        "word": "sugary",
+        "type": "synonym",
+        "meaning": "含糖多的"
+      },
+      {
+        "word": "bitter",
+        "type": "antonym",
+        "meaning": "苦的"
+      },
+      {
+        "word": "dessert",
+        "type": "confusable",
+        "meaning": "甜点（食物类别）"
+      }
+    ]
+  },
+  {
+    "word": "sour",
+    "phonetic": "[ˈsaʊə(r)]",
+    "pos": "adj.",
+    "meaning": "酸的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物有明显酸味，如柠檬味",
+        "important": true,
+        "example": {
+          "en": "The soup is sour and refreshing.",
+          "zh": "这道汤酸酸的，很开胃。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "味道偏酸，常来自醋或发酵",
+        "important": false,
+        "example": {
+          "en": "These pickles are too sour for kids.",
+          "zh": "这些腌菜对小朋友来说太酸了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I like sour fish soup in this restaurant.",
+        "zh": "我喜欢这家餐厅的酸味鱼汤。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Can you make it less sour?",
+        "zh": "你们可以做得没那么酸吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sour flavor",
+        "meaning": "酸味",
+        "example": {
+          "en": "This sauce has a strong sour flavor.",
+          "zh": "这个酱有很明显的酸味。"
+        }
+      },
+      {
+        "phrase": "sweet and sour",
+        "meaning": "糖醋口味",
+        "example": {
+          "en": "We ordered sweet and sour chicken.",
+          "zh": "我们点了糖醋鸡。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "sourness",
+        "type": "family",
+        "meaning": "酸度；酸味"
+      },
+      {
+        "word": "acidic",
+        "type": "synonym",
+        "meaning": "酸性的"
+      },
+      {
+        "word": "sweet",
+        "type": "antonym",
+        "meaning": "甜的"
+      },
+      {
+        "word": "tangy",
+        "type": "confusable",
+        "meaning": "微酸开胃的"
+      }
+    ]
+  },
+  {
+    "word": "salty",
+    "phonetic": "[ˈsɔːlti]",
+    "pos": "adj.",
+    "meaning": "咸的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物含盐较多，吃起来偏咸",
+        "important": true,
+        "example": {
+          "en": "These fries are a little salty.",
+          "zh": "这些薯条有点咸。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "重口味咸香，常见于酱料或零食",
+        "important": false,
+        "example": {
+          "en": "The grilled fish is salty and smoky.",
+          "zh": "这条烤鱼咸香又有烟熏味。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Could you make the soup less salty?",
+        "zh": "这碗汤可以少放点盐吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I prefer salty snacks with tea.",
+        "zh": "我喝茶时更喜欢咸味零食。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "salty taste",
+        "meaning": "咸味",
+        "example": {
+          "en": "This dish has a rich salty taste.",
+          "zh": "这道菜有浓郁的咸味。"
+        }
+      },
+      {
+        "phrase": "too salty",
+        "meaning": "太咸",
+        "example": {
+          "en": "The waiter said the sauce was too salty.",
+          "zh": "服务员说这个酱太咸了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "salt",
+        "type": "family",
+        "meaning": "盐"
+      },
+      {
+        "word": "briny",
+        "type": "synonym",
+        "meaning": "咸鲜的（海水味）"
+      },
+      {
+        "word": "bland",
+        "type": "antonym",
+        "meaning": "淡而无味的"
+      },
+      {
+        "word": "savory",
+        "type": "confusable",
+        "meaning": "咸香可口的"
+      }
+    ]
+  },
+  {
+    "word": "bitter",
+    "phonetic": "[ˈbɪtə(r)]",
+    "pos": "adj.",
+    "meaning": "苦的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物或饮料有明显苦味",
+        "important": true,
+        "example": {
+          "en": "This black coffee is very bitter.",
+          "zh": "这杯黑咖啡很苦。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "口感发苦，常见于药草或深烘焙",
+        "important": false,
+        "example": {
+          "en": "The sauce tastes bitter without sugar.",
+          "zh": "这个酱不加糖会发苦。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I cannot finish this bitter tea.",
+        "zh": "这杯苦茶我喝不完。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Dark chocolate is less bitter with milk.",
+        "zh": "黑巧克力配牛奶会没那么苦。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bitter taste",
+        "meaning": "苦味",
+        "example": {
+          "en": "This herb leaves a bitter taste.",
+          "zh": "这种香草会留下苦味。"
+        }
+      },
+      {
+        "phrase": "bitter melon",
+        "meaning": "苦瓜",
+        "example": {
+          "en": "My dad ordered bitter melon with egg.",
+          "zh": "我爸爸点了苦瓜炒蛋。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "bitterness",
+        "type": "family",
+        "meaning": "苦味"
+      },
+      {
+        "word": "harsh",
+        "type": "synonym",
+        "meaning": "苦涩刺口的"
+      },
+      {
+        "word": "sweet",
+        "type": "antonym",
+        "meaning": "甜的"
+      },
+      {
+        "word": "astringent",
+        "type": "confusable",
+        "meaning": "涩口的"
+      }
+    ]
+  },
+  {
+    "word": "fresh",
+    "phonetic": "[freʃ]",
+    "pos": "adj.",
+    "meaning": "新鲜的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食材刚处理，状态新鲜",
+        "important": true,
+        "example": {
+          "en": "The salad is fresh and crunchy.",
+          "zh": "这个沙拉很新鲜，也很脆。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "食物味道清新，没有变质",
+        "important": false,
+        "example": {
+          "en": "We want fresh seafood tonight.",
+          "zh": "今晚我们想吃新鲜海鲜。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have fresh orange juice?",
+        "zh": "你们有鲜榨橙汁吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This market sells fresh fruit every morning.",
+        "zh": "这个市场每天早上卖新鲜水果。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fresh ingredients",
+        "meaning": "新鲜食材",
+        "example": {
+          "en": "The chef uses fresh ingredients daily.",
+          "zh": "厨师每天都用新鲜食材。"
+        }
+      },
+      {
+        "phrase": "freshly made",
+        "meaning": "现做的",
+        "example": {
+          "en": "We ordered freshly made noodles.",
+          "zh": "我们点了现做面条。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "freshness",
+        "type": "family",
+        "meaning": "新鲜度"
+      },
+      {
+        "word": "crisp",
+        "type": "synonym",
+        "meaning": "新鲜脆爽的"
+      },
+      {
+        "word": "stale",
+        "type": "antonym",
+        "meaning": "不新鲜的"
+      },
+      {
+        "word": "raw",
+        "type": "confusable",
+        "meaning": "生的（不一定新鲜）"
+      }
+    ]
+  },
+  {
+    "word": "crispy",
+    "phonetic": "[ˈkrɪspi]",
+    "pos": "adj.",
+    "meaning": "酥脆的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "外层炸或烤得很脆",
+        "important": true,
+        "example": {
+          "en": "The fried chicken is crispy outside.",
+          "zh": "这炸鸡外皮很酥脆。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "口感清脆，咬起来有声响",
+        "important": false,
+        "example": {
+          "en": "I love crispy spring rolls.",
+          "zh": "我很喜欢酥脆的春卷。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you make the bacon extra crispy?",
+        "zh": "培根可以做得更脆一点吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "These chips stay crispy for a long time.",
+        "zh": "这些薯片能保持酥脆很久。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "crispy skin",
+        "meaning": "酥脆外皮",
+        "example": {
+          "en": "The duck has crispy skin and juicy meat.",
+          "zh": "这只鸭子皮酥肉嫩。"
+        }
+      },
+      {
+        "phrase": "crispy fries",
+        "meaning": "酥脆薯条",
+        "example": {
+          "en": "The kids ordered crispy fries first.",
+          "zh": "孩子们先点了酥脆薯条。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "crispiness",
+        "type": "family",
+        "meaning": "酥脆程度"
+      },
+      {
+        "word": "crunchy",
+        "type": "synonym",
+        "meaning": "脆脆的"
+      },
+      {
+        "word": "soggy",
+        "type": "antonym",
+        "meaning": "湿软不脆的"
+      },
+      {
+        "word": "crisp",
+        "type": "confusable",
+        "meaning": "脆的（词形相近）"
+      }
+    ]
+  },
+  {
+    "word": "tender",
+    "phonetic": "[ˈtendə(r)]",
+    "pos": "adj.",
+    "meaning": "嫩的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "肉类口感柔软，容易咀嚼",
+        "important": true,
+        "example": {
+          "en": "The beef is tender and juicy.",
+          "zh": "这牛肉很嫩而且多汁。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "烹饪到位，不柴不硬",
+        "important": false,
+        "example": {
+          "en": "This chicken stays tender after grilling.",
+          "zh": "这鸡肉烤完后仍然很嫩。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please cook the fish until tender.",
+        "zh": "请把鱼做得嫩一点。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Slow cooking makes the meat tender.",
+        "zh": "慢炖会让肉更嫩。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tender meat",
+        "meaning": "嫩肉",
+        "example": {
+          "en": "This place serves very tender meat.",
+          "zh": "这家店的肉做得很嫩。"
+        }
+      },
+      {
+        "phrase": "tender texture",
+        "meaning": "细嫩口感",
+        "example": {
+          "en": "The pork has a tender texture.",
+          "zh": "这猪肉口感很细嫩。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "tenderness",
+        "type": "family",
+        "meaning": "嫩度；柔嫩感"
+      },
+      {
+        "word": "soft",
+        "type": "synonym",
+        "meaning": "软嫩的"
+      },
+      {
+        "word": "tough",
+        "type": "antonym",
+        "meaning": "又硬又柴的"
+      },
+      {
+        "word": "juicy",
+        "type": "confusable",
+        "meaning": "多汁的（不完全等同于嫩）"
+      }
+    ]
+  },
+  {
+    "word": "raw",
+    "phonetic": "[rɔː]",
+    "pos": "adj.",
+    "meaning": "生的；未煮熟的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物没有加热烹熟",
+        "important": true,
+        "example": {
+          "en": "I cannot eat raw fish today.",
+          "zh": "我今天不能吃生鱼。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "原始状态，未加工处理",
+        "important": false,
+        "example": {
+          "en": "These raw vegetables are for salad.",
+          "zh": "这些生蔬菜是做沙拉用的。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please no raw onion in my burger.",
+        "zh": "我的汉堡里请不要放生洋葱。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Raw seafood must be very fresh.",
+        "zh": "生食海鲜一定要非常新鲜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "raw fish",
+        "meaning": "生鱼片",
+        "example": {
+          "en": "He enjoys raw fish with soy sauce.",
+          "zh": "他喜欢蘸酱油吃生鱼片。"
+        }
+      },
+      {
+        "phrase": "raw vegetables",
+        "meaning": "生蔬菜",
+        "example": {
+          "en": "The plate comes with raw vegetables.",
+          "zh": "这份餐里配有生蔬菜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "rawness",
+        "type": "family",
+        "meaning": "生涩；未加工状态"
+      },
+      {
+        "word": "uncooked",
+        "type": "synonym",
+        "meaning": "未煮熟的"
+      },
+      {
+        "word": "cooked",
+        "type": "antonym",
+        "meaning": "熟的"
+      },
+      {
+        "word": "fresh",
+        "type": "confusable",
+        "meaning": "新鲜的（不等于生的）"
+      }
+    ]
+  },
+  {
+    "word": "grilled",
+    "phonetic": "[ɡrɪld]",
+    "pos": "adj.",
+    "meaning": "烤制的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "食物在烤架或明火上烤熟",
+        "important": true,
+        "example": {
+          "en": "We ordered grilled chicken with rice.",
+          "zh": "我们点了烤鸡配米饭。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "带有烤痕和烟熏风味",
+        "important": false,
+        "example": {
+          "en": "The grilled vegetables smell amazing.",
+          "zh": "烤蔬菜闻起来特别香。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you prefer grilled fish or fried fish?",
+        "zh": "你更喜欢烤鱼还是炸鱼？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This restaurant is famous for grilled steak.",
+        "zh": "这家餐厅以烤牛排出名。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "grilled chicken",
+        "meaning": "烤鸡",
+        "example": {
+          "en": "I always choose grilled chicken here.",
+          "zh": "我在这儿总是点烤鸡。"
+        }
+      },
+      {
+        "phrase": "grilled vegetables",
+        "meaning": "烤蔬菜",
+        "example": {
+          "en": "Grilled vegetables are healthy and tasty.",
+          "zh": "烤蔬菜健康又好吃。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "grill",
+        "type": "family",
+        "meaning": "烤；烧烤架"
+      },
+      {
+        "word": "barbecued",
+        "type": "synonym",
+        "meaning": "烧烤的"
+      },
+      {
+        "word": "boiled",
+        "type": "antonym",
+        "meaning": "水煮的"
+      },
+      {
+        "word": "roasted",
+        "type": "confusable",
+        "meaning": "烘烤的（方式不同）"
+      }
+    ]
+  }
+]

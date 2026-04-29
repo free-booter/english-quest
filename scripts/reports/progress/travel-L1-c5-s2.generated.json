@@ -1,0 +1,732 @@
+[
+  {
+    "word": "north",
+    "phonetic": "[nɔːθ]",
+    "pos": "n. / adv.",
+    "meaning": "北方；向北",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "北方，北部方向",
+        "important": true,
+        "example": {
+          "en": "The station is north of the bank.",
+          "zh": "车站在银行北边。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "向北地，朝北",
+        "important": false,
+        "example": {
+          "en": "Walk north for two blocks.",
+          "zh": "向北走两个街区。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Go north and turn left at the light.",
+        "zh": "向北走，在红绿灯处左转。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Is this road to the north gate?",
+        "zh": "这条路是去北门的吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "north of",
+        "meaning": "在…北边",
+        "example": {
+          "en": "The station is north of the museum.",
+          "zh": "车站在博物馆北边。"
+        }
+      },
+      {
+        "phrase": "head north",
+        "meaning": "向北前进",
+        "example": {
+          "en": "Head north and you will see the bridge.",
+          "zh": "向北走，你会看到那座桥。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "southern",
+        "type": "antonym",
+        "meaning": "南方的"
+      },
+      {
+        "word": "northeast",
+        "type": "family",
+        "meaning": "东北"
+      }
+    ]
+  },
+  {
+    "word": "south",
+    "phonetic": "[saʊθ]",
+    "pos": "n. / adv.",
+    "meaning": "南方；向南",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "南方，南部方向",
+        "important": true,
+        "example": {
+          "en": "The museum is south of the river.",
+          "zh": "博物馆在河的南边。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "向南地，朝南",
+        "important": false,
+        "example": {
+          "en": "Head south after the traffic lights.",
+          "zh": "过了红绿灯后向南走。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We are on the south side of town.",
+        "zh": "我们在城镇的南边。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Go south to find the bus terminal.",
+        "zh": "向南走就能找到公交总站。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "south of",
+        "meaning": "在…南边",
+        "example": {
+          "en": "The hotel is south of the square.",
+          "zh": "酒店在广场南边。"
+        }
+      },
+      {
+        "phrase": "go south",
+        "meaning": "向南走",
+        "example": {
+          "en": "Go south to reach the main road.",
+          "zh": "向南走就到主路。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "northern",
+        "type": "antonym",
+        "meaning": "北方的"
+      },
+      {
+        "word": "southeast",
+        "type": "family",
+        "meaning": "东南"
+      }
+    ]
+  },
+  {
+    "word": "east",
+    "phonetic": "[iːst]",
+    "pos": "n. / adv.",
+    "meaning": "东方；向东",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "东方，东部方向",
+        "important": true,
+        "example": {
+          "en": "The park is east of the hotel.",
+          "zh": "公园在酒店东边。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "向东地，朝东",
+        "important": false,
+        "example": {
+          "en": "Drive east for five minutes.",
+          "zh": "向东开五分钟。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Which road goes east to the station?",
+        "zh": "哪条路向东去车站？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The sun rises in the east.",
+        "zh": "太阳从东方升起。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "east of",
+        "meaning": "在…东边",
+        "example": {
+          "en": "The library is east of the school.",
+          "zh": "图书馆在学校东边。"
+        }
+      },
+      {
+        "phrase": "go east",
+        "meaning": "向东走",
+        "example": {
+          "en": "Go east for one block.",
+          "zh": "向东走一个街区。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "western",
+        "type": "antonym",
+        "meaning": "西方的"
+      },
+      {
+        "word": "eastern",
+        "type": "family",
+        "meaning": "东方的"
+      }
+    ]
+  },
+  {
+    "word": "west",
+    "phonetic": "[west]",
+    "pos": "n. / adv.",
+    "meaning": "西方；向西",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "西方，西部方向",
+        "important": true,
+        "example": {
+          "en": "The bank is west of the post office.",
+          "zh": "银行在邮局西边。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "向西地，朝西",
+        "important": false,
+        "example": {
+          "en": "Walk west until you see a bridge.",
+          "zh": "向西走，直到你看到一座桥。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Go west and cross the first street.",
+        "zh": "向西走，穿过第一条街。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Is the mall on the west side?",
+        "zh": "商场在西侧吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "west of",
+        "meaning": "在…西边",
+        "example": {
+          "en": "The market is west of the station.",
+          "zh": "市场在车站西边。"
+        }
+      },
+      {
+        "phrase": "head west",
+        "meaning": "向西前进",
+        "example": {
+          "en": "Head west and turn at the bank.",
+          "zh": "向西走，到银行处转弯。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "eastern",
+        "type": "antonym",
+        "meaning": "东方的"
+      },
+      {
+        "word": "westward",
+        "type": "family",
+        "meaning": "向西地"
+      }
+    ]
+  },
+  {
+    "word": "near",
+    "phonetic": "[nɪə]",
+    "pos": "prep. / adj.",
+    "meaning": "在…附近；近的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在……附近",
+        "important": true,
+        "example": {
+          "en": "The pharmacy is near the subway exit.",
+          "zh": "药店在地铁出口附近。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "距离短的，近的",
+        "important": false,
+        "example": {
+          "en": "This is the near entrance to the mall.",
+          "zh": "这是商场较近的入口。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is there a cafe near here?",
+        "zh": "这附近有咖啡店吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The bus stop is near the corner.",
+        "zh": "公交站在拐角附近。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "near here",
+        "meaning": "在这附近",
+        "example": {
+          "en": "Is there a subway station near here?",
+          "zh": "这附近有地铁站吗？"
+        }
+      },
+      {
+        "phrase": "near to",
+        "meaning": "靠近",
+        "example": {
+          "en": "Stay near to the main street.",
+          "zh": "靠近主街走。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "close",
+        "type": "synonym",
+        "meaning": "近的"
+      },
+      {
+        "word": "far",
+        "type": "antonym",
+        "meaning": "远的"
+      }
+    ]
+  },
+  {
+    "word": "far",
+    "phonetic": "[fɑː]",
+    "pos": "adv. / adj.",
+    "meaning": "远；遥远的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "距离远地，远",
+        "important": true,
+        "example": {
+          "en": "The train station is far from here.",
+          "zh": "火车站离这里很远。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "遥远的，远处的",
+        "important": false,
+        "example": {
+          "en": "That far building is the city hall.",
+          "zh": "那栋远处的楼是市政厅。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is it far to the old town?",
+        "zh": "去老城区远吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Don't walk, it's too far.",
+        "zh": "别走路了，太远了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "far from",
+        "meaning": "离…很远",
+        "example": {
+          "en": "The station is far from this park.",
+          "zh": "车站离这个公园很远。"
+        }
+      },
+      {
+        "phrase": "too far",
+        "meaning": "太远",
+        "example": {
+          "en": "The museum is too far to walk.",
+          "zh": "博物馆太远，走路去不了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "distant",
+        "type": "synonym",
+        "meaning": "遥远的"
+      },
+      {
+        "word": "near",
+        "type": "antonym",
+        "meaning": "近的"
+      }
+    ]
+  },
+  {
+    "word": "opposite",
+    "phonetic": "[ˈɒpəzɪt]",
+    "pos": "prep. / adj.",
+    "meaning": "在…对面；对面的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在……对面",
+        "important": true,
+        "example": {
+          "en": "The bookstore is opposite the bus stop.",
+          "zh": "书店在公交站对面。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "对面的，相反方向的",
+        "important": false,
+        "example": {
+          "en": "Use the opposite entrance on that street.",
+          "zh": "走那条街对面的入口。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "My hotel is opposite the museum.",
+        "zh": "我的酒店在博物馆对面。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Stand on the opposite side of the road.",
+        "zh": "站到马路对面去。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "opposite to",
+        "meaning": "在…对面",
+        "example": {
+          "en": "The cafe is opposite to the bank.",
+          "zh": "咖啡店在银行对面。"
+        }
+      },
+      {
+        "phrase": "the opposite side",
+        "meaning": "对面一侧",
+        "example": {
+          "en": "Cross to the opposite side of the street.",
+          "zh": "过到街道对面那一侧。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "across",
+        "type": "synonym",
+        "meaning": "在…对面"
+      },
+      {
+        "word": "adjacent",
+        "type": "confusable",
+        "meaning": "邻近的（易与 beside 混淆）"
+      }
+    ]
+  },
+  {
+    "word": "beside",
+    "phonetic": "[bɪˈsaɪd]",
+    "pos": "prep.",
+    "meaning": "在…旁边",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在……旁边，紧挨着",
+        "important": true,
+        "example": {
+          "en": "There is a map beside the ticket machine.",
+          "zh": "售票机旁边有一张地图。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "与……并排位置",
+        "important": false,
+        "example": {
+          "en": "Sit beside me and check the route.",
+          "zh": "坐我旁边一起看路线。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The bank is beside a small bakery.",
+        "zh": "银行在一家小面包店旁边。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Wait beside the blue sign.",
+        "zh": "在蓝色标志牌旁边等。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beside me",
+        "meaning": "在我旁边",
+        "example": {
+          "en": "Please stand beside me to check the map.",
+          "zh": "请站在我旁边看地图。"
+        }
+      },
+      {
+        "phrase": "right beside",
+        "meaning": "紧挨着",
+        "example": {
+          "en": "The ATM is right beside the door.",
+          "zh": "自动取款机就在门边。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "next to",
+        "type": "synonym",
+        "meaning": "紧挨着"
+      },
+      {
+        "word": "behind",
+        "type": "confusable",
+        "meaning": "在后面（位置不同）"
+      }
+    ]
+  },
+  {
+    "word": "behind",
+    "phonetic": "[bɪˈhaɪnd]",
+    "pos": "prep. / adv.",
+    "meaning": "在…后面；在后方",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在……后面",
+        "important": true,
+        "example": {
+          "en": "The restroom is behind the cafe.",
+          "zh": "洗手间在咖啡店后面。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "在后方，落在后面",
+        "important": false,
+        "example": {
+          "en": "The parking lot is behind.",
+          "zh": "停车场在后面。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Go behind the station to find the taxi line.",
+        "zh": "走到车站后面就能看到出租车排队点。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The gate is behind that tall building.",
+        "zh": "大门在那栋高楼后面。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "behind the building",
+        "meaning": "在建筑后面",
+        "example": {
+          "en": "The bus stop is behind the building.",
+          "zh": "公交站在那栋楼后面。"
+        }
+      },
+      {
+        "phrase": "fall behind",
+        "meaning": "落在后面",
+        "example": {
+          "en": "Don't fall behind when we cross the street.",
+          "zh": "过马路时别掉队。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "in front of",
+        "type": "antonym",
+        "meaning": "在…前面"
+      },
+      {
+        "word": "back",
+        "type": "family",
+        "meaning": "后面"
+      }
+    ]
+  },
+  {
+    "word": "front",
+    "phonetic": "[frʌnt]",
+    "pos": "n. / adj.",
+    "meaning": "前面；前方的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "前面，前方位置",
+        "important": true,
+        "example": {
+          "en": "The bus stop is in front of the mall.",
+          "zh": "公交站在商场前面。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "前面的，前部的",
+        "important": false,
+        "example": {
+          "en": "Use the front door of the station.",
+          "zh": "走车站前门。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please wait at the front of the line.",
+        "zh": "请在队伍前面等候。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "There is a map in front of you.",
+        "zh": "你前面有一张地图。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in front of",
+        "meaning": "在…前面",
+        "example": {
+          "en": "The map is in front of the station gate.",
+          "zh": "地图在车站大门前面。"
+        }
+      },
+      {
+        "phrase": "front door",
+        "meaning": "前门",
+        "example": {
+          "en": "Please use the front door of the hotel.",
+          "zh": "请走酒店前门。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "ahead",
+        "type": "synonym",
+        "meaning": "在前方"
+      },
+      {
+        "word": "behind",
+        "type": "antonym",
+        "meaning": "在后面"
+      }
+    ]
+  }
+]

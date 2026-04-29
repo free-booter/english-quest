@@ -1,0 +1,832 @@
+[
+  {
+    "word": "museum",
+    "phonetic": "[mjuːˈziːəm]",
+    "pos": "n.",
+    "meaning": "博物馆",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "收藏并展示文物、艺术品等的公共文化场所",
+        "important": true,
+        "example": {
+          "en": "We spent two hours in the city museum.",
+          "zh": "我们在市博物馆待了两个小时。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "专题陈列馆（自然史、科技等）",
+        "important": false,
+        "example": {
+          "en": "The science museum has hands-on exhibits for kids.",
+          "zh": "这座科学博物馆有适合孩子的互动展览。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is the museum open on Mondays?",
+        "zh": "博物馆周一开放吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Let's get audio guides at the museum entrance.",
+        "zh": "我们在博物馆入口租语音导览吧。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "art museum",
+        "meaning": "美术馆；艺术博物馆",
+        "example": {
+          "en": "The art museum is famous for Impressionist paintings.",
+          "zh": "这座艺术博物馆以印象派画作闻名。"
+        }
+      },
+      {
+        "phrase": "museum ticket",
+        "meaning": "博物馆门票",
+        "example": {
+          "en": "Students get a discount on museum tickets.",
+          "zh": "学生购买博物馆门票可享受折扣。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "museum-goer",
+        "type": "family",
+        "meaning": "常去博物馆的人"
+      },
+      {
+        "word": "gallery",
+        "type": "synonym",
+        "meaning": "画廊（常侧重展出）"
+      },
+      {
+        "word": "marketplace",
+        "type": "antonym",
+        "meaning": "集市（交易而非陈列）"
+      },
+      {
+        "word": "amusement",
+        "type": "confusable",
+        "meaning": "娱乐（museum / amusement 拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "gallery",
+    "phonetic": "[ˈɡæləri]",
+    "pos": "n.",
+    "meaning": "画廊；美术馆展厅",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "展出绘画与雕塑的艺术空间",
+        "important": true,
+        "example": {
+          "en": "Her paintings are on display in a local gallery.",
+          "zh": "她的画作在当地一家画廊展出。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "博物馆或剧院中的长廊、二楼看台",
+        "important": false,
+        "example": {
+          "en": "We watched the concert from the upper gallery.",
+          "zh": "我们从上层看台观看了音乐会。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The gallery closes earlier on Sundays.",
+        "zh": "这家画廊周日关门较早。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Free tours of the gallery start at ten.",
+        "zh": "画廊的免费导览十点开始。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "photo gallery",
+        "meaning": "照片展厅；（网页）相册",
+        "example": {
+          "en": "The hotel lobby has a photo gallery of the city.",
+          "zh": "酒店大堂有一座展示本市的照片廊。"
+        }
+      },
+      {
+        "phrase": "national gallery",
+        "meaning": "国家美术馆",
+        "example": {
+          "en": "We queued outside the national gallery.",
+          "zh": "我们在国家美术馆外排队。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "gallerist",
+        "type": "family",
+        "meaning": "画廊主；画廊经营者"
+      },
+      {
+        "word": "museum",
+        "type": "synonym",
+        "meaning": "博物馆（规模常更大）"
+      },
+      {
+        "word": "studio",
+        "type": "antonym",
+        "meaning": "工作室（创作而非公开展览为主）"
+      },
+      {
+        "word": "grocery",
+        "type": "confusable",
+        "meaning": "杂货店（gallery / grocery 音节易混）"
+      }
+    ]
+  },
+  {
+    "word": "temple",
+    "phonetic": "[ˈtempəl]",
+    "pos": "n.",
+    "meaning": "寺庙；神殿",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "宗教礼拜与供奉的场所",
+        "important": true,
+        "example": {
+          "en": "Visitors must remove shoes before entering the temple.",
+          "zh": "进入寺庙前游客须脱鞋。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "古代文明中的神庙遗迹",
+        "important": false,
+        "example": {
+          "en": "The ancient temple ruins attract thousands of tourists.",
+          "zh": "这座古神庙遗址吸引成千上万的游客。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This hilltop temple has a great sunset view.",
+        "zh": "这座山顶寺庙看日落很棒。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please keep quiet inside the temple grounds.",
+        "zh": "请在寺庙院内保持安静。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Buddhist temple",
+        "meaning": "佛寺",
+        "example": {
+          "en": "We lit incense at a Buddhist temple.",
+          "zh": "我们在一座佛寺上了香。"
+        }
+      },
+      {
+        "phrase": "temple fair",
+        "meaning": "庙会",
+        "example": {
+          "en": "The temple fair was crowded with locals.",
+          "zh": "庙会挤满了本地人。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "templar",
+        "type": "family",
+        "meaning": "圣殿骑士（源自中世纪骑士团）"
+      },
+      {
+        "word": "shrine",
+        "type": "synonym",
+        "meaning": "神社；圣地"
+      },
+      {
+        "word": "nightclub",
+        "type": "antonym",
+        "meaning": "夜店（与静心礼拜相对）"
+      },
+      {
+        "word": "simple",
+        "type": "confusable",
+        "meaning": "简单的（temple / simple 元音易混）"
+      }
+    ]
+  },
+  {
+    "word": "palace",
+    "phonetic": "[ˈpælɪs]",
+    "pos": "n.",
+    "meaning": "宫殿；王宫",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "君主或显贵居住的大型华丽建筑",
+        "important": true,
+        "example": {
+          "en": "The royal palace opens to the public in summer.",
+          "zh": "这座王宫夏季对公众开放。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "气势恢宏的豪华建筑（比喻）",
+        "important": false,
+        "example": {
+          "en": "The old hotel looked like a palace inside.",
+          "zh": "那家老酒店内部像宫殿一样豪华。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We booked tickets for the palace garden tour.",
+        "zh": "我们预订了王宫花园参观票。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "No flash photography is allowed in the palace halls.",
+        "zh": "宫殿大厅内禁止使用闪光灯拍照。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "palace museum",
+        "meaning": "宫殿博物馆",
+        "example": {
+          "en": "The palace museum displays crowns and jewels.",
+          "zh": "宫殿博物馆展出王冠与珠宝。"
+        }
+      },
+      {
+        "phrase": "summer palace",
+        "meaning": "夏宫；颐和园（专有）",
+        "example": {
+          "en": "We took a boat ride at the Summer Palace.",
+          "zh": "我们在颐和园乘船游览。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "palatial",
+        "type": "family",
+        "meaning": "宫殿般的；宏伟的"
+      },
+      {
+        "word": "castle",
+        "type": "synonym",
+        "meaning": "城堡（常更军事化）"
+      },
+      {
+        "word": "cottage",
+        "type": "antonym",
+        "meaning": "村舍小屋（简朴小型）"
+      },
+      {
+        "word": "place",
+        "type": "confusable",
+        "meaning": "地方（palace / place 拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "castle",
+    "phonetic": "[ˈkɑːsl]",
+    "pos": "n.",
+    "meaning": "城堡",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "中世纪用于防御的大型堡垒式建筑",
+        "important": true,
+        "example": {
+          "en": "The castle sits on a cliff above the river.",
+          "zh": "城堡坐落在河上方的悬崖上。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "棋子中的“车”；国际象棋",
+        "important": false,
+        "example": {
+          "en": "He moved his castle to check the king.",
+          "zh": "他动车将军。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Guided tours of the castle run every hour.",
+        "zh": "城堡导览每小时一次。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The castle walls are over six meters thick.",
+        "zh": "城堡城墙厚逾六米。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "castle ruins",
+        "meaning": "城堡遗址",
+        "example": {
+          "en": "We hiked to hilltop castle ruins at sunset.",
+          "zh": "我们日落时徒步到山顶城堡遗址。"
+        }
+      },
+      {
+        "phrase": "sandcastle",
+        "meaning": "沙堡",
+        "example": {
+          "en": "Kids built a huge sandcastle on the beach.",
+          "zh": "孩子们在沙滩上堆了一座大沙堡。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "castellan",
+        "type": "family",
+        "meaning": "城堡主；管理员（罕用）"
+      },
+      {
+        "word": "fortress",
+        "type": "synonym",
+        "meaning": "要塞"
+      },
+      {
+        "word": "hut",
+        "type": "antonym",
+        "meaning": "茅屋（简陋无防御）"
+      },
+      {
+        "word": "cassette",
+        "type": "confusable",
+        "meaning": "磁带盒（castle / cassette 发音易混）"
+      }
+    ]
+  },
+  {
+    "word": "church",
+    "phonetic": "[tʃɜːtʃ]",
+    "pos": "n.",
+    "meaning": "教堂",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "基督教举行礼拜的建筑物",
+        "important": true,
+        "example": {
+          "en": "The old church has beautiful stained glass.",
+          "zh": "这座老教堂有美丽的彩色玻璃。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "礼拜仪式；宗教聚会",
+        "important": false,
+        "example": {
+          "en": "We meet friends after church on Sundays.",
+          "zh": "我们周日在礼拜结束后见朋友。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The church bell rings at noon.",
+        "zh": "教堂中午敲钟。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Tourists can visit the church for free.",
+        "zh": "游客可免费参观这座教堂。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "church tower",
+        "meaning": "教堂塔楼",
+        "example": {
+          "en": "We climbed the narrow stairs of the church tower.",
+          "zh": "我们爬上教堂塔楼狭窄的楼梯。"
+        }
+      },
+      {
+        "phrase": "go to church",
+        "meaning": "去做礼拜",
+        "example": {
+          "en": "Many locals go to church on Christmas Eve.",
+          "zh": "许多本地人在平安夜去做礼拜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "churchgoer",
+        "type": "family",
+        "meaning": "常去做礼拜的人"
+      },
+      {
+        "word": "cathedral",
+        "type": "synonym",
+        "meaning": "大教堂（主教座堂）"
+      },
+      {
+        "word": "mosque",
+        "type": "antonym",
+        "meaning": "清真寺（不同宗教建筑）"
+      },
+      {
+        "word": "chicken",
+        "type": "confusable",
+        "meaning": "鸡（church / chicken 首音节易混）"
+      }
+    ]
+  },
+  {
+    "word": "park",
+    "phonetic": "[pɑːk]",
+    "pos": "n.",
+    "meaning": "公园；停车场",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "城市中供休闲绿化的公共园地",
+        "important": true,
+        "example": {
+          "en": "Families picnic in the park on weekends.",
+          "zh": "周末家庭在公园里野餐。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "停放车辆的区域（作名词）",
+        "important": false,
+        "example": {
+          "en": "Hotel guests use the underground car park.",
+          "zh": "酒店客人使用地下停车场。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Let's rent bikes and ride around the park.",
+        "zh": "我们租自行车在公园里骑一圈吧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The national park is famous for wildlife.",
+        "zh": "这座国家公园以野生动物闻名。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "national park",
+        "meaning": "国家公园",
+        "example": {
+          "en": "We need a permit to hike in the national park.",
+          "zh": "在国家公园徒步需要许可证。"
+        }
+      },
+      {
+        "phrase": "theme park",
+        "meaning": "主题公园",
+        "example": {
+          "en": "Kids loved the rides at the theme park.",
+          "zh": "孩子们喜欢主题公园里的游乐设施。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "parking",
+        "type": "family",
+        "meaning": "停车；停车位"
+      },
+      {
+        "word": "garden",
+        "type": "synonym",
+        "meaning": "花园（常更私密或规整）"
+      },
+      {
+        "word": "desert",
+        "type": "antonym",
+        "meaning": "沙漠（无绿荫休闲）"
+      },
+      {
+        "word": "pack",
+        "type": "confusable",
+        "meaning": "打包；一群（park / pack 元音易混）"
+      }
+    ]
+  },
+  {
+    "word": "garden",
+    "phonetic": "[ˈɡɑːdn]",
+    "pos": "n.",
+    "meaning": "花园；园子",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "种植花草蔬果的园地",
+        "important": true,
+        "example": {
+          "en": "The hotel has a quiet rose garden.",
+          "zh": "这家酒店有一座安静的玫瑰园。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "英式英语中常指房屋后的庭院草坪",
+        "important": false,
+        "example": {
+          "en": "They barbecue in the garden in summer.",
+          "zh": "夏天他们在花园里烧烤。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The botanical garden closes at five.",
+        "zh": "植物园五点关门。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We strolled through the imperial garden.",
+        "zh": "我们漫步穿过御花园。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "botanical garden",
+        "meaning": "植物园",
+        "example": {
+          "en": "The botanical garden has tropical greenhouses.",
+          "zh": "这座植物园有热带温室。"
+        }
+      },
+      {
+        "phrase": "beer garden",
+        "meaning": "露天啤酒园",
+        "example": {
+          "en": "We met friends at a beer garden near the station.",
+          "zh": "我们在车站附近的露天啤酒园见朋友。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "gardener",
+        "type": "family",
+        "meaning": "园丁"
+      },
+      {
+        "word": "park",
+        "type": "synonym",
+        "meaning": "公园（通常更大、更公共）"
+      },
+      {
+        "word": "wilderness",
+        "type": "antonym",
+        "meaning": "荒野（未经打理）"
+      },
+      {
+        "word": "guardian",
+        "type": "confusable",
+        "meaning": "监护人（garden / guardian 音节易混）"
+      }
+    ]
+  },
+  {
+    "word": "beach",
+    "phonetic": "[biːtʃ]",
+    "pos": "n.",
+    "meaning": "海滩；沙滩",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "海岸边沙砾或卵石地带",
+        "important": true,
+        "example": {
+          "en": "We watched the sunset from the beach.",
+          "zh": "我们在海滩上看日落。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "作动词：把船拖上岸",
+        "important": false,
+        "example": {
+          "en": "They beached the boat on the sandbar.",
+          "zh": "他们把船拖上沙洲。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This beach gets crowded in July.",
+        "zh": "这片海滩七月很拥挤。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Lifeguards patrol the main swimming beach.",
+        "zh": "救生员在主游泳海滩巡逻。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sandy beach",
+        "meaning": "沙滩",
+        "example": {
+          "en": "We walked barefoot on the sandy beach.",
+          "zh": "我们赤脚走在沙滩上。"
+        }
+      },
+      {
+        "phrase": "private beach",
+        "meaning": "私人海滩",
+        "example": {
+          "en": "The resort offers access to a private beach.",
+          "zh": "度假村提供私人海滩通道。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "beachy",
+        "type": "family",
+        "meaning": "有海滩感觉的"
+      },
+      {
+        "word": "shore",
+        "type": "synonym",
+        "meaning": "岸；滨"
+      },
+      {
+        "word": "mountaintop",
+        "type": "antonym",
+        "meaning": "山顶（与海滨相对的场景）"
+      },
+      {
+        "word": "peach",
+        "type": "confusable",
+        "meaning": "桃子（beach / peach 拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "mountain",
+    "phonetic": "[ˈmaʊntɪn]",
+    "pos": "n.",
+    "meaning": "山；高山",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "地势高耸的大型自然山体",
+        "important": true,
+        "example": {
+          "en": "Snow caps the mountain in winter.",
+          "zh": "冬季山顶积雪。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "大量、艰巨之事（a mountain of）",
+        "important": false,
+        "example": {
+          "en": "After the trip, we had a mountain of laundry.",
+          "zh": "旅行后我们有一大堆衣服要洗。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The cable car carries tourists up the mountain.",
+        "zh": "缆车把游客送上山。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Hikers start early to avoid afternoon storms on the mountain.",
+        "zh": "徒步者早起出发，以免下午山上遇暴风雨。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mountain range",
+        "meaning": "山脉",
+        "example": {
+          "en": "The mountain range forms a natural border.",
+          "zh": "这条山脉形成天然边界。"
+        }
+      },
+      {
+        "phrase": "mountain view",
+        "meaning": "山景",
+        "example": {
+          "en": "We paid extra for a room with a mountain view.",
+          "zh": "我们多付了钱订山景房。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "mountaineer",
+        "type": "family",
+        "meaning": "登山者"
+      },
+      {
+        "word": "peak",
+        "type": "synonym",
+        "meaning": "山峰（常指顶部）"
+      },
+      {
+        "word": "valley",
+        "type": "antonym",
+        "meaning": "山谷（低洼相对高耸）"
+      },
+      {
+        "word": "fountain",
+        "type": "confusable",
+        "meaning": "喷泉（mountain / fountain 尾音节易混）"
+      }
+    ]
+  }
+]

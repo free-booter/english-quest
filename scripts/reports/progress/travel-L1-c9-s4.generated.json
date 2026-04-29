@@ -1,0 +1,832 @@
+[
+  {
+    "word": "translate",
+    "phonetic": "[trænzˈleɪt]",
+    "pos": "v.",
+    "meaning": "翻译",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "把一种语言转换成另一种语言",
+        "important": true,
+        "example": {
+          "en": "Could someone translate this notice for me?",
+          "zh": "有人能帮我翻译这则告示吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（想法、计划）转化为可见成果",
+        "important": false,
+        "example": {
+          "en": "Good signage translates policy into action for travelers.",
+          "zh": "清晰的标识能把规定转化为旅客可执行的行动。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The hotel desk used an app to translate our question.",
+        "zh": "酒店前台用应用把我们的问题翻译出来。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Ask at the information desk if they can translate the form.",
+        "zh": "到问讯处问问能否翻译这张表格。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "translate into",
+        "meaning": "译成（某种语言）",
+        "example": {
+          "en": "Please translate this sentence into English slowly.",
+          "zh": "请把这句话慢慢译成英语。"
+        }
+      },
+      {
+        "phrase": "lost in translation",
+        "meaning": "翻译后意思走失",
+        "example": {
+          "en": "Some jokes get lost in translation at the border.",
+          "zh": "有些笑话在边境口岸翻译时会变味。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "translation",
+        "type": "family",
+        "meaning": "翻译；译文"
+      },
+      {
+        "word": "interpret",
+        "type": "synonym",
+        "meaning": "口译；解释（偏口头）"
+      },
+      {
+        "word": "mistranslate",
+        "type": "antonym",
+        "meaning": "误译（与正确翻译相对）"
+      },
+      {
+        "word": "transliterate",
+        "type": "confusable",
+        "meaning": "按字母转写（不是译义）"
+      }
+    ]
+  },
+  {
+    "word": "explain",
+    "phonetic": "[ɪkˈspleɪn]",
+    "pos": "v.",
+    "meaning": "解释；说明",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "讲清楚原因、规则或做法",
+        "important": true,
+        "example": {
+          "en": "The officer asked me to explain why my bag was open.",
+          "zh": "工作人员让我解释为什么箱子是开着的。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "为某事辩解、给出理由",
+        "important": false,
+        "example": {
+          "en": "He tried to explain the delay without arguing.",
+          "zh": "他尽量不争辩地说明延误原因。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Could you explain where the nearest exit is?",
+        "zh": "能说明最近的出口在哪吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She explained the insurance terms in simple English.",
+        "zh": "她用简单的英语说明了保险条款。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "explain yourself",
+        "meaning": "为自己辩解／说清楚",
+        "example": {
+          "en": "You may need to explain yourself at security.",
+          "zh": "在安检处你可能需要把事情说清楚。"
+        }
+      },
+      {
+        "phrase": "that explains it",
+        "meaning": "这就说得通了",
+        "example": {
+          "en": "Oh, a strike—that explains the crowded trains.",
+          "zh": "哦，罢工啊——难怪火车这么挤。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "explanation",
+        "type": "family",
+        "meaning": "解释；说明"
+      },
+      {
+        "word": "clarify",
+        "type": "synonym",
+        "meaning": "澄清；讲得更清楚"
+      },
+      {
+        "word": "confuse",
+        "type": "antonym",
+        "meaning": "使困惑（与讲清楚相对）"
+      },
+      {
+        "word": "expand",
+        "type": "confusable",
+        "meaning": "扩展（≠ explain）"
+      }
+    ]
+  },
+  {
+    "word": "understand",
+    "phonetic": "[ˌʌndəˈstænd]",
+    "pos": "v.",
+    "meaning": "理解；听懂",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "明白话语或指示的含义",
+        "important": true,
+        "example": {
+          "en": "Do you understand what you need to sign?",
+          "zh": "你明白要签的是什么吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "体谅、谅解他人的处境",
+        "important": false,
+        "example": {
+          "en": "Staff said they understood our missed connection.",
+          "zh": "工作人员说他们理解我们误机的情况。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I don't understand the announcement—it's too fast.",
+        "zh": "我听不清广播——播得太快了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please speak slowly so we can understand.",
+        "zh": "请说慢一点，我们才能听懂。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make yourself understood",
+        "meaning": "让别人听懂你的意思",
+        "example": {
+          "en": "Use gestures if you can't make yourself understood.",
+          "zh": "若别人听不懂，可以辅以手势。"
+        }
+      },
+      {
+        "phrase": "give someone to understand",
+        "meaning": "使某人以为（正式）",
+        "example": {
+          "en": "We were given to understand that buses run hourly.",
+          "zh": "我们被告知巴士每小时一班。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "understanding",
+        "type": "family",
+        "meaning": "理解；谅解"
+      },
+      {
+        "word": "comprehend",
+        "type": "synonym",
+        "meaning": "理解（较正式）"
+      },
+      {
+        "word": "misunderstand",
+        "type": "antonym",
+        "meaning": "误解"
+      },
+      {
+        "word": "undertake",
+        "type": "confusable",
+        "meaning": "承担（拼写相近，义不同）"
+      }
+    ]
+  },
+  {
+    "word": "assist",
+    "phonetic": "[əˈsɪst]",
+    "pos": "v.",
+    "meaning": "协助；帮助",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在他人请求或安排下给予帮助",
+        "important": true,
+        "example": {
+          "en": "Ground staff will assist passengers with reduced mobility.",
+          "zh": "地勤会协助行动不便的旅客。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "促进、有助于（较正式）",
+        "important": false,
+        "example": {
+          "en": "Clear signs assist travelers in finding the gate.",
+          "zh": "清晰的指示牌有助于旅客找到登机口。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "A volunteer assisted us at the lost-and-found desk.",
+        "zh": "一名志愿者在失物招领处帮了我们。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please press the button if you need staff to assist you.",
+        "zh": "如需工作人员协助请按钮。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "assist with",
+        "meaning": "在某事上提供帮助",
+        "example": {
+          "en": "Can you assist me with these customs forms?",
+          "zh": "能帮我填这些海关表格吗？"
+        }
+      },
+      {
+        "phrase": "assist in doing something",
+        "meaning": "协助做某事",
+        "example": {
+          "en": "Nurses assisted in moving passengers to shelter.",
+          "zh": "护士协助把旅客转移到避难处。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "assistance",
+        "type": "family",
+        "meaning": "帮助；援助"
+      },
+      {
+        "word": "help",
+        "type": "synonym",
+        "meaning": "帮助（更口语）"
+      },
+      {
+        "word": "hinder",
+        "type": "antonym",
+        "meaning": "阻碍（与协助相反）"
+      },
+      {
+        "word": "consist",
+        "type": "confusable",
+        "meaning": "由……组成（≠ assist）"
+      }
+    ]
+  },
+  {
+    "word": "cooperate",
+    "phonetic": "[kəʊˈɒpəreɪt]",
+    "pos": "v.",
+    "meaning": "合作；配合",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "与他人协作完成检查或手续",
+        "important": true,
+        "example": {
+          "en": "Travelers must cooperate during security screening.",
+          "zh": "旅客在安检时必须配合。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "机构或团队之间协同工作",
+        "important": false,
+        "example": {
+          "en": "Airlines cooperate with local hospitals in emergencies.",
+          "zh": "紧急情况下航空公司与当地医院协同。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "If we cooperate, we can solve this faster.",
+        "zh": "若我们互相配合，能更快解决。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The guide asked everyone to cooperate at the checkpoint.",
+        "zh": "领队要大家在检查点配合。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cooperate with",
+        "meaning": "与……合作／配合",
+        "example": {
+          "en": "You need to cooperate with border officers politely.",
+          "zh": "你需要礼貌地配合边检人员。"
+        }
+      },
+      {
+        "phrase": "refuse to cooperate",
+        "meaning": "拒绝配合",
+        "example": {
+          "en": "Refusing to cooperate may delay your journey.",
+          "zh": "拒不配合可能耽误行程。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "cooperation",
+        "type": "family",
+        "meaning": "合作"
+      },
+      {
+        "word": "collaborate",
+        "type": "synonym",
+        "meaning": "协作（常指共同做事）"
+      },
+      {
+        "word": "obstruct",
+        "type": "antonym",
+        "meaning": "阻挠（与配合相反）"
+      },
+      {
+        "word": "corporate",
+        "type": "confusable",
+        "meaning": "公司的（词形相近）"
+      }
+    ]
+  },
+  {
+    "word": "patient",
+    "phonetic": "[ˈpeɪʃnt]",
+    "pos": "adj.",
+    "meaning": "有耐心的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在等待或沟通时保持冷静、不急躁",
+        "important": true,
+        "example": {
+          "en": "Stay patient while staff handle many requests.",
+          "zh": "工作人员要处理很多请求时，请保持耐心。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "名词：病人（医院里）",
+        "important": false,
+        "example": {
+          "en": "The clinic asked whether the patient had travel insurance.",
+          "zh": "诊所问病人是否有旅行保险。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please be patient—the line will move soon.",
+        "zh": "请耐心——队伍马上会动。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "A patient attitude helps when language is a barrier.",
+        "zh": "语言不通时，有耐心更容易沟通。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "be patient with",
+        "meaning": "对……有耐心",
+        "example": {
+          "en": "Be patient with new staff—they are still training.",
+          "zh": "对新员工耐心一点——他们还在培训。"
+        }
+      },
+      {
+        "phrase": "patient enough",
+        "meaning": "足够有耐心",
+        "example": {
+          "en": "Are we patient enough to wait for the replacement bus?",
+          "zh": "我们有耐心等替补巴士吗？"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "patience",
+        "type": "family",
+        "meaning": "耐心"
+      },
+      {
+        "word": "tolerant",
+        "type": "synonym",
+        "meaning": "容忍的；宽容的"
+      },
+      {
+        "word": "impatient",
+        "type": "antonym",
+        "meaning": "不耐烦的"
+      },
+      {
+        "word": "patent",
+        "type": "confusable",
+        "meaning": "专利（拼写相近）"
+      }
+    ]
+  },
+  {
+    "word": "calm",
+    "phonetic": "[kɑːm]",
+    "pos": "adj.",
+    "meaning": "冷静的；平静的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "情绪镇定，不过度慌张",
+        "important": true,
+        "example": {
+          "en": "Try to stay calm if you lose your documents.",
+          "zh": "证件遗失时尽量保持冷静。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "环境安静、无骚动",
+        "important": false,
+        "example": {
+          "en": "The terminal felt calm after the crowd left.",
+          "zh": "人群散去后航站楼安静下来。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "A calm voice helps staff understand your problem.",
+        "zh": "平静的语气有助于工作人员理解你的问题。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She stayed calm when the flight was cancelled.",
+        "zh": "航班取消时她仍保持镇定。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "stay calm",
+        "meaning": "保持冷静",
+        "example": {
+          "en": "Stay calm and follow crew instructions.",
+          "zh": "保持冷静并按机组指示行动。"
+        }
+      },
+      {
+        "phrase": "calm down",
+        "meaning": "平静下来",
+        "example": {
+          "en": "He took a breath to calm down before speaking.",
+          "zh": "他深吸一口气，平静下来再开口。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "calmness",
+        "type": "family",
+        "meaning": "平静；镇定"
+      },
+      {
+        "word": "composed",
+        "type": "synonym",
+        "meaning": "镇定的"
+      },
+      {
+        "word": "panicked",
+        "type": "antonym",
+        "meaning": "惊慌的（与冷静相对）"
+      },
+      {
+        "word": "clam",
+        "type": "confusable",
+        "meaning": "蛤蜊（拼写相近）"
+      }
+    ]
+  },
+  {
+    "word": "clear",
+    "phonetic": "[klɪə(r)]",
+    "pos": "adj.",
+    "meaning": "清楚的；明确的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "表达易于理解，不含糊",
+        "important": true,
+        "example": {
+          "en": "Give a clear description of what was stolen.",
+          "zh": "清楚说明被盗物品的情况。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "头脑清醒、思路明晰",
+        "important": false,
+        "example": {
+          "en": "After water and rest, she felt clear enough to decide.",
+          "zh": "喝水休息后，她头脑清醒可以拿主意了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is it clear which counter we should use?",
+        "zh": "该去哪个柜台——这清楚吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "He gave clear directions to the embassy.",
+        "zh": "他把去大使馆的路讲得很清楚。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make something clear",
+        "meaning": "把某事说清楚",
+        "example": {
+          "en": "I want to make my allergy clear to the restaurant.",
+          "zh": "我要向餐厅清楚说明我的过敏情况。"
+        }
+      },
+      {
+        "phrase": "clear instructions",
+        "meaning": "明确的指示",
+        "example": {
+          "en": "Follow the clear instructions on the emergency card.",
+          "zh": "请按应急卡上的明确指示行动。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "clearly",
+        "type": "family",
+        "meaning": "清楚地"
+      },
+      {
+        "word": "plain",
+        "type": "synonym",
+        "meaning": "浅显易懂的"
+      },
+      {
+        "word": "unclear",
+        "type": "antonym",
+        "meaning": "不清楚的"
+      },
+      {
+        "word": "clean",
+        "type": "confusable",
+        "meaning": "干净的（≠ clear “清楚”）"
+      }
+    ]
+  },
+  {
+    "word": "help",
+    "phonetic": "[help]",
+    "pos": "v.",
+    "meaning": "帮助",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "为他人做某事以改善处境",
+        "important": true,
+        "example": {
+          "en": "Could you help me call my embassy?",
+          "zh": "能帮我打电话给大使馆吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "名词：帮助、援助",
+        "important": false,
+        "example": {
+          "en": "We asked for help at the tourist office.",
+          "zh": "我们在旅游咨询处求助。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Shout “Help!” only if you are in real danger.",
+        "zh": "仅在真正危险时喊“救命”。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Apps can help you find emergency numbers abroad.",
+        "zh": "应用可以帮你在国外查找急救电话。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ask for help",
+        "meaning": "求助",
+        "example": {
+          "en": "Don't hesitate to ask for help from airport staff.",
+          "zh": "别犹豫，向机场工作人员求助。"
+        }
+      },
+      {
+        "phrase": "can't help doing",
+        "meaning": "忍不住做某事",
+        "example": {
+          "en": "I couldn't help worrying when the bus was late.",
+          "zh": "巴士晚点时我忍不住担心。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "helpful",
+        "type": "family",
+        "meaning": "有帮助的"
+      },
+      {
+        "word": "aid",
+        "type": "synonym",
+        "meaning": "援助（正式）"
+      },
+      {
+        "word": "harm",
+        "type": "antonym",
+        "meaning": "伤害（与帮助相反）"
+      },
+      {
+        "word": "helm",
+        "type": "confusable",
+        "meaning": "舵（发音／拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "solve",
+    "phonetic": "[sɒlv]",
+    "pos": "v.",
+    "meaning": "解决",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "找到问题或纠纷的处理办法",
+        "important": true,
+        "example": {
+          "en": "We need to solve this before the desk closes.",
+          "zh": "我们得在柜台下班前把这事解决。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "解出（数学题等）",
+        "important": false,
+        "example": {
+          "en": "Kids solve puzzles while waiting at the gate.",
+          "zh": "孩子们在登机口等候时玩解谜游戏。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The airline promised to solve the baggage issue today.",
+        "zh": "航空公司承诺今天解决行李问题。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Sharing details calmly helps solve misunderstandings.",
+        "zh": "冷静补充细节有助于化解误会。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "solve a problem",
+        "meaning": "解决问题",
+        "example": {
+          "en": "Let's solve the problem step by step.",
+          "zh": "我们一步步解决这个问题。"
+        }
+      },
+      {
+        "phrase": "solve the mystery",
+        "meaning": "解开谜团",
+        "example": {
+          "en": "Police helped solve the mystery of the missing wallet.",
+          "zh": "警方协助弄清了钱包失踪之谜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "solution",
+        "type": "family",
+        "meaning": "解决办法"
+      },
+      {
+        "word": "resolve",
+        "type": "synonym",
+        "meaning": "解决（争端等）"
+      },
+      {
+        "word": "worsen",
+        "type": "antonym",
+        "meaning": "使恶化（与解决相反）"
+      },
+      {
+        "word": "dissolve",
+        "type": "confusable",
+        "meaning": "溶解（前缀不同）"
+      }
+    ]
+  }
+]

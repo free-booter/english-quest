@@ -1,0 +1,817 @@
+[
+  {
+    "word": "pay",
+    "phonetic": "[peɪ]",
+    "pos": "v.",
+    "meaning": "支付；付款",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "为商品或服务付钱",
+        "important": true,
+        "example": {
+          "en": "Can I pay by card?",
+          "zh": "我可以刷卡付款吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "结账时完成付款动作",
+        "important": false,
+        "example": {
+          "en": "I'll pay at the counter.",
+          "zh": "我去收银台付款。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do I pay now or later?",
+        "zh": "我是现在付款还是稍后付款？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We paid for the souvenirs together.",
+        "zh": "我们一起付了纪念品的钱。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pay for",
+        "meaning": "为......付款",
+        "example": {
+          "en": "I need to pay for these postcards.",
+          "zh": "我得给这些明信片付款。"
+        }
+      },
+      {
+        "phrase": "pay in cash",
+        "meaning": "用现金支付",
+        "example": {
+          "en": "Some small shops ask you to pay in cash.",
+          "zh": "有些小店会让你用现金支付。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "payment",
+        "type": "family",
+        "meaning": "付款；支付"
+      },
+      {
+        "word": "settle",
+        "type": "synonym",
+        "meaning": "结清（账单）"
+      },
+      {
+        "word": "charge",
+        "type": "confusable",
+        "meaning": "收费；向......收款"
+      }
+    ]
+  },
+  {
+    "word": "cash",
+    "phonetic": "[kæʃ]",
+    "pos": "n.",
+    "meaning": "现金",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "纸币和硬币等实体货币",
+        "important": true,
+        "example": {
+          "en": "Do you accept cash here?",
+          "zh": "你们这里收现金吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "与银行卡支付相对的付款方式",
+        "important": false,
+        "example": {
+          "en": "I only have cash with me.",
+          "zh": "我身上只有现金。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "It's easier to bargain if you pay in cash.",
+        "zh": "如果用现金付款，砍价会更容易。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I need to get some cash from an ATM first.",
+        "zh": "我得先去 ATM 取点现金。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cash payment",
+        "meaning": "现金支付",
+        "example": {
+          "en": "Cash payment gets you a small discount.",
+          "zh": "现金支付可以有小折扣。"
+        }
+      },
+      {
+        "phrase": "in cash",
+        "meaning": "用现金",
+        "example": {
+          "en": "I paid in cash because my card failed.",
+          "zh": "我的卡刷不了，所以我用现金付了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "cashier",
+        "type": "family",
+        "meaning": "收银员"
+      },
+      {
+        "word": "money",
+        "type": "synonym",
+        "meaning": "钱（泛指）"
+      },
+      {
+        "word": "card",
+        "type": "antonym",
+        "meaning": "银行卡支付方式"
+      },
+      {
+        "word": "change",
+        "type": "confusable",
+        "meaning": "找零；零钱"
+      }
+    ]
+  },
+  {
+    "word": "card",
+    "phonetic": "[kɑːd]",
+    "pos": "n.",
+    "meaning": "银行卡；卡",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用于刷卡消费的银行卡",
+        "important": true,
+        "example": {
+          "en": "I want to pay with my card.",
+          "zh": "我想用银行卡付款。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "在收银台插卡或挥卡支付",
+        "important": false,
+        "example": {
+          "en": "Please insert your card and enter the PIN.",
+          "zh": "请插入你的卡并输入密码。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This machine doesn't read foreign cards.",
+        "zh": "这台机器不识别境外银行卡。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Tap your card here for contactless payment.",
+        "zh": "请把卡在这里轻触完成感应支付。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "swipe a card",
+        "meaning": "刷卡",
+        "example": {
+          "en": "Could you swipe my card again?",
+          "zh": "你可以再帮我刷一次卡吗？"
+        }
+      },
+      {
+        "phrase": "card payment",
+        "meaning": "刷卡支付",
+        "example": {
+          "en": "Card payment is available at all counters.",
+          "zh": "所有收银台都支持刷卡支付。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "credit card",
+        "type": "family",
+        "meaning": "信用卡"
+      },
+      {
+        "word": "bank card",
+        "type": "synonym",
+        "meaning": "银行卡"
+      },
+      {
+        "word": "cash",
+        "type": "antonym",
+        "meaning": "现金付款方式"
+      },
+      {
+        "word": "pass",
+        "type": "confusable",
+        "meaning": "通行证（不是支付卡）"
+      }
+    ]
+  },
+  {
+    "word": "credit",
+    "phonetic": "[ˈkredɪt]",
+    "pos": "n.",
+    "meaning": "信用卡支付；赊账信用",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "刷信用卡时使用的支付额度",
+        "important": true,
+        "example": {
+          "en": "I'd like to pay on credit.",
+          "zh": "我想用信用卡支付。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "商家系统里的账户余额或信用额度",
+        "important": false,
+        "example": {
+          "en": "The refund will go back as store credit.",
+          "zh": "退款会以店铺余额的形式返还。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you accept international credit cards?",
+        "zh": "你们支持国际信用卡吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "My credit limit is almost full this month.",
+        "zh": "我这个月的信用额度快用完了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "credit card",
+        "meaning": "信用卡",
+        "example": {
+          "en": "I used my credit card to buy a watch.",
+          "zh": "我用信用卡买了一块手表。"
+        }
+      },
+      {
+        "phrase": "store credit",
+        "meaning": "店内余额",
+        "example": {
+          "en": "You can use store credit next time.",
+          "zh": "你下次可以使用店内余额。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "creditor",
+        "type": "family",
+        "meaning": "债权人"
+      },
+      {
+        "word": "loan",
+        "type": "confusable",
+        "meaning": "贷款（概念相关但不同）"
+      },
+      {
+        "word": "debit",
+        "type": "antonym",
+        "meaning": "借记（直接扣款）"
+      }
+    ]
+  },
+  {
+    "word": "debit",
+    "phonetic": "[ˈdebɪt]",
+    "pos": "n.",
+    "meaning": "借记卡支付；借记",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "使用借记卡直接从账户扣款",
+        "important": true,
+        "example": {
+          "en": "I'll pay by debit, not credit.",
+          "zh": "我要用借记卡，不用信用卡。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "银行系统中记作支出的一笔金额",
+        "important": false,
+        "example": {
+          "en": "This debit shows up immediately in my app.",
+          "zh": "这笔借记会马上显示在我的银行 App 里。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do I press debit or savings on this machine?",
+        "zh": "这台机器上我要选借记还是储蓄账户？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Debit payments are usually processed instantly.",
+        "zh": "借记卡支付通常会即时处理。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "debit card",
+        "meaning": "借记卡",
+        "example": {
+          "en": "My debit card works for contactless payment.",
+          "zh": "我的借记卡支持感应支付。"
+        }
+      },
+      {
+        "phrase": "direct debit",
+        "meaning": "自动扣款",
+        "example": {
+          "en": "I set up direct debit for monthly bills.",
+          "zh": "我设置了每月账单自动扣款。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "debit card",
+        "type": "family",
+        "meaning": "借记卡"
+      },
+      {
+        "word": "withdraw",
+        "type": "synonym",
+        "meaning": "支取（资金流出）"
+      },
+      {
+        "word": "credit",
+        "type": "antonym",
+        "meaning": "贷记；信用支付"
+      },
+      {
+        "word": "deposit",
+        "type": "confusable",
+        "meaning": "存款（方向相反）"
+      }
+    ]
+  },
+  {
+    "word": "change",
+    "phonetic": "[tʃeɪndʒ]",
+    "pos": "n.",
+    "meaning": "找零；零钱",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "付款后商家返还的剩余金额",
+        "important": true,
+        "example": {
+          "en": "Here's your change, sir.",
+          "zh": "先生，这是找您的零钱。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "可用于小额支付的硬币或小额纸币",
+        "important": false,
+        "example": {
+          "en": "Do you have change for a fifty?",
+          "zh": "你有零钱换开五十块吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I think my change is short by five yuan.",
+        "zh": "我觉得找零少了五块钱。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Keep the change, thank you.",
+        "zh": "零钱不用找了，谢谢。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "give change",
+        "meaning": "找零",
+        "example": {
+          "en": "Please give change for this note.",
+          "zh": "请帮我把这张纸币找开。"
+        }
+      },
+      {
+        "phrase": "small change",
+        "meaning": "零钱",
+        "example": {
+          "en": "I need small change for the bus.",
+          "zh": "我需要一些零钱坐公交。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "exchange",
+        "type": "family",
+        "meaning": "兑换；交换"
+      },
+      {
+        "word": "coins",
+        "type": "synonym",
+        "meaning": "硬币零钱"
+      },
+      {
+        "word": "bill",
+        "type": "antonym",
+        "meaning": "整额纸币"
+      },
+      {
+        "word": "charge",
+        "type": "confusable",
+        "meaning": "收费金额（不是找零）"
+      }
+    ]
+  },
+  {
+    "word": "receipt",
+    "phonetic": "[rɪˈsiːt]",
+    "pos": "n.",
+    "meaning": "收据；小票",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "购买后打印的付款凭证",
+        "important": true,
+        "example": {
+          "en": "Can I have the receipt, please?",
+          "zh": "请给我小票，可以吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于退货、报销或对账的证明文件",
+        "important": false,
+        "example": {
+          "en": "Keep the receipt in case you need a refund.",
+          "zh": "把小票留好，以防你需要退款。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The receipt shows the tax and discount clearly.",
+        "zh": "小票上清楚写着税费和折扣。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I lost my receipt, so I can't return the item.",
+        "zh": "我把小票弄丢了，所以不能退货。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "keep the receipt",
+        "meaning": "保留小票",
+        "example": {
+          "en": "Please keep the receipt for warranty service.",
+          "zh": "请保留小票用于保修服务。"
+        }
+      },
+      {
+        "phrase": "itemized receipt",
+        "meaning": "明细小票",
+        "example": {
+          "en": "Could you print an itemized receipt?",
+          "zh": "可以打印一张明细小票吗？"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "receiver",
+        "type": "family",
+        "meaning": "接收者"
+      },
+      {
+        "word": "proof of purchase",
+        "type": "synonym",
+        "meaning": "购买凭证"
+      },
+      {
+        "word": "invoice",
+        "type": "confusable",
+        "meaning": "发票（格式与用途不同）"
+      }
+    ]
+  },
+  {
+    "word": "refund",
+    "phonetic": "[ˈriːfʌnd]",
+    "pos": "n.",
+    "meaning": "退款；退还金额",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "退货后商家返还给顾客的钱",
+        "important": true,
+        "example": {
+          "en": "I want a refund for this broken mug.",
+          "zh": "这个杯子坏了，我想退款。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "支付失败或重复扣款后的返款",
+        "important": false,
+        "example": {
+          "en": "The refund will arrive in three business days.",
+          "zh": "退款会在三个工作日内到账。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can I get a full refund without the box?",
+        "zh": "没有包装盒可以全额退款吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please check your bank app for the refund status.",
+        "zh": "请在你的银行 App 里查看退款状态。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "full refund",
+        "meaning": "全额退款",
+        "example": {
+          "en": "They offered a full refund immediately.",
+          "zh": "他们马上提供了全额退款。"
+        }
+      },
+      {
+        "phrase": "refund policy",
+        "meaning": "退款政策",
+        "example": {
+          "en": "Please read the refund policy before buying.",
+          "zh": "购买前请先阅读退款政策。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "refundable",
+        "type": "family",
+        "meaning": "可退款的"
+      },
+      {
+        "word": "reimburse",
+        "type": "synonym",
+        "meaning": "报销；补偿退款"
+      },
+      {
+        "word": "charge",
+        "type": "antonym",
+        "meaning": "收费；扣款"
+      },
+      {
+        "word": "return",
+        "type": "confusable",
+        "meaning": "退货（动作），不等于退款结果"
+      }
+    ]
+  },
+  {
+    "word": "discount",
+    "phonetic": "[ˈdɪskaʊnt]",
+    "pos": "n.",
+    "meaning": "折扣；打折优惠",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品原价基础上的减价比例或金额",
+        "important": true,
+        "example": {
+          "en": "Is there any discount on this jacket?",
+          "zh": "这件夹克有折扣吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "促销活动中的优惠条件",
+        "important": false,
+        "example": {
+          "en": "Students can get a ten percent discount.",
+          "zh": "学生可以享受九折优惠。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This souvenir shop gives a discount for two items.",
+        "zh": "这家纪念品店买两件会有折扣。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The discount ends tonight at nine.",
+        "zh": "折扣今晚九点结束。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "give a discount",
+        "meaning": "给折扣",
+        "example": {
+          "en": "Can you give a discount if I buy three?",
+          "zh": "如果我买三件，你可以给点折扣吗？"
+        }
+      },
+      {
+        "phrase": "discount price",
+        "meaning": "折后价",
+        "example": {
+          "en": "The discount price is shown in red.",
+          "zh": "折后价用红色标出来了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "discounted",
+        "type": "family",
+        "meaning": "打折的"
+      },
+      {
+        "word": "sale",
+        "type": "synonym",
+        "meaning": "促销（语境近义）"
+      },
+      {
+        "word": "surcharge",
+        "type": "antonym",
+        "meaning": "附加费（加价）"
+      },
+      {
+        "word": "coupon",
+        "type": "confusable",
+        "meaning": "优惠券（折扣工具）"
+      }
+    ]
+  },
+  {
+    "word": "tax",
+    "phonetic": "[tæks]",
+    "pos": "n.",
+    "meaning": "税；税费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品价格之外需额外支付的法定费用",
+        "important": true,
+        "example": {
+          "en": "Is tax included in the price?",
+          "zh": "这个价格含税吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "结账时在小票上单独列出的税额",
+        "important": false,
+        "example": {
+          "en": "The tax on this item is higher than I expected.",
+          "zh": "这件商品的税费比我预期高。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please tell me the total with tax.",
+        "zh": "请告诉我含税后的总价。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Travelers can apply for a tax refund at the airport.",
+        "zh": "旅客可以在机场申请退税。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sales tax",
+        "meaning": "销售税",
+        "example": {
+          "en": "Sales tax is added at checkout in some countries.",
+          "zh": "在一些国家，结账时会加收销售税。"
+        }
+      },
+      {
+        "phrase": "tax refund",
+        "meaning": "退税",
+        "example": {
+          "en": "Keep your receipt if you want a tax refund.",
+          "zh": "如果你想退税，请保留小票。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "taxable",
+        "type": "family",
+        "meaning": "应纳税的"
+      },
+      {
+        "word": "duty",
+        "type": "synonym",
+        "meaning": "税费；关税"
+      },
+      {
+        "word": "subsidy",
+        "type": "antonym",
+        "meaning": "补贴（减轻费用）"
+      },
+      {
+        "word": "tip",
+        "type": "confusable",
+        "meaning": "小费（不是税）"
+      }
+    ]
+  }
+]

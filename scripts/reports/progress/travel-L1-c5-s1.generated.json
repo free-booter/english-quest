@@ -1,0 +1,662 @@
+[
+  {
+    "word": "direction",
+    "phonetic": "[dəˈrekʃən]",
+    "pos": "n.",
+    "meaning": "方向",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "行进或指路的方向",
+        "important": true,
+        "example": {
+          "en": "Can you show me the right direction?",
+          "zh": "你能告诉我正确的方向吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "路线指示说明",
+        "important": false,
+        "example": {
+          "en": "I wrote the direction on my map.",
+          "zh": "我把路线指示写在地图上了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Excuse me, what direction is the station?",
+        "zh": "打扰了，车站在什么方向？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We walked in the wrong direction.",
+        "zh": "我们朝错误的方向走了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ask for directions",
+        "meaning": "问路",
+        "example": {
+          "en": "Let's ask for directions at the shop.",
+          "zh": "我们去商店问路吧。"
+        }
+      },
+      {
+        "phrase": "the right direction",
+        "meaning": "正确方向",
+        "example": {
+          "en": "This sign points in the right direction.",
+          "zh": "这个路牌指向正确方向。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "direct", "type": "family", "meaning": "指导向；直接的" },
+      { "word": "way", "type": "synonym", "meaning": "路；方向" },
+      { "word": "destination", "type": "confusable", "meaning": "目的地（不是方向本身）" }
+    ]
+  },
+  {
+    "word": "left",
+    "phonetic": "[left]",
+    "pos": "adj./adv./n.",
+    "meaning": "左边",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "左侧方向",
+        "important": true,
+        "example": {
+          "en": "Turn left at the traffic light.",
+          "zh": "在红绿灯处左转。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "左边的位置",
+        "important": false,
+        "example": {
+          "en": "The bank is on your left.",
+          "zh": "银行在你的左边。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep left and walk two blocks.",
+        "zh": "靠左走两个街区。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Take the first left after the bridge.",
+        "zh": "过桥后走第一个左转。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "turn left",
+        "meaning": "左转",
+        "example": {
+          "en": "Turn left when you see the post office.",
+          "zh": "看到邮局时左转。"
+        }
+      },
+      {
+        "phrase": "on your left",
+        "meaning": "在你左边",
+        "example": {
+          "en": "The subway entrance is on your left.",
+          "zh": "地铁入口在你左边。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "right", "type": "antonym", "meaning": "右边" },
+      { "word": "left-hand", "type": "family", "meaning": "左侧的" },
+      { "word": "leave", "type": "confusable", "meaning": "离开（拼写相近）" }
+    ]
+  },
+  {
+    "word": "right",
+    "phonetic": "[raɪt]",
+    "pos": "adj./adv./n.",
+    "meaning": "右边",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "右侧方向",
+        "important": true,
+        "example": {
+          "en": "Turn right at the next corner.",
+          "zh": "在下一个拐角右转。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "正确的（指路回答）",
+        "important": false,
+        "example": {
+          "en": "Yes, this is the right road.",
+          "zh": "是的，这条路是对的。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Go right after the bus stop.",
+        "zh": "过了公交站后向右走。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The museum is on the right side.",
+        "zh": "博物馆在右侧。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "turn right",
+        "meaning": "右转",
+        "example": {
+          "en": "Turn right and you will see the hotel.",
+          "zh": "右转后你就会看到酒店。"
+        }
+      },
+      {
+        "phrase": "on the right",
+        "meaning": "在右边",
+        "example": {
+          "en": "The pharmacy is on the right.",
+          "zh": "药店在右边。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "left", "type": "antonym", "meaning": "左边" },
+      { "word": "right-hand", "type": "family", "meaning": "右侧的" },
+      { "word": "light", "type": "confusable", "meaning": "灯；光（发音相近）" }
+    ]
+  },
+  {
+    "word": "straight",
+    "phonetic": "[streɪt]",
+    "pos": "adj./adv.",
+    "meaning": "直走",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "沿直线前进",
+        "important": true,
+        "example": {
+          "en": "Go straight for five minutes.",
+          "zh": "直走五分钟。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "笔直的，不弯曲的",
+        "important": false,
+        "example": {
+          "en": "This is a straight road.",
+          "zh": "这是一条笔直的路。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Walk straight until you see the bridge.",
+        "zh": "一直直走到你看到桥。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Keep straight, then cross the street.",
+        "zh": "一直往前，然后过马路。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "go straight",
+        "meaning": "直走",
+        "example": {
+          "en": "Go straight and the park is ahead.",
+          "zh": "直走，公园就在前方。"
+        }
+      },
+      {
+        "phrase": "straight ahead",
+        "meaning": "正前方",
+        "example": {
+          "en": "The station is straight ahead.",
+          "zh": "车站就在正前方。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "straighten", "type": "family", "meaning": "使变直" },
+      { "word": "directly", "type": "synonym", "meaning": "径直地" },
+      { "word": "curve", "type": "antonym", "meaning": "弯曲；弯道" }
+    ]
+  },
+  {
+    "word": "turn",
+    "phonetic": "[tɜːn]",
+    "pos": "v./n.",
+    "meaning": "转弯",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "改变方向转向",
+        "important": true,
+        "example": {
+          "en": "Turn at the second intersection.",
+          "zh": "在第二个路口转弯。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "转弯动作或机会",
+        "important": false,
+        "example": {
+          "en": "Miss this turn and you get lost.",
+          "zh": "错过这个转弯你就会迷路。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Turn right after the bookstore.",
+        "zh": "经过书店后右转。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "When should I turn for the station?",
+        "zh": "我该在哪里转向去车站？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "turn around",
+        "meaning": "掉头",
+        "example": {
+          "en": "Turn around if this road is blocked.",
+          "zh": "如果这条路被堵住就掉头。"
+        }
+      },
+      {
+        "phrase": "take a turn",
+        "meaning": "拐弯",
+        "example": {
+          "en": "Take a turn near the coffee shop.",
+          "zh": "在咖啡店附近拐弯。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "turning", "type": "family", "meaning": "转弯处" },
+      { "word": "rotate", "type": "synonym", "meaning": "旋转" },
+      { "word": "continue", "type": "antonym", "meaning": "继续直行" }
+    ]
+  },
+  {
+    "word": "corner",
+    "phonetic": "[ˈkɔːnə]",
+    "pos": "n.",
+    "meaning": "拐角",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "街道相交形成的拐角处",
+        "important": true,
+        "example": {
+          "en": "The cafe is on the corner.",
+          "zh": "咖啡馆就在拐角处。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "房间或区域的角落",
+        "important": false,
+        "example": {
+          "en": "A map stands in that corner.",
+          "zh": "那边角落放着一张地图。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Turn left at the corner store.",
+        "zh": "在街角商店处左转。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Wait for me at the next corner.",
+        "zh": "在下一个拐角等我。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "around the corner",
+        "meaning": "在拐角附近",
+        "example": {
+          "en": "The bus stop is around the corner.",
+          "zh": "公交站就在拐角附近。"
+        }
+      },
+      {
+        "phrase": "on the corner",
+        "meaning": "在街角",
+        "example": {
+          "en": "There is a bakery on the corner.",
+          "zh": "街角有一家面包店。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "cornered", "type": "family", "meaning": "被逼到角落的" },
+      { "word": "bend", "type": "synonym", "meaning": "弯道" },
+      { "word": "center", "type": "antonym", "meaning": "中心" }
+    ]
+  },
+  {
+    "word": "block",
+    "phonetic": "[blɒk]",
+    "pos": "n./v.",
+    "meaning": "街区",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "城市道路之间的一个街区",
+        "important": true,
+        "example": {
+          "en": "Walk two blocks to the station.",
+          "zh": "走两个街区到车站。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "阻挡，挡住通行",
+        "important": false,
+        "example": {
+          "en": "A truck blocks the narrow road.",
+          "zh": "一辆卡车挡住了这条窄路。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The hotel is three blocks away.",
+        "zh": "酒店离这里三个街区。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This street is blocked today.",
+        "zh": "这条街今天被封住了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "city block",
+        "meaning": "城市街区",
+        "example": {
+          "en": "The museum takes up one city block.",
+          "zh": "这个博物馆占了一个城市街区。"
+        }
+      },
+      {
+        "phrase": "a block away",
+        "meaning": "一个街区远",
+        "example": {
+          "en": "The bank is just a block away.",
+          "zh": "银行就只隔一个街区。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "blockage", "type": "family", "meaning": "堵塞" },
+      { "word": "obstruct", "type": "synonym", "meaning": "阻挡" },
+      { "word": "open", "type": "antonym", "meaning": "畅通的；开放的" }
+    ]
+  },
+  {
+    "word": "intersection",
+    "phonetic": "[ˌɪntəˈsekʃən]",
+    "pos": "n.",
+    "meaning": "交叉路口",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "两条或多条道路交汇处",
+        "important": true,
+        "example": {
+          "en": "Turn right at the first intersection.",
+          "zh": "在第一个十字路口右转。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "路线交点",
+        "important": false,
+        "example": {
+          "en": "Our routes meet at that intersection.",
+          "zh": "我们的路线在那个路口相交。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "There is a traffic light at this intersection.",
+        "zh": "这个路口有红绿灯。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Cross the intersection and go straight.",
+        "zh": "穿过路口然后直走。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at the intersection",
+        "meaning": "在交叉路口",
+        "example": {
+          "en": "Meet me at the intersection near the mall.",
+          "zh": "在商场附近的路口和我碰面。"
+        }
+      },
+      {
+        "phrase": "busy intersection",
+        "meaning": "繁忙路口",
+        "example": {
+          "en": "Be careful at this busy intersection.",
+          "zh": "经过这个繁忙路口要小心。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "intersect", "type": "family", "meaning": "相交" },
+      { "word": "crossroads", "type": "synonym", "meaning": "十字路口" },
+      { "word": "dead end", "type": "antonym", "meaning": "死胡同" }
+    ]
+  },
+  {
+    "word": "landmark",
+    "phonetic": "[ˈlændmɑːk]",
+    "pos": "n.",
+    "meaning": "地标",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "显眼建筑或地点，用于认路",
+        "important": true,
+        "example": {
+          "en": "The clock tower is a local landmark.",
+          "zh": "钟楼是当地地标。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "重要标志物",
+        "important": false,
+        "example": {
+          "en": "Use that bridge as a landmark.",
+          "zh": "把那座桥当作路标参照。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is there a landmark near your hotel?",
+        "zh": "你酒店附近有地标吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I found the street by a big landmark.",
+        "zh": "我靠一个大地标找到了这条街。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "local landmark",
+        "meaning": "当地地标",
+        "example": {
+          "en": "The old church is a local landmark.",
+          "zh": "那座老教堂是当地地标。"
+        }
+      },
+      {
+        "phrase": "use as a landmark",
+        "meaning": "用作地标参照",
+        "example": {
+          "en": "Use the red tower as a landmark.",
+          "zh": "把红色高塔当作地标。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "mark", "type": "family", "meaning": "标记" },
+      { "word": "reference point", "type": "synonym", "meaning": "参照点" },
+      { "word": "address", "type": "confusable", "meaning": "地址（不是建筑地标）" }
+    ]
+  },
+  {
+    "word": "distance",
+    "phonetic": "[ˈdɪstəns]",
+    "pos": "n.",
+    "meaning": "距离",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "两地之间的长度",
+        "important": true,
+        "example": {
+          "en": "The distance is about two kilometers.",
+          "zh": "距离大约两公里。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "步行或驾车路程",
+        "important": false,
+        "example": {
+          "en": "It's a short distance from here.",
+          "zh": "从这里过去路程不远。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "What is the distance to the station?",
+        "zh": "到车站有多远？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We can walk this distance in ten minutes.",
+        "zh": "这段距离我们十分钟能走到。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "long distance",
+        "meaning": "长距离",
+        "example": {
+          "en": "This is a long distance to walk.",
+          "zh": "这段路走起来距离很长。"
+        }
+      },
+      {
+        "phrase": "within walking distance",
+        "meaning": "步行可达",
+        "example": {
+          "en": "The station is within walking distance.",
+          "zh": "车站步行就能到。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "distant", "type": "family", "meaning": "遥远的" },
+      { "word": "range", "type": "synonym", "meaning": "距离范围" },
+      { "word": "nearby", "type": "antonym", "meaning": "附近的" }
+    ]
+  }
+]

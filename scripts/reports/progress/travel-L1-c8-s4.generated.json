@@ -1,0 +1,832 @@
+[
+  {
+    "word": "history",
+    "phonetic": "[ˈhɪstəri]",
+    "pos": "n.",
+    "meaning": "历史",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "某一地方或民族过去的重大事件与演变",
+        "important": true,
+        "example": {
+          "en": "This bridge is an important part of the city's history.",
+          "zh": "这座桥是这座城市历史的重要一部分。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（个人或机构的）经历、履历",
+        "important": false,
+        "example": {
+          "en": "She asked about my travel history at the border.",
+          "zh": "她在边境询问了我的出行记录。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We spent the afternoon learning local history at the museum.",
+        "zh": "我们在博物馆花了一下午了解当地历史。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The guide told us the history of the old town square.",
+        "zh": "导游给我们讲了老城广场的历史。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "local history",
+        "meaning": "地方史",
+        "example": {
+          "en": "The exhibit focuses on local history and crafts.",
+          "zh": "展览聚焦地方史与手工艺。"
+        }
+      },
+      {
+        "phrase": "history museum",
+        "meaning": "历史博物馆",
+        "example": {
+          "en": "Let's meet in front of the history museum at ten.",
+          "zh": "我们十点在历史博物馆门口见。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "historical",
+        "type": "family",
+        "meaning": "历史的；有关历史的"
+      },
+      {
+        "word": "past",
+        "type": "synonym",
+        "meaning": "过去（常作名词）"
+      },
+      {
+        "word": "future",
+        "type": "antonym",
+        "meaning": "未来（与“过去”相对）"
+      },
+      {
+        "word": "story",
+        "type": "confusable",
+        "meaning": "故事（偏叙事，不一定是史实）"
+      }
+    ]
+  },
+  {
+    "word": "culture",
+    "phonetic": "[ˈkʌltʃə(r)]",
+    "pos": "n.",
+    "meaning": "文化",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "某一群体共享的语言、习俗、艺术与价值观",
+        "important": true,
+        "example": {
+          "en": "Traveling helps you understand different cultures.",
+          "zh": "旅行帮助你理解不同文化。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（艺术、音乐等的）修养与品味",
+        "important": false,
+        "example": {
+          "en": "The city has a strong museum and theater culture.",
+          "zh": "这座城市有很强的博物馆与戏剧文化氛围。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We joined a tour to experience local food culture.",
+        "zh": "我们参加了旅行团体验当地饮食文化。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Respect the culture when you visit sacred places.",
+        "zh": "参观圣地时请尊重当地文化。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pop culture",
+        "meaning": "大众文化",
+        "example": {
+          "en": "The street art reflects local pop culture.",
+          "zh": "街头艺术反映了当地大众文化。"
+        }
+      },
+      {
+        "phrase": "culture shock",
+        "meaning": "文化冲击",
+        "example": {
+          "en": "Expect a little culture shock on your first day abroad.",
+          "zh": "出国第一天可能会有点文化冲击。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "cultural",
+        "type": "family",
+        "meaning": "文化的"
+      },
+      {
+        "word": "civilization",
+        "type": "synonym",
+        "meaning": "文明（范围常更大）"
+      },
+      {
+        "word": "barbarism",
+        "type": "antonym",
+        "meaning": "未开化状态（与文明教养相对）"
+      },
+      {
+        "word": "custom",
+        "type": "confusable",
+        "meaning": "习俗（具体做法，而非整体文化）"
+      }
+    ]
+  },
+  {
+    "word": "tradition",
+    "phonetic": "[trəˈdɪʃn]",
+    "pos": "n.",
+    "meaning": "传统",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "代代相传的信念、做法或节庆",
+        "important": true,
+        "example": {
+          "en": "The festival is an old local tradition.",
+          "zh": "这个节庆是一项古老的当地传统。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "长期沿袭的习惯或规矩",
+        "important": false,
+        "example": {
+          "en": "It is a tradition to ring the temple bell at noon.",
+          "zh": "中午敲庙钟是一项传统。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Visitors can watch artisans work in the tradition of their grandparents.",
+        "zh": "游客可以看到工匠沿用祖辈的传统手艺。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This dance keeps a tradition alive for young people.",
+        "zh": "这种舞蹈让年轻人延续传统。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "family tradition",
+        "meaning": "家庭传统",
+        "example": {
+          "en": "Making dumplings is our family tradition at New Year.",
+          "zh": "包饺子是我们过年的家庭传统。"
+        }
+      },
+      {
+        "phrase": "by tradition",
+        "meaning": "按照传统",
+        "example": {
+          "en": "By tradition, the tour ends at the river at sunset.",
+          "zh": "按传统，行程在日落时在河边结束。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "traditional",
+        "type": "family",
+        "meaning": "传统的"
+      },
+      {
+        "word": "custom",
+        "type": "synonym",
+        "meaning": "风俗习惯"
+      },
+      {
+        "word": "innovation",
+        "type": "antonym",
+        "meaning": "创新（打破旧例）"
+      },
+      {
+        "word": "convention",
+        "type": "confusable",
+        "meaning": "惯例（未必历史悠久）"
+      }
+    ]
+  },
+  {
+    "word": "local",
+    "phonetic": "[ˈləʊkl]",
+    "pos": "adj.",
+    "meaning": "当地的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "某一地区的；非外来的",
+        "important": true,
+        "example": {
+          "en": "We tried local dishes at a small restaurant.",
+          "zh": "我们在小餐馆品尝了当地菜肴。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（作名词）本地人、当地居民",
+        "important": false,
+        "example": {
+          "en": "A local showed us a quiet path to the viewpoint.",
+          "zh": "一位本地人带我们去了一条通往观景台的安静小路。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask your guide for local tips on cheap transport.",
+        "zh": "向导游打听实惠交通的当地窍门。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The market sells fruit from local farms.",
+        "zh": "这个市场出售本地农场的水果。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "local guide",
+        "meaning": "当地导游",
+        "example": {
+          "en": "Our local guide explained every carving on the wall.",
+          "zh": "我们的当地导游讲解了墙上每一处雕刻。"
+        }
+      },
+      {
+        "phrase": "local specialty",
+        "meaning": "当地特产",
+        "example": {
+          "en": "Green tea cake is a famous local specialty here.",
+          "zh": "绿茶糕是这里的著名特产。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "locally",
+        "type": "family",
+        "meaning": "在本地；局部地"
+      },
+      {
+        "word": "regional",
+        "type": "synonym",
+        "meaning": "地区的"
+      },
+      {
+        "word": "foreign",
+        "type": "antonym",
+        "meaning": "外国的（相对本地而言）"
+      },
+      {
+        "word": "locale",
+        "type": "confusable",
+        "meaning": "场所、地点（名词，易与形容词 local 混）"
+      }
+    ]
+  },
+  {
+    "word": "authentic",
+    "phonetic": "[ɔːˈθentɪk]",
+    "pos": "adj.",
+    "meaning": "地道的；真实的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "正宗、未迎合游客的；忠于传统的",
+        "important": true,
+        "example": {
+          "en": "We looked for an authentic family-run guesthouse.",
+          "zh": "我们寻找正宗的家庭经营民宿。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "真实可信的，非伪造的",
+        "important": false,
+        "example": {
+          "en": "The museum checks whether each artifact is authentic.",
+          "zh": "博物馆会鉴定每件文物是否真品。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Street food here tastes more authentic than the airport cafe.",
+        "zh": "这里的街头小吃比机场咖啡厅更地道。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She gave us an authentic picture of life in the old quarter.",
+        "zh": "她向我们真实呈现了老城生活。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "authentic cuisine",
+        "meaning": "正宗菜系/地道餐饮",
+        "example": {
+          "en": "The tour includes one dinner of authentic cuisine.",
+          "zh": "行程包含一顿正宗地方菜晚餐。"
+        }
+      },
+      {
+        "phrase": "authentic experience",
+        "meaning": "真实体验",
+        "example": {
+          "en": "Homestays offer a more authentic experience than big hotels.",
+          "zh": "民宿比大酒店更能提供真实体验。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "authenticity",
+        "type": "family",
+        "meaning": "真实性；地道"
+      },
+      {
+        "word": "genuine",
+        "type": "synonym",
+        "meaning": "真正的"
+      },
+      {
+        "word": "fake",
+        "type": "antonym",
+        "meaning": "假的"
+      },
+      {
+        "word": "antique",
+        "type": "confusable",
+        "meaning": "古董的（强调古老，未必强调地道）"
+      }
+    ]
+  },
+  {
+    "word": "famous",
+    "phonetic": "[ˈfeɪməs]",
+    "pos": "adj.",
+    "meaning": "著名的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "广为人知、常被提及的",
+        "important": true,
+        "example": {
+          "en": "The town is famous for its wooden bridges.",
+          "zh": "这座小镇以木桥闻名。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（仅作定语）极好的、一流的（口语）",
+        "important": false,
+        "example": {
+          "en": "We had a famous lunch at the harbor—fresh fish every day.",
+          "zh": "我们在港口吃了一顿超棒的午餐——每天都是鲜鱼。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Every famous sight was crowded, so we went early.",
+        "zh": "每个著名景点都很挤，所以我们一大早去。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The castle is less famous but worth the climb.",
+        "zh": "这座城堡没那么出名，但值得爬上去看看。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "world-famous",
+        "meaning": "举世闻名的",
+        "example": {
+          "en": "The falls are world-famous, so book tickets online.",
+          "zh": "瀑布举世闻名，建议网上订票。"
+        }
+      },
+      {
+        "phrase": "famous for",
+        "meaning": "因……而出名",
+        "example": {
+          "en": "This coast is famous for its sunsets.",
+          "zh": "这片海岸以日落著称。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fame",
+        "type": "family",
+        "meaning": "名声"
+      },
+      {
+        "word": "well-known",
+        "type": "synonym",
+        "meaning": "众所周知的"
+      },
+      {
+        "word": "obscure",
+        "type": "antonym",
+        "meaning": "默默无闻的"
+      },
+      {
+        "word": "popular",
+        "type": "confusable",
+        "meaning": "受欢迎的（未必举世闻名）"
+      }
+    ]
+  },
+  {
+    "word": "popular",
+    "phonetic": "[ˈpɒpjələ(r)]",
+    "pos": "adj.",
+    "meaning": "受欢迎的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "受许多人喜爱或选择的",
+        "important": true,
+        "example": {
+          "en": "This walking route is popular with families.",
+          "zh": "这条徒步路线很受家庭游客欢迎。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "通俗的、大众的（与高雅相对）",
+        "important": false,
+        "example": {
+          "en": "The museum has popular science labels for kids.",
+          "zh": "博物馆为孩子们配有通俗科普说明。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Book ahead—the most popular time slots sell out fast.",
+        "zh": "热门时段很快售罄，要提前预订。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "In summer, night markets here are especially popular with tourists.",
+        "zh": "夏天这里的夜市特别受游客欢迎。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "popular tourist spot",
+        "meaning": "热门景点",
+        "example": {
+          "en": "Arrive before eight to beat the crowds at this popular tourist spot.",
+          "zh": "想在热门景点避开人潮就八点前到。"
+        }
+      },
+      {
+        "phrase": "popular opinion",
+        "meaning": "舆论；多数人的看法",
+        "example": {
+          "en": "Popular opinion favors reopening the old trail.",
+          "zh": "舆论倾向于重新开放那条老步道。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "popularity",
+        "type": "family",
+        "meaning": "受欢迎程度"
+      },
+      {
+        "word": "well-liked",
+        "type": "synonym",
+        "meaning": "受人喜欢的"
+      },
+      {
+        "word": "unpopular",
+        "type": "antonym",
+        "meaning": "不受欢迎的"
+      },
+      {
+        "word": "common",
+        "type": "confusable",
+        "meaning": "常见的（未必表示喜爱）"
+      }
+    ]
+  },
+  {
+    "word": "heritage",
+    "phonetic": "[ˈherɪtɪdʒ]",
+    "pos": "n.",
+    "meaning": "遗产",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "文化或自然遗产（值得保护的传承）",
+        "important": true,
+        "example": {
+          "en": "The old quarter is protected as world heritage.",
+          "zh": "老城片区作为世界遗产受到保护。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "从先辈继承下来的传统或特征",
+        "important": false,
+        "example": {
+          "en": "Cooking over charcoal is part of their culinary heritage.",
+          "zh": "炭火烹饪是他们饮食传承的一部分。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "UNESCO lists several heritage sites along this river.",
+        "zh": "联合国教科文组织将沿河几处列为遗产地。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Volunteers help restore buildings of cultural heritage.",
+        "zh": "志愿者协助修复文化遗产建筑。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cultural heritage",
+        "meaning": "文化遗产",
+        "example": {
+          "en": "The masks are living cultural heritage, not just decorations.",
+          "zh": "这些面具是活态文化遗产，不只是装饰。"
+        }
+      },
+      {
+        "phrase": "heritage trail",
+        "meaning": "遗产步道",
+        "example": {
+          "en": "Follow the blue signs on the heritage trail.",
+          "zh": "沿遗产步道的蓝色指示牌走。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "hereditary",
+        "type": "family",
+        "meaning": "遗传的；世袭的"
+      },
+      {
+        "word": "legacy",
+        "type": "synonym",
+        "meaning": "遗产；遗留影响"
+      },
+      {
+        "word": "oblivion",
+        "type": "antonym",
+        "meaning": "湮没无闻（与传承相对）"
+      },
+      {
+        "word": "inheritance",
+        "type": "confusable",
+        "meaning": "继承物（常指个人财产，而非集体遗产）"
+      }
+    ]
+  },
+  {
+    "word": "architecture",
+    "phonetic": "[ˈɑːkɪtektʃə(r)]",
+    "pos": "n.",
+    "meaning": "建筑；建筑风格",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "建筑物的设计与风格",
+        "important": true,
+        "example": {
+          "en": "The temple's wooden architecture dates back six centuries.",
+          "zh": "这座寺庙的木结构建筑可追溯到六百年前。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "建筑学（学科）",
+        "important": false,
+        "example": {
+          "en": "He studied architecture before becoming a tour designer.",
+          "zh": "他做旅游线路设计前学过建筑学。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Colonial architecture lines the main square.",
+        "zh": "主广场两侧是殖民风格建筑。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The audio guide explains the dome's architecture in detail.",
+        "zh": "语音导览详细讲解穹顶的建筑结构。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Gothic architecture",
+        "meaning": "哥特式建筑",
+        "example": {
+          "en": "The cathedral is a masterpiece of Gothic architecture.",
+          "zh": "这座大教堂是哥特式建筑的杰作。"
+        }
+      },
+      {
+        "phrase": "modern architecture",
+        "meaning": "现代建筑",
+        "example": {
+          "en": "The waterfront mixes modern architecture with old warehouses.",
+          "zh": "滨水区融合了现代建筑与旧仓库。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "architect",
+        "type": "family",
+        "meaning": "建筑师"
+      },
+      {
+        "word": "design",
+        "type": "synonym",
+        "meaning": "设计（广义上相近）"
+      },
+      {
+        "word": "ruin",
+        "type": "antonym",
+        "meaning": "废墟（建筑毁坏后的状态）"
+      },
+      {
+        "word": "structure",
+        "type": "confusable",
+        "meaning": "结构；建筑物（未必强调风格）"
+      }
+    ]
+  },
+  {
+    "word": "legend",
+    "phonetic": "[ˈledʒənd]",
+    "pos": "n.",
+    "meaning": "传说",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "古老的口头故事，常含神奇或历史成分",
+        "important": true,
+        "example": {
+          "en": "A legend says the lake was formed by a falling star.",
+          "zh": "传说这片湖是由坠落的星星形成的。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "传奇人物；备受敬仰的名人（口语）",
+        "important": false,
+        "example": {
+          "en": "The guide called the old ferryman a local legend.",
+          "zh": "导游称这位老船夫是当地的传奇人物。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Children hear legends about the mountain dragon every festival.",
+        "zh": "每逢节庆孩子们都会听到关于山中恶龙的传说。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Fact and legend blur around this ancient battlefield.",
+        "zh": "在这片古战场史实与传说交织难分。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "urban legend",
+        "meaning": "都市传说",
+        "example": {
+          "en": "That tunnel story is just an urban legend—there are no ghosts.",
+          "zh": "隧道闹鬼只是都市传说，根本没有鬼。"
+        }
+      },
+      {
+        "phrase": "according to legend",
+        "meaning": "据传说",
+        "example": {
+          "en": "According to legend, the spring heals tired travelers.",
+          "zh": "据传说，这眼泉能治愈疲惫的旅人。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "legendary",
+        "type": "family",
+        "meaning": "传奇的"
+      },
+      {
+        "word": "myth",
+        "type": "synonym",
+        "meaning": "神话；虚构说法"
+      },
+      {
+        "word": "fact",
+        "type": "antonym",
+        "meaning": "事实（与未经证实的传说相对）"
+      },
+      {
+        "word": "rumor",
+        "type": "confusable",
+        "meaning": "谣言（现代口头传言，未必古老）"
+      }
+    ]
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "word": "emergency",
+    "phonetic": "[ɪˈmɜːdʒənsi]",
+    "pos": "n.",
+    "meaning": "紧急情况",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "需立即处理的危险或意外事件",
+        "important": true,
+        "example": {
+          "en": "Dial 999 in an emergency.",
+          "zh": "遇到紧急情况请拨打 999。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "医院急诊（the emergency / A&E）",
+        "important": false,
+        "example": {
+          "en": "He was taken to the emergency room.",
+          "zh": "他被送进了急诊室。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This is an emergency — we need help right now.",
+        "zh": "这是紧急情况，我们需要马上求助。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Only use the exit in an emergency.",
+        "zh": "仅在紧急情况下使用此出口。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in an emergency",
+        "meaning": "在紧急情况下",
+        "example": {
+          "en": "In an emergency, follow staff instructions.",
+          "zh": "在紧急情况下，请听从工作人员指示。"
+        }
+      },
+      {
+        "phrase": "emergency services",
+        "meaning": "应急服务（警察、消防、救护等）",
+        "example": {
+          "en": "The emergency services arrived within minutes.",
+          "zh": "应急服务几分钟内就赶到了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "emergent",
+        "type": "family",
+        "meaning": "紧急出现的；突现的"
+      },
+      {
+        "word": "crisis",
+        "type": "synonym",
+        "meaning": "危机"
+      },
+      {
+        "word": "routine",
+        "type": "antonym",
+        "meaning": "日常例行（与突发相对）"
+      }
+    ]
+  },
+  {
+    "word": "danger",
+    "phonetic": "[ˈdeɪndʒə]",
+    "pos": "n.",
+    "meaning": "危险",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "可能造成伤害或损失的风险",
+        "important": true,
+        "example": {
+          "en": "There is a danger of flooding in this area.",
+          "zh": "该地区有洪涝危险。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "危险的人或物",
+        "important": false,
+        "example": {
+          "en": "The broken wire is a danger to passengers.",
+          "zh": "裸露的断线对乘客有危险。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Stay back — you are in danger here.",
+        "zh": "往后退，你在这里有危险。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The sign warns of danger ahead.",
+        "zh": "标志牌提示前方有危险。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "in danger",
+        "meaning": "处于危险中",
+        "example": {
+          "en": "Call for help if you are in danger.",
+          "zh": "若你身处危险，请大声呼救或打电话求助。"
+        }
+      },
+      {
+        "phrase": "out of danger",
+        "meaning": "脱离危险",
+        "example": {
+          "en": "The doctor said she was out of danger.",
+          "zh": "医生说她已脱离危险。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "dangerous",
+        "type": "family",
+        "meaning": "危险的"
+      },
+      {
+        "word": "hazard",
+        "type": "synonym",
+        "meaning": "危害；隐患"
+      },
+      {
+        "word": "safety",
+        "type": "antonym",
+        "meaning": "安全"
+      }
+    ]
+  },
+  {
+    "word": "fire",
+    "phonetic": "[ˈfaɪə]",
+    "pos": "n.",
+    "meaning": "火；火灾",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "失控的燃烧，火灾",
+        "important": true,
+        "example": {
+          "en": "There is a fire on the third floor.",
+          "zh": "三楼着火了。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "火焰；炉火（可控）",
+        "important": false,
+        "example": {
+          "en": "Do not stand too close to the open fire.",
+          "zh": "不要站得离明火太近。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "If you smell smoke, report a possible fire immediately.",
+        "zh": "若闻到烟味，请立即报告可能的火情。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The hotel has fire alarms in every corridor.",
+        "zh": "酒店每条走廊都装有火警铃。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fire alarm",
+        "meaning": "火警；火警警报",
+        "example": {
+          "en": "When the fire alarm sounds, leave the building.",
+          "zh": "火警响起时，请离开大楼。"
+        }
+      },
+      {
+        "phrase": "on fire",
+        "meaning": "着火",
+        "example": {
+          "en": "The car was on fire by the roadside.",
+          "zh": "那辆车在路边着火了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fiery",
+        "type": "family",
+        "meaning": "似火的；灼热的"
+      },
+      {
+        "word": "blaze",
+        "type": "synonym",
+        "meaning": "大火；烈火"
+      },
+      {
+        "word": "flood",
+        "type": "confusable",
+        "meaning": "洪水（同为灾害但类型不同）"
+      }
+    ]
+  },
+  {
+    "word": "flood",
+    "phonetic": "[flʌd]",
+    "pos": "n.",
+    "meaning": "洪水；水灾",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "大量水淹没通常干燥的区域",
+        "important": true,
+        "example": {
+          "en": "Heavy rain caused a flood in the valley.",
+          "zh": "暴雨导致山谷发洪水。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（喻）大量涌来",
+        "important": false,
+        "example": {
+          "en": "A flood of calls blocked the helpline.",
+          "zh": "电话如潮水般涌入，热线一度占线。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The road is closed because of the flood.",
+        "zh": "因洪水，道路已封闭。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "After the flood, do not wade through deep water.",
+        "zh": "洪水过后不要蹚过深水。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "flash flood",
+        "meaning": "骤发洪水；暴洪",
+        "example": {
+          "en": "A flash flood can happen in minutes.",
+          "zh": "暴洪可能在几分钟内发生。"
+        }
+      },
+      {
+        "phrase": "flood warning",
+        "meaning": "洪水预警",
+        "example": {
+          "en": "The app sent a flood warning for our area.",
+          "zh": "应用向我们所在地区发布了洪水预警。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "flooding",
+        "type": "family",
+        "meaning": "洪涝；泛滥"
+      },
+      {
+        "word": "deluge",
+        "type": "synonym",
+        "meaning": "暴雨；大洪水"
+      },
+      {
+        "word": "drought",
+        "type": "antonym",
+        "meaning": "干旱"
+      }
+    ]
+  },
+  {
+    "word": "accident",
+    "phonetic": "[ˈæksɪdənt]",
+    "pos": "n.",
+    "meaning": "事故；意外",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "交通等意外事件，常致损伤",
+        "important": true,
+        "example": {
+          "en": "There was a car accident on the motorway.",
+          "zh": "高速公路上发生了一起车祸。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "意外、偶然（by accident）",
+        "important": false,
+        "example": {
+          "en": "I met an old friend by accident at the station.",
+          "zh": "我在车站偶然遇见一位老朋友。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Report an accident to the police if someone is hurt.",
+        "zh": "若有人受伤，请向警方报告事故。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The tour was delayed after a minor accident on the road.",
+        "zh": "路上发生小事故后，行程被耽误了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "traffic accident",
+        "meaning": "交通事故",
+        "example": {
+          "en": "Avoid the lane — there's been a traffic accident.",
+          "zh": "不要走那条车道，那里发生了交通事故。"
+        }
+      },
+      {
+        "phrase": "by accident",
+        "meaning": "偶然；无意中",
+        "example": {
+          "en": "I dialled the wrong number by accident.",
+          "zh": "我不小心拨错了号码。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "accidental",
+        "type": "family",
+        "meaning": "意外的"
+      },
+      {
+        "word": "crash",
+        "type": "synonym",
+        "meaning": "碰撞事故"
+      },
+      {
+        "word": "intent",
+        "type": "antonym",
+        "meaning": "故意（与意外相对）"
+      }
+    ]
+  },
+  {
+    "word": "rescue",
+    "phonetic": "[ˈreskjuː]",
+    "pos": "n. & v.",
+    "meaning": "救援；营救",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "从危险中救出",
+        "important": true,
+        "example": {
+          "en": "The team worked to rescue hikers from the cliff.",
+          "zh": "救援队设法把徒步者从悬崖边救下。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "名词：营救行动",
+        "important": false,
+        "example": {
+          "en": "A rescue helicopter was called in at dawn.",
+          "zh": "黎明时调来了一架救援直升机。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Coastguards rescue people in rough seas every year.",
+        "zh": "海岸警卫队每年在恶劣海况中救人。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We had to wait hours for rescue after the slide.",
+        "zh": "滑坡后我们等了好几个小时才获救。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "rescue team",
+        "meaning": "救援队",
+        "example": {
+          "en": "The rescue team reached us before nightfall.",
+          "zh": "救援队在日落前赶到了我们身边。"
+        }
+      },
+      {
+        "phrase": "come to the rescue",
+        "meaning": "前来救援；解困",
+        "example": {
+          "en": "A local guide came to the rescue with a spare tyre.",
+          "zh": "当地向导拿来备胎帮我们解了困。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "rescuer",
+        "type": "family",
+        "meaning": "救援者"
+      },
+      {
+        "word": "save",
+        "type": "synonym",
+        "meaning": "拯救"
+      },
+      {
+        "word": "abandon",
+        "type": "antonym",
+        "meaning": "抛弃（与营救相反）"
+      }
+    ]
+  },
+  {
+    "word": "safe",
+    "phonetic": "[seɪf]",
+    "pos": "adj.",
+    "meaning": "安全的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "没有危险；不会受伤害",
+        "important": true,
+        "example": {
+          "en": "Wait here until it is safe to cross.",
+          "zh": "在这里等到可以安全通过再过马路。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "稳妥的；保险的（计划等）",
+        "important": false,
+        "example": {
+          "en": "Taking the main road is the safer option tonight.",
+          "zh": "今晚走大路是更稳妥的选择。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep your passport in a safe place while travelling.",
+        "zh": "旅行时把护照放在安全的地方。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Are we safe to drink this tap water?",
+        "zh": "我们喝这里的自来水安全吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "safe and sound",
+        "meaning": "安然无恙",
+        "example": {
+          "en": "They arrived safe and sound after the storm.",
+          "zh": "暴风雨过后他们安然抵达。"
+        }
+      },
+      {
+        "phrase": "stay safe",
+        "meaning": "保重；注意安全",
+        "example": {
+          "en": "Text me when you get home — stay safe!",
+          "zh": "到家给我发条消息，注意安全！"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "safely",
+        "type": "family",
+        "meaning": "安全地"
+      },
+      {
+        "word": "secure",
+        "type": "synonym",
+        "meaning": "安全的；牢靠的"
+      },
+      {
+        "word": "unsafe",
+        "type": "antonym",
+        "meaning": "不安全的"
+      }
+    ]
+  },
+  {
+    "word": "warning",
+    "phonetic": "[ˈwɔːnɪŋ]",
+    "pos": "n.",
+    "meaning": "警告；警示",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "提示危险或不良后果的告知",
+        "important": true,
+        "example": {
+          "en": "A flood warning was issued for coastal towns.",
+          "zh": "沿海城镇发布了洪水预警。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "可作为教训的前兆",
+        "important": false,
+        "example": {
+          "en": "The near miss was a warning to slow down.",
+          "zh": "那次险些相撞是个教训，该减速了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "He ignored the warning signs and slipped on the rocks.",
+        "zh": "他无视警示牌，在岩石上滑倒了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The embassy sent a travel warning for that region.",
+        "zh": "大使馆对该地区发布了旅行警告。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "early warning",
+        "meaning": "早期预警",
+        "example": {
+          "en": "Early warning systems saved many lives.",
+          "zh": "早期预警系统挽救了许多生命。"
+        }
+      },
+      {
+        "phrase": "warning sign",
+        "meaning": "警示标志",
+        "example": {
+          "en": "Follow the warning signs near the cliff edge.",
+          "zh": "请遵守悬崖边的警示标志。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "warn",
+        "type": "family",
+        "meaning": "警告；提醒"
+      },
+      {
+        "word": "alert",
+        "type": "synonym",
+        "meaning": "警报；警戒"
+      },
+      {
+        "word": "all-clear",
+        "type": "antonym",
+        "meaning": "解除警报"
+      }
+    ]
+  },
+  {
+    "word": "evacuation",
+    "phonetic": "[ɪˌvækjuˈeɪʃn]",
+    "pos": "n.",
+    "meaning": "疏散；撤离",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "因危险把人从某地撤出",
+        "important": true,
+        "example": {
+          "en": "Evacuation began as smoke filled the terminal.",
+          "zh": "航站楼充满烟雾后开始疏散。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "撤空（某地）的行动",
+        "important": false,
+        "example": {
+          "en": "The evacuation took less than fifteen minutes.",
+          "zh": "撤离在十五分钟内完成。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Listen for evacuation announcements over the loudspeaker.",
+        "zh": "注意收听广播里的疏散通知。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Hotel staff trained us on evacuation routes.",
+        "zh": "酒店员工带我们熟悉了疏散路线。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "evacuation plan",
+        "meaning": "疏散预案",
+        "example": {
+          "en": "Every cabin lists the ship's evacuation plan.",
+          "zh": "每个舱室都张贴船舶疏散示意图。"
+        }
+      },
+      {
+        "phrase": "emergency evacuation",
+        "meaning": "紧急疏散",
+        "example": {
+          "en": "Emergency evacuation routes are marked in green.",
+          "zh": "紧急疏散路线用绿色标出。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "evacuate",
+        "type": "family",
+        "meaning": "疏散；撤离"
+      },
+      {
+        "word": "withdrawal",
+        "type": "synonym",
+        "meaning": "撤出（较正式）"
+      },
+      {
+        "word": "occupation",
+        "type": "confusable",
+        "meaning": "占领；居住（词形易混，义不同）"
+      }
+    ]
+  },
+  {
+    "word": "shelter",
+    "phonetic": "[ˈʃeltə]",
+    "pos": "n. & v.",
+    "meaning": "避难所；遮蔽",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "躲避风雨或危险的场所",
+        "important": true,
+        "example": {
+          "en": "We found shelter in a village hall overnight.",
+          "zh": "我们在村礼堂里过夜躲避风雨。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "动词：庇护；遮挡",
+        "important": false,
+        "example": {
+          "en": "Trees sheltered the path from the wind.",
+          "zh": "树木为小路挡住了风。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "During the storm, seek shelter indoors.",
+        "zh": "暴风雨来临时请到室内避险。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The Red Cross opened emergency shelters for flood victims.",
+        "zh": "红十字会为洪水灾民开设了紧急避难所。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take shelter",
+        "meaning": "躲避；找地方躲藏",
+        "example": {
+          "en": "We took shelter under a bridge until the hail stopped.",
+          "zh": "我们在桥下躲到冰雹停下。"
+        }
+      },
+      {
+        "phrase": "emergency shelter",
+        "meaning": "紧急避难所",
+        "example": {
+          "en": "Maps show the nearest emergency shelter.",
+          "zh": "地图上标有最近的紧急避难所。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "sheltered",
+        "type": "family",
+        "meaning": "受遮蔽的；避风挡雨的"
+      },
+      {
+        "word": "refuge",
+        "type": "synonym",
+        "meaning": "避难处；庇护"
+      },
+      {
+        "word": "exposure",
+        "type": "antonym",
+        "meaning": "暴露（于风雨危险中）"
+      }
+    ]
+  }
+]

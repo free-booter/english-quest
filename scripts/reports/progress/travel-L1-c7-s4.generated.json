@@ -1,0 +1,832 @@
+[
+  {
+    "word": "souvenir",
+    "phonetic": "[ˌsuːvəˈnɪə(r)]",
+    "pos": "n.",
+    "meaning": "纪念品",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "旅行时购买并带回家的纪念物品",
+        "important": true,
+        "example": {
+          "en": "I bought a souvenir for my sister at the old market.",
+          "zh": "我在老街市场给妹妹买了一个纪念品。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "代表一个地方特色的小礼物",
+        "important": false,
+        "example": {
+          "en": "This shell is a nice beach souvenir.",
+          "zh": "这个贝壳是很不错的海边纪念品。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you want a souvenir from this city?",
+        "zh": "你想要这个城市的纪念品吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The shop sells local souvenirs near the museum.",
+        "zh": "博物馆附近这家店卖本地纪念品。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "souvenir shop",
+        "meaning": "纪念品商店",
+        "example": {
+          "en": "We stopped at a souvenir shop after lunch.",
+          "zh": "午饭后我们去了纪念品商店。"
+        }
+      },
+      {
+        "phrase": "buy a souvenir",
+        "meaning": "买纪念品",
+        "example": {
+          "en": "I want to buy a souvenir before we leave.",
+          "zh": "我们离开前我想买个纪念品。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "souvenir stand",
+        "type": "family",
+        "meaning": "纪念品摊位"
+      },
+      {
+        "word": "memento",
+        "type": "synonym",
+        "meaning": "纪念物"
+      },
+      {
+        "word": "necessity",
+        "type": "antonym",
+        "meaning": "生活必需品"
+      },
+      {
+        "word": "gift",
+        "type": "confusable",
+        "meaning": "礼物（不一定有旅游纪念意义）"
+      }
+    ]
+  },
+  {
+    "word": "gift",
+    "phonetic": "[ɡɪft]",
+    "pos": "n.",
+    "meaning": "礼物",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "送给他人的礼品",
+        "important": true,
+        "example": {
+          "en": "This gift is for my mom's birthday.",
+          "zh": "这份礼物是给我妈妈的生日礼物。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "购物时特意挑选的赠送物",
+        "important": false,
+        "example": {
+          "en": "I need a small gift for my teacher.",
+          "zh": "我需要给老师买一件小礼物。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you wrap this gift, please?",
+        "zh": "请帮我把这份礼物包起来，好吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "That shop has many cute gifts.",
+        "zh": "那家店有很多可爱的礼物。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gift box",
+        "meaning": "礼品盒",
+        "example": {
+          "en": "The chocolates come in a red gift box.",
+          "zh": "这些巧克力装在红色礼品盒里。"
+        }
+      },
+      {
+        "phrase": "gift wrap",
+        "meaning": "礼品包装",
+        "example": {
+          "en": "Gift wrap is free in this store.",
+          "zh": "这家店礼品包装是免费的。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "gifted",
+        "type": "family",
+        "meaning": "有天赋的（词形相关）"
+      },
+      {
+        "word": "present",
+        "type": "synonym",
+        "meaning": "礼物"
+      },
+      {
+        "word": "refund",
+        "type": "antonym",
+        "meaning": "退款（与送礼相反场景）"
+      },
+      {
+        "word": "souvenir",
+        "type": "confusable",
+        "meaning": "纪念品（强调旅行纪念）"
+      }
+    ]
+  },
+  {
+    "word": "jewelry",
+    "phonetic": "[ˈdʒuːəlri]",
+    "pos": "n.",
+    "meaning": "珠宝首饰",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "项链、戒指等装饰品总称",
+        "important": true,
+        "example": {
+          "en": "She is looking at silver jewelry in the mall.",
+          "zh": "她正在商场里看银饰。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "可作为礼物购买的贵重饰品",
+        "important": false,
+        "example": {
+          "en": "This jewelry set is a popular wedding gift.",
+          "zh": "这套首饰是很受欢迎的婚礼礼物。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is this jewelry handmade?",
+        "zh": "这件首饰是手工做的吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I want simple jewelry for daily wear.",
+        "zh": "我想买适合日常佩戴的简约首饰。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "jewelry store",
+        "meaning": "珠宝店",
+        "example": {
+          "en": "We found a small jewelry store near the square.",
+          "zh": "我们在广场附近找到一家小珠宝店。"
+        }
+      },
+      {
+        "phrase": "jewelry set",
+        "meaning": "首饰套装",
+        "example": {
+          "en": "My aunt bought a jewelry set as a gift.",
+          "zh": "我阿姨买了一套首饰当礼物。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "jewel",
+        "type": "family",
+        "meaning": "宝石"
+      },
+      {
+        "word": "ornament",
+        "type": "synonym",
+        "meaning": "装饰品"
+      },
+      {
+        "word": "trash",
+        "type": "antonym",
+        "meaning": "废旧物品"
+      },
+      {
+        "word": "accessory",
+        "type": "confusable",
+        "meaning": "配饰（范围更广，不一定是珠宝）"
+      }
+    ]
+  },
+  {
+    "word": "handicraft",
+    "phonetic": "[ˈhændikrɑːft]",
+    "pos": "n.",
+    "meaning": "手工艺品",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由手工制作的艺术或实用物品",
+        "important": true,
+        "example": {
+          "en": "This village is famous for bamboo handicrafts.",
+          "zh": "这个村子以竹编手工艺品闻名。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "带有地方文化特色的伴手礼",
+        "important": false,
+        "example": {
+          "en": "I bought a clay handicraft for my office desk.",
+          "zh": "我买了一个陶土手工艺品放在办公室桌上。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How much is this handicraft bowl?",
+        "zh": "这个手工碗多少钱？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Handicrafts are great gifts for friends abroad.",
+        "zh": "手工艺品很适合作为送给国外朋友的礼物。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "local handicraft",
+        "meaning": "本地手工艺品",
+        "example": {
+          "en": "I prefer local handicrafts over factory products.",
+          "zh": "比起工厂产品，我更喜欢本地手工艺品。"
+        }
+      },
+      {
+        "phrase": "handicraft market",
+        "meaning": "手工艺市场",
+        "example": {
+          "en": "The handicraft market is open every weekend.",
+          "zh": "这个手工艺市场每个周末营业。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "craft",
+        "type": "family",
+        "meaning": "手工艺"
+      },
+      {
+        "word": "handmade item",
+        "type": "synonym",
+        "meaning": "手工制品"
+      },
+      {
+        "word": "machine product",
+        "type": "antonym",
+        "meaning": "机器量产商品"
+      },
+      {
+        "word": "artifact",
+        "type": "confusable",
+        "meaning": "文物（不一定是当代手工商品）"
+      }
+    ]
+  },
+  {
+    "word": "postcard",
+    "phonetic": "[ˈpəʊstkɑːd]",
+    "pos": "n.",
+    "meaning": "明信片",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "印有风景图片、可邮寄的卡片",
+        "important": true,
+        "example": {
+          "en": "I sent a postcard to my grandparents.",
+          "zh": "我给祖父母寄了一张明信片。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "旅行地常见的轻便纪念品",
+        "important": false,
+        "example": {
+          "en": "These postcards show famous city views.",
+          "zh": "这些明信片展示了城市著名景色。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can I buy a set of postcards?",
+        "zh": "我可以买一套明信片吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This postcard is only one dollar.",
+        "zh": "这张明信片只要一美元。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "postcard set",
+        "meaning": "明信片套装",
+        "example": {
+          "en": "He chose a postcard set for his classmates.",
+          "zh": "他给同学们选了一套明信片。"
+        }
+      },
+      {
+        "phrase": "picture postcard",
+        "meaning": "风景明信片",
+        "example": {
+          "en": "I collect picture postcards from every trip.",
+          "zh": "我每次旅行都会收集风景明信片。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "card",
+        "type": "family",
+        "meaning": "卡片"
+      },
+      {
+        "word": "mail card",
+        "type": "synonym",
+        "meaning": "邮寄卡片"
+      },
+      {
+        "word": "parcel",
+        "type": "antonym",
+        "meaning": "包裹（大件邮寄物）"
+      },
+      {
+        "word": "letter",
+        "type": "confusable",
+        "meaning": "信件（形式不同）"
+      }
+    ]
+  },
+  {
+    "word": "magnet",
+    "phonetic": "[ˈmæɡnət]",
+    "pos": "n.",
+    "meaning": "冰箱贴；磁铁",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "可吸附在金属表面的纪念小物",
+        "important": true,
+        "example": {
+          "en": "I got a magnet with the city name on it.",
+          "zh": "我买了一个印着城市名字的冰箱贴。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "旅行中常见、价格低的小纪念品",
+        "important": false,
+        "example": {
+          "en": "These magnets are easy to pack in my bag.",
+          "zh": "这些冰箱贴很容易装进行李。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have a magnet of this landmark?",
+        "zh": "你们有这个地标的冰箱贴吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "My dad collects magnets from different countries.",
+        "zh": "我爸爸收集不同国家的冰箱贴。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fridge magnet",
+        "meaning": "冰箱贴",
+        "example": {
+          "en": "She bought a fridge magnet for her kitchen.",
+          "zh": "她给厨房买了一个冰箱贴。"
+        }
+      },
+      {
+        "phrase": "souvenir magnet",
+        "meaning": "纪念冰箱贴",
+        "example": {
+          "en": "The souvenir magnet costs two dollars.",
+          "zh": "这个纪念冰箱贴两美元。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "magnetic",
+        "type": "family",
+        "meaning": "有磁性的"
+      },
+      {
+        "word": "fridge sticker",
+        "type": "synonym",
+        "meaning": "冰箱贴（口语）"
+      },
+      {
+        "word": "nonmetal charm",
+        "type": "antonym",
+        "meaning": "无法吸附的挂件"
+      },
+      {
+        "word": "badge",
+        "type": "confusable",
+        "meaning": "徽章（佩戴用途）"
+      }
+    ]
+  },
+  {
+    "word": "keychain",
+    "phonetic": "[ˈkiːtʃeɪn]",
+    "pos": "n.",
+    "meaning": "钥匙扣",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "挂在钥匙上的小饰品或挂件",
+        "important": true,
+        "example": {
+          "en": "I chose a panda keychain for my brother.",
+          "zh": "我给弟弟选了一个熊猫钥匙扣。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "便宜且常见的伴手礼",
+        "important": false,
+        "example": {
+          "en": "This keychain is light and easy to carry.",
+          "zh": "这个钥匙扣很轻，方便携带。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How much is this wooden keychain?",
+        "zh": "这个木质钥匙扣多少钱？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The keychain has a tiny bell on it.",
+        "zh": "这个钥匙扣上有个小铃铛。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "keychain holder",
+        "meaning": "钥匙扣挂件",
+        "example": {
+          "en": "I bought a keychain holder with my name.",
+          "zh": "我买了一个带我名字的钥匙扣挂件。"
+        }
+      },
+      {
+        "phrase": "metal keychain",
+        "meaning": "金属钥匙扣",
+        "example": {
+          "en": "A metal keychain lasts longer than plastic ones.",
+          "zh": "金属钥匙扣比塑料的更耐用。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "key ring",
+        "type": "family",
+        "meaning": "钥匙圈"
+      },
+      {
+        "word": "key fob",
+        "type": "synonym",
+        "meaning": "钥匙挂件"
+      },
+      {
+        "word": "loose key",
+        "type": "antonym",
+        "meaning": "没有挂件的单把钥匙"
+      },
+      {
+        "word": "lanyard",
+        "type": "confusable",
+        "meaning": "挂绳（通常挂证件）"
+      }
+    ]
+  },
+  {
+    "word": "artwork",
+    "phonetic": "[ˈɑːtwɜːk]",
+    "pos": "n.",
+    "meaning": "艺术品",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "绘画、雕塑等艺术创作作品",
+        "important": true,
+        "example": {
+          "en": "This artwork is made by a local artist.",
+          "zh": "这件艺术品是本地艺术家创作的。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "可购买收藏的装饰性作品",
+        "important": false,
+        "example": {
+          "en": "We saw small artworks in the gallery shop.",
+          "zh": "我们在画廊商店看到了小型艺术品。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is this artwork original or a copy?",
+        "zh": "这件艺术品是原作还是复制品？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I bought a tiny artwork for my living room.",
+        "zh": "我给客厅买了一件小艺术品。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "local artwork",
+        "meaning": "本地艺术作品",
+        "example": {
+          "en": "Tourists like to buy local artwork here.",
+          "zh": "游客喜欢在这里购买本地艺术作品。"
+        }
+      },
+      {
+        "phrase": "artwork gallery",
+        "meaning": "艺术展厅",
+        "example": {
+          "en": "The artwork gallery is next to the gift shop.",
+          "zh": "艺术展厅就在礼品店旁边。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "artist",
+        "type": "family",
+        "meaning": "艺术家"
+      },
+      {
+        "word": "art piece",
+        "type": "synonym",
+        "meaning": "艺术作品"
+      },
+      {
+        "word": "mass product",
+        "type": "antonym",
+        "meaning": "批量商品"
+      },
+      {
+        "word": "craft",
+        "type": "confusable",
+        "meaning": "手工品（更偏实用或民俗）"
+      }
+    ]
+  },
+  {
+    "word": "fabric",
+    "phonetic": "[ˈfæbrɪk]",
+    "pos": "n.",
+    "meaning": "布料",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "制作衣物或袋子的纺织材料",
+        "important": true,
+        "example": {
+          "en": "This fabric feels soft and light.",
+          "zh": "这种布料摸起来柔软又轻。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "在手工市场出售的特色布艺材料",
+        "important": false,
+        "example": {
+          "en": "She bought floral fabric for a handmade bag.",
+          "zh": "她买了花纹布料做手工包。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you sell this fabric by the meter?",
+        "zh": "这种布料按米卖吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This fabric is popular for local costumes.",
+        "zh": "这种布料很适合做本地特色服饰。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cotton fabric",
+        "meaning": "棉布料",
+        "example": {
+          "en": "Cotton fabric is comfortable in summer.",
+          "zh": "棉布料在夏天穿着很舒服。"
+        }
+      },
+      {
+        "phrase": "fabric market",
+        "meaning": "布料市场",
+        "example": {
+          "en": "We visited the fabric market in the old town.",
+          "zh": "我们去了老城区的布料市场。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fabrication",
+        "type": "family",
+        "meaning": "制作；制造"
+      },
+      {
+        "word": "cloth",
+        "type": "synonym",
+        "meaning": "布料"
+      },
+      {
+        "word": "metal",
+        "type": "antonym",
+        "meaning": "金属材料"
+      },
+      {
+        "word": "textile",
+        "type": "confusable",
+        "meaning": "纺织品（范围更广）"
+      }
+    ]
+  },
+  {
+    "word": "package",
+    "phonetic": "[ˈpækɪdʒ]",
+    "pos": "n.",
+    "meaning": "包装；包裹",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品外层包装或礼品包装",
+        "important": true,
+        "example": {
+          "en": "The package keeps the gift safe during travel.",
+          "zh": "这个包装能让礼物在旅途中保持完好。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "打包好的物品整体",
+        "important": false,
+        "example": {
+          "en": "Please check if this package is sealed.",
+          "zh": "请看看这个包裹是否封好了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you package these souvenirs together?",
+        "zh": "你可以把这些纪念品一起打包吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This package is easy to carry on the plane.",
+        "zh": "这个包装在飞机上携带很方便。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gift package",
+        "meaning": "礼品包装",
+        "example": {
+          "en": "The store offers a free gift package service.",
+          "zh": "这家店提供免费礼品包装服务。"
+        }
+      },
+      {
+        "phrase": "travel package",
+        "meaning": "旅行打包",
+        "example": {
+          "en": "Use a strong travel package for fragile artwork.",
+          "zh": "易碎艺术品要用结实的旅行打包。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "pack",
+        "type": "family",
+        "meaning": "打包"
+      },
+      {
+        "word": "parcel",
+        "type": "synonym",
+        "meaning": "包裹"
+      },
+      {
+        "word": "unpack",
+        "type": "antonym",
+        "meaning": "拆包"
+      },
+      {
+        "word": "packet",
+        "type": "confusable",
+        "meaning": "小包（通常更小更轻）"
+      }
+    ]
+  }
+]

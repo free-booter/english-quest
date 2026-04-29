@@ -2,11 +2,11 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Volume2, X, ChevronRight, BookOpen } from 'lucide-react'
+import { Volume2, X, BookOpen } from 'lucide-react'
 import { db } from '../../db/db'
 import { speak } from '../../tts/tts'
 import { buildFallbackScenario, getStageScenario } from '../../data/stage-scenarios'
-import { Word } from '../../types'
+import { Word, WordPhrase } from '../../types'
 import { completeStageWithProgress } from '../../services/progress'
 
 type PlayPhase = 'intro' | 'learning' | 'quiz' | 'reorder' | 'summary'
@@ -510,7 +510,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
                   <div className="w-full mb-1">
                     <p className="text-xs font-bold text-gray-400 uppercase mb-2 text-left">常用搭配</p>
                     <div className="space-y-1.5">
-                      {currentWord.phrases.slice(0, 2).map((phrase, idx) => (
+                      {currentWord.phrases.slice(0, 2).map((phrase: WordPhrase, idx: number) => (
                         <div key={idx} className="flex items-center gap-2 bg-amber-50 rounded-xl px-3 py-2 text-left">
                           <span className="text-sm font-semibold text-amber-900">{phrase.phrase}</span>
                           <span className="text-gray-300">·</span>
@@ -924,7 +924,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
                   <div>
                     <p className="text-xs font-bold text-gray-500 uppercase mb-2">常用搭配</p>
                     <div className="space-y-2">
-                      {currentWord.phrases.map((phrase, idx) => (
+                      {currentWord.phrases.map((phrase: WordPhrase, idx: number) => (
                         <div key={idx} className="bg-amber-50 rounded-xl p-3">
                           <div className="flex items-start justify-between gap-2">
                             <div>

@@ -1,0 +1,832 @@
+[
+  {
+    "word": "price",
+    "phonetic": "[praɪs]",
+    "pos": "n.",
+    "meaning": "价格",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品售卖时标注的金额",
+        "important": true,
+        "example": {
+          "en": "The price on this tag is too high for me.",
+          "zh": "这个标签上的价格对我来说太高了。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "购买某件物品需要支付的费用",
+        "important": false,
+        "example": {
+          "en": "Can you tell me the final price with tax?",
+          "zh": "你能告诉我含税后的最终价格吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I always compare the price before buying souvenirs.",
+        "zh": "买纪念品前我总会先比较价格。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The shop owner wrote the price on a small card.",
+        "zh": "店主把价格写在一张小卡片上。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "good price",
+        "meaning": "好价钱",
+        "example": {
+          "en": "This scarf is a good price for the quality.",
+          "zh": "这条围巾按质量来说是个好价钱。"
+        }
+      },
+      {
+        "phrase": "price tag",
+        "meaning": "价格标签",
+        "example": {
+          "en": "Please check the price tag before you pay.",
+          "zh": "付款前请看一下价格标签。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "pricing",
+        "type": "family",
+        "meaning": "定价"
+      },
+      {
+        "word": "cost",
+        "type": "synonym",
+        "meaning": "花费；价格"
+      },
+      {
+        "word": "value",
+        "type": "confusable",
+        "meaning": "价值（不等同于标价）"
+      },
+      {
+        "word": "discount",
+        "type": "confusable",
+        "meaning": "折扣（影响最终价格）"
+      }
+    ]
+  },
+  {
+    "word": "cheap",
+    "phonetic": "[tʃiːp]",
+    "pos": "adj.",
+    "meaning": "便宜的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "价格低，花费不高",
+        "important": true,
+        "example": {
+          "en": "These keychains are cheap and easy to carry.",
+          "zh": "这些钥匙扣很便宜，也方便携带。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于描述实惠的购物选择",
+        "important": false,
+        "example": {
+          "en": "We found a cheap gift shop near the station.",
+          "zh": "我们在车站附近找到了一家便宜的礼品店。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I'm looking for a cheap T-shirt for my brother.",
+        "zh": "我在找一件便宜的 T 恤送给我弟弟。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Cheap souvenirs can still look stylish.",
+        "zh": "便宜的纪念品也可以看起来很有风格。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cheap price",
+        "meaning": "低价",
+        "example": {
+          "en": "This market offers a cheap price for postcards.",
+          "zh": "这个市场的明信片价格很低。"
+        }
+      },
+      {
+        "phrase": "cheap but good",
+        "meaning": "便宜又好",
+        "example": {
+          "en": "I want something cheap but good for travel.",
+          "zh": "我想买点便宜又好的旅行用品。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "cheaply",
+        "type": "family",
+        "meaning": "便宜地"
+      },
+      {
+        "word": "inexpensive",
+        "type": "synonym",
+        "meaning": "不贵的"
+      },
+      {
+        "word": "expensive",
+        "type": "antonym",
+        "meaning": "昂贵的"
+      },
+      {
+        "word": "low-cost",
+        "type": "confusable",
+        "meaning": "低成本的（语境更偏产品/服务）"
+      }
+    ]
+  },
+  {
+    "word": "expensive",
+    "phonetic": "[ɪkˈspensɪv]",
+    "pos": "adj.",
+    "meaning": "昂贵的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "价格高，购买时花费较多",
+        "important": true,
+        "example": {
+          "en": "This leather bag is beautiful but expensive.",
+          "zh": "这个皮包很漂亮，但很贵。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于比较商品档次和预算",
+        "important": false,
+        "example": {
+          "en": "That brand is too expensive for my budget.",
+          "zh": "那个品牌对我的预算来说太贵了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The design is nice, but the watch is expensive.",
+        "zh": "设计不错，但这块手表很贵。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I avoid expensive shops when buying small gifts.",
+        "zh": "买小礼物时我会避开昂贵的店。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "too expensive",
+        "meaning": "太贵了",
+        "example": {
+          "en": "Sorry, this jacket is too expensive for me.",
+          "zh": "抱歉，这件夹克对我来说太贵了。"
+        }
+      },
+      {
+        "phrase": "expensive brand",
+        "meaning": "高价品牌",
+        "example": {
+          "en": "She likes expensive brands with classic style.",
+          "zh": "她喜欢风格经典的高价品牌。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "expense",
+        "type": "family",
+        "meaning": "花费；费用"
+      },
+      {
+        "word": "costly",
+        "type": "synonym",
+        "meaning": "昂贵的"
+      },
+      {
+        "word": "cheap",
+        "type": "antonym",
+        "meaning": "便宜的"
+      },
+      {
+        "word": "premium",
+        "type": "confusable",
+        "meaning": "高端的（不一定总是贵）"
+      }
+    ]
+  },
+  {
+    "word": "quality",
+    "phonetic": "[ˈkwɒləti]",
+    "pos": "n.",
+    "meaning": "质量；品质",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品做工和耐用程度",
+        "important": true,
+        "example": {
+          "en": "I care more about quality than price.",
+          "zh": "比起价格，我更在意质量。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于评价产品是否值得购买",
+        "important": false,
+        "example": {
+          "en": "The quality of this mug is surprisingly good.",
+          "zh": "这个杯子的品质出乎意料地好。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We checked the quality before packing the gifts.",
+        "zh": "打包礼物前我们先检查了质量。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This store is famous for high quality products.",
+        "zh": "这家店以高品质商品闻名。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high quality",
+        "meaning": "高质量",
+        "example": {
+          "en": "I want high quality souvenirs for my parents.",
+          "zh": "我想给父母买些高质量的纪念品。"
+        }
+      },
+      {
+        "phrase": "quality check",
+        "meaning": "质量检查",
+        "example": {
+          "en": "The shop does a quick quality check before sale.",
+          "zh": "这家店售卖前会做快速质量检查。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "qualitative",
+        "type": "family",
+        "meaning": "定性的；质量相关的"
+      },
+      {
+        "word": "standard",
+        "type": "synonym",
+        "meaning": "标准；品质水平"
+      },
+      {
+        "word": "defect",
+        "type": "antonym",
+        "meaning": "缺陷（与品质好相反）"
+      },
+      {
+        "word": "durability",
+        "type": "confusable",
+        "meaning": "耐用性（是质量的一部分）"
+      }
+    ]
+  },
+  {
+    "word": "brand",
+    "phonetic": "[brænd]",
+    "pos": "n.",
+    "meaning": "品牌",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "产品所属的商标或牌子",
+        "important": true,
+        "example": {
+          "en": "This brand is popular with young travelers.",
+          "zh": "这个品牌在年轻旅行者中很受欢迎。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于区分不同商家的产品形象",
+        "important": false,
+        "example": {
+          "en": "I don't know this brand, but the quality looks fine.",
+          "zh": "我不认识这个品牌，但质量看起来不错。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you prefer a local brand or an international one?",
+        "zh": "你更喜欢本地品牌还是国际品牌？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Some tourists buy this brand as a classic souvenir.",
+        "zh": "有些游客会买这个品牌当经典纪念品。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "famous brand",
+        "meaning": "知名品牌",
+        "example": {
+          "en": "That famous brand has a shop in this mall.",
+          "zh": "那个知名品牌在这个商场有门店。"
+        }
+      },
+      {
+        "phrase": "brand choice",
+        "meaning": "品牌选择",
+        "example": {
+          "en": "Your brand choice depends on your budget.",
+          "zh": "你的品牌选择取决于预算。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "branding",
+        "type": "family",
+        "meaning": "品牌打造；品牌化"
+      },
+      {
+        "word": "label",
+        "type": "synonym",
+        "meaning": "牌子；标签"
+      },
+      {
+        "word": "generic",
+        "type": "antonym",
+        "meaning": "无品牌的；通用的"
+      },
+      {
+        "word": "trademark",
+        "type": "confusable",
+        "meaning": "商标（法律概念）"
+      }
+    ]
+  },
+  {
+    "word": "size",
+    "phonetic": "[saɪz]",
+    "pos": "n.",
+    "meaning": "尺寸；尺码",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "衣物鞋帽等商品的号码规格",
+        "important": true,
+        "example": {
+          "en": "Do you have this shirt in my size?",
+          "zh": "这件衬衫有我的尺码吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "物品的大小范围或体积",
+        "important": false,
+        "example": {
+          "en": "The travel bag is perfect size for carry-on.",
+          "zh": "这个旅行包的尺寸很适合随身携带。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I need a larger size for this jacket style.",
+        "zh": "这件夹克这种版型我需要大一号。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please check the size chart before ordering.",
+        "zh": "下单前请查看尺码表。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "right size",
+        "meaning": "合适尺码",
+        "example": {
+          "en": "I finally found the right size shoes.",
+          "zh": "我终于找到了合适尺码的鞋。"
+        }
+      },
+      {
+        "phrase": "size chart",
+        "meaning": "尺码表",
+        "example": {
+          "en": "The clerk showed me the size chart quickly.",
+          "zh": "店员很快给我看了尺码表。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "sizing",
+        "type": "family",
+        "meaning": "尺码设置；尺码选择"
+      },
+      {
+        "word": "measurement",
+        "type": "synonym",
+        "meaning": "尺寸测量值"
+      },
+      {
+        "word": "fit",
+        "type": "confusable",
+        "meaning": "合身程度（与尺寸相关但不完全相同）"
+      },
+      {
+        "word": "dimension",
+        "type": "confusable",
+        "meaning": "长宽高尺寸（更技术化）"
+      }
+    ]
+  },
+  {
+    "word": "style",
+    "phonetic": "[staɪl]",
+    "pos": "n.",
+    "meaning": "风格；款式",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "服饰或商品呈现的设计风格",
+        "important": true,
+        "example": {
+          "en": "I like this style because it looks simple.",
+          "zh": "我喜欢这个款式，因为看起来很简洁。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "个人偏好的审美类型",
+        "important": false,
+        "example": {
+          "en": "Her style is different from mine, but both are nice.",
+          "zh": "她的风格和我不同，但都很好看。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This handmade cup has a modern style.",
+        "zh": "这个手工杯有现代风格。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I want a style that matches my backpack.",
+        "zh": "我想要一个和我背包搭配的款式。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "classic style",
+        "meaning": "经典风格",
+        "example": {
+          "en": "My father prefers a classic style wallet.",
+          "zh": "我爸爸更喜欢经典风格的钱包。"
+        }
+      },
+      {
+        "phrase": "in style",
+        "meaning": "流行的",
+        "example": {
+          "en": "This color is very in style this year.",
+          "zh": "这个颜色今年很流行。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "stylish",
+        "type": "family",
+        "meaning": "时尚的"
+      },
+      {
+        "word": "look",
+        "type": "synonym",
+        "meaning": "风格外观"
+      },
+      {
+        "word": "design",
+        "type": "confusable",
+        "meaning": "设计（更偏创作过程）"
+      },
+      {
+        "word": "fashion",
+        "type": "confusable",
+        "meaning": "时尚趋势（范围更广）"
+      }
+    ]
+  },
+  {
+    "word": "color",
+    "phonetic": "[ˈkʌlə(r)]",
+    "pos": "n.",
+    "meaning": "颜色",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "物品表面的色彩属性",
+        "important": true,
+        "example": {
+          "en": "What color do you want for the souvenir bag?",
+          "zh": "你想要什么颜色的纪念品袋子？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "用于搭配风格和个人偏好",
+        "important": false,
+        "example": {
+          "en": "This color matches your travel coat well.",
+          "zh": "这个颜色和你的旅行外套很搭。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I chose a bright color so it's easy to find.",
+        "zh": "我选了亮色，这样更容易找到。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Do you have this design in another color?",
+        "zh": "这个设计有其他颜色吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "favorite color",
+        "meaning": "最喜欢的颜色",
+        "example": {
+          "en": "Blue is my favorite color for travel gear.",
+          "zh": "蓝色是我最喜欢的旅行装备颜色。"
+        }
+      },
+      {
+        "phrase": "color choice",
+        "meaning": "颜色选择",
+        "example": {
+          "en": "You have many color choices in this store.",
+          "zh": "这家店有很多颜色可选。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "colorful",
+        "type": "family",
+        "meaning": "色彩丰富的"
+      },
+      {
+        "word": "shade",
+        "type": "synonym",
+        "meaning": "色调"
+      },
+      {
+        "word": "black-and-white",
+        "type": "antonym",
+        "meaning": "黑白的；无彩色的"
+      },
+      {
+        "word": "tone",
+        "type": "confusable",
+        "meaning": "色调（常用于设计语境）"
+      }
+    ]
+  },
+  {
+    "word": "material",
+    "phonetic": "[məˈtɪəriəl]",
+    "pos": "n.",
+    "meaning": "材质；材料",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品制作时使用的原料",
+        "important": true,
+        "example": {
+          "en": "What material is this wallet made of?",
+          "zh": "这个钱包是什么材质做的？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "影响商品触感、耐用度和价格的因素",
+        "important": false,
+        "example": {
+          "en": "The material feels soft and comfortable.",
+          "zh": "这个材质摸起来柔软又舒服。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I prefer natural material for summer clothes.",
+        "zh": "夏天衣服我更喜欢天然材质。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This material is strong enough for daily use.",
+        "zh": "这个材质足够结实，适合日常使用。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "high-quality material",
+        "meaning": "高品质材质",
+        "example": {
+          "en": "The bag uses high-quality material from Italy.",
+          "zh": "这款包采用来自意大利的高品质材质。"
+        }
+      },
+      {
+        "phrase": "material choice",
+        "meaning": "材质选择",
+        "example": {
+          "en": "Material choice changes both style and price.",
+          "zh": "材质选择会同时影响风格和价格。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "materials",
+        "type": "family",
+        "meaning": "材料（复数）"
+      },
+      {
+        "word": "fabric",
+        "type": "synonym",
+        "meaning": "布料（服饰常用）"
+      },
+      {
+        "word": "finished product",
+        "type": "antonym",
+        "meaning": "成品（相对于原材料）"
+      },
+      {
+        "word": "texture",
+        "type": "confusable",
+        "meaning": "质感（触觉和视觉效果）"
+      }
+    ]
+  },
+  {
+    "word": "design",
+    "phonetic": "[dɪˈzaɪn]",
+    "pos": "n.",
+    "meaning": "设计；设计感",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "商品外观和结构的设计方案",
+        "important": true,
+        "example": {
+          "en": "I bought this mug because of its cute design.",
+          "zh": "我买这个杯子是因为它的设计很可爱。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "体现产品审美和功能的整体构思",
+        "important": false,
+        "example": {
+          "en": "The design is simple, but very practical.",
+          "zh": "这个设计很简洁，但非常实用。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This design combines local culture and modern style.",
+        "zh": "这个设计融合了本地文化和现代风格。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Tourists often choose products with unique design.",
+        "zh": "游客经常会选设计独特的商品。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "unique design",
+        "meaning": "独特设计",
+        "example": {
+          "en": "This shop is known for its unique design gifts.",
+          "zh": "这家店以独特设计礼品闻名。"
+        }
+      },
+      {
+        "phrase": "design detail",
+        "meaning": "设计细节",
+        "example": {
+          "en": "I love the design details on this notebook cover.",
+          "zh": "我很喜欢这个笔记本封面的设计细节。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "designer",
+        "type": "family",
+        "meaning": "设计师"
+      },
+      {
+        "word": "pattern",
+        "type": "synonym",
+        "meaning": "图案设计"
+      },
+      {
+        "word": "plainness",
+        "type": "antonym",
+        "meaning": "朴素无设计感"
+      },
+      {
+        "word": "style",
+        "type": "confusable",
+        "meaning": "风格（与设计相关但不完全相同）"
+      }
+    ]
+  }
+]

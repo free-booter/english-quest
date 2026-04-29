@@ -1,0 +1,832 @@
+[
+  {
+    "word": "shop",
+    "phonetic": "[ʃɒp]",
+    "pos": "n.",
+    "meaning": "商店",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "出售商品的小型店铺",
+        "important": true,
+        "example": {
+          "en": "There is a gift shop near the hotel.",
+          "zh": "酒店附近有一家礼品店。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "泛指买东西的店",
+        "important": false,
+        "example": {
+          "en": "We found a nice tea shop in the old town.",
+          "zh": "我们在老城区找到了一家不错的茶叶店。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Let's stop at that shop and buy postcards.",
+        "zh": "我们在那家商店停一下买明信片吧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This shop closes at nine in the evening.",
+        "zh": "这家商店晚上九点关门。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gift shop",
+        "meaning": "礼品店",
+        "example": {
+          "en": "The museum gift shop sells local souvenirs.",
+          "zh": "博物馆礼品店卖本地纪念品。"
+        }
+      },
+      {
+        "phrase": "corner shop",
+        "meaning": "街角小店",
+        "example": {
+          "en": "I bought water from a corner shop.",
+          "zh": "我在一家街角小店买了水。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "shopkeeper",
+        "type": "family",
+        "meaning": "店主"
+      },
+      {
+        "word": "store",
+        "type": "synonym",
+        "meaning": "商店（美式更常用）"
+      },
+      {
+        "word": "factory",
+        "type": "antonym",
+        "meaning": "工厂（生产而非零售）"
+      },
+      {
+        "word": "ship",
+        "type": "confusable",
+        "meaning": "船；发货（拼写相近）"
+      }
+    ]
+  },
+  {
+    "word": "store",
+    "phonetic": "[stɔː(r)]",
+    "pos": "n.",
+    "meaning": "商店；店铺",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "出售商品的零售店，常用于美式英语",
+        "important": true,
+        "example": {
+          "en": "That store has a big sale this weekend.",
+          "zh": "那家店这周末有大促销。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "较大规模的商店或连锁门店",
+        "important": false,
+        "example": {
+          "en": "We walked into a sports store to buy shoes.",
+          "zh": "我们走进一家运动商店买鞋。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is there a store that sells local snacks?",
+        "zh": "有卖本地零食的商店吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The store opens early for morning shoppers.",
+        "zh": "这家商店为晨间顾客很早开门。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "convenience store",
+        "meaning": "便利店",
+        "example": {
+          "en": "We grabbed drinks at a convenience store.",
+          "zh": "我们在便利店买了饮料。"
+        }
+      },
+      {
+        "phrase": "store entrance",
+        "meaning": "商店入口",
+        "example": {
+          "en": "Please wait at the store entrance.",
+          "zh": "请在商店入口等候。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "storage",
+        "type": "family",
+        "meaning": "储存空间"
+      },
+      {
+        "word": "shop",
+        "type": "synonym",
+        "meaning": "商店"
+      },
+      {
+        "word": "warehouse",
+        "type": "antonym",
+        "meaning": "仓库（主要储存，不直接零售）"
+      },
+      {
+        "word": "story",
+        "type": "confusable",
+        "meaning": "故事（拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "mall",
+    "phonetic": "[mɔːl]",
+    "pos": "n.",
+    "meaning": "购物中心",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "集合多家商店的大型商业中心",
+        "important": true,
+        "example": {
+          "en": "The mall is crowded during holidays.",
+          "zh": "节假日期间购物中心很拥挤。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "带餐饮、娱乐设施的一站式购物场所",
+        "important": false,
+        "example": {
+          "en": "We spent the afternoon in the mall.",
+          "zh": "我们在购物中心待了一整个下午。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Let's meet at the mall after lunch.",
+        "zh": "午饭后我们在购物中心见吧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "You can find many souvenir shops in that mall.",
+        "zh": "那座购物中心里有很多纪念品店。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "shopping mall",
+        "meaning": "大型购物中心",
+        "example": {
+          "en": "This shopping mall has over 200 stores.",
+          "zh": "这家大型购物中心有 200 多家店。"
+        }
+      },
+      {
+        "phrase": "mall food court",
+        "meaning": "商场美食广场",
+        "example": {
+          "en": "We had dinner at the mall food court.",
+          "zh": "我们在商场美食广场吃了晚饭。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "mall-goer",
+        "type": "family",
+        "meaning": "常逛商场的人"
+      },
+      {
+        "word": "shopping center",
+        "type": "synonym",
+        "meaning": "购物中心"
+      },
+      {
+        "word": "street market",
+        "type": "antonym",
+        "meaning": "露天街市（非封闭商业体）"
+      },
+      {
+        "word": "mail",
+        "type": "confusable",
+        "meaning": "邮件（发音相近）"
+      }
+    ]
+  },
+  {
+    "word": "market",
+    "phonetic": "[ˈmɑːkɪt]",
+    "pos": "n.",
+    "meaning": "市场；集市",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "出售食材或日用品的市场",
+        "important": true,
+        "example": {
+          "en": "The local market sells fresh fruit every morning.",
+          "zh": "本地市场每天早上都卖新鲜水果。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "露天或半露天的交易场所",
+        "important": false,
+        "example": {
+          "en": "We bought handmade gifts at the night market.",
+          "zh": "我们在夜市买了手工礼物。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you want to visit the street market first?",
+        "zh": "你想先逛街边市场吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Prices are usually lower in this market.",
+        "zh": "这个市场的价格通常更低。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "night market",
+        "meaning": "夜市",
+        "example": {
+          "en": "The night market is lively after sunset.",
+          "zh": "日落后夜市非常热闹。"
+        }
+      },
+      {
+        "phrase": "local market",
+        "meaning": "本地市场",
+        "example": {
+          "en": "Try local snacks at the local market.",
+          "zh": "在本地市场尝尝当地小吃吧。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "marketplace",
+        "type": "family",
+        "meaning": "集市；交易平台"
+      },
+      {
+        "word": "bazaar",
+        "type": "synonym",
+        "meaning": "集市（多指传统市场）"
+      },
+      {
+        "word": "monopoly",
+        "type": "antonym",
+        "meaning": "垄断市场（非开放交易）"
+      },
+      {
+        "word": "martial",
+        "type": "confusable",
+        "meaning": "军事的（拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "supermarket",
+    "phonetic": "[ˈsuːpəmɑːkɪt]",
+    "pos": "n.",
+    "meaning": "超市",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "售卖食品与日用品的大型自选商店",
+        "important": true,
+        "example": {
+          "en": "We need to go to the supermarket for snacks.",
+          "zh": "我们得去超市买些零食。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "通常有生鲜、饮料和生活用品分区",
+        "important": false,
+        "example": {
+          "en": "This supermarket has a good bakery section.",
+          "zh": "这家超市的烘焙区不错。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The supermarket is just across the road.",
+        "zh": "超市就在马路对面。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Let's buy souvenirs and daily items at one supermarket.",
+        "zh": "我们在一家超市把纪念品和日用品一起买了吧。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "supermarket chain",
+        "meaning": "连锁超市",
+        "example": {
+          "en": "This supermarket chain is popular with travelers.",
+          "zh": "这家连锁超市很受游客欢迎。"
+        }
+      },
+      {
+        "phrase": "supermarket trolley",
+        "meaning": "超市购物车",
+        "example": {
+          "en": "Take a supermarket trolley for heavy items.",
+          "zh": "买重东西时拿个超市购物车。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "mini-market",
+        "type": "family",
+        "meaning": "小型超市"
+      },
+      {
+        "word": "grocery store",
+        "type": "synonym",
+        "meaning": "食品杂货店"
+      },
+      {
+        "word": "pharmacy",
+        "type": "antonym",
+        "meaning": "药店（主要不卖全品类食品）"
+      },
+      {
+        "word": "hypermarket",
+        "type": "confusable",
+        "meaning": "大卖场（概念接近但规模更大）"
+      }
+    ]
+  },
+  {
+    "word": "pharmacy",
+    "phonetic": "[ˈfɑːməsi]",
+    "pos": "n.",
+    "meaning": "药店",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "出售药品和基础保健用品的店",
+        "important": true,
+        "example": {
+          "en": "I need to buy medicine at a pharmacy.",
+          "zh": "我需要去药店买药。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "可咨询药师并购买常见非处方药",
+        "important": false,
+        "example": {
+          "en": "Ask the staff at the pharmacy for cold medicine.",
+          "zh": "去药店问店员感冒药。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is there a pharmacy in this shopping district?",
+        "zh": "这个购物区里有药店吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The pharmacy stays open late on weekends.",
+        "zh": "这家药店周末营业到很晚。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "24-hour pharmacy",
+        "meaning": "24 小时药店",
+        "example": {
+          "en": "Find a 24-hour pharmacy if you feel sick at night.",
+          "zh": "如果你晚上不舒服，就找一家 24 小时药店。"
+        }
+      },
+      {
+        "phrase": "pharmacy counter",
+        "meaning": "药房柜台",
+        "example": {
+          "en": "Please pay at the pharmacy counter.",
+          "zh": "请在药房柜台结账。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "pharmacist",
+        "type": "family",
+        "meaning": "药剂师"
+      },
+      {
+        "word": "drugstore",
+        "type": "synonym",
+        "meaning": "药店（美式）"
+      },
+      {
+        "word": "bakery",
+        "type": "antonym",
+        "meaning": "面包店（品类完全不同）"
+      },
+      {
+        "word": "harmony",
+        "type": "confusable",
+        "meaning": "和谐（拼写和读音局部相似）"
+      }
+    ]
+  },
+  {
+    "word": "bookstore",
+    "phonetic": "[ˈbʊkstɔː(r)]",
+    "pos": "n.",
+    "meaning": "书店",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "出售书籍、杂志和文具的店铺",
+        "important": true,
+        "example": {
+          "en": "We found a quiet bookstore near the station.",
+          "zh": "我们在车站附近找到一家安静的书店。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "可挑选旅游指南和明信片的文化商店",
+        "important": false,
+        "example": {
+          "en": "I bought a city guide at the bookstore.",
+          "zh": "我在书店买了一本城市指南。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Let's go to the bookstore for travel phrase books.",
+        "zh": "我们去书店买旅行会话书吧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This bookstore also sells cute bookmarks.",
+        "zh": "这家书店也卖可爱的书签。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "independent bookstore",
+        "meaning": "独立书店",
+        "example": {
+          "en": "An independent bookstore often has unique books.",
+          "zh": "独立书店常有独特书目。"
+        }
+      },
+      {
+        "phrase": "bookstore shelf",
+        "meaning": "书店书架",
+        "example": {
+          "en": "That title is on the top bookstore shelf.",
+          "zh": "那本书在书店最上面的书架上。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "bookseller",
+        "type": "family",
+        "meaning": "书商；书店营业员"
+      },
+      {
+        "word": "bookshop",
+        "type": "synonym",
+        "meaning": "书店（英式更常见）"
+      },
+      {
+        "word": "gym",
+        "type": "antonym",
+        "meaning": "健身房（功能不同）"
+      },
+      {
+        "word": "library",
+        "type": "confusable",
+        "meaning": "图书馆（借阅而非售卖）"
+      }
+    ]
+  },
+  {
+    "word": "department",
+    "phonetic": "[dɪˈpɑːtmənt]",
+    "pos": "n.",
+    "meaning": "（百货）部门；专柜区",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "大型商场中按品类划分的购物区域",
+        "important": true,
+        "example": {
+          "en": "The cosmetics department is on the first floor.",
+          "zh": "化妆品区在一楼。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "按商品类别组织的销售专区",
+        "important": false,
+        "example": {
+          "en": "We checked the luggage department for suitcases.",
+          "zh": "我们去箱包区看了行李箱。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please go to the toy department on level two.",
+        "zh": "请去二层的玩具区。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This department has many discounted items.",
+        "zh": "这个专区有很多打折商品。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "department store",
+        "meaning": "百货商店",
+        "example": {
+          "en": "We bought gifts at a famous department store.",
+          "zh": "我们在一家知名百货商店买了礼物。"
+        }
+      },
+      {
+        "phrase": "sales department",
+        "meaning": "销售区；销售部门",
+        "example": {
+          "en": "Ask the sales department for product details.",
+          "zh": "向销售区咨询商品详情。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "departmental",
+        "type": "family",
+        "meaning": "部门的"
+      },
+      {
+        "word": "section",
+        "type": "synonym",
+        "meaning": "区域；分区"
+      },
+      {
+        "word": "whole",
+        "type": "antonym",
+        "meaning": "整体（非分区）"
+      },
+      {
+        "word": "apartment",
+        "type": "confusable",
+        "meaning": "公寓（拼写相近）"
+      }
+    ]
+  },
+  {
+    "word": "outlet",
+    "phonetic": "[ˈaʊtlet]",
+    "pos": "n.",
+    "meaning": "奥特莱斯；折扣店",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "品牌商品折扣出售的门店",
+        "important": true,
+        "example": {
+          "en": "We visited an outlet to buy cheaper shoes.",
+          "zh": "我们去奥特莱斯买更便宜的鞋。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "集中多个折扣品牌的购物区",
+        "important": false,
+        "example": {
+          "en": "The outlet is outside the city center.",
+          "zh": "这家奥特莱斯在市中心外。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Many tourists go to the outlet for souvenirs and clothes.",
+        "zh": "很多游客会去奥特莱斯买纪念品和衣服。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This outlet offers extra discounts after 6 p.m.",
+        "zh": "这家奥特莱斯晚上六点后有额外折扣。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "outlet mall",
+        "meaning": "奥特莱斯购物中心",
+        "example": {
+          "en": "The outlet mall has many international brands.",
+          "zh": "这家奥特莱斯购物中心有很多国际品牌。"
+        }
+      },
+      {
+        "phrase": "factory outlet",
+        "meaning": "工厂折扣店",
+        "example": {
+          "en": "We found good deals at the factory outlet.",
+          "zh": "我们在工厂折扣店买到了划算商品。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "outlet center",
+        "type": "family",
+        "meaning": "奥特莱斯中心"
+      },
+      {
+        "word": "discount store",
+        "type": "synonym",
+        "meaning": "折扣店"
+      },
+      {
+        "word": "full-price store",
+        "type": "antonym",
+        "meaning": "正价店"
+      },
+      {
+        "word": "output",
+        "type": "confusable",
+        "meaning": "输出（拼写开头相似）"
+      }
+    ]
+  },
+  {
+    "word": "boutique",
+    "phonetic": "[buːˈtiːk]",
+    "pos": "n.",
+    "meaning": "精品店",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "风格独特、规模较小的时尚店铺",
+        "important": true,
+        "example": {
+          "en": "She bought a handmade scarf at a boutique.",
+          "zh": "她在一家精品店买了一条手工围巾。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "主打设计感或高品质商品的商店",
+        "important": false,
+        "example": {
+          "en": "This boutique sells local designer bags.",
+          "zh": "这家精品店卖本地设计师包袋。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Let's check that boutique for unique souvenirs.",
+        "zh": "我们去那家精品店看看独特纪念品吧。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Prices in a boutique are usually higher.",
+        "zh": "精品店的价格通常更高。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "boutique hotel",
+        "meaning": "精品酒店",
+        "example": {
+          "en": "We stayed in a small boutique hotel downtown.",
+          "zh": "我们住在市中心一家小型精品酒店。"
+        }
+      },
+      {
+        "phrase": "boutique brand",
+        "meaning": "精品品牌",
+        "example": {
+          "en": "That boutique brand is famous for handmade shoes.",
+          "zh": "那个精品品牌以手工鞋闻名。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "boutique-style",
+        "type": "family",
+        "meaning": "精品风格的"
+      },
+      {
+        "word": "specialty shop",
+        "type": "synonym",
+        "meaning": "专门店"
+      },
+      {
+        "word": "supermarket",
+        "type": "antonym",
+        "meaning": "大型综合超市（非精品定位）"
+      },
+      {
+        "word": "antique",
+        "type": "confusable",
+        "meaning": "古董（词形相近）"
+      }
+    ]
+  }
+]

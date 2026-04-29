@@ -1,0 +1,802 @@
+[
+  {
+    "word": "chicken",
+    "phonetic": "[ˈtʃɪkɪn]",
+    "pos": "n.",
+    "meaning": "鸡肉",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "作为食物的鸡肉",
+        "important": true,
+        "example": {
+          "en": "I want grilled chicken for dinner.",
+          "zh": "晚餐我想要烤鸡肉。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐厅菜单中的鸡肉菜品",
+        "important": false,
+        "example": {
+          "en": "This chicken is served with rice.",
+          "zh": "这份鸡肉配米饭。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have spicy chicken here?",
+        "zh": "你们这里有辣味鸡肉吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The chicken soup tastes very fresh.",
+        "zh": "这道鸡汤喝起来很鲜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "grilled chicken",
+        "meaning": "烤鸡肉",
+        "example": {
+          "en": "I ordered grilled chicken and a salad.",
+          "zh": "我点了烤鸡肉和一份沙拉。"
+        }
+      },
+      {
+        "phrase": "chicken soup",
+        "meaning": "鸡汤",
+        "example": {
+          "en": "The chicken soup is today's special.",
+          "zh": "鸡汤是今天的特价菜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "chick",
+        "type": "family",
+        "meaning": "小鸡"
+      },
+      {
+        "word": "poultry",
+        "type": "synonym",
+        "meaning": "家禽肉"
+      },
+      {
+        "word": "beef",
+        "type": "confusable",
+        "meaning": "牛肉"
+      }
+    ]
+  },
+  {
+    "word": "beef",
+    "phonetic": "[biːf]",
+    "pos": "n.",
+    "meaning": "牛肉",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "作为食物的牛肉",
+        "important": true,
+        "example": {
+          "en": "I'd like beef noodles, please.",
+          "zh": "请给我一份牛肉面。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "菜单上的牛肉类主菜",
+        "important": false,
+        "example": {
+          "en": "The beef here is very tender.",
+          "zh": "这里的牛肉很嫩。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can we share one beef steak?",
+        "zh": "我们可以分着吃一份牛排吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This beef dish is a little spicy.",
+        "zh": "这道牛肉菜有点辣。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "beef steak",
+        "meaning": "牛排",
+        "example": {
+          "en": "He ordered a medium beef steak.",
+          "zh": "他点了一份五分熟牛排。"
+        }
+      },
+      {
+        "phrase": "beef noodles",
+        "meaning": "牛肉面",
+        "example": {
+          "en": "The beef noodles are very popular here.",
+          "zh": "这里的牛肉面很受欢迎。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "beefy",
+        "type": "family",
+        "meaning": "结实的；牛肉味重的"
+      },
+      {
+        "word": "meat",
+        "type": "synonym",
+        "meaning": "肉类"
+      },
+      {
+        "word": "pork",
+        "type": "confusable",
+        "meaning": "猪肉"
+      }
+    ]
+  },
+  {
+    "word": "pork",
+    "phonetic": "[pɔːk]",
+    "pos": "n.",
+    "meaning": "猪肉",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "作为食物的猪肉",
+        "important": true,
+        "example": {
+          "en": "We want sweet and sour pork.",
+          "zh": "我们想要糖醋猪肉。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐厅中常见的猪肉菜系食材",
+        "important": false,
+        "example": {
+          "en": "This pork is cooked with garlic.",
+          "zh": "这道猪肉是用蒜做的。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have pork dumplings today?",
+        "zh": "今天有猪肉饺子吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I don't eat pork, thank you.",
+        "zh": "我不吃猪肉，谢谢。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pork chop",
+        "meaning": "猪排",
+        "example": {
+          "en": "The pork chop comes with mashed potatoes.",
+          "zh": "这份猪排配土豆泥。"
+        }
+      },
+      {
+        "phrase": "sweet and sour pork",
+        "meaning": "糖醋里脊",
+        "example": {
+          "en": "Sweet and sour pork is my favorite dish.",
+          "zh": "糖醋里脊是我最喜欢的菜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "pig",
+        "type": "family",
+        "meaning": "猪"
+      },
+      {
+        "word": "ham",
+        "type": "synonym",
+        "meaning": "火腿肉"
+      },
+      {
+        "word": "beef",
+        "type": "confusable",
+        "meaning": "牛肉"
+      }
+    ]
+  },
+  {
+    "word": "fish",
+    "phonetic": "[fɪʃ]",
+    "pos": "n.",
+    "meaning": "鱼肉；鱼",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "作为食物的鱼肉",
+        "important": true,
+        "example": {
+          "en": "I'd like steamed fish for lunch.",
+          "zh": "午餐我想要清蒸鱼。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "菜单中的鱼类菜品",
+        "important": false,
+        "example": {
+          "en": "This fish is fresh from the sea.",
+          "zh": "这条鱼是当天海捕的。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you recommend this fish dish?",
+        "zh": "你推荐这道鱼吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "My son only eats fish and rice.",
+        "zh": "我儿子只吃鱼和米饭。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fried fish",
+        "meaning": "炸鱼",
+        "example": {
+          "en": "The fried fish is crispy outside.",
+          "zh": "这份炸鱼外皮很酥脆。"
+        }
+      },
+      {
+        "phrase": "fish dish",
+        "meaning": "鱼类菜品",
+        "example": {
+          "en": "Can you make this fish dish less salty?",
+          "zh": "这道鱼菜能做得淡一点吗？"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fisherman",
+        "type": "family",
+        "meaning": "渔民"
+      },
+      {
+        "word": "seafood",
+        "type": "synonym",
+        "meaning": "海鲜"
+      },
+      {
+        "word": "shrimp",
+        "type": "confusable",
+        "meaning": "虾"
+      }
+    ]
+  },
+  {
+    "word": "shrimp",
+    "phonetic": "[ʃrɪmp]",
+    "pos": "n.",
+    "meaning": "虾",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "作为食材的虾",
+        "important": true,
+        "example": {
+          "en": "Can I get garlic shrimp, please?",
+          "zh": "请给我一份蒜香虾。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "菜单上的虾类海鲜菜",
+        "important": false,
+        "example": {
+          "en": "The shrimp pasta is very popular.",
+          "zh": "虾仁意面很受欢迎。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I am allergic to shrimp.",
+        "zh": "我对虾过敏。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "These shrimp are cooked just right.",
+        "zh": "这些虾火候刚好。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "garlic shrimp",
+        "meaning": "蒜香虾",
+        "example": {
+          "en": "Garlic shrimp goes well with bread.",
+          "zh": "蒜香虾配面包很合适。"
+        }
+      },
+      {
+        "phrase": "shrimp pasta",
+        "meaning": "虾仁意面",
+        "example": {
+          "en": "She ordered shrimp pasta and soup.",
+          "zh": "她点了虾仁意面和汤。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "shrimpy",
+        "type": "family",
+        "meaning": "小而瘦的"
+      },
+      {
+        "word": "prawn",
+        "type": "synonym",
+        "meaning": "大虾"
+      },
+      {
+        "word": "fish",
+        "type": "confusable",
+        "meaning": "鱼"
+      }
+    ]
+  },
+  {
+    "word": "vegetable",
+    "phonetic": "[ˈvedʒtəbl]",
+    "pos": "n.",
+    "meaning": "蔬菜",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "可食用的蔬菜类食材",
+        "important": true,
+        "example": {
+          "en": "I'd like more vegetable dishes.",
+          "zh": "我想多点一些蔬菜菜品。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "菜单中清淡或素食菜品原料",
+        "important": false,
+        "example": {
+          "en": "This soup has fresh vegetable in it.",
+          "zh": "这碗汤里有新鲜蔬菜。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have a mixed vegetable plate?",
+        "zh": "你们有什锦蔬菜拼盘吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She always orders one vegetable dish.",
+        "zh": "她总会点一道蔬菜菜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "vegetable soup",
+        "meaning": "蔬菜汤",
+        "example": {
+          "en": "Vegetable soup is light and healthy.",
+          "zh": "蔬菜汤清淡又健康。"
+        }
+      },
+      {
+        "phrase": "mixed vegetable",
+        "meaning": "什锦蔬菜",
+        "example": {
+          "en": "Please bring one mixed vegetable dish.",
+          "zh": "请来一份什锦蔬菜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "veggie",
+        "type": "family",
+        "meaning": "蔬菜（口语）"
+      },
+      {
+        "word": "greens",
+        "type": "synonym",
+        "meaning": "绿叶蔬菜"
+      },
+      {
+        "word": "meat",
+        "type": "antonym",
+        "meaning": "肉类"
+      },
+      {
+        "word": "salad",
+        "type": "confusable",
+        "meaning": "沙拉"
+      }
+    ]
+  },
+  {
+    "word": "salad",
+    "phonetic": "[ˈsæləd]",
+    "pos": "n.",
+    "meaning": "沙拉",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由生蔬菜或配料拌成的冷盘",
+        "important": true,
+        "example": {
+          "en": "I'll have a chicken salad, please.",
+          "zh": "请给我一份鸡肉沙拉。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐前或配餐的小份轻食",
+        "important": false,
+        "example": {
+          "en": "This salad comes before the main dish.",
+          "zh": "这份沙拉会在主菜前上。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can I get the salad without onion?",
+        "zh": "这份沙拉可以不要洋葱吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The salad dressing is on the side.",
+        "zh": "沙拉酱是另外放的。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fruit salad",
+        "meaning": "水果沙拉",
+        "example": {
+          "en": "We shared a fruit salad after dinner.",
+          "zh": "晚餐后我们分着吃了一份水果沙拉。"
+        }
+      },
+      {
+        "phrase": "salad dressing",
+        "meaning": "沙拉酱",
+        "example": {
+          "en": "This salad dressing tastes a little sour.",
+          "zh": "这个沙拉酱吃起来有点酸。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "salad bar",
+        "type": "family",
+        "meaning": "沙拉吧"
+      },
+      {
+        "word": "cold dish",
+        "type": "synonym",
+        "meaning": "凉菜"
+      },
+      {
+        "word": "soup",
+        "type": "confusable",
+        "meaning": "汤"
+      }
+    ]
+  },
+  {
+    "word": "soup",
+    "phonetic": "[suːp]",
+    "pos": "n.",
+    "meaning": "汤",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由食材熬煮而成的液体菜品",
+        "important": true,
+        "example": {
+          "en": "I'd like tomato soup to start.",
+          "zh": "我想先来一份番茄汤。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐厅中的前菜或配餐汤品",
+        "important": false,
+        "example": {
+          "en": "This soup is served very hot.",
+          "zh": "这份汤上来时很烫。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have mushroom soup today?",
+        "zh": "今天有蘑菇汤吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The soup is too salty for me.",
+        "zh": "这碗汤对我来说太咸了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tomato soup",
+        "meaning": "番茄汤",
+        "example": {
+          "en": "Tomato soup is popular with kids.",
+          "zh": "番茄汤很受小朋友欢迎。"
+        }
+      },
+      {
+        "phrase": "soup spoon",
+        "meaning": "汤勺",
+        "example": {
+          "en": "Could I have a clean soup spoon?",
+          "zh": "可以给我一把干净的汤勺吗？"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "soupy",
+        "type": "family",
+        "meaning": "汤状的"
+      },
+      {
+        "word": "broth",
+        "type": "synonym",
+        "meaning": "高汤；清汤"
+      },
+      {
+        "word": "salad",
+        "type": "antonym",
+        "meaning": "沙拉（冷盘）"
+      },
+      {
+        "word": "stew",
+        "type": "confusable",
+        "meaning": "炖菜"
+      }
+    ]
+  },
+  {
+    "word": "bread",
+    "phonetic": "[bred]",
+    "pos": "n.",
+    "meaning": "面包",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用面粉烤制的主食面包",
+        "important": true,
+        "example": {
+          "en": "Can we have more bread, please?",
+          "zh": "请再给我们一些面包好吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐前或配汤的面包",
+        "important": false,
+        "example": {
+          "en": "This bread is warm and soft.",
+          "zh": "这份面包又热又软。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I'd like soup with bread.",
+        "zh": "我想要汤配面包。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Is this bread baked today?",
+        "zh": "这个面包是今天烤的吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "garlic bread",
+        "meaning": "蒜香面包",
+        "example": {
+          "en": "Garlic bread is great with pasta.",
+          "zh": "蒜香面包配意面很棒。"
+        }
+      },
+      {
+        "phrase": "a slice of bread",
+        "meaning": "一片面包",
+        "example": {
+          "en": "He only ate a slice of bread.",
+          "zh": "他只吃了一片面包。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "baker",
+        "type": "family",
+        "meaning": "面包师"
+      },
+      {
+        "word": "loaf",
+        "type": "synonym",
+        "meaning": "一条面包"
+      },
+      {
+        "word": "rice",
+        "type": "antonym",
+        "meaning": "米饭"
+      },
+      {
+        "word": "dessert",
+        "type": "confusable",
+        "meaning": "甜点"
+      }
+    ]
+  },
+  {
+    "word": "dessert",
+    "phonetic": "[dɪˈzɜːt]",
+    "pos": "n.",
+    "meaning": "甜点",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "正餐后食用的甜食",
+        "important": true,
+        "example": {
+          "en": "Let's order dessert after the meal.",
+          "zh": "我们饭后点个甜点吧。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "蛋糕、冰淇淋等甜品类别",
+        "important": false,
+        "example": {
+          "en": "This restaurant has great dessert.",
+          "zh": "这家餐厅的甜点很棒。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "What dessert do you recommend?",
+        "zh": "你推荐哪款甜点？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I want dessert but not too sweet.",
+        "zh": "我想吃甜点，但不要太甜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dessert menu",
+        "meaning": "甜点菜单",
+        "example": {
+          "en": "Can we see the dessert menu now?",
+          "zh": "我们现在可以看看甜点菜单吗？"
+        }
+      },
+      {
+        "phrase": "chocolate dessert",
+        "meaning": "巧克力甜点",
+        "example": {
+          "en": "She picked a chocolate dessert.",
+          "zh": "她选了一款巧克力甜点。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "desserted",
+        "type": "family",
+        "meaning": "吃过甜点的（少见用法）"
+      },
+      {
+        "word": "sweet",
+        "type": "synonym",
+        "meaning": "甜食"
+      },
+      {
+        "word": "main course",
+        "type": "antonym",
+        "meaning": "主菜"
+      },
+      {
+        "word": "desert",
+        "type": "confusable",
+        "meaning": "沙漠（拼写易混）"
+      }
+    ]
+  }
+]

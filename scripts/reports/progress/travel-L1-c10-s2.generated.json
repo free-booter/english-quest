@@ -1,0 +1,522 @@
+[
+  {
+    "word": "dollar",
+    "phonetic": "[ˈdɒlə(r)]",
+    "pos": "n.",
+    "meaning": "美元；（多国）元",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "美国等国家使用的货币单位",
+        "important": true,
+        "example": {
+          "en": "The ticket costs fifty dollars; cards are accepted.",
+          "zh": "票价五十美元；可以用卡支付。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（符号 $）以“元”为单位的纸币或硬币",
+        "important": false,
+        "example": {
+          "en": "Keep some small dollars for tips and vending machines.",
+          "zh": "留些小额纸币付小费和自动售货机。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Check the exchange rate before you change dollars at the airport.",
+        "zh": "在机场换美元前先查汇率。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "US dollar",
+        "meaning": "美元",
+        "example": {
+          "en": "Prices on the site are listed in US dollars.",
+          "zh": "网站上的价格以美元标价。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "buck",
+        "type": "synonym",
+        "meaning": "（口语）美元"
+      },
+      {
+        "word": "cent",
+        "type": "family",
+        "meaning": "美分；分币"
+      }
+    ]
+  },
+  {
+    "word": "euro",
+    "phonetic": "[ˈjʊərəʊ]",
+    "pos": "n.",
+    "meaning": "欧元",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "欧元区统一货币",
+        "important": true,
+        "example": {
+          "en": "In Paris you pay in euros, not in pounds.",
+          "zh": "在巴黎用欧元付款，不用英镑。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask whether the hotel quote is in euros or in your home currency.",
+        "zh": "问清楚酒店报价是欧元还是本国货币。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "euro zone",
+        "meaning": "欧元区",
+        "example": {
+          "en": "Credit cards work widely across the euro zone.",
+          "zh": "信用卡在欧元区普遍可用。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "EUR",
+        "type": "family",
+        "meaning": "欧元货币代码"
+      },
+      {
+        "word": "cent",
+        "type": "family",
+        "meaning": "欧分"
+      }
+    ]
+  },
+  {
+    "word": "pound",
+    "phonetic": "[paʊnd]",
+    "pos": "n.",
+    "meaning": "英镑；磅",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "英国货币单位（符号 £）",
+        "important": true,
+        "example": {
+          "en": "The museum ticket is ten pounds with a student discount.",
+          "zh": "博物馆门票学生价十英镑。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "重量单位：磅（旅行语境中常见于行李额度）",
+        "important": false,
+        "example": {
+          "en": "Your checked bag must stay under the airline's pound limit.",
+          "zh": "托运行李须控制在航空公司磅数限额内。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Withdraw pounds from an ATM that shows low fees for visitors.",
+        "zh": "从对外卡手续费较低的 ATM 取英镑。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "British pound",
+        "meaning": "英镑",
+        "example": {
+          "en": "The fare was quoted in British pounds on the booking page.",
+          "zh": "预订页面上车费以英镑标示。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "sterling",
+        "type": "synonym",
+        "meaning": "英镑（同一货币的另一说法）"
+      },
+      {
+        "word": "penny",
+        "type": "family",
+        "meaning": "便士（英镑辅币）"
+      }
+    ]
+  },
+  {
+    "word": "yen",
+    "phonetic": "[jen]",
+    "pos": "n.",
+    "meaning": "日元",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "日本货币单位",
+        "important": true,
+        "example": {
+          "en": "Suica cards let you ride trains without counting yen coins.",
+          "zh": "Suica 卡乘车不必数日元硬币。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Exchange counters at Narita display yen rates for major currencies.",
+        "zh": "成田机场的兑换柜台显示主要货币兑日元汇率。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Japanese yen",
+        "meaning": "日元",
+        "example": {
+          "en": "Budget travelers track how many Japanese yen a meal costs.",
+          "zh": "背包客会留意一顿饭要花多少日元。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "JPY",
+        "type": "family",
+        "meaning": "日元货币代码"
+      },
+      {
+        "word": "Japan",
+        "type": "family",
+        "meaning": "日本（发行地）"
+      }
+    ]
+  },
+  {
+    "word": "yuan",
+    "phonetic": "[juːˈɑːn]",
+    "pos": "n.",
+    "meaning": "元（人民币）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "中国法定货币单位（口语亦常说 RMB）",
+        "important": true,
+        "example": {
+          "en": "We paid in yuan at the station convenience store.",
+          "zh": "我们在车站便利店用人民币付款。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "When landing in China, have some yuan ready for a taxi or metro card.",
+        "zh": "落地中国时准备一些人民币打车或买交通卡。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Chinese yuan",
+        "meaning": "人民币元",
+        "example": {
+          "en": "The hotel deposit was listed in Chinese yuan on the receipt.",
+          "zh": "收据上酒店押金以人民币元列出。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "RMB",
+        "type": "synonym",
+        "meaning": "人民币（缩写）"
+      },
+      {
+        "word": "CNY",
+        "type": "family",
+        "meaning": "人民币货币代码"
+      }
+    ]
+  },
+  {
+    "word": "peso",
+    "phonetic": "[ˈpeɪsəʊ]",
+    "pos": "n.",
+    "meaning": "比索（多种拉美等国货币）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "墨西哥、菲律宾等国使用的货币名称",
+        "important": true,
+        "example": {
+          "en": "Street snacks in Mexico City often cost just a few pesos.",
+          "zh": "墨西哥城街头小吃往往只要几个比索。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Confirm which country's peso you are quoted—rates differ a lot.",
+        "zh": "确认报价是哪一种比索——各国汇率差别很大。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Mexican peso",
+        "meaning": "墨西哥比索",
+        "example": {
+          "en": "ATMs in Cancún dispense Mexican pesos for tourists.",
+          "zh": "坎昆的自动取款机为游客吐墨西哥比索。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "MXN",
+        "type": "family",
+        "meaning": "墨西哥比索代码"
+      },
+      {
+        "word": "Philippine peso",
+        "type": "family",
+        "meaning": "菲律宾比索"
+      }
+    ]
+  },
+  {
+    "word": "rupee",
+    "phonetic": "[ruːˈpiː]",
+    "pos": "n.",
+    "meaning": "卢比（南亚多国货币）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "印度、巴基斯坦、斯里兰卡等国货币单位",
+        "important": true,
+        "example": {
+          "en": "Carry small rupee notes for temple donations and local buses.",
+          "zh": "备些卢比零钱用于寺庙捐助和当地公交。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Compare airport and downtown rates before changing cash to rupees.",
+        "zh": "换卢比前先比较机场与市区的汇率。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Indian rupee",
+        "meaning": "印度卢比",
+        "example": {
+          "en": "Train tickets in India can be bought online in Indian rupees.",
+          "zh": "印度火车票可用印度卢比在线购买。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "INR",
+        "type": "family",
+        "meaning": "印度卢比代码"
+      },
+      {
+        "word": "lakh",
+        "type": "family",
+        "meaning": "十万（南亚大额计数单位）"
+      }
+    ]
+  },
+  {
+    "word": "franc",
+    "phonetic": "[fræŋk]",
+    "pos": "n.",
+    "meaning": "法郎（历史货币名；现瑞士等仍用）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "瑞士等国仍在使用的货币单位",
+        "important": true,
+        "example": {
+          "en": "Mountain hostels in Switzerland may quote prices in Swiss francs.",
+          "zh": "瑞士山间旅舍可能以瑞士法郎标价。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "历史上法国等国使用的货币（现已多为欧元取代）",
+        "important": false,
+        "example": {
+          "en": "Old guidebooks still mention francs before the euro era.",
+          "zh": "旧旅行指南在欧元时代以前仍提到法郎。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Check whether your franc quote means Swiss francs or another legacy currency.",
+        "zh": "确认“法郎”报价是指瑞士法郎还是历史货币。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Swiss franc",
+        "meaning": "瑞士法郎",
+        "example": {
+          "en": "Ski passes are often sold in Swiss francs at resort desks.",
+          "zh": "滑雪通行证常在度假村柜台以瑞士法郎出售。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "CHF",
+        "type": "family",
+        "meaning": "瑞士法郎代码"
+      },
+      {
+        "word": "euro",
+        "type": "confusable",
+        "meaning": "欧元区已用法郎的国家现多用欧元"
+      }
+    ]
+  },
+  {
+    "word": "baht",
+    "phonetic": "[bɑːt]",
+    "pos": "n.",
+    "meaning": "泰铢",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "泰国货币单位",
+        "important": true,
+        "example": {
+          "en": "Street food in Bangkok is cheap if you pay in baht with cash.",
+          "zh": "在曼谷用泰铢现金买路边小吃很便宜。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Small shops may round prices to the nearest baht when you pay cash.",
+        "zh": "小店现金付款时可能把价格四舍五入到泰铢。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Thai baht",
+        "meaning": "泰铢",
+        "example": {
+          "en": "Island ferries list fares in Thai baht at the pier.",
+          "zh": "海岛渡轮在码头以泰铢标示票价。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "THB",
+        "type": "family",
+        "meaning": "泰铢货币代码"
+      },
+      {
+        "word": "satang",
+        "type": "family",
+        "meaning": "萨当（泰铢辅币）"
+      }
+    ]
+  },
+  {
+    "word": "ringgit",
+    "phonetic": "[ˈrɪŋɡɪt]",
+    "pos": "n.",
+    "meaning": "林吉特（马来西亚货币）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "马来西亚货币单位（符号 RM）",
+        "important": true,
+        "example": {
+          "en": "Night markets in Kuala Lumpur often prefer ringgit cash.",
+          "zh": "吉隆坡夜市往往偏好林吉特现金。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Grab rides and street stalls usually quote fares in ringgit, not foreign notes.",
+        "zh": "Grab 车程与路边摊通常以林吉特标价，而非外币。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "Malaysian ringgit",
+        "meaning": "马来西亚林吉特",
+        "example": {
+          "en": "ATMs in Penang dispense Malaysian ringgit for travelers.",
+          "zh": "槟城的自动取款机为旅客吐马来西亚林吉特。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "MYR",
+        "type": "family",
+        "meaning": "林吉特货币代码"
+      },
+      {
+        "word": "sen",
+        "type": "family",
+        "meaning": "仙（林吉特辅币）"
+      }
+    ]
+  }
+]

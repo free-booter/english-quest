@@ -1,0 +1,732 @@
+[
+  {
+    "word": "restaurant",
+    "phonetic": "[ˈrestərɒnt]",
+    "pos": "n.",
+    "meaning": "餐厅",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "提供用餐服务的地方",
+        "important": true,
+        "example": {
+          "en": "This restaurant is near our hotel.",
+          "zh": "这家餐厅在我们酒店附近。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We chose a small restaurant for dinner.",
+        "zh": "我们选了一家小餐厅吃晚饭。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Is this restaurant open now?",
+        "zh": "这家餐厅现在营业吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "family restaurant",
+        "meaning": "家庭餐厅",
+        "example": {
+          "en": "We had lunch in a family restaurant.",
+          "zh": "我们在一家家庭餐厅吃了午饭。"
+        }
+      },
+      {
+        "phrase": "restaurant menu",
+        "meaning": "餐厅菜单",
+        "example": {
+          "en": "The restaurant menu has pictures.",
+          "zh": "这家餐厅的菜单有图片。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "restaurateur",
+        "type": "family",
+        "meaning": "餐馆老板"
+      },
+      {
+        "word": "diner",
+        "type": "synonym",
+        "meaning": "小餐馆"
+      },
+      {
+        "word": "kitchen",
+        "type": "antonym",
+        "meaning": "厨房（非用餐区）"
+      },
+      {
+        "word": "cafe",
+        "type": "confusable",
+        "meaning": "咖啡馆（通常更轻食）"
+      }
+    ]
+  },
+  {
+    "word": "menu",
+    "phonetic": "[ˈmenjuː]",
+    "pos": "n.",
+    "meaning": "菜单",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "餐厅提供菜品和价格的清单",
+        "important": true,
+        "example": {
+          "en": "Can I see the menu, please?",
+          "zh": "请给我看一下菜单，好吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The menu has many local dishes.",
+        "zh": "这份菜单有很多当地菜。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I read the menu before I order.",
+        "zh": "我点菜前先看菜单。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "main menu",
+        "meaning": "主菜单",
+        "example": {
+          "en": "The waiter brought the main menu.",
+          "zh": "服务员拿来了主菜单。"
+        }
+      },
+      {
+        "phrase": "set menu",
+        "meaning": "套餐菜单",
+        "example": {
+          "en": "We picked the set menu for two.",
+          "zh": "我们选了双人套餐菜单。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "menu item",
+        "type": "family",
+        "meaning": "菜单项"
+      },
+      {
+        "word": "bill of fare",
+        "type": "synonym",
+        "meaning": "菜谱"
+      },
+      {
+        "word": "off-menu",
+        "type": "antonym",
+        "meaning": "不在菜单上的"
+      },
+      {
+        "word": "bill",
+        "type": "confusable",
+        "meaning": "账单（不是菜单）"
+      }
+    ]
+  },
+  {
+    "word": "order",
+    "phonetic": "[ˈɔːdə(r)]",
+    "pos": "v.",
+    "meaning": "点餐；下单",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在餐厅选择并要求提供食物",
+        "important": true,
+        "example": {
+          "en": "I want to order chicken soup.",
+          "zh": "我想点鸡汤。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We are ready to order now.",
+        "zh": "我们现在可以点餐了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She ordered a salad and tea.",
+        "zh": "她点了一份沙拉和茶。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "order food",
+        "meaning": "点食物",
+        "example": {
+          "en": "Let's order food before it gets busy.",
+          "zh": "趁还不忙我们先点餐吧。"
+        }
+      },
+      {
+        "phrase": "take an order",
+        "meaning": "记录点单",
+        "example": {
+          "en": "The waiter came to take our order.",
+          "zh": "服务员过来给我们点单。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "ordering",
+        "type": "family",
+        "meaning": "点单（过程）"
+      },
+      {
+        "word": "request",
+        "type": "synonym",
+        "meaning": "请求"
+      },
+      {
+        "word": "cancel",
+        "type": "antonym",
+        "meaning": "取消订单"
+      },
+      {
+        "word": "book",
+        "type": "confusable",
+        "meaning": "预订（常用于座位）"
+      }
+    ]
+  },
+  {
+    "word": "waiter",
+    "phonetic": "[ˈweɪtə(r)]",
+    "pos": "n.",
+    "meaning": "男服务员",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在餐厅为顾客提供服务的人",
+        "important": true,
+        "example": {
+          "en": "The waiter gave us water first.",
+          "zh": "服务员先给了我们水。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Excuse me, waiter, can we order?",
+        "zh": "打扰一下，服务员，我们可以点餐吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The waiter recommended today's fish.",
+        "zh": "服务员推荐了今天的鱼。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "call the waiter",
+        "meaning": "叫服务员",
+        "example": {
+          "en": "Please call the waiter for the bill.",
+          "zh": "请叫服务员来结账。"
+        }
+      },
+      {
+        "phrase": "friendly waiter",
+        "meaning": "友好的服务员",
+        "example": {
+          "en": "A friendly waiter helped us choose dishes.",
+          "zh": "一位友好的服务员帮我们选了菜。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "waitress",
+        "type": "family",
+        "meaning": "女服务员"
+      },
+      {
+        "word": "server",
+        "type": "synonym",
+        "meaning": "服务员"
+      },
+      {
+        "word": "customer",
+        "type": "antonym",
+        "meaning": "顾客"
+      },
+      {
+        "word": "wait",
+        "type": "confusable",
+        "meaning": "等待（动词）"
+      }
+    ]
+  },
+  {
+    "word": "reservation",
+    "phonetic": "[ˌrezəˈveɪʃn]",
+    "pos": "n.",
+    "meaning": "预订",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "提前预留餐厅座位",
+        "important": true,
+        "example": {
+          "en": "I made a reservation for two people.",
+          "zh": "我预订了两个人的位置。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have a reservation tonight?",
+        "zh": "你今晚有预订吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Our reservation is under Lee.",
+        "zh": "我们的预订姓名是 Lee。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make a reservation",
+        "meaning": "进行预订",
+        "example": {
+          "en": "We should make a reservation before dinner time.",
+          "zh": "晚餐时间前我们应该先预订。"
+        }
+      },
+      {
+        "phrase": "cancel a reservation",
+        "meaning": "取消预订",
+        "example": {
+          "en": "I need to cancel my reservation for tonight.",
+          "zh": "我需要取消今晚的预订。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "reserve",
+        "type": "family",
+        "meaning": "预订（动词）"
+      },
+      {
+        "word": "booking",
+        "type": "synonym",
+        "meaning": "预订"
+      },
+      {
+        "word": "walk-in",
+        "type": "antonym",
+        "meaning": "未预订直接到店"
+      },
+      {
+        "word": "order",
+        "type": "confusable",
+        "meaning": "点单（不是订位）"
+      }
+    ]
+  },
+  {
+    "word": "table",
+    "phonetic": "[ˈteɪbl]",
+    "pos": "n.",
+    "meaning": "餐桌；桌位",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "餐厅里供客人用餐的桌子或座位",
+        "important": true,
+        "example": {
+          "en": "Can we get a table by the window?",
+          "zh": "我们可以要一张靠窗的桌位吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This table is perfect for four people.",
+        "zh": "这张桌子很适合四个人。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please clean the table before we sit.",
+        "zh": "我们坐下前请先清理桌面。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "book a table",
+        "meaning": "订桌位",
+        "example": {
+          "en": "I booked a table for 7 p.m.",
+          "zh": "我订了晚上七点的桌位。"
+        }
+      },
+      {
+        "phrase": "table number",
+        "meaning": "桌号",
+        "example": {
+          "en": "Our food will come to table number six.",
+          "zh": "我们的菜会送到六号桌。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "tabletop",
+        "type": "family",
+        "meaning": "桌面"
+      },
+      {
+        "word": "desk",
+        "type": "synonym",
+        "meaning": "桌子（泛指）"
+      },
+      {
+        "word": "standing area",
+        "type": "antonym",
+        "meaning": "站立区（非桌位）"
+      },
+      {
+        "word": "seat",
+        "type": "confusable",
+        "meaning": "座位（不一定是桌）"
+      }
+    ]
+  },
+  {
+    "word": "booth",
+    "phonetic": "[buːð]",
+    "pos": "n.",
+    "meaning": "卡座",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "餐厅中半封闭的长椅座位区",
+        "important": true,
+        "example": {
+          "en": "We prefer a booth for more space.",
+          "zh": "我们更想要卡座，空间更大。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "A booth near the wall is available.",
+        "zh": "靠墙有一个空卡座。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The kids like sitting in a booth.",
+        "zh": "孩子们喜欢坐卡座。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "window booth",
+        "meaning": "靠窗卡座",
+        "example": {
+          "en": "Can we have the window booth?",
+          "zh": "我们可以坐靠窗卡座吗？"
+        }
+      },
+      {
+        "phrase": "booth seat",
+        "meaning": "卡座座位",
+        "example": {
+          "en": "The booth seat is very comfortable.",
+          "zh": "卡座座位很舒服。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "booth seating",
+        "type": "family",
+        "meaning": "卡座座位安排"
+      },
+      {
+        "word": "nook",
+        "type": "synonym",
+        "meaning": "小角落座位"
+      },
+      {
+        "word": "counter",
+        "type": "antonym",
+        "meaning": "吧台座位"
+      },
+      {
+        "word": "table",
+        "type": "confusable",
+        "meaning": "普通桌位（不一定是卡座）"
+      }
+    ]
+  },
+  {
+    "word": "counter",
+    "phonetic": "[ˈkaʊntə(r)]",
+    "pos": "n.",
+    "meaning": "柜台；吧台",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "点餐或服务的长台面",
+        "important": true,
+        "example": {
+          "en": "Please pay at the counter.",
+          "zh": "请在柜台付款。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We ordered drinks at the counter.",
+        "zh": "我们在柜台点了饮料。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Two seats are free at the counter.",
+        "zh": "吧台有两个空位。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "service counter",
+        "meaning": "服务柜台",
+        "example": {
+          "en": "Ask the service counter for a menu.",
+          "zh": "去服务柜台要一份菜单。"
+        }
+      },
+      {
+        "phrase": "counter seat",
+        "meaning": "吧台座位",
+        "example": {
+          "en": "I sat at a counter seat and ate quickly.",
+          "zh": "我坐在吧台座位上很快吃完了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "countertop",
+        "type": "family",
+        "meaning": "台面"
+      },
+      {
+        "word": "bar",
+        "type": "synonym",
+        "meaning": "吧台"
+      },
+      {
+        "word": "dining room",
+        "type": "antonym",
+        "meaning": "就餐区（非柜台）"
+      },
+      {
+        "word": "cashier",
+        "type": "confusable",
+        "meaning": "收银员（人，不是柜台）"
+      }
+    ]
+  },
+  {
+    "word": "buffet",
+    "phonetic": "[ˈbʊfeɪ]",
+    "pos": "n.",
+    "meaning": "自助餐",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "自己取食物的用餐形式",
+        "important": true,
+        "example": {
+          "en": "The hotel has a breakfast buffet.",
+          "zh": "这家酒店有早餐自助餐。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We tried the seafood buffet tonight.",
+        "zh": "今晚我们吃了海鲜自助餐。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The buffet is cheaper at lunch time.",
+        "zh": "午餐时段的自助餐更便宜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "buffet line",
+        "meaning": "自助取餐队伍",
+        "example": {
+          "en": "The buffet line is long now.",
+          "zh": "现在自助取餐队伍很长。"
+        }
+      },
+      {
+        "phrase": "all-you-can-eat buffet",
+        "meaning": "无限量自助餐",
+        "example": {
+          "en": "We chose an all-you-can-eat buffet.",
+          "zh": "我们选了无限量自助餐。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "buffet-style",
+        "type": "family",
+        "meaning": "自助形式的"
+      },
+      {
+        "word": "self-service meal",
+        "type": "synonym",
+        "meaning": "自取式餐食"
+      },
+      {
+        "word": "set meal",
+        "type": "antonym",
+        "meaning": "套餐（非自助）"
+      },
+      {
+        "word": "banquet",
+        "type": "confusable",
+        "meaning": "宴会（不一定是自助）"
+      }
+    ]
+  },
+  {
+    "word": "recommend",
+    "phonetic": "[ˌrekəˈmend]",
+    "pos": "v.",
+    "meaning": "推荐",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "建议别人选择某道菜或服务",
+        "important": true,
+        "example": {
+          "en": "Can you recommend a local dish?",
+          "zh": "你可以推荐一道当地菜吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The waiter recommended the beef noodles.",
+        "zh": "服务员推荐了牛肉面。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I recommend this restaurant to my friends.",
+        "zh": "我把这家餐厅推荐给朋友。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "highly recommend",
+        "meaning": "强烈推荐",
+        "example": {
+          "en": "I highly recommend the soup here.",
+          "zh": "我强烈推荐这里的汤。"
+        }
+      },
+      {
+        "phrase": "recommend to",
+        "meaning": "向……推荐",
+        "example": {
+          "en": "She recommended this cafe to us.",
+          "zh": "她向我们推荐了这家咖啡馆。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "recommendation",
+        "type": "family",
+        "meaning": "推荐；建议"
+      },
+      {
+        "word": "suggest",
+        "type": "synonym",
+        "meaning": "建议"
+      },
+      {
+        "word": "discourage",
+        "type": "antonym",
+        "meaning": "劝阻"
+      },
+      {
+        "word": "introduce",
+        "type": "confusable",
+        "meaning": "介绍（不一定是建议选择）"
+      }
+    ]
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "word": "water",
+    "phonetic": "[ˈwɔːtə]",
+    "pos": "n.",
+    "meaning": "水",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "饮用的水",
+        "important": true,
+        "example": {
+          "en": "Could I have a glass of water, please?",
+          "zh": "请给我一杯水，好吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐厅提供的免费白水",
+        "important": false,
+        "example": {
+          "en": "This restaurant gives free water.",
+          "zh": "这家餐厅提供免费白水。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you want still or sparkling water?",
+        "zh": "你想要无气泡水还是气泡水？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I need some water after this spicy dish.",
+        "zh": "吃了这道辣菜后我需要喝点水。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a glass of water",
+        "meaning": "一杯水",
+        "example": {
+          "en": "I'll start with a glass of water.",
+          "zh": "我先来一杯水。"
+        }
+      },
+      {
+        "phrase": "sparkling water",
+        "meaning": "气泡水",
+        "example": {
+          "en": "She ordered sparkling water with lemon.",
+          "zh": "她点了加柠檬的气泡水。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "mineral water",
+        "type": "family",
+        "meaning": "矿泉水"
+      },
+      {
+        "word": "drink",
+        "type": "synonym",
+        "meaning": "饮品"
+      },
+      {
+        "word": "wine",
+        "type": "confusable",
+        "meaning": "葡萄酒（同为饮品但含酒精）"
+      }
+    ]
+  },
+  {
+    "word": "juice",
+    "phonetic": "[dʒuːs]",
+    "pos": "n.",
+    "meaning": "果汁",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "水果榨成的饮料",
+        "important": true,
+        "example": {
+          "en": "Can I get orange juice with my meal?",
+          "zh": "我这份餐可以配橙汁吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "菜单里的果汁类饮品",
+        "important": false,
+        "example": {
+          "en": "The juice here is fresh every morning.",
+          "zh": "这里的果汁每天早上现做。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I'd like apple juice, no ice.",
+        "zh": "我想要苹果汁，不加冰。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This juice is sweet and cold.",
+        "zh": "这杯果汁又甜又冰。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "orange juice",
+        "meaning": "橙汁",
+        "example": {
+          "en": "He ordered orange juice and a sandwich.",
+          "zh": "他点了橙汁和三明治。"
+        }
+      },
+      {
+        "phrase": "fresh juice",
+        "meaning": "鲜榨果汁",
+        "example": {
+          "en": "This cafe is famous for fresh juice.",
+          "zh": "这家咖啡馆以鲜榨果汁出名。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "juicy",
+        "type": "family",
+        "meaning": "多汁的"
+      },
+      {
+        "word": "beverage",
+        "type": "synonym",
+        "meaning": "饮料"
+      },
+      {
+        "word": "soda",
+        "type": "confusable",
+        "meaning": "汽水（不是果汁）"
+      }
+    ]
+  },
+  {
+    "word": "coffee",
+    "phonetic": "[ˈkɒfi]",
+    "pos": "n.",
+    "meaning": "咖啡",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由咖啡豆冲泡的饮料",
+        "important": true,
+        "example": {
+          "en": "I want a hot coffee after lunch.",
+          "zh": "午餐后我想喝一杯热咖啡。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "咖啡店常见的饮品类别",
+        "important": false,
+        "example": {
+          "en": "Their coffee tastes strong but smooth.",
+          "zh": "他们家的咖啡味道浓但顺口。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can I have coffee with milk?",
+        "zh": "我可以要一杯加奶的咖啡吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She drinks coffee every morning while traveling.",
+        "zh": "她旅行时每天早上都喝咖啡。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "black coffee",
+        "meaning": "黑咖啡",
+        "example": {
+          "en": "He prefers black coffee with no sugar.",
+          "zh": "他更喜欢不加糖的黑咖啡。"
+        }
+      },
+      {
+        "phrase": "iced coffee",
+        "meaning": "冰咖啡",
+        "example": {
+          "en": "I ordered iced coffee because it is hot outside.",
+          "zh": "外面很热，所以我点了冰咖啡。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "caffeine",
+        "type": "family",
+        "meaning": "咖啡因"
+      },
+      {
+        "word": "espresso",
+        "type": "family",
+        "meaning": "浓缩咖啡"
+      },
+      {
+        "word": "tea",
+        "type": "antonym",
+        "meaning": "茶（在点单中常作为替代）"
+      }
+    ]
+  },
+  {
+    "word": "tea",
+    "phonetic": "[tiː]",
+    "pos": "n.",
+    "meaning": "茶",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "茶叶冲泡的饮料",
+        "important": true,
+        "example": {
+          "en": "Do you serve hot tea in this restaurant?",
+          "zh": "你们这家餐厅有热茶吗？",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐后常点的清淡饮品",
+        "important": false,
+        "example": {
+          "en": "I usually order tea after dinner.",
+          "zh": "我通常在晚餐后点茶。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Green tea is popular in many local cafes.",
+        "zh": "绿茶在很多本地咖啡馆都很受欢迎。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please bring us one pot of tea.",
+        "zh": "请给我们上一壶茶。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "green tea",
+        "meaning": "绿茶",
+        "example": {
+          "en": "She ordered green tea with her dessert.",
+          "zh": "她点了绿茶配甜点。"
+        }
+      },
+      {
+        "phrase": "a pot of tea",
+        "meaning": "一壶茶",
+        "example": {
+          "en": "Can we share a pot of tea?",
+          "zh": "我们可以共用一壶茶吗？"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "teabag",
+        "type": "family",
+        "meaning": "茶包"
+      },
+      {
+        "word": "herbal tea",
+        "type": "family",
+        "meaning": "花草茶"
+      },
+      {
+        "word": "coffee",
+        "type": "antonym",
+        "meaning": "咖啡（点单常见替代）"
+      }
+    ]
+  },
+  {
+    "word": "wine",
+    "phonetic": "[waɪn]",
+    "pos": "n.",
+    "meaning": "葡萄酒",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由葡萄发酵制成的酒",
+        "important": true,
+        "example": {
+          "en": "We ordered red wine with the steak.",
+          "zh": "我们点了红酒配牛排。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐厅酒单中的葡萄酒类别",
+        "important": false,
+        "example": {
+          "en": "This wine is local and very popular.",
+          "zh": "这款葡萄酒是本地的，很受欢迎。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have white wine by the glass?",
+        "zh": "你们有按杯卖的白葡萄酒吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "I don't drink wine, so I'll take tea.",
+        "zh": "我不喝葡萄酒，所以我要茶。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "red wine",
+        "meaning": "红葡萄酒",
+        "example": {
+          "en": "Red wine goes well with this beef dish.",
+          "zh": "红葡萄酒和这道牛肉很搭。"
+        }
+      },
+      {
+        "phrase": "white wine",
+        "meaning": "白葡萄酒",
+        "example": {
+          "en": "She chose white wine with grilled fish.",
+          "zh": "她点了白葡萄酒配烤鱼。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "winery",
+        "type": "family",
+        "meaning": "酒庄"
+      },
+      {
+        "word": "alcohol",
+        "type": "family",
+        "meaning": "酒精"
+      },
+      {
+        "word": "beer",
+        "type": "confusable",
+        "meaning": "啤酒（同为酒精饮品）"
+      }
+    ]
+  },
+  {
+    "word": "beer",
+    "phonetic": "[bɪə]",
+    "pos": "n.",
+    "meaning": "啤酒",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由麦芽发酵制成的酒精饮料",
+        "important": true,
+        "example": {
+          "en": "I'll have a cold beer with the burger.",
+          "zh": "我要一杯冰啤酒配汉堡。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "酒吧或餐厅常见的按杯饮品",
+        "important": false,
+        "example": {
+          "en": "This place sells local craft beer.",
+          "zh": "这家店卖本地精酿啤酒。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you want bottled beer or draft beer?",
+        "zh": "你要瓶装啤酒还是生啤？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "He ordered one beer and some fries.",
+        "zh": "他点了一杯啤酒和一些薯条。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "draft beer",
+        "meaning": "生啤",
+        "example": {
+          "en": "The waiter recommended the draft beer here.",
+          "zh": "服务员推荐这里的生啤。"
+        }
+      },
+      {
+        "phrase": "a bottle of beer",
+        "meaning": "一瓶啤酒",
+        "example": {
+          "en": "He asked for a bottle of beer first.",
+          "zh": "他先要了一瓶啤酒。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "brewery",
+        "type": "family",
+        "meaning": "啤酒厂"
+      },
+      {
+        "word": "lager",
+        "type": "family",
+        "meaning": "拉格啤酒"
+      },
+      {
+        "word": "soda",
+        "type": "antonym",
+        "meaning": "汽水（无酒精）"
+      }
+    ]
+  },
+  {
+    "word": "soda",
+    "phonetic": "[ˈsəʊdə]",
+    "pos": "n.",
+    "meaning": "汽水",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "含气的甜味软饮料",
+        "important": true,
+        "example": {
+          "en": "The kids ordered soda with pizza.",
+          "zh": "孩子们点了汽水配披萨。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "餐厅常见的碳酸饮品类别",
+        "important": false,
+        "example": {
+          "en": "This combo includes one small soda.",
+          "zh": "这个套餐包含一杯小汽水。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can I get a soda without ice?",
+        "zh": "我可以要一杯不加冰的汽水吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She prefers soda to beer at dinner.",
+        "zh": "她晚餐时比起啤酒更喜欢汽水。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "diet soda",
+        "meaning": "无糖汽水",
+        "example": {
+          "en": "He chose diet soda after checking calories.",
+          "zh": "他看了热量后选了无糖汽水。"
+        }
+      },
+      {
+        "phrase": "soda water",
+        "meaning": "苏打水",
+        "example": {
+          "en": "Please mix the drink with soda water.",
+          "zh": "请用苏打水调这杯饮料。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "soft drink",
+        "type": "family",
+        "meaning": "软饮"
+      },
+      {
+        "word": "pop",
+        "type": "synonym",
+        "meaning": "汽水（口语）"
+      },
+      {
+        "word": "juice",
+        "type": "confusable",
+        "meaning": "果汁（非碳酸）"
+      }
+    ]
+  },
+  {
+    "word": "smoothie",
+    "phonetic": "[ˈsmuːði]",
+    "pos": "n.",
+    "meaning": "奶昔果昔",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由水果和奶或酸奶打成的浓饮",
+        "important": true,
+        "example": {
+          "en": "I ordered a mango smoothie after the meal.",
+          "zh": "饭后我点了一杯芒果果昔。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "口感浓稠的冷饮",
+        "important": false,
+        "example": {
+          "en": "This smoothie is thick and very fresh.",
+          "zh": "这杯果昔很浓稠，而且很新鲜。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have a banana smoothie today?",
+        "zh": "你们今天有香蕉果昔吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She picked a smoothie instead of soda.",
+        "zh": "她选了果昔而不是汽水。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fruit smoothie",
+        "meaning": "水果果昔",
+        "example": {
+          "en": "This cafe makes a great fruit smoothie.",
+          "zh": "这家咖啡馆做的水果果昔很棒。"
+        }
+      },
+      {
+        "phrase": "banana smoothie",
+        "meaning": "香蕉果昔",
+        "example": {
+          "en": "I want a banana smoothie with no sugar.",
+          "zh": "我想要一杯不加糖的香蕉果昔。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "milkshake",
+        "type": "synonym",
+        "meaning": "奶昔（相近饮品）"
+      },
+      {
+        "word": "smooth",
+        "type": "family",
+        "meaning": "顺滑的"
+      },
+      {
+        "word": "cocktail",
+        "type": "confusable",
+        "meaning": "鸡尾酒（可能含酒精）"
+      }
+    ]
+  },
+  {
+    "word": "cocktail",
+    "phonetic": "[ˈkɒkteɪl]",
+    "pos": "n.",
+    "meaning": "鸡尾酒",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由多种酒或饮料调制的饮品",
+        "important": true,
+        "example": {
+          "en": "He ordered a cocktail before the main dish.",
+          "zh": "他在主菜前点了一杯鸡尾酒。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "酒吧菜单中的调酒类别",
+        "important": false,
+        "example": {
+          "en": "This bar has a long cocktail list.",
+          "zh": "这家酒吧有很长的鸡尾酒单。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can you recommend a light cocktail?",
+        "zh": "你能推荐一款清爽的鸡尾酒吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She asked for a non-alcoholic cocktail.",
+        "zh": "她要了一杯无酒精鸡尾酒。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cocktail menu",
+        "meaning": "鸡尾酒单",
+        "example": {
+          "en": "Please bring us the cocktail menu.",
+          "zh": "请给我们拿一下鸡尾酒单。"
+        }
+      },
+      {
+        "phrase": "non-alcoholic cocktail",
+        "meaning": "无酒精鸡尾酒",
+        "example": {
+          "en": "I chose a non-alcoholic cocktail tonight.",
+          "zh": "今晚我选了无酒精鸡尾酒。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "mix",
+        "type": "family",
+        "meaning": "混合"
+      },
+      {
+        "word": "mocktail",
+        "type": "family",
+        "meaning": "无酒精鸡尾酒"
+      },
+      {
+        "word": "beer",
+        "type": "confusable",
+        "meaning": "啤酒（不是调制酒）"
+      }
+    ]
+  },
+  {
+    "word": "lemonade",
+    "phonetic": "[ˌleməˈneɪd]",
+    "pos": "n.",
+    "meaning": "柠檬水",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由柠檬汁和水调成的饮料",
+        "important": true,
+        "example": {
+          "en": "I'd like a cold lemonade with less sugar.",
+          "zh": "我想要一杯少糖冰柠檬水。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "夏季常见的清爽饮品",
+        "important": false,
+        "example": {
+          "en": "This lemonade is perfect on a hot day.",
+          "zh": "这杯柠檬水在热天喝正合适。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Can I get homemade lemonade here?",
+        "zh": "这里有自制柠檬水吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "He chose lemonade instead of soda.",
+        "zh": "他选了柠檬水而不是汽水。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "homemade lemonade",
+        "meaning": "自制柠檬水",
+        "example": {
+          "en": "Their homemade lemonade is very popular.",
+          "zh": "他们的自制柠檬水很受欢迎。"
+        }
+      },
+      {
+        "phrase": "pink lemonade",
+        "meaning": "粉红柠檬水",
+        "example": {
+          "en": "She tried pink lemonade for the first time.",
+          "zh": "她第一次尝试粉红柠檬水。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "lemon",
+        "type": "family",
+        "meaning": "柠檬"
+      },
+      {
+        "word": "citrus drink",
+        "type": "synonym",
+        "meaning": "柑橘类饮料"
+      },
+      {
+        "word": "limeade",
+        "type": "confusable",
+        "meaning": "青柠饮（易与柠檬水混淆）"
+      }
+    ]
+  }
+]

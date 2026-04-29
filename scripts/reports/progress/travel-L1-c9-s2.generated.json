@@ -1,0 +1,572 @@
+[
+  {
+    "word": "police",
+    "phonetic": "[pəˈliːs]",
+    "pos": "n.",
+    "meaning": "警察；警方",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "维护治安的执法机构或人员",
+        "important": true,
+        "example": {
+          "en": "We should call the police if we see a dangerous situation.",
+          "zh": "如果看到危险情况，我们应该报警。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（冠词 the + police）警察部门，警方",
+        "important": false,
+        "example": {
+          "en": "The police are checking bags at the station exit.",
+          "zh": "警察在车站出口检查行李。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Go to the nearest police station and explain what happened.",
+        "zh": "去最近的警察局说明发生了什么事。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "call the police",
+        "meaning": "报警；叫警察",
+        "example": {
+          "en": "She had to call the police after her phone was taken.",
+          "zh": "手机被拿走后她不得不报警。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "officer",
+        "type": "family",
+        "meaning": "警官；公务员"
+      },
+      {
+        "word": "security",
+        "type": "confusable",
+        "meaning": "保安（非执法警察）"
+      }
+    ]
+  },
+  {
+    "word": "lost",
+    "phonetic": "[lɒst]",
+    "pos": "adj.",
+    "meaning": "丢失的；迷路的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "找不到的；遗失的",
+        "important": true,
+        "example": {
+          "en": "My passport is lost—I need help right away.",
+          "zh": "我的护照丢了——我需要立刻求助。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "迷路的，走失的",
+        "important": false,
+        "example": {
+          "en": "We got lost near the old town but locals helped us.",
+          "zh": "我们在老城附近迷路了，但当地人帮了我们。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Report lost items at the airport information desk.",
+        "zh": "在机场问询处登记遗失物品。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lost property",
+        "meaning": "失物；失物招领处物品",
+        "example": {
+          "en": "He went to lost property to look for his bag.",
+          "zh": "他去失物招领处找自己的包。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "lose",
+        "type": "family",
+        "meaning": "丢失；迷路（动词）"
+      },
+      {
+        "word": "missing",
+        "type": "synonym",
+        "meaning": "失踪的；不见的"
+      }
+    ]
+  },
+  {
+    "word": "stolen",
+    "phonetic": "[ˈstəʊlən]",
+    "pos": "adj.",
+    "meaning": "被偷的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "被窃取的（常作表语或定语）",
+        "important": true,
+        "example": {
+          "en": "My wallet was stolen on the train yesterday.",
+          "zh": "我的钱包昨天在火车上被偷了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Tell the police which items were stolen and when.",
+        "zh": "告诉警察哪些东西被偷了以及什么时候。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "stolen goods",
+        "meaning": "赃物",
+        "example": {
+          "en": "The shop returned the stolen goods to the owner.",
+          "zh": "商店把赃物还给了失主。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "steal",
+        "type": "family",
+        "meaning": "偷窃"
+      },
+      {
+        "word": "theft",
+        "type": "synonym",
+        "meaning": "盗窃（名词）"
+      }
+    ]
+  },
+  {
+    "word": "missing",
+    "phonetic": "[ˈmɪsɪŋ]",
+    "pos": "adj.",
+    "meaning": "失踪的；不见的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "找不到的，下落不明的",
+        "important": true,
+        "example": {
+          "en": "A child is missing; staff are asking everyone to help look.",
+          "zh": "有孩子走失了；工作人员请所有人帮忙寻找。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（文件、零件等）缺少的，缺失的",
+        "important": false,
+        "example": {
+          "en": "The form is missing a signature, so the embassy sent it back.",
+          "zh": "表格少了一个签名，所以大使馆退回来了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "File a missing person report if someone has not returned.",
+        "zh": "若有人未归，可报人口失踪。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "go missing",
+        "meaning": "失踪；不见",
+        "example": {
+          "en": "Your luggage should not go missing if it is tagged well.",
+          "zh": "行李牌贴好，一般就不容易丢。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "disappear",
+        "type": "family",
+        "meaning": "消失；失踪"
+      },
+      {
+        "word": "lost",
+        "type": "confusable",
+        "meaning": "丢失的（多指丢物，不一定指人）"
+      }
+    ]
+  },
+  {
+    "word": "report",
+    "phonetic": "[rɪˈpɔːt]",
+    "pos": "v. & n.",
+    "meaning": "报告；报案；报告书",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "向警方等正式说明情况、报案",
+        "important": true,
+        "example": {
+          "en": "You should report the theft to the local police within 24 hours.",
+          "zh": "你应在 24 小时内向当地警方报案。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（名词）书面或口头的情况说明",
+        "important": false,
+        "example": {
+          "en": "After the interview, the officer gave us a report number.",
+          "zh": "问话后，警官给了我们一个报案编号。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "They asked me to report any suspicious bags to staff.",
+        "zh": "他们要求我把可疑行李告诉工作人员。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "file a report",
+        "meaning": "正式提交报告；立案报案",
+        "example": {
+          "en": "We had to file a report at the police station for insurance.",
+          "zh": "为了保险理赔，我们得在警察局立案。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "reporter",
+        "type": "family",
+        "meaning": "记者；报告人"
+      },
+      {
+        "word": "inform",
+        "type": "synonym",
+        "meaning": "告知；通知"
+      }
+    ]
+  },
+  {
+    "word": "claim",
+    "phonetic": "[kleɪm]",
+    "pos": "n. & v.",
+    "meaning": "索赔；声称；领取",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（向保险公司等）申请赔偿、理赔",
+        "important": true,
+        "example": {
+          "en": "You can make a travel insurance claim for lost luggage.",
+          "zh": "行李丢失可以向旅行保险申请理赔。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（机场等）领取失物、行李",
+        "important": false,
+        "example": {
+          "en": "Go to the desk to claim your bag after the delay.",
+          "zh": "航班延误后去柜台领取你的行李。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep all receipts if you want to claim medical costs.",
+        "zh": "若要报销医疗费用，请保留所有收据。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "insurance claim",
+        "meaning": "保险理赔",
+        "example": {
+          "en": "The insurance claim can take a few weeks to process.",
+          "zh": "保险理赔可能要几周才能处理完。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "claimant",
+        "type": "family",
+        "meaning": "索赔人"
+      },
+      {
+        "word": "compensation",
+        "type": "synonym",
+        "meaning": "赔偿金"
+      }
+    ]
+  },
+  {
+    "word": "embassy",
+    "phonetic": "[ˈembəsi]",
+    "pos": "n.",
+    "meaning": "大使馆",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "一国在他国首都的外交代表机构",
+        "important": true,
+        "example": {
+          "en": "Contact your embassy if your passport is lost abroad.",
+          "zh": "在国外遗失护照时请联系本国大使馆。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The embassy can issue an emergency travel document.",
+        "zh": "大使馆可以签发紧急旅行证件。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "embassy website",
+        "meaning": "大使馆官网（查开放时间、预约）",
+        "example": {
+          "en": "Check the embassy website for holiday closures.",
+          "zh": "查大使馆官网了解节假日闭馆安排。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "ambassador",
+        "type": "family",
+        "meaning": "大使"
+      },
+      {
+        "word": "consulate",
+        "type": "confusable",
+        "meaning": "领事馆（多在非首都城市）"
+      }
+    ]
+  },
+  {
+    "word": "consulate",
+    "phonetic": "[ˈkɒnsjələt]",
+    "pos": "n.",
+    "meaning": "领事馆",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "在境外城市为侨民提供签证、护照等服务的机构",
+        "important": true,
+        "example": {
+          "en": "The nearest consulate is two hours away by train.",
+          "zh": "最近的领事馆坐火车要两小时。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "与大使馆分工：领事业务常在领事馆办理",
+        "important": false,
+        "example": {
+          "en": "She renewed her passport at the consulate in Shanghai.",
+          "zh": "她在上海的领事馆续办了护照。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Call the consulate hotline before you travel to confirm hours.",
+        "zh": "出行前致电领事热线确认办公时间。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "consulate general",
+        "meaning": "总领事馆",
+        "example": {
+          "en": "The Consulate General handles emergencies for citizens in the region.",
+          "zh": "总领事馆为本地区公民处理紧急事务。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "consul",
+        "type": "family",
+        "meaning": "领事"
+      },
+      {
+        "word": "embassy",
+        "type": "confusable",
+        "meaning": "大使馆（首都级外交机构）"
+      }
+    ]
+  },
+  {
+    "word": "contact",
+    "phonetic": "[ˈkɒntækt]",
+    "pos": "n. & v.",
+    "meaning": "联系；联系人；联络",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（动词）联系某人或机构",
+        "important": true,
+        "example": {
+          "en": "Contact the hotel reception if you need an interpreter.",
+          "zh": "需要翻译请联系酒店前台。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（名词）联系方式、联系人",
+        "important": false,
+        "example": {
+          "en": "Write down an emergency contact before you leave.",
+          "zh": "出发前写下紧急联系人。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "You can contact us at this number any time of day.",
+        "zh": "你可以随时拨打这个号码联系我们。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "emergency contact",
+        "meaning": "紧急联系人",
+        "example": {
+          "en": "Put your emergency contact on the back of your ID card copy.",
+          "zh": "把紧急联系人写在身份证复印件背面。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "contactable",
+        "type": "family",
+        "meaning": "可联系到的"
+      },
+      {
+        "word": "reach",
+        "type": "synonym",
+        "meaning": "联系上（口语）"
+      }
+    ]
+  },
+  {
+    "word": "identity",
+    "phonetic": "[aɪˈdentəti]",
+    "pos": "n.",
+    "meaning": "身份；同一性",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "你是谁（证件、姓名等可核实信息）",
+        "important": true,
+        "example": {
+          "en": "Officers may ask for proof of identity at the border.",
+          "zh": "边境人员可能要求出示身份证明。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "身份盗用语境下的“身份信息”",
+        "important": false,
+        "example": {
+          "en": "Report identity theft to the police and your bank immediately.",
+          "zh": "遭遇身份盗用应立即报警并通知银行。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep a photo of your identity card in cloud storage.",
+        "zh": "把身份证照片备份在云盘里。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "identity document",
+        "meaning": "身份证件",
+        "example": {
+          "en": "Bring a valid identity document when you visit the embassy.",
+          "zh": "去大使馆时请携带有效身份证件。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "identify",
+        "type": "family",
+        "meaning": "识别；确认身份"
+      },
+      {
+        "word": "identification",
+        "type": "synonym",
+        "meaning": "身份证明；辨认"
+      }
+    ]
+  }
+]
