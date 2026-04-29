@@ -1,0 +1,742 @@
+[
+  {
+    "word": "taxi",
+    "phonetic": "[ˈtæksi]",
+    "pos": "n.",
+    "meaning": "出租车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "按表计费的出租车",
+        "important": true,
+        "example": {
+          "en": "We took a taxi to the hotel.",
+          "zh": "我们乘出租车去了酒店。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "类似小型出租车的服务",
+        "important": false,
+        "example": {
+          "en": "The taxi stand is near the exit.",
+          "zh": "出租车站台在出口附近。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How much is a taxi to the station?",
+        "zh": "到火车站出租车要多少钱？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please call a taxi for us.",
+        "zh": "请帮我们叫一辆出租车。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take a taxi",
+        "meaning": "乘出租车",
+        "example": {
+          "en": "Let's take a taxi because it's raining.",
+          "zh": "下雨了，我们坐出租车吧。"
+        }
+      },
+      {
+        "phrase": "taxi rank",
+        "meaning": "出租车站",
+        "example": {
+          "en": "Wait at the taxi rank outside the mall.",
+          "zh": "在商场外的出租车站等。"
+        }
+      },
+      {
+        "phrase": "by taxi",
+        "meaning": "乘出租车（方式）",
+        "example": {
+          "en": "We went there by taxi.",
+          "zh": "我们是坐出租车去的。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "cab", "type": "synonym", "meaning": "出租车（口语）" },
+      { "word": "driver", "type": "family", "meaning": "司机" },
+      { "word": "bus", "type": "confusable", "meaning": "公共汽车（不同交通工具）" }
+    ]
+  },
+  {
+    "word": "bus",
+    "phonetic": "[bʌs]",
+    "pos": "n.",
+    "meaning": "公共汽车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "城市线路公共汽车",
+        "important": true,
+        "example": {
+          "en": "The bus comes every ten minutes.",
+          "zh": "公交车每十分钟一班。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "长途大巴（有时）",
+        "important": false,
+        "example": {
+          "en": "We took the night bus to another city.",
+          "zh": "我们坐夜班大巴去了另一座城市。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Which bus goes to the museum?",
+        "zh": "哪路公交去博物馆？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Get off at the next bus stop.",
+        "zh": "在下一站下车。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bus stop",
+        "meaning": "公交车站",
+        "example": {
+          "en": "There is a bus stop in front of the park.",
+          "zh": "公园前面有一个公交车站。"
+        }
+      },
+      {
+        "phrase": "catch a bus",
+        "meaning": "赶上公交车",
+        "example": {
+          "en": "Hurry, or we will miss the bus.",
+          "zh": "快点，不然我们要错过这班车了。"
+        }
+      },
+      {
+        "phrase": "by bus",
+        "meaning": "乘公交（方式）",
+        "example": {
+          "en": "I go to work by bus every day.",
+          "zh": "我每天乘公交上班。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "coach", "type": "synonym", "meaning": "长途客车" },
+      { "word": "bus driver", "type": "family", "meaning": "公交车司机" },
+      { "word": "tram", "type": "confusable", "meaning": "有轨电车" }
+    ]
+  },
+  {
+    "word": "subway",
+    "phonetic": "[ˈsʌbweɪ]",
+    "pos": "n.",
+    "meaning": "地铁",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "地下铁路系统",
+        "important": true,
+        "example": {
+          "en": "The subway is fast in this city.",
+          "zh": "这座城市的地铁很快。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "过街地下通道（美式）",
+        "important": false,
+        "example": {
+          "en": "Use the subway to cross the busy road.",
+          "zh": "走地下通道穿过繁忙的马路。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Where is the nearest subway station?",
+        "zh": "最近的地铁站在哪里？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We change lines at the next subway stop.",
+        "zh": "我们在下一站地铁换乘。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "subway station",
+        "meaning": "地铁站",
+        "example": {
+          "en": "Meet me at the subway station gate.",
+          "zh": "在地铁站入口见我。"
+        }
+      },
+      {
+        "phrase": "take the subway",
+        "meaning": "乘地铁",
+        "example": {
+          "en": "Let's take the subway to the airport.",
+          "zh": "我们坐地铁去机场吧。"
+        }
+      },
+      {
+        "phrase": "subway line",
+        "meaning": "地铁线路",
+        "example": {
+          "en": "Line 2 is the newest subway line here.",
+          "zh": "2号线是这里最新的地铁线。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "metro", "type": "synonym", "meaning": "地铁（常用说法）" },
+      { "word": "underground", "type": "synonym", "meaning": "地铁（英式）" },
+      { "word": "train", "type": "family", "meaning": "火车（地上/地下）" }
+    ]
+  },
+  {
+    "word": "train",
+    "phonetic": "[treɪn]",
+    "pos": "n.",
+    "meaning": "火车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "铁路列车",
+        "important": true,
+        "example": {
+          "en": "Our train leaves at six.",
+          "zh": "我们的火车六点出发。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "一连串（比喻，此处略）",
+        "important": false,
+        "example": {
+          "en": "This train stops at every small town.",
+          "zh": "这列火车每个小镇都停。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is this the right train to Paris?",
+        "zh": "这是去巴黎的火车吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The train is late because of snow.",
+        "zh": "因为下雪火车晚点了。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "train station",
+        "meaning": "火车站",
+        "example": {
+          "en": "The hotel is five minutes from the train station.",
+          "zh": "酒店离火车站五分钟路程。"
+        }
+      },
+      {
+        "phrase": "catch a train",
+        "meaning": "赶上火车",
+        "example": {
+          "en": "We ran to catch the train.",
+          "zh": "我们跑着去赶火车。"
+        }
+      },
+      {
+        "phrase": "by train",
+        "meaning": "乘火车",
+        "example": {
+          "en": "We travel by train when we tour Europe.",
+          "zh": "在欧洲旅游时我们乘火车出行。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "railway", "type": "family", "meaning": "铁路" },
+      { "word": "express", "type": "family", "meaning": "快车" },
+      { "word": "bus", "type": "confusable", "meaning": "公共汽车" }
+    ]
+  },
+  {
+    "word": "station",
+    "phonetic": "[ˈsteɪʃn]",
+    "pos": "n.",
+    "meaning": "车站；站",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "火车/地铁等车站",
+        "important": true,
+        "example": {
+          "en": "Exit the station and turn left.",
+          "zh": "出站后向左转。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "站台所在建筑或区域",
+        "important": false,
+        "example": {
+          "en": "The station has many shops inside.",
+          "zh": "车站里有很多商店。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Which exit is near the city centre?",
+        "zh": "哪个出口离市中心近？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The station opens at five in the morning.",
+        "zh": "车站早上五点开门。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "railway station",
+        "meaning": "火车站",
+        "example": {
+          "en": "We met at the railway station.",
+          "zh": "我们在火车站见面。"
+        }
+      },
+      {
+        "phrase": "police station",
+        "meaning": "警察局",
+        "example": {
+          "en": "The police station is next to the park.",
+          "zh": "警察局在公园旁边。"
+        }
+      },
+      {
+        "phrase": "at the station",
+        "meaning": "在车站",
+        "example": {
+          "en": "I will wait for you at the station.",
+          "zh": "我在车站等你。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "stop", "type": "synonym", "meaning": "车站（公交小站）" },
+      { "word": "terminal", "type": "confusable", "meaning": "航站楼/总站" },
+      { "word": "platform", "type": "family", "meaning": "站台" }
+    ]
+  },
+  {
+    "word": "platform",
+    "phonetic": "[ˈplætfɔːm]",
+    "pos": "n.",
+    "meaning": "站台",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "火车/地铁乘客上下车的站台",
+        "important": true,
+        "example": {
+          "en": "Your train leaves from platform 3.",
+          "zh": "你的火车从3号站台开出。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "高出的平台（交通外义，略用）",
+        "important": false,
+        "example": {
+          "en": "Stand behind the yellow line on the platform.",
+          "zh": "站在站台黄线后面。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do not run on the platform.",
+        "zh": "不要在站台上奔跑。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The sign shows the next platform.",
+        "zh": "指示牌显示下一个站台。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "platform number",
+        "meaning": "站台号",
+        "example": {
+          "en": "Check the platform number on the screen.",
+          "zh": "在屏幕上查看站台号。"
+        }
+      },
+      {
+        "phrase": "wait on the platform",
+        "meaning": "在站台等候",
+        "example": {
+          "en": "We wait on the platform for five minutes.",
+          "zh": "我们在站台等了五分钟。"
+        }
+      },
+      {
+        "phrase": "change platform",
+        "meaning": "换站台",
+        "example": {
+          "en": "You must change platform for the express.",
+          "zh": "坐快车你要换站台。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "track", "type": "confusable", "meaning": "铁轨/股道" },
+      { "word": "station", "type": "family", "meaning": "车站" },
+      { "word": "boarding", "type": "family", "meaning": "登机/上车" }
+    ]
+  },
+  {
+    "word": "schedule",
+    "phonetic": "[ˈʃedjuːl]",
+    "pos": "n.",
+    "meaning": "时刻表；日程",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "公交/列车时刻表",
+        "important": true,
+        "example": {
+          "en": "Check the schedule before you leave the hotel.",
+          "zh": "离开酒店前先查时刻表。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "一天的安排",
+        "important": false,
+        "example": {
+          "en": "Today's schedule is quite full.",
+          "zh": "今天的安排很满。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Where can I find the bus schedule?",
+        "zh": "哪里能查到公交车时刻表？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The schedule changes on Sunday.",
+        "zh": "周日时刻表会变。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "train schedule",
+        "meaning": "列车时刻表",
+        "example": {
+          "en": "Download the train schedule online.",
+          "zh": "在网上下载列车时刻表。"
+        }
+      },
+      {
+        "phrase": "on schedule",
+        "meaning": "准时",
+        "example": {
+          "en": "The bus arrived on schedule.",
+          "zh": "公交车准时到达。"
+        }
+      },
+      {
+        "phrase": "ahead of schedule",
+        "meaning": "提前",
+        "example": {
+          "en": "We finished ahead of schedule.",
+          "zh": "我们提前完成了。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "timetable", "type": "synonym", "meaning": "时刻表（英式常用）" },
+      { "word": "plan", "type": "family", "meaning": "计划" },
+      { "word": "delay", "type": "antonym", "meaning": "延误（打乱时刻）" }
+    ]
+  },
+  {
+    "word": "fare",
+    "phonetic": "[feə]",
+    "pos": "n.",
+    "meaning": "车费；票价",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "乘坐交通工具应付的费用",
+        "important": true,
+        "example": {
+          "en": "The bus fare is two pounds.",
+          "zh": "公交车票价是两英镑。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "出租车计价费用",
+        "important": false,
+        "example": {
+          "en": "Ask the driver about the taxi fare.",
+          "zh": "向司机问一下出租车费用。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How much is the fare to the airport?",
+        "zh": "到机场的车费是多少？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Students get a cheaper fare on the subway.",
+        "zh": "学生乘地铁票价更便宜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "single fare",
+        "meaning": "单程票费用",
+        "example": {
+          "en": "A single fare is enough for today.",
+          "zh": "今天买单程票就行。"
+        }
+      },
+      {
+        "phrase": "full fare",
+        "meaning": "全价票",
+        "example": {
+          "en": "Children under five do not pay full fare.",
+          "zh": "五岁以下儿童不用付全价。"
+        }
+      },
+      {
+        "phrase": "fare machine",
+        "meaning": "售票/投币机",
+        "example": {
+          "en": "Pay at the fare machine near the gate.",
+          "zh": "在闸机旁的售票机付款。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "fee", "type": "synonym", "meaning": "费用" },
+      { "word": "ticket", "type": "family", "meaning": "票" },
+      { "word": "free", "type": "antonym", "meaning": "免费" }
+    ]
+  },
+  {
+    "word": "route",
+    "phonetic": "[ruːt]",
+    "pos": "n.",
+    "meaning": "路线",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "公交/列车行驶的线路",
+        "important": true,
+        "example": {
+          "en": "This route goes through the old town.",
+          "zh": "这条线路经过老城。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "地图上的路径",
+        "important": false,
+        "example": {
+          "en": "Draw the walking route on the map.",
+          "zh": "在地图上画出步行路线。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Which route is faster at rush hour?",
+        "zh": "高峰时段哪条路线更快？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The app shows the best bus route.",
+        "zh": "应用显示最佳公交路线。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bus route",
+        "meaning": "公交线路",
+        "example": {
+          "en": "Bus route 12 stops near our hotel.",
+          "zh": "12路公交在我们酒店附近停靠。"
+        }
+      },
+      {
+        "phrase": "scenic route",
+        "meaning": "风景路线",
+        "example": {
+          "en": "We took the scenic route by the river.",
+          "zh": "我们选了沿河的风景路线。"
+        }
+      },
+      {
+        "phrase": "change route",
+        "meaning": "改路线",
+        "example": {
+          "en": "The driver had to change route because of road work.",
+          "zh": "因为修路司机不得不改路线。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "path", "type": "synonym", "meaning": "路径" },
+      { "word": "way", "type": "confusable", "meaning": "路/方式" },
+      { "word": "detour", "type": "family", "meaning": "绕行" }
+    ]
+  },
+  {
+    "word": "transfer",
+    "phonetic": "[trænsˈfɜː]",
+    "pos": "n./v.",
+    "meaning": "换乘；转车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "换乘到另一线路/车",
+        "important": true,
+        "example": {
+          "en": "You need one transfer to reach the museum.",
+          "zh": "到博物馆需要换乘一次。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "转移（行李等，交通延伸）",
+        "important": false,
+        "example": {
+          "en": "Transfer to the airport bus at this stop.",
+          "zh": "在这一站换乘机场巴士。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Where do I transfer to Line 4?",
+        "zh": "我在哪里换乘4号线？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "A free transfer saves money in this city.",
+        "zh": "在这座城市免费换乘能省钱。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "transfer station",
+        "meaning": "换乘站",
+        "example": {
+          "en": "Get off at the transfer station and follow the signs.",
+          "zh": "在换乘站下车并跟着指示牌走。"
+        }
+      },
+      {
+        "phrase": "free transfer",
+        "meaning": "免费换乘",
+        "example": {
+          "en": "This ticket allows a free transfer within one hour.",
+          "zh": "这张票一小时内可免费换乘。"
+        }
+      },
+      {
+        "phrase": "transfer to",
+        "meaning": "换乘到……",
+        "example": {
+          "en": "You transfer to the express train here.",
+          "zh": "你在这里换乘快车。"
+        }
+      }
+    ],
+    "relatedWords": [
+      { "word": "change", "type": "synonym", "meaning": "换乘" },
+      { "word": "connection", "type": "family", "meaning": "衔接车次" },
+      { "word": "direct", "type": "antonym", "meaning": "直达" }
+    ]
+  }
+]

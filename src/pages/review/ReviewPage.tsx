@@ -2,13 +2,42 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronLeft, Volume2 } from 'lucide-react'
+import { ChevronLeft, Volume2, Zap, Clock, MessageCircle } from 'lucide-react'
 import { db } from '../../db/db'
 import { speak } from '../../tts/tts'
 import { ReviewItem, Word } from '../../types'
 
+function PracticeSection({ trackId }: { trackId: string }) {
+  const navigate = useNavigate()
+  const items = [
+    { label: '快速刷词', icon: <Zap size={20} className="text-amber-500" />, path: `/quick-quiz/${trackId}` },
+    { label: '限时挑战', icon: <Clock size={20} className="text-red-500" />, path: `/challenge/${trackId}` },
+    { label: '对话练习', icon: <MessageCircle size={20} className="text-purple-500" />, path: `/dialogue/${trackId}` },
+  ]
+  return (
+    <div>
+      <p className="text-sm font-semibold text-gray-500 mb-3">练习巩固</p>
+      <div className="grid grid-cols-3 gap-2">
+        {items.map((item) => (
+          <motion.button
+            key={item.path}
+            onClick={() => navigate(item.path)}
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.97 }}
+            className="p-3 bg-white rounded-xl border border-gray-200 hover:border-brand-300 transition text-center"
+          >
+            <div className="flex justify-center mb-1">{item.icon}</div>
+            <p className="text-xs font-semibold text-gray-700">{item.label}</p>
+          </motion.button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export default function ReviewPage() {
   const navigate = useNavigate()
+  const settings = useLiveQuery(() => db.userSettings.toCollection().first())
   const reviewItems = useLiveQuery(() => {
     const today = new Date().toISOString().split('T')[0]
     return db.reviews
@@ -22,6 +51,7 @@ export default function ReviewPage() {
   const [isFlipped, setIsFlipped] = useState(false)
   const [score, setScore] = useState(0)
   const [total, setTotal] = useState(0)
+  const [done, setDone] = useState(false)
 
   useEffect(() => {
     if (!reviewItems) return
@@ -38,6 +68,7 @@ export default function ReviewPage() {
 
   const currentItem = reviewWords[currentIndex]
   const currentWord = currentItem?.word
+  const trackId = settings?.primaryTrack ?? 'travel'
 
   const handleMarkCorrect = async () => {
     if (!currentItem) return
@@ -83,13 +114,14 @@ export default function ReviewPage() {
       setCurrentIndex(currentIndex + 1)
       setIsFlipped(false)
     } else {
-      navigate('/')
+      setDone(true)
     }
   }
 
+  // 空状态：无复习词
   if (!reviewWords || reviewWords.length === 0) {
     return (
-      <div className="page">
+      <div className="page pb-32">
         <div className="mb-8">
           <button
             onClick={() => navigate('/')}
@@ -103,18 +135,44 @@ export default function ReviewPage() {
           <p className="text-sm text-gray-400 mt-1">温故而知新</p>
         </div>
 
-        <div className="card-accent text-center py-16 flex flex-col items-center justify-center">
+        <div className="card-accent text-center py-12 flex flex-col items-center justify-center mb-6">
           <span className="text-6xl mb-4">✨</span>
           <p className="text-gray-600 text-lg font-semibold">今天没有需要复习的词语</p>
           <p className="text-sm text-gray-400 mt-2">明天见 👋</p>
         </div>
+
+        <PracticeSection trackId={trackId} />
       </div>
     )
   }
 
-  if (!currentWord) {
-    return null
+  // 完成状态
+  if (done) {
+    const accuracy = total > 0 ? Math.round((score / total) * 100) : 0
+    return (
+      <div className="page pb-32">
+        <button
+          onClick={() => navigate('/')}
+          className="p-2 hover:bg-gray-100 rounded-xl transition mb-6"
+        >
+          <ChevronLeft size={24} className="text-gray-600" />
+        </button>
+
+        <div className="card text-center py-10 mb-6">
+          <span className="text-5xl mb-4 block">🎉</span>
+          <p className="text-xl font-bold text-gray-900 mb-1">复习完成！</p>
+          <p className="text-gray-500 text-sm mb-4">
+            共复习 {total} 个词，正确率 {accuracy}%
+          </p>
+          <div className="text-4xl font-bold text-brand-600">{accuracy}%</div>
+        </div>
+
+        <PracticeSection trackId={trackId} />
+      </div>
+    )
   }
+
+  if (!currentWord) return null
 
   return (
     <div className="page pb-32">

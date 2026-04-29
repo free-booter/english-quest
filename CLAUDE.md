@@ -1,12 +1,13 @@
-# English Quest v2 - 混搭模式实施指南
+# English Quest - 开发上下文
 
 ## 📱 项目概览
 
-**English Quest** 是一款移动端英语学习 PWA 应用，采用**游戏化 + 场景化学习**设计。
+**English Quest** 是一款移动端**综合英语学习 PWA**，以场景化词汇为基础，后续扩展口语、语法、听力。
 
-- **主要目标**：通过兴趣轨道 + 等级系统 + 多模式学习，提升单词学习的趣味性和留存率
-- **用户定位**：初中～成人英语学习者
-- **核心特色**：3 个兴趣轨道、6 个可爱头像、打卡系统、间隔重复复习
+- **主要目标**：通过兴趣主题 + 等级系统 + 多模式学习，帮助用户在真实场景中学习并运用英语
+- **用户定位**：有具体使用场景需求的学习者（出行、追剧、职场面试等）
+- **核心理念**：语境例句优先、专注单一主题、全功能免费
+- **核心特色**：2 个活跃主题、6 个可爱头像、打卡系统、间隔重复复习
 
 ## 🛠 技术栈
 
@@ -26,19 +27,16 @@ vite-plugin-pwa (PWA 支持)
 
 ### 数据模型（4 层树形结构）
 ```
-Track (轨道) → Level (等级) → Chapter (章节) → Stage (舞台) → Card (卡片)
-├─ 🌍 旅行家 (Travel, #3b82f6 blue)
-│  ├─ Lv1: 准备行李 / 机场出发
-│  ├─ Lv2: 入境海关 / 酒店入住
-│  └─ Lv3: 问路购物
-├─ 🎬 追剧党 (Drama, #a855f7 purple)
-│  ├─ Lv1: 打招呼 / 表达情感
-│  ├─ Lv2: 友情 / 恋爱
-│  └─ Lv3: 剧情用语
-└─ 📚 应试派 (Exam, #ef4444 red)
-   ├─ Lv1: 高频动词 / 思维动词
-   ├─ Lv2: 抽象名词 / 学术名词
-   └─ Lv3: 形容词
+Track (主题) → Level (等级) → Chapter (章节) → Stage (舞台) → Card (卡片)
+├─ 🌍 旅行家 (Travel, #3b82f6 blue)  ← 活跃
+│  ├─ L1: 行李机场（词库补全中）
+│  ├─ L2: 住宿交通
+│  └─ L3: 饮食购物
+├─ 🎬 追剧党 (Drama, #a855f7 purple)  ← 活跃
+│  ├─ L1: 问候情绪
+│  ├─ L2: 家庭恋爱
+│  └─ L3: 职场社交
+└─ 📚 应试派 (Exam)  ← 已隐藏，词汇融入旅行/追剧高等级关卡
 ```
 
 ### 6 个头像
@@ -1040,8 +1038,98 @@ TracksPage 每个赛道卡片新增练习模式入口：
 **MVP 总计**：约 10-14 天 | **完整版总计**：约 40-55 天
 
 ### 状态
-⬜ 计划已制定，待实施
+🔴 进行中（Travel L1 词库补全中）
 
 ---
 
-**当前会话完成**：L1-L6 等级系统详细实施计划已创建 (`docs/LEVEL_SYSTEM_PLAN.md`)。
+## ✅ Phase 15：产品方向重构（2026-04-29）
+
+### 核心决策
+
+通过用户访谈，确认了以下产品方向，并完成代码实施：
+
+| 决策 | 内容 |
+|------|------|
+| 名称 | "赛道" → "主题" |
+| 应试派 | 从活跃主题移除；词汇融入旅行/追剧高等级关卡 |
+| 主题数量 | 专注 1 个主题（单选），随时可切换，进度独立保存 |
+| 主题页布局 | 从列表式多卡片 → 单主题英雄布局 |
+| 连续打卡 | 在主题页突出显示（与进度条并排） |
+| 练习模式 | 保留在主题页独立区块，带已学词数徽章 |
+| Onboarding | 从多选 1-3 → 单选 1 个主题，过滤掉应试派 |
+
+### 产品理念确认
+
+- **目标用户**：有具体使用场景的学习者（出行、追剧、求职等）
+- **学习模式**：语境驱动，先看例句场景再理解单词
+- **竞品差异**：参考"不背单词"的语境方向，但全功能免费
+- **下一步**：主动回忆按钮（词汇弹窗增加"记住了/还不熟"）
+
+### 完成工作
+
+| 文件 | 修改 |
+|------|------|
+| `components/BottomTabBar.tsx` | "赛道" → "主题" |
+| `pages/onboarding/OnboardingPage.tsx` | 单主题选择 + 过滤应试派 |
+| `pages/tracks/TracksPage.tsx` | 完全重构为单主题英雄布局 |
+| `pages/review/ReviewPage.tsx` | 完成状态和空状态加入练习模式 |
+| `pages/stage/StagePage.tsx` | "返回赛道页" → "返回主题页" |
+| `pages/me/MePage.tsx` | "赛道选择" → "主题选择" |
+| `pages/home/HomePage.tsx` | "选择赛道" → "选择主题" |
+| `db/seed.ts` | 默认主题改为单选旅行、成就文案更新 |
+| `docs/ROADMAP.md` | 全面更新，反映新产品方向 |
+| `docs/DIFFICULTY_DESIGN.md` | 移除应试派，保留旅行/追剧 |
+| `docs/LEVEL_SYSTEM_PLAN.md` | 更新为 2 主题架构 |
+
+---
+
+## ✅ Phase 16：混合题型 + 记忆辅助优化（2026-04-29）
+
+### 核心改动
+
+#### 1️⃣ 三种 Quiz 题型（随机混合）
+
+`ScenarioStep` 新增字段：
+
+```typescript
+type?: 'meaning' | 'cloze' | 'context'
+sentence?: string    // cloze/context 展示的例句
+targetWord?: string  // context 类型用于 mastery 追踪的英文词（correctOption 是中文）
+```
+
+**题型说明**：
+
+| 题型 | 展示 | 交互 | 触发条件 |
+|------|------|------|----------|
+| `meaning` | 中文释义 → 选英文词 | 4 选 1 | 始终可用 |
+| `spell` | 中文释义 → 打字拼写 | 输入框 + Enter | 始终可用 |
+| `cloze` | 例句挖空（`___`）→ 填入 | 4 选 1 | 词汇有例句时 |
+| `context` | 例句高亮目标词 → 选中文义 | 4 选 1 | 词汇有例句时 |
+
+`buildFallbackScenario` 为每个词随机选题型；无例句时退回 meaning 类型。
+
+cloze 展示蓝色卡片，context 展示紫色卡片，题型标签显示在题号右侧。
+
+#### 2️⃣ memoryAid 字段
+
+- `Word` 接口新增 `memoryAid?: string`（记忆联想提示，来自 JSON 数据）
+- `seed.ts` 同步读取该字段
+- `buildMemoryHint` 优先级：`memoryAid > roots > rootHint > fallback`
+- fallback 文案改为更具体的表述，不再是通用的"想象在场景中使用…的画面"
+
+#### 3️⃣ 每关题目数
+
+`buildFallbackScenario` 从最多 5 题改为最多 10 题（与每关词汇数一致）。
+
+### 完成工作
+
+| 文件 | 任务 |
+|------|------|
+| `types/index.ts` | Word 新增 `memoryAid` 字段 |
+| `db/seed.ts` | 读取 JSON 中的 `memoryAid` |
+| `data/stage-scenarios/index.ts` | ScenarioStep 新增 type/sentence/targetWord；buildFallbackScenario 支持三种题型；题目上限 5→10 |
+| `pages/stage/CardStage.tsx` | buildMemoryHint 优先用 memoryAid；quiz 渲染适配三种题型；mastery/错题追踪兼容 context 类型 |
+
+---
+
+**当前会话完成**：产品方向重构 + 文档同步，Travel L1 词库补全为下一步优先任务。

@@ -4,6 +4,8 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db/db'
 import { AVATARS, DAILY_GOALS } from '../../constants/game'
 
+const HIDDEN_TRACKS = ['exam']
+
 export default function OnboardingPage() {
   const navigate = useNavigate()
   const tracks = useLiveQuery(() => db.tracks.toArray())
@@ -11,30 +13,26 @@ export default function OnboardingPage() {
   const [step, setStep] = useState(1)
   const [avatar, setAvatar] = useState<'fox' | 'cat' | 'bear' | 'penguin' | 'owl' | 'tiger'>('fox')
   const [nickname, setNickname] = useState('')
-  const [selectedTracks, setSelectedTracks] = useState<string[]>(['travel'])
+  const [selectedTrack, setSelectedTrack] = useState<string>('travel')
   const [dailyGoal, setDailyGoal] = useState<1 | 3 | 5>(3)
 
+  const visibleTracks = useMemo(
+    () => (tracks ?? []).filter((t) => !HIDDEN_TRACKS.includes(t.id)),
+    [tracks]
+  )
+
   const canNext = useMemo(() => {
-    if (step === 3) return selectedTracks.length > 0 && selectedTracks.length <= 3
+    if (step === 3) return !!selectedTrack
     return true
-  }, [step, selectedTracks.length])
+  }, [step, selectedTrack])
 
   if (!tracks) return null
 
-  const toggleTrack = (trackId: string) => {
-    setSelectedTracks((prev) => {
-      if (prev.includes(trackId)) return prev.filter((id) => id !== trackId)
-      if (prev.length >= 3) return prev
-      return [...prev, trackId]
-    })
-  }
-
   const completeOnboarding = async () => {
-    const chosenPrimary = selectedTracks[0] ?? tracks[0]?.id ?? 'travel'
     if (!settings?.id) {
       await db.userSettings.add({
-        selectedTracks,
-        primaryTrack: chosenPrimary,
+        selectedTracks: [selectedTrack],
+        primaryTrack: selectedTrack,
         avatar,
         nickname: nickname.trim() || '冒险者',
         totalXP: 0,
@@ -47,8 +45,8 @@ export default function OnboardingPage() {
       })
     } else {
       await db.userSettings.update(settings.id, {
-        selectedTracks,
-        primaryTrack: chosenPrimary,
+        selectedTracks: [selectedTrack],
+        primaryTrack: selectedTrack,
         avatar,
         nickname: nickname.trim() || '冒险者',
         dailyGoal,
@@ -92,15 +90,28 @@ export default function OnboardingPage() {
 
       {step === 3 && (
         <div className="space-y-3">
-          <p className="text-sm text-gray-600">选择 1-3 条赛道</p>
-          {tracks.map((track) => (
+          <p className="text-sm text-gray-600 mb-1">选择你感兴趣的学习主题</p>
+          <p className="text-xs text-gray-400 mb-4">专注一个主题，学透场景词汇。之后可以随时切换。</p>
+          {visibleTracks.map((track) => (
             <button
               key={track.id}
-              onClick={() => toggleTrack(track.id)}
-              className={`card w-full text-left ${selectedTracks.includes(track.id) ? 'ring-2 ring-brand-500' : ''}`}
+              onClick={() => setSelectedTrack(track.id)}
+              className={`card w-full text-left transition ${
+                selectedTrack === track.id
+                  ? 'ring-2 ring-brand-500 bg-brand-50'
+                  : 'hover:border-gray-300'
+              }`}
             >
-              <p className="font-semibold">{track.icon} {track.name}</p>
-              <p className="text-xs text-gray-500 mt-1">{track.description}</p>
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">{track.icon}</span>
+                <div>
+                  <p className="font-semibold text-gray-900">{track.name}</p>
+                  <p className="text-xs text-gray-500 mt-0.5">{track.description}</p>
+                </div>
+                {selectedTrack === track.id && (
+                  <span className="ml-auto text-brand-500 text-xl">✓</span>
+                )}
+              </div>
             </button>
           ))}
         </div>

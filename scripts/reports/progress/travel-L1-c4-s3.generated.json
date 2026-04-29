@@ -1,0 +1,572 @@
+[
+  {
+    "word": "ferry",
+    "phonetic": "/ˈferi/",
+    "pos": "n.",
+    "meaning": "渡船；渡口",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "用于载运人车过河的船舶",
+        "important": true,
+        "example": {
+          "en": "We took the ferry across the river.",
+          "zh": "我们乘渡船过河。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "渡运服务或航线",
+        "important": false,
+        "example": {
+          "en": "The ferry runs every hour.",
+          "zh": "渡轮每小时一班。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The car ferry leaves at dawn.",
+        "zh": "汽车渡轮黎明开航。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "ferry terminal",
+        "meaning": "渡轮码头",
+        "example": {
+          "en": "Meet me at the ferry terminal.",
+          "zh": "在渡轮码头见我。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "shuttle",
+        "type": "synonym",
+        "meaning": "往返班车/船"
+      },
+      {
+        "word": "vessel",
+        "type": "family",
+        "meaning": "船只总称"
+      }
+    ]
+  },
+  {
+    "word": "boat",
+    "phonetic": "/boʊt/",
+    "pos": "n.",
+    "meaning": "小船",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "水上用桨或马达推动的小型船只",
+        "important": true,
+        "example": {
+          "en": "They rowed the boat to the island.",
+          "zh": "他们划船到岛上。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Rent a boat for the afternoon.",
+        "zh": "租一条船度过下午。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "by boat",
+        "meaning": "乘船",
+        "example": {
+          "en": "We went by boat.",
+          "zh": "我们乘船去的。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "ship",
+        "type": "synonym",
+        "meaning": "船（常指大船）"
+      },
+      {
+        "word": "boating",
+        "type": "family",
+        "meaning": "划船活动"
+      }
+    ]
+  },
+  {
+    "word": "port",
+    "phonetic": "/pɔːrt/",
+    "pos": "n.",
+    "meaning": "港口；左侧",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "船只停靠装卸的港口城市或水域",
+        "important": true,
+        "example": {
+          "en": "The ship arrived at the port.",
+          "zh": "船抵达港口。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "船舷左侧（面向船头时）",
+        "important": false,
+        "example": {
+          "en": "Turn to port.",
+          "zh": "向左舷转。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Fresh fish is sold at the port market.",
+        "zh": "新鲜鱼在港口市场出售。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "port of call",
+        "meaning": "停靠港",
+        "example": {
+          "en": "Singapore was our last port of call.",
+          "zh": "新加坡是我们最后一站停靠港。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "harbor",
+        "type": "synonym",
+        "meaning": "港湾"
+      },
+      {
+        "word": "starboard",
+        "type": "antonym",
+        "meaning": "右舷"
+      }
+    ]
+  },
+  {
+    "word": "dock",
+    "phonetic": "/dɑːk/",
+    "pos": "n. & v.",
+    "meaning": "码头；停靠",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "船只停靠、装卸的码头",
+        "important": true,
+        "example": {
+          "en": "Fishing boats lined the dock.",
+          "zh": "渔船排满码头。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（船）入坞停靠",
+        "important": true,
+        "example": {
+          "en": "The ferry will dock in ten minutes.",
+          "zh": "渡轮十分钟后靠岸。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Workers loaded crates at the dock.",
+        "zh": "工人在码头装货箱。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "dry dock",
+        "meaning": "干船坞",
+        "example": {
+          "en": "The ship entered dry dock for repairs.",
+          "zh": "船进干坞维修。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "wharf",
+        "type": "synonym",
+        "meaning": "码头"
+      },
+      {
+        "word": "deck",
+        "type": "confusable",
+        "meaning": "甲板（易与dock混淆读音）"
+      }
+    ]
+  },
+  {
+    "word": "cruise",
+    "phonetic": "/kruːz/",
+    "pos": "n. & v.",
+    "meaning": "游轮；巡游",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "休闲为主的乘船旅行",
+        "important": true,
+        "example": {
+          "en": "They booked a cruise to Norway.",
+          "zh": "他们订了去挪威的游轮旅行。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "平稳行驶、巡航",
+        "important": false,
+        "example": {
+          "en": "The car cruised along the coast.",
+          "zh": "汽车沿海岸平稳行驶。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Sunset Cruise departs at six.",
+        "zh": "日落巡游六点出发。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cruise ship",
+        "meaning": "邮轮",
+        "example": {
+          "en": "The cruise ship has ten decks.",
+          "zh": "这艘邮轮有十层甲板。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "voyage",
+        "type": "synonym",
+        "meaning": "航行"
+      },
+      {
+        "word": "cruiser",
+        "type": "family",
+        "meaning": "巡洋舰；巡游者"
+      }
+    ]
+  },
+  {
+    "word": "cabin",
+    "phonetic": "/ˈkæbɪn/",
+    "pos": "n.",
+    "meaning": "舱房；小木屋",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "船或飞机上的隔间、舱位",
+        "important": true,
+        "example": {
+          "en": "Our cabin is on deck five.",
+          "zh": "我们的舱房在五层甲板。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "林中简陋小屋",
+        "important": false,
+        "example": {
+          "en": "They stayed in a mountain cabin.",
+          "zh": "他们住在山间小木屋。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Book an ocean-view cabin early.",
+        "zh": "尽早预订海景舱。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cabin crew",
+        "meaning": "客舱机组人员",
+        "example": {
+          "en": "The cabin crew demonstrated safety belts.",
+          "zh": "客舱人员演示安全带。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "berth",
+        "type": "synonym",
+        "meaning": "铺位"
+      },
+      {
+        "word": "cockpit",
+        "type": "confusable",
+        "meaning": "驾驶舱（飞机）"
+      }
+    ]
+  },
+  {
+    "word": "deck",
+    "phonetic": "/dek/",
+    "pos": "n.",
+    "meaning": "甲板；层面",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "船的各层露天或覆盖平台",
+        "important": true,
+        "example": {
+          "en": "Passengers gathered on the upper deck.",
+          "zh": "乘客聚集在上层甲板。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "类似结构的一层（如巴士上层）",
+        "important": false,
+        "example": {
+          "en": "Sit on the top deck of the bus.",
+          "zh": "坐在巴士上层。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Lifeboats hang along the deck.",
+        "zh": "救生艇沿甲板悬挂。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "sun deck",
+        "meaning": "日光浴甲板",
+        "example": {
+          "en": "Chairs filled the sun deck.",
+          "zh": "日光甲板上摆满躺椅。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "floor",
+        "type": "synonym",
+        "meaning": "楼层"
+      },
+      {
+        "word": "dock",
+        "type": "confusable",
+        "meaning": "码头（拼写相近场景不同）"
+      }
+    ]
+  },
+  {
+    "word": "passenger",
+    "phonetic": "/ˈpæsɪndʒər/",
+    "pos": "n.",
+    "meaning": "乘客；旅客",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "乘坐公共交通工具的人",
+        "important": true,
+        "example": {
+          "en": "All passengers must show tickets.",
+          "zh": "所有乘客须出示车票。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The ferry carries 200 passengers.",
+        "zh": "这艘渡轮可载200名乘客。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "passenger seat",
+        "meaning": "副驾驶座；客座",
+        "example": {
+          "en": "She sat in the passenger seat.",
+          "zh": "她坐在副驾驶座。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "traveler",
+        "type": "synonym",
+        "meaning": "旅行者"
+      },
+      {
+        "word": "passengerless",
+        "type": "family",
+        "meaning": "无乘客的"
+      }
+    ]
+  },
+  {
+    "word": "sail",
+    "phonetic": "/seɪl/",
+    "pos": "v. & n.",
+    "meaning": "航行；帆",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "船在水上行驶",
+        "important": true,
+        "example": {
+          "en": "We sail at high tide.",
+          "zh": "我们在涨潮时启航。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "船上的帆",
+        "important": true,
+        "example": {
+          "en": "The wind filled the sail.",
+          "zh": "风鼓满船帆。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Learn to sail before the trip.",
+        "zh": "出行前先学驾帆船。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "set sail",
+        "meaning": "扬帆起航",
+        "example": {
+          "en": "The fleet will set sail tomorrow.",
+          "zh": "舰队明日启航。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "sailing",
+        "type": "family",
+        "meaning": "帆船运动"
+      },
+      {
+        "word": "sale",
+        "type": "confusable",
+        "meaning": "销售（同音异义）"
+      }
+    ]
+  },
+  {
+    "word": "anchor",
+    "phonetic": "/ˈæŋkər/",
+    "pos": "n. & v.",
+    "meaning": "锚；抛锚",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "固定船身的金属器具",
+        "important": true,
+        "example": {
+          "en": "They dropped anchor in the bay.",
+          "zh": "他们在海湾抛锚。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "使固定、使稳定（比喻）",
+        "important": false,
+        "example": {
+          "en": "Good friends anchor your life.",
+          "zh": "好友是你人生的支柱。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The anchor holds well in mud.",
+        "zh": "锚在泥底抓得牢。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "at anchor",
+        "meaning": "停泊着",
+        "example": {
+          "en": "Ships lay at anchor overnight.",
+          "zh": "船只整夜停泊。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "moor",
+        "type": "synonym",
+        "meaning": "系泊"
+      },
+      {
+        "word": "anchorage",
+        "type": "family",
+        "meaning": "锚地"
+      }
+    ]
+  }
+]

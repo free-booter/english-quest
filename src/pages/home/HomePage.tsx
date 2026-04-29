@@ -184,7 +184,7 @@ export default function HomePage() {
           className="card bg-gray-50 border border-gray-200 text-left hover:bg-gray-100 transition"
         >
           <p className="text-xl mb-1">📚</p>
-          <p className="text-sm font-semibold text-gray-800">选择赛道</p>
+          <p className="text-sm font-semibold text-gray-800">选择主题</p>
         </motion.button>
       </div>
 

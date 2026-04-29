@@ -1,0 +1,522 @@
+[
+  {
+    "word": "rental",
+    "phonetic": "[ˈrentl]",
+    "pos": "n.",
+    "meaning": "租赁；租车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "租赁；租车（自驾旅行）",
+        "important": true,
+        "example": {
+          "en": "We picked up our rental at the airport counter.",
+          "zh": "我们在机场柜台取了租的车。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Does the rental include unlimited mileage?",
+        "zh": "租车费用包含不限里程吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "car rental",
+        "meaning": "汽车租赁",
+        "example": {
+          "en": "I booked a car rental for our road trip.",
+          "zh": "我为公路旅行订了租车。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "lease",
+        "type": "synonym",
+        "meaning": "租约；租赁"
+      },
+      {
+        "word": "purchase",
+        "type": "antonym",
+        "meaning": "购买（相对租赁）"
+      }
+    ]
+  },
+  {
+    "word": "license",
+    "phonetic": "[ˈlaɪsns]",
+    "pos": "n.",
+    "meaning": "驾照；许可证",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "驾驶执照",
+        "important": true,
+        "example": {
+          "en": "Show your driver's license when you collect the car.",
+          "zh": "取车时要出示驾照。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "许可证",
+        "important": false,
+        "example": {
+          "en": "You need a parking permit or a valid license plate.",
+          "zh": "你需要停车许可或有效车牌。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "My license expires next month; I need to renew it.",
+        "zh": "我的驾照下个月到期，需要续期。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "driver's license",
+        "meaning": "驾驶证",
+        "example": {
+          "en": "International travelers should carry a driver's license.",
+          "zh": "国际旅客应随身携带驾驶证。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "permit",
+        "type": "synonym",
+        "meaning": "许可证"
+      },
+      {
+        "word": "licence",
+        "type": "family",
+        "meaning": "（英式拼写）许可证"
+      }
+    ]
+  },
+  {
+    "word": "traffic",
+    "phonetic": "[ˈtræfɪk]",
+    "pos": "n.",
+    "meaning": "交通；车流",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "道路交通；来往车辆",
+        "important": true,
+        "example": {
+          "en": "Traffic was heavy on the highway leaving the city.",
+          "zh": "驶离市区时高速公路车流量很大。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We got stuck in traffic and missed the ferry.",
+        "zh": "我们堵在路上，错过了渡轮。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "traffic jam",
+        "meaning": "交通堵塞",
+        "example": {
+          "en": "A traffic jam added an hour to the drive.",
+          "zh": "堵车让车程多花了一小时。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "congestion",
+        "type": "synonym",
+        "meaning": "拥堵"
+      },
+      {
+        "word": "tragic",
+        "type": "confusable",
+        "meaning": "悲惨的（拼写/发音易混）"
+      }
+    ]
+  },
+  {
+    "word": "highway",
+    "phonetic": "[ˈhaɪweɪ]",
+    "pos": "n.",
+    "meaning": "公路；高速公路",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "干线公路；（常指）高速公路",
+        "important": true,
+        "example": {
+          "en": "We merged onto the highway and headed north.",
+          "zh": "我们并入高速公路向北行驶。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Rest stops along the highway sell snacks and coffee.",
+        "zh": "公路沿途的服务区卖零食和咖啡。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "highway exit",
+        "meaning": "高速出口",
+        "example": {
+          "en": "Take the next highway exit toward the coast.",
+          "zh": "从下一个高速出口开往海边。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "freeway",
+        "type": "synonym",
+        "meaning": "（美）免费高速公路"
+      },
+      {
+        "word": "sidewalk",
+        "type": "confusable",
+        "meaning": "人行道（与道路类型不同，易混场景词）"
+      }
+    ]
+  },
+  {
+    "word": "speed",
+    "phonetic": "[spiːd]",
+    "pos": "n./v.",
+    "meaning": "速度；加速",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "速度（名词）",
+        "important": true,
+        "example": {
+          "en": "Keep your speed steady in wet weather.",
+          "zh": "雨天要保持车速稳定。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "加速（动词）",
+        "important": false,
+        "example": {
+          "en": "The car speeds up smoothly on the ramp.",
+          "zh": "车在匝道上平稳加速。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "What is the average speed on this route?",
+        "zh": "这条路线的平均车速是多少？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "speed limit",
+        "meaning": "限速",
+        "example": {
+          "en": "The speed limit drops near the school zone.",
+          "zh": "靠近学校区域时限速会降低。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "velocity",
+        "type": "synonym",
+        "meaning": "速度（更正式）"
+      },
+      {
+        "word": "feed",
+        "type": "confusable",
+        "meaning": "喂养（元音与拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "limit",
+    "phonetic": "[ˈlɪmɪt]",
+    "pos": "n./v.",
+    "meaning": "限制；限额",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "限度；限速规定",
+        "important": true,
+        "example": {
+          "en": "There is a strict limit on blood alcohol while driving.",
+          "zh": "驾车时血液酒精浓度有严格上限。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Know the speed limit before you enter the tunnel.",
+        "zh": "进隧道前要先了解限速。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "within limits",
+        "meaning": "在限度内",
+        "example": {
+          "en": "You can detour, but only within reasonable limits.",
+          "zh": "可以绕行，但要在合理范围内。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "restriction",
+        "type": "synonym",
+        "meaning": "限制"
+      },
+      {
+        "word": "unlimited",
+        "type": "antonym",
+        "meaning": "不限的"
+      }
+    ]
+  },
+  {
+    "word": "parking",
+    "phonetic": "[ˈpɑːrkɪŋ]",
+    "pos": "n.",
+    "meaning": "停车；停车位",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "停放车辆；停车区域",
+        "important": true,
+        "example": {
+          "en": "Overnight parking at the trailhead requires a permit.",
+          "zh": "在步道起点过夜停车需要许可证。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We found street parking two blocks from the viewpoint.",
+        "zh": "我们在观景点两个街区外找到了路边停车位。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "parking lot",
+        "meaning": "停车场",
+        "example": {
+          "en": "The scenic overlook has a small parking lot.",
+          "zh": "观景台有一个小停车场。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "park",
+        "type": "family",
+        "meaning": "公园；停放（同根）"
+      },
+      {
+        "word": "packing",
+        "type": "confusable",
+        "meaning": "打包（拼写易混）"
+      }
+    ]
+  },
+  {
+    "word": "fuel",
+    "phonetic": "[ˈfjuːəl]",
+    "pos": "n./v.",
+    "meaning": "燃料；加油",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "燃料；汽油/柴油",
+        "important": true,
+        "example": {
+          "en": "The fuel gauge was low, so we stopped at a station.",
+          "zh": "油表很低，所以我们在加油站停了。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "给车辆加油（动词）",
+        "important": false,
+        "example": {
+          "en": "They fueled the van before crossing the desert.",
+          "zh": "他们在穿越沙漠前给面包车加满了油。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Does this rental require premium fuel?",
+        "zh": "这辆租车需要加高标号汽油吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fuel pump",
+        "meaning": "油泵；加油枪",
+        "example": {
+          "en": "Pay inside before you use the fuel pump.",
+          "zh": "使用加油枪前先在室内付款。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "petrol",
+        "type": "synonym",
+        "meaning": "（英）汽油"
+      },
+      {
+        "word": "fool",
+        "type": "confusable",
+        "meaning": "傻瓜（发音易混）"
+      }
+    ]
+  },
+  {
+    "word": "map",
+    "phonetic": "[mæp]",
+    "pos": "n./v.",
+    "meaning": "地图；绘制路线",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "地图",
+        "important": true,
+        "example": {
+          "en": "Download an offline map before driving into the mountains.",
+          "zh": "开车进山前要下载离线地图。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The rental desk gave us a paper map of scenic routes.",
+        "zh": "租车柜台给了我们一张景观公路的纸质地图。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "road map",
+        "meaning": "公路图；路线图",
+        "example": {
+          "en": "A road map helps when GPS has no signal.",
+          "zh": "GPS 没信号时公路图很有用。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "atlas",
+        "type": "synonym",
+        "meaning": "地图册"
+      },
+      {
+        "word": "cap",
+        "type": "confusable",
+        "meaning": "帽子（短词易混听辨）"
+      }
+    ]
+  },
+  {
+    "word": "toll",
+    "phonetic": "[toʊl]",
+    "pos": "n.",
+    "meaning": "通行费；路桥费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "道路/桥梁通行费用",
+        "important": true,
+        "example": {
+          "en": "The toll booth accepts cards and cash.",
+          "zh": "收费站接受刷卡和现金。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We budgeted extra money for highway tolls.",
+        "zh": "我们多预算了一些高速公路通行费。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "toll road",
+        "meaning": "收费公路",
+        "example": {
+          "en": "The toll road saved us time on a busy holiday.",
+          "zh": "繁忙假日走收费公路帮我们省了时间。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fee",
+        "type": "synonym",
+        "meaning": "费用"
+      },
+      {
+        "word": "toe",
+        "type": "confusable",
+        "meaning": "脚趾（拼写易混）"
+      }
+    ]
+  }
+]

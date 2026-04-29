@@ -1,0 +1,668 @@
+[
+  {
+    "word": "breakfast",
+    "phonetic": "[ˈbrekfəst]",
+    "pos": "n.",
+    "meaning": "早餐",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店提供的早餐餐食",
+        "important": true,
+        "example": {
+          "en": "Breakfast is served from 7 to 10 a.m. in the hotel restaurant.",
+          "zh": "酒店餐厅在早上7点到10点供应早餐。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "早晨吃的第一餐",
+        "important": false,
+        "example": {
+          "en": "We had breakfast before checking out.",
+          "zh": "我们在退房前吃了早餐。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is breakfast included in the room rate?",
+        "zh": "房价包含早餐吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please tell me where breakfast is served.",
+        "zh": "请告诉我早餐在哪里供应。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "breakfast included",
+        "meaning": "含早餐",
+        "example": {
+          "en": "I booked a room with breakfast included.",
+          "zh": "我订了一个含早餐的房间。"
+        }
+      },
+      {
+        "phrase": "buffet breakfast",
+        "meaning": "自助早餐",
+        "example": {
+          "en": "The hotel offers a buffet breakfast every morning.",
+          "zh": "这家酒店每天早晨提供自助早餐。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "brunch",
+        "type": "confusable",
+        "meaning": "早午餐"
+      },
+      {
+        "word": "meal",
+        "type": "family",
+        "meaning": "餐食"
+      }
+    ]
+  },
+  {
+    "word": "concierge",
+    "phonetic": "[ˌkɒnsiˈeəʒ]",
+    "pos": "n.",
+    "meaning": "礼宾员",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店里提供信息与协助的礼宾员",
+        "important": true,
+        "example": {
+          "en": "The concierge helped us book a city tour.",
+          "zh": "礼宾员帮我们预订了城市观光。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Ask the concierge for restaurant recommendations.",
+        "zh": "向礼宾员咨询餐厅推荐吧。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "concierge desk",
+        "meaning": "礼宾台",
+        "example": {
+          "en": "You can leave your luggage at the concierge desk.",
+          "zh": "你可以把行李寄存在礼宾台。"
+        }
+      },
+      {
+        "phrase": "hotel concierge",
+        "meaning": "酒店礼宾员",
+        "example": {
+          "en": "The hotel concierge arranged an airport taxi for us.",
+          "zh": "酒店礼宾员为我们安排了去机场的出租车。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "receptionist",
+        "type": "confusable",
+        "meaning": "前台接待员"
+      },
+      {
+        "word": "porter",
+        "type": "family",
+        "meaning": "行李员"
+      },
+      {
+        "word": "assistant",
+        "type": "synonym",
+        "meaning": "协助者"
+      }
+    ]
+  },
+  {
+    "word": "laundry",
+    "phonetic": "[ˈlɔːndri]",
+    "pos": "n.",
+    "meaning": "洗衣服务；待洗衣物",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店提供的洗衣服务",
+        "important": true,
+        "example": {
+          "en": "The hotel laundry can return your clothes by evening.",
+          "zh": "酒店洗衣服务可在晚上前把衣服送回。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "需要清洗的衣物",
+        "important": false,
+        "example": {
+          "en": "I put my laundry in the bag for pickup.",
+          "zh": "我把待洗衣物放进袋子里等人来取。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do you have same-day laundry service?",
+        "zh": "你们有当日洗衣服务吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "laundry service",
+        "meaning": "洗衣服务",
+        "example": {
+          "en": "Laundry service is available from 8 a.m. to 8 p.m.",
+          "zh": "洗衣服务供应时间是早上8点到晚上8点。"
+        }
+      },
+      {
+        "phrase": "laundry bag",
+        "meaning": "洗衣袋",
+        "example": {
+          "en": "Please put your clothes in the laundry bag.",
+          "zh": "请把衣服放进洗衣袋。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "washing",
+        "type": "family",
+        "meaning": "清洗"
+      },
+      {
+        "word": "dry cleaning",
+        "type": "confusable",
+        "meaning": "干洗"
+      }
+    ]
+  },
+  {
+    "word": "gym",
+    "phonetic": "[dʒɪm]",
+    "pos": "n.",
+    "meaning": "健身房",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店内供住客锻炼的健身房",
+        "important": true,
+        "example": {
+          "en": "The gym on the third floor is open 24 hours.",
+          "zh": "三楼的健身房24小时开放。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is the gym free for hotel guests?",
+        "zh": "酒店住客使用健身房是免费的吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "hotel gym",
+        "meaning": "酒店健身房",
+        "example": {
+          "en": "I used the hotel gym before breakfast.",
+          "zh": "我在早餐前用了酒店健身房。"
+        }
+      },
+      {
+        "phrase": "gym access",
+        "meaning": "健身房使用权限",
+        "example": {
+          "en": "Your room card gives you gym access.",
+          "zh": "你的房卡可让你进入健身房。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fitness centre",
+        "type": "synonym",
+        "meaning": "健身中心"
+      },
+      {
+        "word": "spa",
+        "type": "confusable",
+        "meaning": "水疗中心"
+      }
+    ]
+  },
+  {
+    "word": "pool",
+    "phonetic": "[puːl]",
+    "pos": "n.",
+    "meaning": "游泳池",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店内供住客游泳的泳池",
+        "important": true,
+        "example": {
+          "en": "The pool is on the rooftop with a city view.",
+          "zh": "游泳池在屋顶，可以看到城市景观。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "What time does the pool close tonight?",
+        "zh": "今晚游泳池几点关闭？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "swimming pool",
+        "meaning": "游泳池",
+        "example": {
+          "en": "The swimming pool is free for all guests.",
+          "zh": "游泳池对所有住客免费开放。"
+        }
+      },
+      {
+        "phrase": "pool area",
+        "meaning": "泳池区域",
+        "example": {
+          "en": "No food is allowed in the pool area.",
+          "zh": "泳池区域内不允许饮食。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "deck",
+        "type": "family",
+        "meaning": "池畔平台"
+      },
+      {
+        "word": "pond",
+        "type": "confusable",
+        "meaning": "池塘"
+      }
+    ]
+  },
+  {
+    "word": "parking",
+    "phonetic": "[ˈpɑːkɪŋ]",
+    "pos": "n.",
+    "meaning": "停车位；停车服务",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店提供的停车区域或停车服务",
+        "important": true,
+        "example": {
+          "en": "The hotel offers free parking for guests.",
+          "zh": "这家酒店为住客提供免费停车。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Do I need to reserve parking in advance?",
+        "zh": "我需要提前预订停车位吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "free parking",
+        "meaning": "免费停车",
+        "example": {
+          "en": "This room package includes free parking.",
+          "zh": "这个房间套餐包含免费停车。"
+        }
+      },
+      {
+        "phrase": "parking lot",
+        "meaning": "停车场",
+        "example": {
+          "en": "The parking lot is behind the hotel building.",
+          "zh": "停车场在酒店大楼后面。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "car park",
+        "type": "synonym",
+        "meaning": "停车场（英式）"
+      },
+      {
+        "word": "valet",
+        "type": "family",
+        "meaning": "代客泊车员"
+      },
+      {
+        "word": "loading zone",
+        "type": "confusable",
+        "meaning": "装卸区"
+      }
+    ]
+  },
+  {
+    "word": "wifi",
+    "phonetic": "[ˈwaɪfaɪ]",
+    "pos": "n. (informal)",
+    "meaning": "无线网络",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店提供的无线互联网连接",
+        "important": true,
+        "example": {
+          "en": "The wifi in my room is fast and stable.",
+          "zh": "我房间里的无线网络又快又稳定。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Could you tell me the wifi password?",
+        "zh": "可以告诉我无线网络密码吗？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Is wifi included in the room price?",
+        "zh": "房价里包含无线网络吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "wifi password",
+        "meaning": "无线网络密码",
+        "example": {
+          "en": "Please write the wifi password on this card.",
+          "zh": "请把无线网络密码写在这张卡上。"
+        }
+      },
+      {
+        "phrase": "free wifi",
+        "meaning": "免费无线网络",
+        "example": {
+          "en": "Most business hotels now provide free wifi.",
+          "zh": "大多数商务酒店现在都提供免费无线网络。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "wireless internet",
+        "type": "synonym",
+        "meaning": "无线网络"
+      },
+      {
+        "word": "Ethernet",
+        "type": "antonym",
+        "meaning": "有线网络"
+      },
+      {
+        "word": "mobile data",
+        "type": "confusable",
+        "meaning": "移动数据流量"
+      }
+    ]
+  },
+  {
+    "word": "housekeeping",
+    "phonetic": "[ˈhaʊskiːpɪŋ]",
+    "pos": "n.",
+    "meaning": "客房清洁服务",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店中负责打扫与整理房间的服务部门",
+        "important": true,
+        "example": {
+          "en": "Housekeeping will clean your room this afternoon.",
+          "zh": "客房清洁今天下午会来打扫你的房间。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please call housekeeping for extra towels.",
+        "zh": "请打电话给客房清洁要额外毛巾。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "housekeeping service",
+        "meaning": "客房清洁服务",
+        "example": {
+          "en": "Daily housekeeping service starts at 9 a.m.",
+          "zh": "每日客房清洁服务从早上9点开始。"
+        }
+      },
+      {
+        "phrase": "call housekeeping",
+        "meaning": "联系客房清洁",
+        "example": {
+          "en": "If you need blankets, call housekeeping.",
+          "zh": "如果你需要毛毯，请联系客房清洁。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "cleaning",
+        "type": "family",
+        "meaning": "清洁"
+      },
+      {
+        "word": "room service",
+        "type": "confusable",
+        "meaning": "客房送餐服务"
+      }
+    ]
+  },
+  {
+    "word": "amenity",
+    "phonetic": "[əˈmiːnəti]",
+    "pos": "n.",
+    "meaning": "便利设施",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店为住客提供的便利设施",
+        "important": true,
+        "example": {
+          "en": "The gym is a popular amenity in this hotel.",
+          "zh": "健身房是这家酒店很受欢迎的便利设施。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "使住宿更舒适的附加条件",
+        "important": false,
+        "example": {
+          "en": "Free breakfast is a useful amenity for travellers.",
+          "zh": "免费早餐对旅行者来说是很实用的配套。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "What amenities are included in this room type?",
+        "zh": "这种房型包含哪些便利设施？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "hotel amenities",
+        "meaning": "酒店设施",
+        "example": {
+          "en": "The hotel amenities include a pool and free wifi.",
+          "zh": "酒店设施包括游泳池和免费无线网络。"
+        }
+      },
+      {
+        "phrase": "in-room amenity",
+        "meaning": "客房内设施",
+        "example": {
+          "en": "A coffee machine is a useful in-room amenity.",
+          "zh": "咖啡机是很实用的客房内设施。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "facility",
+        "type": "synonym",
+        "meaning": "设施"
+      },
+      {
+        "word": "service",
+        "type": "confusable",
+        "meaning": "服务"
+      },
+      {
+        "word": "amenities",
+        "type": "family",
+        "meaning": "便利设施（复数）"
+      }
+    ]
+  },
+  {
+    "word": "service",
+    "phonetic": "[ˈsɜːvɪs]",
+    "pos": "n.",
+    "meaning": "服务",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店员工为客人提供的帮助与接待",
+        "important": true,
+        "example": {
+          "en": "The service at this hotel is friendly and efficient.",
+          "zh": "这家酒店的服务友好且高效。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "某类具体服务项目",
+        "important": false,
+        "example": {
+          "en": "Laundry service is available on request.",
+          "zh": "可按需提供洗衣服务。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I am very satisfied with the room service.",
+        "zh": "我对客房服务很满意。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Good service makes guests want to come back.",
+        "zh": "优质服务会让客人愿意再来。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "room service",
+        "meaning": "客房服务（送餐等）",
+        "example": {
+          "en": "We ordered dinner through room service.",
+          "zh": "我们通过客房服务点了晚餐。"
+        }
+      },
+      {
+        "phrase": "customer service",
+        "meaning": "客户服务",
+        "example": {
+          "en": "Please contact customer service if you have a complaint.",
+          "zh": "如果你有投诉，请联系客户服务。"
+        }
+      },
+      {
+        "phrase": "excellent service",
+        "meaning": "优质服务",
+        "example": {
+          "en": "Many guests praised the hotel for its excellent service.",
+          "zh": "很多客人因酒店的优质服务而称赞它。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "assistance",
+        "type": "synonym",
+        "meaning": "帮助；协助"
+      },
+      {
+        "word": "disservice",
+        "type": "antonym",
+        "meaning": "伤害性对待；帮倒忙"
+      },
+      {
+        "word": "facility",
+        "type": "confusable",
+        "meaning": "设施"
+      },
+      {
+        "word": "serve",
+        "type": "family",
+        "meaning": "服务（动词）"
+      }
+    ]
+  }
+]

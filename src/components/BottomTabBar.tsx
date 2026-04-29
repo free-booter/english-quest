@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const tabs = [
   { path: '/', label: '首页', icon: Home },
-  { path: '/tracks', label: '赛道', icon: Map },
+  { path: '/tracks', label: '主题', icon: Map },
   { path: '/listening', label: '听力', icon: Headphones },
   { path: '/speaking', label: '口语', icon: Mic2 },
   { path: '/me', label: '我的', icon: User },

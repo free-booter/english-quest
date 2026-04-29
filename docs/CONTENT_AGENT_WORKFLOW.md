@@ -961,6 +961,32 @@ scripts/reports/travel-L1-example-review.json
 
 ---
 
+## L1 断点续跑（检查点）
+
+子会话或 Cursor 会话中断后，可从**已完成的 stage** 继续，而不用从头跑整轨。
+
+- **检查点文件**（可先运行 `npm run l1:progress:init` 生成）：
+  - `scripts/reports/progress/travel-L1.progress.json`
+  - `scripts/reports/progress/drama-L1.progress.json`
+  - `scripts/reports/progress/exam-L1.progress.json`
+- 每个文件内含两阶段：`examples`（例句生成+审核）与 `phrases`（词组+相关词），字段 `completedStageIds` 记录已落地的 stage id（如 `travel-L1-c1-s1`）。
+
+**常用命令**（或直接 `node scripts/l1-progress.mjs …`）：
+
+| 命令 | 作用 |
+|------|------|
+| `npm run l1:progress:init` | 初始化/同步检查点文件（相对 `L1.json` 的 40 个 stage） |
+| `npm run l1:progress:status` | 查看三轨完成情况 |
+| `npm run l1:progress:next -- travel examples --count=3` | 查看 travel 下一阶段待处理的至多 3 个 stage |
+
+每处理完一个 stage 并写回 `L1.json` 后执行：
+
+`node scripts/l1-progress.mjs mark travel examples travel-L1-c1-s1`
+
+向主会话说明续跑时，可粘贴检查点路径并写：「从 `next` 输出的第一个 stage 继续」。
+
+---
+
 ## Agent 不应该做什么
 
 内容生产 Agent 不应该：

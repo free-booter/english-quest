@@ -151,8 +151,8 @@ export default function MePage() {
         <MenuItem
           icon="🎯"
           iconBg="bg-blue-100"
-          title="赛道选择"
-          subtitle="管理你的学习轨道"
+          title="主题选择"
+          subtitle="管理你的学习主题"
           onClick={() => navigate('/tracks')}
         />
 

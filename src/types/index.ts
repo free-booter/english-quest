@@ -55,6 +55,7 @@ export interface Word {
   roots?: string // 词根分解提示，例：'ac-（朝向）+ quire（寻求）'
   family?: string[] // 同族词，例：['acquisition', 'require', 'inquire']
   rootHint?: string
+  memoryAid?: string // 记忆联想提示（场景联系、谐音、故事等）
   trackTags: string[]
   difficulty: 1 | 2 | 3 | 4 | 5 | 6
   mastery: 0 | 1 | 2 | 3 | 4 | 5

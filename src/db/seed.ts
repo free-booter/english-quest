@@ -289,6 +289,7 @@ export async function initializeDB() {
                     roots: wordData.roots,
                     family: wordData.family,
                     rootHint: wordData.rootHint,
+                    memoryAid: wordData.memoryAid,
                   }
                 : {
                     word: wordText,
@@ -310,7 +311,7 @@ export async function initializeDB() {
       }
 
       const defaultSettings: UserSettings = {
-        selectedTracks: ['travel', 'drama'],
+        selectedTracks: ['travel'],
         primaryTrack: 'travel',
         avatar: 'fox',
         nickname: '冒险者',
@@ -326,7 +327,7 @@ export async function initializeDB() {
       const achievements: Achievement[] = [
         { id: 'first-stage', name: '初次通关', description: '完成第一个关卡', icon: '🥇', progress: 0 },
         { id: 'week-checkin', name: '七天打卡', description: '连续打卡 7 天', icon: '🔥', progress: 0 },
-        { id: 'track-lv3', name: '赛道达人', description: '任意赛道达到 Lv3', icon: '🏅', progress: 0 },
+        { id: 'track-lv3', name: '主题达人', description: '任意主题达到 Lv3', icon: '🏅', progress: 0 },
       ]
 
       await db.tracks.bulkAdd(tracks)

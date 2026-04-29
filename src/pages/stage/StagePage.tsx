@@ -55,7 +55,7 @@ export default function StagePage() {
           <p className="font-semibold text-gray-800 mb-1">该关卡尚未解锁</p>
           <p className="text-sm text-gray-500 mb-4">请先完成前置关卡后再进入。</p>
           <button onClick={() => navigate('/tracks')} className="btn-primary px-4 py-2 rounded-xl">
-            返回赛道页
+            返回主题页
           </button>
         </div>
       </div>

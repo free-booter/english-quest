@@ -34,13 +34,14 @@ function buildFallbackExamples(word: Word): Array<{ en: string; zh: string }> {
 }
 
 function buildMemoryHint(word: Word): string {
+  if (word.memoryAid) return word.memoryAid
   if (word.roots) return word.roots
   if (word.rootHint) return word.rootHint
   const parts = word.word.split(/[\s-]+/).filter(Boolean)
   if (parts.length > 1) {
     return `把短语拆成 ${parts.join(' + ')}，和「${word.meaning}」场景绑定记忆。`
   }
-  return `想象在场景中使用「${word.meaning}」的画面。`
+  return `把「${word.word}」和它的中文意思「${word.meaning}」放在同一个场景画面里记忆。`
 }
 
 function buildRelatedWords(word: Word): string[] {
@@ -49,6 +50,22 @@ function buildRelatedWords(word: Word): string[] {
   }
   if (word.family && word.family.length > 0) return word.family
   return []
+}
+
+function HighlightedSentence({ sentence, word }: { sentence: string; word: string }) {
+  const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const parts = sentence.split(new RegExp(`(${escaped})`, 'gi'))
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.toLowerCase() === word.toLowerCase() ? (
+          <strong key={i} className="text-brand-600">{part}</strong>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  )
 }
 
 interface CardStageProps {
@@ -78,6 +95,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
   const [poolTokens, setPoolTokens] = useState<string[]>([])
   const [reorderResult, setReorderResult] = useState<'pending' | 'correct' | 'wrong'>('pending')
   const [showWordDetail, setShowWordDetail] = useState(false)
+  const [spellInput, setSpellInput] = useState('')
   const autoContinueTimer = useRef<number | null>(null)
 
   const scenario = useMemo(() => {
@@ -165,14 +183,38 @@ export default function CardStage({ onComplete }: CardStageProps) {
     }
   }
 
+  const handleNotSure = async () => {
+    if (currentWord) {
+      const tomorrow = new Date()
+      tomorrow.setDate(tomorrow.getDate() + 1)
+      const existing = await db.reviews.get(currentWord.id)
+      if (!existing) {
+        await db.reviews.add({
+          wordId: currentWord.id,
+          nextReviewDate: tomorrow.toISOString().split('T')[0],
+          intervalDay: 1,
+          failCount: 0,
+        })
+      }
+    }
+    handleContinueLearning()
+  }
+
   const findWordIdByText = (text: string): string => {
     if (!words) return ''
     return (words as Word[]).find((w) => w.word === text)?.id ?? ''
   }
 
+  // context 类型 correctOption 是中文，需用 targetWord 查词
+  const getTrackingWordId = (): string => {
+    if (!currentStep) return ''
+    const wordText = currentStep.targetWord ?? currentStep.correctOption
+    return findWordIdByText(wordText)
+  }
+
   const recordWrongAnswer = async (wrongOption: string) => {
     if (!stage || !currentStep) return
-    const wordId = findWordIdByText(currentStep.correctOption)
+    const wordId = getTrackingWordId()
     const prompt = currentStep.prompt
     const existing = await db.wrongAnswers
       .where('stageId')
@@ -216,7 +258,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
 
   const adjustWordMastery = async (delta: number) => {
     if (!currentStep) return
-    const wordId = findWordIdByText(currentStep.correctOption)
+    const wordId = getTrackingWordId()
     if (!wordId) return
     const word = await db.words.get(wordId)
     if (!word) return
@@ -250,6 +292,32 @@ export default function CardStage({ onComplete }: CardStageProps) {
     }
   }
 
+  const handleSubmitSpell = () => {
+    if (!currentStep || selectedOption !== null) return
+    const raw = spellInput.trim()
+    if (!raw) return
+    const correct = raw.toLowerCase() === currentStep.correctOption.toLowerCase()
+    setSelectedOption(raw)
+    setIsStepCorrect(correct)
+    setFeedbackText(correct ? currentStep.successFeedback : currentStep.failFeedback)
+
+    if (correct) {
+      setCombo((c) => c + 1)
+      setCorrectCount((prev) => prev + 1)
+      if (!hasFailedCurrentStep) adjustWordMastery(1)
+      else markWrongAnswerResolved()
+      if (autoContinueTimer.current) window.clearTimeout(autoContinueTimer.current)
+      autoContinueTimer.current = window.setTimeout(() => handleContinueQuiz(), 900)
+    } else {
+      setCombo(0)
+      if (!hasFailedCurrentStep) {
+        adjustWordMastery(-1)
+        setHasFailedCurrentStep(true)
+      }
+      recordWrongAnswer(raw)
+    }
+  }
+
   const handleContinueQuiz = () => {
     if (!scenario) return
     if (stepIndex < scenario.steps.length - 1) {
@@ -258,6 +326,7 @@ export default function CardStage({ onComplete }: CardStageProps) {
       setIsStepCorrect(null)
       setFeedbackText('')
       setHasFailedCurrentStep(false)
+      setSpellInput('')
     } else if (hasReorder) {
       setPhase('reorder')
       setReorderIndex(0)
@@ -416,40 +485,66 @@ export default function CardStage({ onComplete }: CardStageProps) {
                   </div>
                 </div>
 
-                {/* 一个例句预览 */}
+                {/* 例句（目标词高亮） */}
                 {learningExamples[0] && (
-                  <div className="w-full bg-gray-50 rounded-xl p-3 mb-4">
+                  <div className="w-full bg-gray-50 rounded-xl p-3 mb-3">
                     <div className="flex items-start justify-between gap-2">
                       <div className="text-left flex-1">
-                        <p className="text-sm font-medium text-gray-800">{learningExamples[0].en}</p>
+                        <p className="text-sm font-medium text-gray-800 leading-relaxed">
+                          <HighlightedSentence sentence={learningExamples[0].en} word={currentWord.word} />
+                        </p>
                         <p className="text-xs text-gray-500 mt-1">{learningExamples[0].zh}</p>
                       </div>
                       <button
                         onClick={() => handlePlayExampleAudio(learningExamples[0].en)}
-                        className="p-1.5 text-gray-400 hover:text-brand-600 transition"
+                        className="p-1.5 text-gray-400 hover:text-brand-600 transition shrink-0"
                       >
                         <Volume2 size={16} />
                       </button>
                     </div>
                   </div>
                 )}
+
+                {/* 常用搭配（最多2个） */}
+                {currentWord.phrases && currentWord.phrases.length > 0 && (
+                  <div className="w-full mb-1">
+                    <p className="text-xs font-bold text-gray-400 uppercase mb-2 text-left">常用搭配</p>
+                    <div className="space-y-1.5">
+                      {currentWord.phrases.slice(0, 2).map((phrase, idx) => (
+                        <div key={idx} className="flex items-center gap-2 bg-amber-50 rounded-xl px-3 py-2 text-left">
+                          <span className="text-sm font-semibold text-amber-900">{phrase.phrase}</span>
+                          <span className="text-gray-300">·</span>
+                          <span className="text-sm text-amber-700">{phrase.meaning}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
-              {/* 底部按钮 - 始终可见 */}
-              <div className="flex gap-3 mt-auto pt-4">
+              {/* 主动回忆按钮 */}
+              <div className="mt-auto pt-4">
+                <p className="text-xs text-center text-gray-400 mb-3">记住了吗？</p>
+                <div className="flex gap-3">
+                  <button
+                    onClick={handleNotSure}
+                    className="flex-1 py-3 border-2 border-orange-200 bg-orange-50 rounded-xl font-semibold text-orange-700 hover:bg-orange-100 transition"
+                  >
+                    😅 还不熟
+                  </button>
+                  <button
+                    onClick={handleContinueLearning}
+                    className="flex-1 py-3 bg-brand-500 text-white rounded-xl font-semibold hover:bg-brand-600 transition"
+                  >
+                    {learningIndex === words.length - 1 ? '✅ 开始答题' : '✅ 记住了'}
+                  </button>
+                </div>
                 <button
                   onClick={() => setShowWordDetail(true)}
-                  className="flex-1 py-3 border-2 border-gray-200 rounded-xl font-semibold text-gray-700 hover:bg-gray-50 transition flex items-center justify-center gap-2"
+                  className="w-full mt-2 py-1.5 text-xs text-gray-400 hover:text-brand-500 transition flex items-center justify-center gap-1"
                 >
-                  <BookOpen size={18} />
-                  详情
-                </button>
-                <button
-                  onClick={handleContinueLearning}
-                  className="flex-[2] py-3 bg-brand-500 text-white rounded-xl font-semibold hover:bg-brand-600 transition flex items-center justify-center gap-2"
-                >
-                  {learningIndex === words.length - 1 ? '开始答题' : '下一个'}
-                  <ChevronRight size={18} />
+                  <BookOpen size={12} />
+                  查看完整详情
                 </button>
               </div>
             </div>
@@ -468,31 +563,112 @@ export default function CardStage({ onComplete }: CardStageProps) {
             <div className="card">
               <p className="text-xs text-gray-500 font-semibold uppercase mb-2">
                 第 {stepIndex + 1}/{totalSteps} 题
+                {currentStep.type === 'cloze' && <span className="ml-2 text-blue-500">· 填空</span>}
+                {currentStep.type === 'context' && <span className="ml-2 text-purple-500">· 语境理解</span>}
               </p>
-              <p className="text-xs text-gray-500 mb-2">{currentStep.context}</p>
+
+              {/* cloze：展示带空白的例句 + 中文翻译 */}
+              {currentStep.type === 'cloze' && currentStep.sentence && (
+                <div className="bg-blue-50 rounded-xl p-3 mb-3">
+                  <p className="text-base font-medium text-gray-800 leading-relaxed">
+                    {currentStep.sentence.split('___').map((part, i, arr) => (
+                      <span key={i}>
+                        {part}
+                        {i < arr.length - 1 && (
+                          <span className="inline-block px-3 bg-blue-200 text-blue-800 font-bold rounded mx-1 min-w-[3rem] text-center">
+                            ___
+                          </span>
+                        )}
+                      </span>
+                    ))}
+                  </p>
+                  {currentStep.context && (
+                    <p className="text-xs text-gray-500 mt-2">{currentStep.context}</p>
+                  )}
+                </div>
+              )}
+
+              {/* context：展示带高亮目标词的完整例句 */}
+              {currentStep.type === 'context' && currentStep.sentence && (
+                <div className="bg-purple-50 rounded-xl p-3 mb-3">
+                  <p className="text-base font-medium text-gray-800 leading-relaxed">
+                    <HighlightedSentence
+                      sentence={currentStep.sentence}
+                      word={currentStep.targetWord ?? ''}
+                    />
+                  </p>
+                </div>
+              )}
+
               <p className="text-lg font-semibold text-gray-800">{currentStep.prompt}</p>
+              {currentStep.type === 'meaning' && currentStep.context && (
+                <p className="text-xs text-gray-400 mt-1">{currentStep.context}</p>
+              )}
+              {currentStep.type === 'spell' && currentStep.context && (
+                <p className="text-xs text-gray-400 mt-1">{currentStep.context}</p>
+              )}
             </div>
 
-            <div className="space-y-3">
-              {currentStep.options.map((option) => (
-                <motion.button
-                  key={option}
-                  onClick={() => handleChooseOption(option)}
-                  whileHover={{ scale: 1.01 }}
-                  whileTap={{ scale: 0.99 }}
-                  disabled={selectedOption !== null && isStepCorrect === true}
-                  className={`w-full card text-left font-semibold transition border-2 ${
-                    selectedOption === option
+            {/* 拼写输入框 */}
+            {currentStep.type === 'spell' && (
+              <div className="space-y-3">
+                <input
+                  autoFocus
+                  type="text"
+                  value={spellInput}
+                  onChange={(e) => setSpellInput(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && handleSubmitSpell()}
+                  disabled={selectedOption !== null}
+                  placeholder="输入英文单词..."
+                  className={`w-full px-4 py-3 rounded-xl border-2 text-lg font-semibold outline-none transition ${
+                    selectedOption !== null
                       ? isStepCorrect
-                        ? 'border-green-500 bg-green-50 text-green-900'
-                        : 'border-red-500 bg-red-50 text-red-900'
-                      : 'border-transparent hover:border-brand-300'
-                  } ${selectedOption !== null && isStepCorrect === true ? 'opacity-60' : ''}`}
-                >
-                  {option}
-                </motion.button>
-              ))}
-            </div>
+                        ? 'border-green-400 bg-green-50 text-green-900'
+                        : 'border-red-400 bg-red-50 text-red-900'
+                      : 'border-gray-200 focus:border-brand-400 bg-white'
+                  }`}
+                />
+                <div className="flex gap-3">
+                  <button
+                    onClick={() => speak(currentStep.correctOption)}
+                    className="flex items-center gap-1.5 px-4 py-2.5 bg-gray-100 rounded-xl text-sm font-semibold text-gray-600 hover:bg-gray-200 transition"
+                  >
+                    <Volume2 size={16} /> 听发音
+                  </button>
+                  <button
+                    onClick={handleSubmitSpell}
+                    disabled={selectedOption !== null || spellInput.trim() === ''}
+                    className="flex-1 btn-primary py-2.5 rounded-xl font-semibold disabled:opacity-50"
+                  >
+                    提交
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* 选择题选项 */}
+            {currentStep.type !== 'spell' && (
+              <div className="space-y-3">
+                {currentStep.options.map((option) => (
+                  <motion.button
+                    key={option}
+                    onClick={() => handleChooseOption(option)}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
+                    disabled={selectedOption !== null && isStepCorrect === true}
+                    className={`w-full card text-left font-semibold transition border-2 ${
+                      selectedOption === option
+                        ? isStepCorrect
+                          ? 'border-green-500 bg-green-50 text-green-900'
+                          : 'border-red-500 bg-red-50 text-red-900'
+                        : 'border-transparent hover:border-brand-300'
+                    } ${selectedOption !== null && isStepCorrect === true ? 'opacity-60' : ''}`}
+                  >
+                    {option}
+                  </motion.button>
+                ))}
+              </div>
+            )}
 
             {selectedOption && (
               <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="space-y-3">
@@ -716,8 +892,8 @@ export default function CardStage({ onComplete }: CardStageProps) {
                   )}
                 </div>
 
-                {/* 所有例句 */}
-                {learningExamples.length > 0 && (
+                {/* 例句：仅当没有 senses 时才单独展示，避免重复 */}
+                {(!currentWord.senses || currentWord.senses.length === 0) && learningExamples.length > 0 && (
                   <div>
                     <p className="text-xs font-bold text-gray-500 uppercase mb-2">例句</p>
                     <div className="space-y-2">
@@ -725,7 +901,9 @@ export default function CardStage({ onComplete }: CardStageProps) {
                         <div key={idx} className="bg-gray-50 rounded-xl p-3">
                           <div className="flex items-start justify-between gap-2">
                             <div className="flex-1">
-                              <p className="text-sm font-medium text-gray-800">{ex.en}</p>
+                              <p className="text-sm font-medium text-gray-800 leading-relaxed">
+                                <HighlightedSentence sentence={ex.en} word={currentWord.word} />
+                              </p>
                               <p className="text-xs text-gray-500 mt-1">{ex.zh}</p>
                             </div>
                             <button
@@ -734,6 +912,36 @@ export default function CardStage({ onComplete }: CardStageProps) {
                             >
                               <Volume2 size={16} />
                             </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* 词组搭配 */}
+                {currentWord.phrases && currentWord.phrases.length > 0 && (
+                  <div>
+                    <p className="text-xs font-bold text-gray-500 uppercase mb-2">常用搭配</p>
+                    <div className="space-y-2">
+                      {currentWord.phrases.map((phrase, idx) => (
+                        <div key={idx} className="bg-amber-50 rounded-xl p-3">
+                          <div className="flex items-start justify-between gap-2">
+                            <div>
+                              <p className="text-sm font-bold text-amber-900">{phrase.phrase}</p>
+                              <p className="text-xs text-amber-700 mt-0.5">{phrase.meaning}</p>
+                              {phrase.example && (
+                                <p className="text-xs text-gray-500 mt-1 italic">{phrase.example.en}</p>
+                              )}
+                            </div>
+                            {phrase.example && (
+                              <button
+                                onClick={() => handlePlayExampleAudio(phrase.example!.en)}
+                                className="p-1.5 text-amber-400 hover:text-amber-600 transition shrink-0"
+                              >
+                                <Volume2 size={14} />
+                              </button>
+                            )}
                           </div>
                         </div>
                       ))}

@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc -b --noEmit"
+    "typecheck": "tsc -b --noEmit",
+    "l1:progress:init": "node scripts/l1-progress.mjs init",
+    "l1:progress:status": "node scripts/l1-progress.mjs status",
+    "l1:progress:next": "node scripts/l1-progress.mjs next"
   },
   "dependencies": {
     "dexie": "^4.0.0",

@@ -1,0 +1,832 @@
+[
+  {
+    "word": "bicycle",
+    "phonetic": "[ˈbaɪsɪkl]",
+    "pos": "n.",
+    "meaning": "自行车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "两轮脚踏车（城市短程出行）",
+        "important": true,
+        "example": {
+          "en": "We rented bicycles to tour the old town today.",
+          "zh": "我们今天租了自行车逛老城。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "日常短途骑行的代步工具",
+        "important": false,
+        "example": {
+          "en": "Many locals use a bicycle for short trips each day.",
+          "zh": "许多当地人每天用自行车短途出行。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The hotel lends guests a bicycle for free.",
+        "zh": "酒店免费借给客人一辆自行车。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Lock your bicycle near the train station gate.",
+        "zh": "把你的自行车锁在火车站口附近。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "rent a bicycle",
+        "meaning": "租自行车",
+        "example": {
+          "en": "You can rent a bicycle by the harbor.",
+          "zh": "你可以在港口边租自行车。"
+        }
+      },
+      {
+        "phrase": "bicycle lane",
+        "meaning": "自行车道",
+        "example": {
+          "en": "Stay in the bicycle lane on busy roads.",
+          "zh": "车多时要走在自行车道里。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "bike",
+        "type": "synonym",
+        "meaning": "自行车（口语）"
+      },
+      {
+        "word": "cyclist",
+        "type": "family",
+        "meaning": "骑车的人"
+      },
+      {
+        "word": "motorcycle",
+        "type": "confusable",
+        "meaning": "摩托车"
+      },
+      {
+        "word": "pedal",
+        "type": "family",
+        "meaning": "脚踏；踩踏板"
+      }
+    ]
+  },
+  {
+    "word": "scooter",
+    "phonetic": "[ˈskuːtə(r)]",
+    "pos": "n.",
+    "meaning": "滑板车；小型摩托",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "电动或踢踏式小型两轮车（景区、市区常见）",
+        "important": true,
+        "example": {
+          "en": "Many tourists use a scooter along the seafront.",
+          "zh": "许多游客沿着海滨骑小型滑板车。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "轻便摩托车（英式有时指 moped 类）",
+        "important": false,
+        "example": {
+          "en": "He rides a scooter to beat the morning traffic.",
+          "zh": "他骑小摩托躲开早高峰堵车。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Check local rules before you rent a scooter abroad.",
+        "zh": "在国外租滑板车前先查当地规定。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Park the scooter in the marked area only.",
+        "zh": "请只把滑板车停在划线区域。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "electric scooter",
+        "meaning": "电动滑板车",
+        "example": {
+          "en": "An electric scooter saved us a long walk to the gate.",
+          "zh": "电动滑板车帮我们少走了很长一段路到登机口。"
+        }
+      },
+      {
+        "phrase": "scooter rental",
+        "meaning": "滑板车租赁",
+        "example": {
+          "en": "The scooter rental shop opens at nine.",
+          "zh": "滑板车租赁店九点开门。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "moped",
+        "type": "synonym",
+        "meaning": "轻骑/助动车"
+      },
+      {
+        "word": "skateboard",
+        "type": "confusable",
+        "meaning": "滑板（无座）"
+      },
+      {
+        "word": "helmet",
+        "type": "family",
+        "meaning": "头盔"
+      },
+      {
+        "word": "kick scooter",
+        "type": "synonym",
+        "meaning": "踢踏式滑板车"
+      }
+    ]
+  },
+  {
+    "word": "tram",
+    "phonetic": "[træm]",
+    "pos": "n.",
+    "meaning": "有轨电车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "沿轨道行驶的城市公共交通工具",
+        "important": true,
+        "example": {
+          "en": "Take the tram to the museum; it stops nearby.",
+          "zh": "坐有轨电车去博物馆，站就在附近。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "路面电车线路/车次（口语）",
+        "important": false,
+        "example": {
+          "en": "The next tram comes in five minutes.",
+          "zh": "下一班有轨电车五分钟后到。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We missed the last tram and walked back.",
+        "zh": "我们错过了末班有轨电车，只好走回去。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Buy a day pass for bus and tram travel.",
+        "zh": "买一张公交车和有轨电车通用的一日票。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "tram stop",
+        "meaning": "电车站",
+        "example": {
+          "en": "Meet me at the tram stop by the river.",
+          "zh": "在河边那个电车站见。"
+        }
+      },
+      {
+        "phrase": "catch the tram",
+        "meaning": "赶上有轨电车",
+        "example": {
+          "en": "We ran to catch the tram before it left.",
+          "zh": "我们跑着才赶上车开前的有轨电车。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "streetcar",
+        "type": "synonym",
+        "meaning": "路面电车（美式常用）"
+      },
+      {
+        "word": "subway",
+        "type": "confusable",
+        "meaning": "地铁"
+      },
+      {
+        "word": "trolley",
+        "type": "synonym",
+        "meaning": "无轨电车/电车（美式）"
+      },
+      {
+        "word": "rail",
+        "type": "family",
+        "meaning": "铁轨"
+      }
+    ]
+  },
+  {
+    "word": "cable car",
+    "phonetic": "[ˈkeɪbl kɑː(r)]",
+    "pos": "n.",
+    "meaning": "缆车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由钢缆牵引、沿陡坡运行的车厢（山地景区）",
+        "important": true,
+        "example": {
+          "en": "The cable car climbs slowly up the steep hill.",
+          "zh": "缆车沿着陡坡缓缓上升。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "城市用缆索牵引的区间车（如旧金山）",
+        "important": false,
+        "example": {
+          "en": "A historic cable car runs through downtown here.",
+          "zh": "这里有一列复古缆索车穿过市中心。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Book a cable car ticket online to skip the long line.",
+        "zh": "网上买缆车票可以少排长队。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The view from the cable car is worth the wait.",
+        "zh": "缆车上的风景值得排队等候。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cable car station",
+        "meaning": "缆车站",
+        "example": {
+          "en": "Follow signs to the cable car station on the square.",
+          "zh": "跟着指示牌去广场旁的缆车站。"
+        }
+      },
+      {
+        "phrase": "round-trip cable car",
+        "meaning": "缆车往返票/往返行程",
+        "example": {
+          "en": "We bought a round-trip cable car pass for the summit.",
+          "zh": "我们买了去山顶的缆车往返票。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "gondola",
+        "type": "confusable",
+        "meaning": "吊厢/贡多拉（语境不同）"
+      },
+      {
+        "word": "funicular",
+        "type": "synonym",
+        "meaning": "齿轨登山铁道缆车"
+      },
+      {
+        "word": "ropeway",
+        "type": "synonym",
+        "meaning": "索道"
+      },
+      {
+        "word": "cable",
+        "type": "family",
+        "meaning": "钢缆"
+      }
+    ]
+  },
+  {
+    "word": "gondola",
+    "phonetic": "[ˈɡɒndələ]",
+    "pos": "n.",
+    "meaning": "贡多拉；（滑雪）吊厢",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "威尼斯狭长的平底游船",
+        "important": true,
+        "example": {
+          "en": "A short gondola ride costs more at sunset.",
+          "zh": "日落时分坐贡多拉贵一些。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "滑雪场架空吊厢",
+        "important": false,
+        "example": {
+          "en": "The ski gondola closes when the wind is too strong.",
+          "zh": "风太大时滑雪吊厢会停运。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Share a gondola with strangers to save money.",
+        "zh": "和别人拼一艘贡多拉可以省钱。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The mountain gondola swayed slightly in the breeze.",
+        "zh": "山间吊厢在微风里微微晃动。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "gondola ride",
+        "meaning": "贡多拉游船体验",
+        "example": {
+          "en": "We booked a quiet gondola ride before dinner.",
+          "zh": "我们晚餐前订了一次安静的贡多拉游览。"
+        }
+      },
+      {
+        "phrase": "cable gondola",
+        "meaning": "缆线吊厢",
+        "example": {
+          "en": "The cable gondola lifted us above the pine forest.",
+          "zh": "缆线吊厢把我们升过松树林上方。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "canal",
+        "type": "family",
+        "meaning": "运河"
+      },
+      {
+        "word": "Venetian",
+        "type": "family",
+        "meaning": "威尼斯的"
+      },
+      {
+        "word": "boat",
+        "type": "synonym",
+        "meaning": "小船（泛指）"
+      },
+      {
+        "word": "cable car",
+        "type": "confusable",
+        "meaning": "缆车（与水上贡多拉不同）"
+      }
+    ]
+  },
+  {
+    "word": "rickshaw",
+    "phonetic": "[ˈrɪkʃɔː]",
+    "pos": "n.",
+    "meaning": "人力车；黄包车",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "由车夫拖拉或蹬踏的载客小车（旅游点特色交通）",
+        "important": true,
+        "example": {
+          "en": "A rickshaw tour shows narrow lanes you cannot drive.",
+          "zh": "人力车游能去汽车进不去的窄巷。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "机动或电动三轮车版（auto-rickshaw 类）",
+        "important": false,
+        "example": {
+          "en": "Negotiate the fare before you get in the rickshaw.",
+          "zh": "上人力车前先谈好车资。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The old quarter still has a few rickshaw stands.",
+        "zh": "老城区还有几处人力车站点。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "We tipped the rickshaw puller for the steep hill.",
+        "zh": "上坡很陡，我们多给了车夫一点小费。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "cycle rickshaw",
+        "meaning": "脚踏三轮车人力车",
+        "example": {
+          "en": "A cycle rickshaw took us to the night market gate.",
+          "zh": "一辆脚踏人力车把我们拉到夜市门口。"
+        }
+      },
+      {
+        "phrase": "rickshaw fare",
+        "meaning": "人力车车费",
+        "example": {
+          "en": "Ask your hotel about a fair rickshaw fare.",
+          "zh": "向酒店打听合理的人力车车价。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "pedicab",
+        "type": "synonym",
+        "meaning": "三轮脚踏出租车"
+      },
+      {
+        "word": "taxi",
+        "type": "confusable",
+        "meaning": "出租车"
+      },
+      {
+        "word": "porter",
+        "type": "family",
+        "meaning": "搬运工；拉车人"
+      },
+      {
+        "word": "cart",
+        "type": "family",
+        "meaning": "两轮/四轮小车"
+      }
+    ]
+  },
+  {
+    "word": "helicopter",
+    "phonetic": "[ˈhelɪkɒptə(r)]",
+    "pos": "n.",
+    "meaning": "直升机",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "旋翼飞行器（观光、救援、短途接驳）",
+        "important": true,
+        "example": {
+          "en": "A helicopter tour flies over the glaciers in ten minutes.",
+          "zh": "直升机观光十分钟就掠过冰川上空。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "直升机航程/班次（集合名词用法）",
+        "important": false,
+        "example": {
+          "en": "Bad weather can cancel every helicopter for the day.",
+          "zh": "坏天气可能让所有直升机全天停飞。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The resort offers a helicopter shuttle to the airport.",
+        "zh": "度假村提供去机场的直升机接驳。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Ear protection is required near a loud helicopter pad.",
+        "zh": "在嘈杂的直升机起降点旁要戴护耳。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "helicopter ride",
+        "meaning": "乘直升机游览/飞行",
+        "example": {
+          "en": "We splurged on a short helicopter ride at dawn.",
+          "zh": "我们破费订了黎明时分的短途直升机体验。"
+        }
+      },
+      {
+        "phrase": "search-and-rescue helicopter",
+        "meaning": "搜救直升机",
+        "example": {
+          "en": "A search-and-rescue helicopter passed over the trail.",
+          "zh": "一架搜救直升机从小径上空飞过。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "chopper",
+        "type": "synonym",
+        "meaning": "直升机（口语）"
+      },
+      {
+        "word": "airplane",
+        "type": "confusable",
+        "meaning": "固定翼飞机"
+      },
+      {
+        "word": "rotor",
+        "type": "family",
+        "meaning": "旋翼"
+      },
+      {
+        "word": "pilot",
+        "type": "family",
+        "meaning": "飞行员"
+      }
+    ]
+  },
+  {
+    "word": "shuttle",
+    "phonetic": "[ˈʃʌtl]",
+    "pos": "n.",
+    "meaning": "班车；往返巴士",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店/机场等定点接驳的短程巴士或面包车",
+        "important": true,
+        "example": {
+          "en": "The free hotel shuttle meets you outside baggage claim.",
+          "zh": "免费酒店班车在行李提取厅外接你。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "频繁往返两点之间的交通服务",
+        "important": false,
+        "example": {
+          "en": "A park shuttle runs every fifteen minutes all day.",
+          "zh": "园区班车全天每十五分钟一班。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please board the airport shuttle at bay seven.",
+        "zh": "请在七号月台搭乘机场班车。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The cruise port shuttle drops us near the terminal.",
+        "zh": "邮轮港班车把我们放在航站楼附近。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "airport shuttle",
+        "meaning": "机场大巴/接驳车",
+        "example": {
+          "en": "Reserve the airport shuttle one day ahead online.",
+          "zh": "提前一天在网上预约机场接驳车。"
+        }
+      },
+      {
+        "phrase": "shuttle bus",
+        "meaning": "穿梭巴士",
+        "example": {
+          "en": "Follow the green signs to the shuttle bus stop.",
+          "zh": "跟着绿色指示牌去穿梭巴士站。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "transfer",
+        "type": "synonym",
+        "meaning": "接送；转运服务"
+      },
+      {
+        "word": "minibus",
+        "type": "family",
+        "meaning": "小巴"
+      },
+      {
+        "word": "charter",
+        "type": "confusable",
+        "meaning": "包车（非固定班车）"
+      },
+      {
+        "word": "commute",
+        "type": "family",
+        "meaning": "通勤"
+      }
+    ]
+  },
+  {
+    "word": "pedestrian",
+    "phonetic": "[pəˈdestriən]",
+    "pos": "n.",
+    "meaning": "行人",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "步行的人（相对车辆）",
+        "important": true,
+        "example": {
+          "en": "Drivers must yield to pedestrians at this crossing.",
+          "zh": "在这个路口司机必须礼让行人。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "仅供步行者使用的（作定语，此处义项用名词义为主；补充常见旅行提示）",
+        "important": false,
+        "example": {
+          "en": "This old bridge is now for pedestrians only.",
+          "zh": "这座老桥现在只供步行。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Crowded streets confuse tourists and local pedestrians.",
+        "zh": "拥挤的街道让游客和当地行人都容易晕头转向。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Stay visible at night if you walk as a pedestrian.",
+        "zh": "夜间步行要尽量让车辆看见你。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "pedestrian zone",
+        "meaning": "步行街区域",
+        "example": {
+          "en": "Cars cannot enter the downtown pedestrian zone.",
+          "zh": "汽车不能进入市中心步行街区域。"
+        }
+      },
+      {
+        "phrase": "pedestrian safety",
+        "meaning": "行人安全",
+        "example": {
+          "en": "The tour guide reminded us about pedestrian safety.",
+          "zh": "导游再次提醒大家注意行人安全。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "walker",
+        "type": "synonym",
+        "meaning": "步行者"
+      },
+      {
+        "word": "foot traffic",
+        "type": "synonym",
+        "meaning": "步行人流"
+      },
+      {
+        "word": "motorist",
+        "type": "antonym",
+        "meaning": "驾车者"
+      },
+      {
+        "word": "sidewalk",
+        "type": "family",
+        "meaning": "人行道"
+      }
+    ]
+  },
+  {
+    "word": "crosswalk",
+    "phonetic": "[ˈkrɒswɔːk]",
+    "pos": "n.",
+    "meaning": "人行横道",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "划有标线供行人过街的路段（美式常用）",
+        "important": true,
+        "example": {
+          "en": "Wait for the light before you step into the crosswalk.",
+          "zh": "等绿灯再过人行横道。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "与 zebra crossing 同场景（跨文化旅行提示）",
+        "important": false,
+        "example": {
+          "en": "Use the marked crosswalk instead of darting between cars.",
+          "zh": "走划线的人行横道，别在车缝里乱穿。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The hostel sits just past the main crosswalk.",
+        "zh": "旅舍就在主路人行横道过去一点。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Snow almost hid the crosswalk lines this morning.",
+        "zh": "今早积雪几乎盖住了人行横道的线。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "marked crosswalk",
+        "meaning": "有标线的人行横道",
+        "example": {
+          "en": "Always use a marked crosswalk after dark abroad.",
+          "zh": "在国外天黑后务必走有标线的人行横道。"
+        }
+      },
+      {
+        "phrase": "crosswalk signal",
+        "meaning": "人行横道信号灯",
+        "example": {
+          "en": "The crosswalk signal flashes when it is safe to go.",
+          "zh": "人行信号灯闪动时表示可以通行。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "zebra crossing",
+        "type": "synonym",
+        "meaning": "斑马线（英式常用）"
+      },
+      {
+        "word": "intersection",
+        "type": "family",
+        "meaning": "十字路口"
+      },
+      {
+        "word": "jaywalking",
+        "type": "antonym",
+        "meaning": "乱穿马路（违规）"
+      },
+      {
+        "word": "curb",
+        "type": "family",
+        "meaning": "路缘石"
+      }
+    ]
+  }
+]

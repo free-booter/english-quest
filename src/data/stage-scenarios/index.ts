@@ -2,8 +2,11 @@ import { Word } from '../../types'
 
 export interface ScenarioStep {
   id: string
+  type?: 'meaning' | 'cloze' | 'context' | 'spell'
   prompt: string
   context: string
+  sentence?: string    // cloze/context 类型的展示句子
+  targetWord?: string  // context 类型：英文单词（用于 mastery 追踪）
   options: string[]
   correctOption: string
   successFeedback: string
@@ -162,38 +165,99 @@ const stageScenarios: Record<string, StageScenarioConfig> = {
 }
 
 function buildDistractors(words: Word[], correctWord: string): string[] {
-  const pool = words
-    .map((word) => word.word)
-    .filter((word) => word !== correctWord)
-
-  // 随机打乱后取前 3 个，避免总是用同样的干扰项顺序
+  const pool = words.map((w) => w.word).filter((w) => w !== correctWord)
   const shuffled = pool.sort(() => Math.random() - 0.5)
-  const selected = shuffled.slice(0, 3)
-
-  // 如果词汇不足 3 个，用占位符补充
   const fallbackPool = ['option A', 'option B', 'option C']
-  const padded = [...selected, ...fallbackPool].slice(0, 3)
-  return padded
+  return [...shuffled, ...fallbackPool].slice(0, 3)
+}
+
+function buildMeaningDistractors(words: Word[], correctMeaning: string): string[] {
+  const pool = words.map((w) => w.meaning).filter((m) => m !== correctMeaning)
+  const shuffled = pool.sort(() => Math.random() - 0.5)
+  const fallbackPool = ['其他含义', '另一说法', '相近意思']
+  return [...shuffled, ...fallbackPool].slice(0, 3)
+}
+
+function getExampleSentence(word: Word): { en: string; zh: string } | null {
+  if (word.teachingExamples && word.teachingExamples.length > 0) {
+    return { en: word.teachingExamples[0].en, zh: word.teachingExamples[0].zh }
+  }
+  if (word.examples && word.examples.length > 0) return word.examples[0]
+  return null
+}
+
+function makeCloze(sentence: string, word: string): string {
+  const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  return sentence.replace(new RegExp(escaped, 'gi'), '___')
 }
 
 export function buildFallbackScenario(stageId: string, title: string, words: Word[]): StageScenarioConfig {
-  const fallbackWords = words.slice(0, Math.min(5, words.length))
-  const contexts = [
-    '你需要快速做出语言选择',
-    '对话正在继续，不能冷场',
-    '你在任务中遇到关键判断',
-    '你想让表达更地道',
-    '收尾阶段需要一个准确用词',
-  ]
+  const fallbackWords = words.slice(0, Math.min(10, words.length))
+
   const steps: ScenarioStep[] = fallbackWords.map((word, index) => {
+    const example = getExampleSentence(word)
+
+    const availableTypes: Array<'meaning' | 'cloze' | 'context' | 'spell'> = ['meaning', 'spell']
+    if (example) availableTypes.push('cloze', 'context')
+    const type = availableTypes[Math.floor(Math.random() * availableTypes.length)]
+
+    if (type === 'cloze' && example) {
+      const clozeText = makeCloze(example.en, word.word)
+      const options = [word.word, ...buildDistractors(words, word.word)].sort(() => Math.random() - 0.5)
+      return {
+        id: `${stageId}-fallback-${index + 1}`,
+        type: 'cloze',
+        prompt: '选择填入空白处的词：',
+        context: example.zh,
+        sentence: clozeText,
+        options,
+        correctOption: word.word,
+        successFeedback: `正确！${word.word}（${word.meaning}）用在这里很自然。`,
+        failFeedback: `应填 ${word.word}，它的意思是「${word.meaning}」。`,
+      }
+    }
+
+    if (type === 'context' && example) {
+      const meaningOptions = [word.meaning, ...buildMeaningDistractors(words, word.meaning)].sort(
+        () => Math.random() - 0.5
+      )
+      return {
+        id: `${stageId}-fallback-${index + 1}`,
+        type: 'context',
+        prompt: `「${word.word}」在这句话里是什么意思？`,
+        context: '',
+        sentence: example.en,
+        targetWord: word.word,
+        options: meaningOptions,
+        correctOption: word.meaning,
+        successFeedback: `理解正确！${word.word} = ${word.meaning}。`,
+        failFeedback: `${word.word} 在此处的意思是「${word.meaning}」。`,
+      }
+    }
+
+    if (type === 'spell') {
+      return {
+        id: `${stageId}-fallback-${index + 1}`,
+        type: 'spell',
+        prompt: `请拼写「${word.meaning}」对应的英文单词`,
+        context: word.phonetic ?? '',
+        options: [],
+        correctOption: word.word,
+        successFeedback: `拼写正确！${word.word} = ${word.meaning}。`,
+        failFeedback: `正确拼写是 ${word.word}（${word.meaning}）。`,
+      }
+    }
+
+    // meaning type (default)
     const options = [word.word, ...buildDistractors(words, word.word)].sort(() => Math.random() - 0.5)
     return {
       id: `${stageId}-fallback-${index + 1}`,
-      prompt: `第 ${index + 1} 轮：中文释义「${word.meaning}」对应哪个英文词？`,
-      context: contexts[index % contexts.length],
+      type: 'meaning',
+      prompt: `中文释义「${word.meaning}」对应哪个英文词？`,
+      context: [word.phonetic, word.pos].filter(Boolean).join('  '),
       options,
       correctOption: word.word,
-      successFeedback: `你选对了，${word.word} 在这个语境更自然。`,
+      successFeedback: `你选对了，${word.word} 的意思是「${word.meaning}」。`,
       failFeedback: `更合适的是 ${word.word}（${word.meaning}）。`,
     }
   })

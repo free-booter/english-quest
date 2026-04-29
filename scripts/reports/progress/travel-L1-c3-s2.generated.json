@@ -1,0 +1,502 @@
+[
+  {
+    "word": "bathroom",
+    "phonetic": "[ˈbɑːθruːm]",
+    "pos": "n.",
+    "meaning": "浴室；卫生间",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "浴室；卫生间",
+        "important": true,
+        "example": {
+          "en": "The bathroom in this hotel room is very clean.",
+          "zh": "这间酒店客房的浴室很干净。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Excuse me, where is the bathroom?",
+        "zh": "打扰一下，请问卫生间在哪里？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "private bathroom",
+        "meaning": "独立卫生间",
+        "example": {
+          "en": "We booked a room with a private bathroom.",
+          "zh": "我们订了一间带独立卫生间的房间。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "restroom",
+        "type": "synonym",
+        "meaning": "卫生间"
+      },
+      {
+        "word": "bedroom",
+        "type": "confusable",
+        "meaning": "卧室（易混词）"
+      }
+    ]
+  },
+  {
+    "word": "shower",
+    "phonetic": "[ˈʃaʊə]",
+    "pos": "n./v.",
+    "meaning": "淋浴；淋浴器",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "淋浴；淋浴器",
+        "important": true,
+        "example": {
+          "en": "I took a hot shower after the flight.",
+          "zh": "飞行后我冲了个热水澡。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "淋浴（动词）",
+        "important": false,
+        "example": {
+          "en": "I usually shower before breakfast.",
+          "zh": "我通常在早餐前洗澡。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The shower in my room has strong water pressure.",
+        "zh": "我房间里的淋浴水压很大。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "take a shower",
+        "meaning": "洗淋浴",
+        "example": {
+          "en": "I want to take a shower before going out.",
+          "zh": "我想出门前先洗个澡。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "bathtub",
+        "type": "confusable",
+        "meaning": "浴缸（同场景易混）"
+      },
+      {
+        "word": "shampoo",
+        "type": "family",
+        "meaning": "洗发水（洗浴相关）"
+      }
+    ]
+  },
+  {
+    "word": "bathtub",
+    "phonetic": "[ˈbɑːθtʌb]",
+    "pos": "n.",
+    "meaning": "浴缸",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "浴缸",
+        "important": true,
+        "example": {
+          "en": "This suite has a large bathtub near the window.",
+          "zh": "这间套房在窗边有一个大浴缸。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The child is playing with water in the bathtub.",
+        "zh": "孩子正在浴缸里玩水。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "fill the bathtub",
+        "meaning": "给浴缸放水",
+        "example": {
+          "en": "Please fill the bathtub with warm water.",
+          "zh": "请给浴缸放温水。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "bath",
+        "type": "family",
+        "meaning": "洗澡；浴缸（同词根）"
+      },
+      {
+        "word": "shower",
+        "type": "confusable",
+        "meaning": "淋浴（易混设施）"
+      }
+    ]
+  },
+  {
+    "word": "towel",
+    "phonetic": "[ˈtaʊəl]",
+    "pos": "n.",
+    "meaning": "毛巾；浴巾",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "毛巾；浴巾",
+        "important": true,
+        "example": {
+          "en": "Could you bring me a clean towel, please?",
+          "zh": "请给我拿一条干净毛巾好吗？",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "There are two towels on the bathroom shelf.",
+        "zh": "浴室架子上有两条毛巾。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "bath towel",
+        "meaning": "浴巾",
+        "example": {
+          "en": "I wrapped myself in a bath towel.",
+          "zh": "我用一条浴巾裹住了身体。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "toiletry",
+        "type": "family",
+        "meaning": "洗漱用品（同场景）"
+      },
+      {
+        "word": "napkin",
+        "type": "confusable",
+        "meaning": "餐巾纸（易混词）"
+      }
+    ]
+  },
+  {
+    "word": "soap",
+    "phonetic": "[səʊp]",
+    "pos": "n.",
+    "meaning": "肥皂",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "肥皂",
+        "important": true,
+        "example": {
+          "en": "There is a bar of soap next to the sink.",
+          "zh": "洗手池旁边有一块肥皂。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Use soap to wash your hands before eating.",
+        "zh": "吃饭前请用肥皂洗手。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "a bar of soap",
+        "meaning": "一块肥皂",
+        "example": {
+          "en": "The hotel provides a bar of soap every day.",
+          "zh": "酒店每天都会提供一块肥皂。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "cleanser",
+        "type": "synonym",
+        "meaning": "清洁剂"
+      },
+      {
+        "word": "shampoo",
+        "type": "family",
+        "meaning": "洗发水（清洁相关）"
+      }
+    ]
+  },
+  {
+    "word": "toilet",
+    "phonetic": "[ˈtɔɪlət]",
+    "pos": "n.",
+    "meaning": "马桶；厕所",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "马桶；厕所",
+        "important": true,
+        "example": {
+          "en": "The toilet in room 305 needs repair.",
+          "zh": "305 房间的马桶需要维修。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please flush the toilet after use.",
+        "zh": "使用后请冲马桶。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "flush the toilet",
+        "meaning": "冲马桶",
+        "example": {
+          "en": "Don't forget to flush the toilet.",
+          "zh": "别忘了冲马桶。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "restroom",
+        "type": "synonym",
+        "meaning": "卫生间"
+      },
+      {
+        "word": "toilet paper",
+        "type": "family",
+        "meaning": "卫生纸（如厕相关）"
+      }
+    ]
+  },
+  {
+    "word": "mirror",
+    "phonetic": "[ˈmɪrə]",
+    "pos": "n.",
+    "meaning": "镜子",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "镜子",
+        "important": true,
+        "example": {
+          "en": "I checked my hair in the mirror.",
+          "zh": "我在镜子里检查了一下头发。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "There is a big mirror above the sink.",
+        "zh": "洗手池上方有一面大镜子。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "look in the mirror",
+        "meaning": "照镜子",
+        "example": {
+          "en": "She looked in the mirror before leaving.",
+          "zh": "她出门前照了照镜子。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "reflection",
+        "type": "family",
+        "meaning": "倒影；反射"
+      },
+      {
+        "word": "window",
+        "type": "confusable",
+        "meaning": "窗户（表面反光易混）"
+      }
+    ]
+  },
+  {
+    "word": "refrigerator",
+    "phonetic": "[rɪˈfrɪdʒəreɪtə]",
+    "pos": "n.",
+    "meaning": "冰箱",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "冰箱",
+        "important": true,
+        "example": {
+          "en": "Put the juice in the refrigerator, please.",
+          "zh": "请把果汁放进冰箱里。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Our room has a small refrigerator for drinks.",
+        "zh": "我们的房间有一个放饮料的小冰箱。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "mini refrigerator",
+        "meaning": "小冰箱",
+        "example": {
+          "en": "The mini refrigerator is under the TV stand.",
+          "zh": "小冰箱在电视柜下面。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fridge",
+        "type": "synonym",
+        "meaning": "冰箱（口语）"
+      },
+      {
+        "word": "freezer",
+        "type": "confusable",
+        "meaning": "冷冻柜（易混设备）"
+      }
+    ]
+  },
+  {
+    "word": "heating",
+    "phonetic": "[ˈhiːtɪŋ]",
+    "pos": "n.",
+    "meaning": "供暖；暖气系统",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "供暖；暖气系统",
+        "important": true,
+        "example": {
+          "en": "Could you turn on the heating? It's cold tonight.",
+          "zh": "你能打开暖气吗？今晚很冷。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The heating in this apartment works well.",
+        "zh": "这间公寓的供暖系统运行良好。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "turn on the heating",
+        "meaning": "打开暖气",
+        "example": {
+          "en": "Please turn on the heating before bedtime.",
+          "zh": "睡前请把暖气打开。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "heater",
+        "type": "family",
+        "meaning": "加热器；暖风机"
+      },
+      {
+        "word": "air conditioning",
+        "type": "antonym",
+        "meaning": "空调制冷（反义场景）"
+      }
+    ]
+  },
+  {
+    "word": "remote",
+    "phonetic": "[rɪˈməʊt]",
+    "pos": "n.",
+    "meaning": "遥控器",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "遥控器",
+        "important": true,
+        "example": {
+          "en": "I used the remote to change the TV channel.",
+          "zh": "我用遥控器换了电视频道。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The remote is on the bedside table.",
+        "zh": "遥控器在床头柜上。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "remote control",
+        "meaning": "遥控器",
+        "example": {
+          "en": "This remote control can also adjust the air conditioner.",
+          "zh": "这个遥控器也可以调节空调。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "controller",
+        "type": "synonym",
+        "meaning": "控制器"
+      },
+      {
+        "word": "remove",
+        "type": "confusable",
+        "meaning": "移除（拼写易混）"
+      }
+    ]
+  }
+]

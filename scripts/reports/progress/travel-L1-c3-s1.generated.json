@@ -1,0 +1,658 @@
+[
+  {
+    "word": "hotel",
+    "phonetic": "[həʊˈtel]",
+    "pos": "n.",
+    "meaning": "酒店；旅馆",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "供旅客住宿的旅馆或酒店（本关核心义）",
+        "important": true,
+        "example": {
+          "en": "We found a quiet hotel near the train station for our first night.",
+          "zh": "我们头一晚在火车站附近找了一家安静的酒店。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（总称）酒店业",
+        "important": false,
+        "example": {
+          "en": "She has worked in the hotel business for about ten years.",
+          "zh": "她从事酒店业大约十年了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The hotel gave us a map of the old town at the front desk.",
+        "zh": "酒店在前台给了我们一张古镇地图。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "This family hotel has only twelve rooms, so book early.",
+        "zh": "这家家庭式酒店只有十二间房，所以要早点预订。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "check into a hotel",
+        "meaning": "办理酒店入住",
+        "example": {
+          "en": "We need to check into a hotel before the evening train leaves.",
+          "zh": "我们得在晚班火车开走前办理酒店入住。"
+        }
+      },
+      {
+        "phrase": "hotel staff",
+        "meaning": "酒店员工",
+        "example": {
+          "en": "The hotel staff brought extra towels to our room in five minutes.",
+          "zh": "酒店员工五分钟内就给我们房间多拿了毛巾。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "motel",
+        "type": "family",
+        "meaning": "汽车旅馆"
+      },
+      {
+        "word": "inn",
+        "type": "synonym",
+        "meaning": "小旅馆（常较传统）"
+      }
+    ]
+  },
+  {
+    "word": "reservation",
+    "phonetic": "[ˌrezəˈveɪʃn]",
+    "pos": "n.",
+    "meaning": "预订；预约",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "已预订的房间或桌位等（本关：订房）",
+        "important": true,
+        "example": {
+          "en": "I have a reservation in your name for two nights, starting today.",
+          "zh": "我以您的名义预订了两晚，从今天开始。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（抽象）保留意见",
+        "important": false,
+        "example": {
+          "en": "He accepted the plan but still had some reservations about the price.",
+          "zh": "他接受了方案，但对价格仍有些保留。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please tell me your reservation code when you reach the front desk.",
+        "zh": "到前台时请告诉我您的预订确认码。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "make a reservation",
+        "meaning": "预订（房间/座位）",
+        "example": {
+          "en": "You should make a reservation online because weekends are very busy.",
+          "zh": "你应该在网上预订，因为周末非常忙。"
+        }
+      },
+      {
+        "phrase": "confirm a reservation",
+        "meaning": "确认预订",
+        "example": {
+          "en": "I called this morning to confirm a reservation for Friday night.",
+          "zh": "我今天早上打电话确认周五晚上的预订。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "reserve",
+        "type": "family",
+        "meaning": "动词：预订；保留"
+      },
+      {
+        "word": "booking",
+        "type": "synonym",
+        "meaning": "英式常用 booking"
+      }
+    ]
+  },
+  {
+    "word": "lobby",
+    "phonetic": "[ˈlɒbi]",
+    "pos": "n.",
+    "meaning": "大堂；门厅",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店入口处的公共等候区（本关核心义）",
+        "important": true,
+        "example": {
+          "en": "We waited in the lobby while the reception finished checking in another guest.",
+          "zh": "前台还在给另一位客人办入住时，我们在大堂等候。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "游说团体（政治）",
+        "important": false,
+        "example": {
+          "en": "The environmental lobby pushed for stricter rules last year.",
+          "zh": "环保游说团体去年推动更严格的法规。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The lobby has free coffee, sofas, and a small business corner.",
+        "zh": "大堂有免费咖啡、沙发和一处小型商务角。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "hotel lobby",
+        "meaning": "酒店大堂",
+        "example": {
+          "en": "Meet your driver in the hotel lobby near the main entrance.",
+          "zh": "在主入口附近的酒店大堂见你的司机。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "foyer",
+        "type": "synonym",
+        "meaning": "门厅（较正式）"
+      },
+      {
+        "word": "hobby",
+        "type": "confusable",
+        "meaning": "发音/拼写易混：爱好"
+      }
+    ]
+  },
+  {
+    "word": "reception",
+    "phonetic": "[rɪˈsepʃn]",
+    "pos": "n.",
+    "meaning": "接待；前台",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店前台接待处（本关核心义）",
+        "important": true,
+        "example": {
+          "en": "Please go to reception on the ground floor with your passport ready.",
+          "zh": "请带好护照到一楼前台办理。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "欢迎会；招待会",
+        "important": false,
+        "example": {
+          "en": "There will be a short reception for new guests at seven tonight.",
+          "zh": "今晚七点将为新客人举办一个简单的招待会。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The reception desk is open twenty-four hours every single day.",
+        "zh": "前台柜台全年无休，每天二十四小时开放。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She works at reception and helps guests with taxis and maps.",
+        "zh": "她在前台工作，帮客人叫车和看地图。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "reception desk",
+        "meaning": "前台柜台",
+        "example": {
+          "en": "Our bags are still at the reception desk behind the glass screen.",
+          "zh": "我们的包还在玻璃屏风后的前台柜台。"
+        }
+      },
+      {
+        "phrase": "ask at reception",
+        "meaning": "到前台询问",
+        "example": {
+          "en": "If you lose your key card, just ask at reception for a new one.",
+          "zh": "如果你丢了房卡，到前台要一张新的就行。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "front desk",
+        "type": "synonym",
+        "meaning": "美式常用说法"
+      },
+      {
+        "word": "receptionist",
+        "type": "family",
+        "meaning": "前台接待员"
+      }
+    ]
+  },
+  {
+    "word": "checkout",
+    "phonetic": "[ˈtʃekaʊt]",
+    "pos": "n.",
+    "meaning": "退房；结账离开",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "办理退房离店（本关：时间与手续）",
+        "important": true,
+        "example": {
+          "en": "Checkout is at eleven, but late checkout may be possible for a small fee.",
+          "zh": "退房时间是十一点，但付一点费用或许可以延迟退房。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "超市收银台（另一常见义）",
+        "important": false,
+        "example": {
+          "en": "She paid at the checkout and then looked for a taxi outside.",
+          "zh": "她在收银台付款，然后到外面找出租车。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please return your key card to reception before checkout tomorrow.",
+        "zh": "明天退房前请把房卡交回前台。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "late checkout",
+        "meaning": "延迟退房",
+        "example": {
+          "en": "We asked for late checkout because our flight leaves after dinner.",
+          "zh": "我们申请延迟退房，因为航班在晚饭后才起飞。"
+        }
+      },
+      {
+        "phrase": "checkout time",
+        "meaning": "退房时间",
+        "example": {
+          "en": "The checkout time is printed on the paper inside your room folder.",
+          "zh": "退房时间印在你房间文件夹里的纸上。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "check-in",
+        "type": "antonym",
+        "meaning": "入住（相对退房）"
+      },
+      {
+        "word": "check out",
+        "type": "confusable",
+        "meaning": "动词短语：结账离开；看看（多义）"
+      }
+    ]
+  },
+  {
+    "word": "suite",
+    "phonetic": "[swiːt]",
+    "pos": "n.",
+    "meaning": "套房",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "酒店中带客厅等的套房（本关核心义）",
+        "important": true,
+        "example": {
+          "en": "They upgraded us to a corner suite with a view of the river.",
+          "zh": "他们把我们升级到一间能看江景的转角套房。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "一套（物品）；套件",
+        "important": false,
+        "example": {
+          "en": "This software suite includes tools for email, notes, and calendars.",
+          "zh": "这套软件包含邮件、笔记和日历等工具。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The suite has a separate living room and a small kitchen area.",
+        "zh": "这套房有独立客厅和一个小厨房区。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "junior suite",
+        "meaning": "小套房（比标准房大）",
+        "example": {
+          "en": "A junior suite costs a little more but offers much more space.",
+          "zh": "小套房贵一点，但空间大得多。"
+        }
+      },
+      {
+        "phrase": "bridal suite",
+        "meaning": "新婚套房",
+        "example": {
+          "en": "The hotel prepared flowers in the bridal suite before the wedding guests arrived.",
+          "zh": "婚礼客人到之前，酒店先在新婚套房里摆好了鲜花。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "ensuite",
+        "type": "family",
+        "meaning": "带独立卫浴（常作形容词用）"
+      },
+      {
+        "word": "sweet",
+        "type": "confusable",
+        "meaning": "同音异义：甜的"
+      }
+    ]
+  },
+  {
+    "word": "upgrade",
+    "phonetic": "[ʌpˈɡreɪd]",
+    "pos": "n. & v.",
+    "meaning": "升级（房型等）",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "把预订房型升到更高档（本关核心义）",
+        "important": true,
+        "example": {
+          "en": "The hotel offered us a free upgrade because our room was not ready yet.",
+          "zh": "因为我们的房间还没备好，酒店给了我们免费升级房型。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "软件/设备升级",
+        "important": false,
+        "example": {
+          "en": "This phone needs an upgrade to run the new travel app smoothly.",
+          "zh": "这部手机需要升级才能顺畅运行新的旅行应用。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "We asked politely if an upgrade to a sea view was available tonight.",
+        "zh": "我们礼貌地问今晚是否还有海景房可升级。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "room upgrade",
+        "meaning": "房型升级",
+        "example": {
+          "en": "A room upgrade is not always free, so read the email offer carefully.",
+          "zh": "房型升级并不总是免费，所以要仔细阅读邮件里的说明。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "downgrade",
+        "type": "antonym",
+        "meaning": "降级"
+      },
+      {
+        "word": "upgraded",
+        "type": "family",
+        "meaning": "已升级的"
+      }
+    ]
+  },
+  {
+    "word": "single",
+    "phonetic": "[ˈsɪŋɡl]",
+    "pos": "n. & adj.",
+    "meaning": "单人间；单的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "只有一张单人床的房间（本关：房型）",
+        "important": true,
+        "example": {
+          "en": "I booked a single since I am travelling alone and need a quiet desk.",
+          "zh": "我订了单人间，因为独自出行，还需要一张安静的书桌。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "单一的；单个的",
+        "important": false,
+        "example": {
+          "en": "He paid with a single banknote and took the receipt from reception.",
+          "zh": "他用一张纸币付款，然后从前台拿了收据。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "A single is cheaper than a double if you do not need two beds.",
+        "zh": "如果你不需要两张床，单人间比双人间便宜。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "single room",
+        "meaning": "单人房",
+        "example": {
+          "en": "Do you still have a single room available for tomorrow night only?",
+          "zh": "你们明晚还有单人房吗，只要一晚？"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "double",
+        "type": "antonym",
+        "meaning": "双人间/双的（酒店语境）"
+      },
+      {
+        "word": "signal",
+        "type": "confusable",
+        "meaning": "拼写相近：信号"
+      }
+    ]
+  },
+  {
+    "word": "double",
+    "phonetic": "[ˈdʌbl]",
+    "pos": "n. & adj.",
+    "meaning": "双人间；双的",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "配一张双人床或两张单人床的房间（本关：房型）",
+        "important": true,
+        "example": {
+          "en": "We reserved a double for our parents and a single for our teenage son.",
+          "zh": "我们给父母订了双人间，给十几岁的儿子订了单人间。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "两倍的；加倍的",
+        "important": false,
+        "example": {
+          "en": "The hotel applied a double charge by mistake, but fixed it quickly.",
+          "zh": "酒店误收了双倍费用，但很快纠正了。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "This double has two single beds, so we can share without sharing one mattress.",
+        "zh": "这间双人间有两张单人床，我们可以分床而不挤一张床垫。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "double room",
+        "meaning": "双人间",
+        "example": {
+          "en": "A double room on the top floor is quieter if you hate street noise.",
+          "zh": "如果你讨厌街噪，顶楼双人间通常更安静。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "single",
+        "type": "antonym",
+        "meaning": "单人间/单的（酒店语境）"
+      },
+      {
+        "word": "twin room",
+        "type": "synonym",
+        "meaning": "常指两张单人床的双人间"
+      }
+    ]
+  },
+  {
+    "word": "deposit",
+    "phonetic": "[dɪˈpɒzɪt]",
+    "pos": "n. & v.",
+    "meaning": "押金；存放",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "入住时预授权或暂扣的押金（本关核心义）",
+        "important": true,
+        "example": {
+          "en": "The reception took a fifty-pound deposit on my card for possible room damage.",
+          "zh": "前台在我卡上暂扣五十英镑押金，以防房间损坏。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "存款；存放",
+        "important": false,
+        "example": {
+          "en": "He keeps travel savings in a deposit account with low risk.",
+          "zh": "他把旅行积蓄放在风险较低的定期存款账户里。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "They will refund the deposit within seven days after you check out.",
+        "zh": "你退房后七天内他们会退还押金。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "Please read how the deposit works before you sign the hotel form.",
+        "zh": "签字前请先看清押金规则。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "security deposit",
+        "meaning": "押金（保障履约/损坏）",
+        "example": {
+          "en": "The hotel calls this fee a security deposit, not an extra room charge.",
+          "zh": "酒店称这笔费用为押金，而不是额外的房费。"
+        }
+      },
+      {
+        "phrase": "refundable deposit",
+        "meaning": "可退押金",
+        "example": {
+          "en": "Ask whether the deposit is refundable if you cancel one day early.",
+          "zh": "如果你提前一天取消，问问押金是否可退。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "down payment",
+        "type": "synonym",
+        "meaning": "预付款（语义相近但不完全等同）"
+      },
+      {
+        "word": "depositor",
+        "type": "family",
+        "meaning": "存款人（金融语境）"
+      }
+    ]
+  }
+]

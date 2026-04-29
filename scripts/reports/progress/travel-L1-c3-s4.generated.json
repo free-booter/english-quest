@@ -1,0 +1,776 @@
+[
+  {
+    "word": "bill",
+    "phonetic": "[bɪl]",
+    "pos": "n.",
+    "meaning": "账单",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（酒店结账）应付费用总单",
+        "important": true,
+        "example": {
+          "en": "Could I have the bill, please? I'm checking out now.",
+          "zh": "请把账单给我好吗？我现在要退房。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "费用明细（列项）",
+        "important": false,
+        "example": {
+          "en": "The bill lists the room rate and the minibar charges.",
+          "zh": "账单上列有房费和迷你吧费用。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "I'd like to settle the bill before I leave the hotel.",
+        "zh": "我想在离开酒店前结清账单。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "They added breakfast to my final bill.",
+        "zh": "他们把早餐记入了我的最终账单。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "foot the bill",
+        "meaning": "付账；承担费用",
+        "example": {
+          "en": "The company will foot the bill for the extra night.",
+          "zh": "多住一晚的费用由公司付账。"
+        }
+      },
+      {
+        "phrase": "split the bill",
+        "meaning": "AA 制；分摊账单",
+        "example": {
+          "en": "We decided to split the bill for the group dinner.",
+          "zh": "我们决定把集体晚餐的账单分摊。"
+        }
+      },
+      {
+        "phrase": "itemized bill",
+        "meaning": "分项明细账单",
+        "example": {
+          "en": "Please send me an itemized bill for my expenses claim.",
+          "zh": "请给我一张分项明细账单，便于报销。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "invoice",
+        "type": "confusable",
+        "meaning": "发票（偏正式单据）"
+      },
+      {
+        "word": "check",
+        "type": "confusable",
+        "meaning": "账单（美式常用说法）"
+      },
+      {
+        "word": "statement",
+        "type": "synonym",
+        "meaning": "结算清单"
+      },
+      {
+        "word": "payment",
+        "type": "family",
+        "meaning": "付款"
+      }
+    ]
+  },
+  {
+    "word": "receipt",
+    "phonetic": "[rɪˈsiːt]",
+    "pos": "n.",
+    "meaning": "收据",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "付款凭证（退房时可索要）",
+        "important": true,
+        "example": {
+          "en": "Always ask for a receipt after you pay at reception.",
+          "zh": "在前台付款后务必索要收据。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "收到（正式用语）",
+        "important": false,
+        "example": {
+          "en": "This email confirms receipt of your deposit.",
+          "zh": "此邮件确认已收到你的押金。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Keep your receipt if you need a refund later.",
+        "zh": "若之后需要退款，请保留好收据。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "proof of purchase",
+        "meaning": "购买凭证",
+        "example": {
+          "en": "The receipt works as proof of purchase for the minibar.",
+          "zh": "这张收据可作为迷你吧消费的购买凭证。"
+        }
+      },
+      {
+        "phrase": "print a receipt",
+        "meaning": "打印收据",
+        "example": {
+          "en": "The desk can print a receipt for the city tax.",
+          "zh": "前台可以打印城市税的收据。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "invoice",
+        "type": "confusable",
+        "meaning": "发票"
+      },
+      {
+        "word": "voucher",
+        "type": "confusable",
+        "meaning": "抵用券；凭证"
+      },
+      {
+        "word": "slip",
+        "type": "synonym",
+        "meaning": "小票"
+      }
+    ]
+  },
+  {
+    "word": "charge",
+    "phonetic": "[tʃɑːdʒ]",
+    "pos": "n. & v.",
+    "meaning": "费用；收费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（名词）需付金额、费用项",
+        "important": true,
+        "example": {
+          "en": "There is a small charge for late checkout.",
+          "zh": "延迟退房会有一笔小额费用。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（动词）向…收费；计入账单",
+        "important": false,
+        "example": {
+          "en": "They charged 15 euros for parking overnight.",
+          "zh": "他们收取了过夜停车费15欧元。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Please explain each charge on my folio.",
+        "zh": "请解释一下我账单上的每一项费用。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "The hotel charged my card on departure.",
+        "zh": "酒店在我离店时从我的卡上扣款。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "service charge",
+        "meaning": "服务费",
+        "example": {
+          "en": "A 10% service charge was added to the bill.",
+          "zh": "账单上加收了10%的服务费。"
+        }
+      },
+      {
+        "phrase": "late checkout charge",
+        "meaning": "延迟退房费",
+        "example": {
+          "en": "I paid a late checkout charge to keep the room until 2 p.m.",
+          "zh": "我付了延迟退房费，把房间延到下午两点。"
+        }
+      },
+      {
+        "phrase": "extra charge",
+        "meaning": "额外收费",
+        "example": {
+          "en": "Wi-Fi for multiple devices may carry an extra charge.",
+          "zh": "多台设备使用Wi-Fi可能额外收费。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "fee",
+        "type": "synonym",
+        "meaning": "费用"
+      },
+      {
+        "word": "cost",
+        "type": "synonym",
+        "meaning": "成本；花费"
+      },
+      {
+        "word": "free",
+        "type": "antonym",
+        "meaning": "免费"
+      },
+      {
+        "word": "refund",
+        "type": "confusable",
+        "meaning": "退款（与收费相反方向）"
+      }
+    ]
+  },
+  {
+    "word": "refund",
+    "phonetic": "[ˈriːfʌnd]",
+    "pos": "n.",
+    "meaning": "退款",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "退回的钱款",
+        "important": true,
+        "example": {
+          "en": "I received a full refund for the cancelled tour.",
+          "zh": "取消的行程我拿到了全额退款。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（动词读作 /rɪˈfʌnd/）退还",
+        "important": false,
+        "example": {
+          "en": "The hotel agreed to refund the deposit to my card.",
+          "zh": "酒店同意把押金退回到我的卡上。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "How long will the refund take to show on my account?",
+        "zh": "退款多久会显示在我的账户上？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "full refund",
+        "meaning": "全额退款",
+        "example": {
+          "en": "You are entitled to a full refund if the service fails.",
+          "zh": "若服务未达标，你有权获得全额退款。"
+        }
+      },
+      {
+        "phrase": "request a refund",
+        "meaning": "申请退款",
+        "example": {
+          "en": "I had to request a refund for the duplicate minibar charge.",
+          "zh": "我不得不为重复的迷你吧扣款申请退款。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "reimbursement",
+        "type": "synonym",
+        "meaning": "报销；补偿"
+      },
+      {
+        "word": "charge",
+        "type": "antonym",
+        "meaning": "扣款"
+      },
+      {
+        "word": "payment",
+        "type": "family",
+        "meaning": "支付"
+      },
+      {
+        "word": "deposit",
+        "type": "confusable",
+        "meaning": "押金（退款对象常与之相关）"
+      }
+    ]
+  },
+  {
+    "word": "tip",
+    "phonetic": "[tɪp]",
+    "pos": "n. & v.",
+    "meaning": "小费",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（名词）给服务人员的小费",
+        "important": true,
+        "example": {
+          "en": "In some countries you leave a tip for housekeeping.",
+          "zh": "在有些国家你要给客房服务留小费。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（动词）给小费",
+        "important": false,
+        "example": {
+          "en": "We tipped the porter who carried our bags.",
+          "zh": "我们给搬运行李的门童付了小费。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Is service included, or should I add a tip?",
+        "zh": "服务费已含在内吗，还是需要另付小费？",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "She tipped the concierge for calling a taxi.",
+        "zh": "她因门童帮忙叫车而给了小费。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "leave a tip",
+        "meaning": "留下小费",
+        "example": {
+          "en": "Please leave a tip in the envelope on the desk if you wish.",
+          "zh": "如愿意，请把小额小费放在桌上的信封里。"
+        }
+      },
+      {
+        "phrase": "tip included",
+        "meaning": "小费已含",
+        "example": {
+          "en": "The menu says tip included for the set dinner.",
+          "zh": "套餐菜单上写着小费已含。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "gratuity",
+        "type": "synonym",
+        "meaning": "小费（较正式）"
+      },
+      {
+        "word": "service charge",
+        "type": "confusable",
+        "meaning": "服务费（不一定等同小费）"
+      },
+      {
+        "word": "complaint",
+        "type": "confusable",
+        "meaning": "投诉（场景易混词）"
+      }
+    ]
+  },
+  {
+    "word": "complaint",
+    "phonetic": "[kəmˈpleɪnt]",
+    "pos": "n.",
+    "meaning": "投诉",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "不满与正式投诉",
+        "important": true,
+        "example": {
+          "en": "I made a complaint about the noise from the street.",
+          "zh": "我因街道噪音向酒店提出了投诉。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The manager handled my complaint very professionally.",
+        "zh": "经理非常专业地处理了我的投诉。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "File a complaint if the room was not as described.",
+        "zh": "若房间与描述不符，可以正式投诉。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "lodge a complaint",
+        "meaning": "正式提出投诉",
+        "example": {
+          "en": "You can lodge a complaint at the front desk.",
+          "zh": "你可以在前台正式提出投诉。"
+        }
+      },
+      {
+        "phrase": "complaint form",
+        "meaning": "投诉表",
+        "example": {
+          "en": "She filled out a complaint form at checkout.",
+          "zh": "她在退房时填写了投诉表。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "compliment",
+        "type": "antonym",
+        "meaning": "赞美"
+      },
+      {
+        "word": "feedback",
+        "type": "synonym",
+        "meaning": "反馈"
+      },
+      {
+        "word": "praise",
+        "type": "antonym",
+        "meaning": "表扬"
+      },
+      {
+        "word": "claim",
+        "type": "confusable",
+        "meaning": "索赔；主张"
+      }
+    ]
+  },
+  {
+    "word": "feedback",
+    "phonetic": "[ˈfiːdbæk]",
+    "pos": "n.",
+    "meaning": "反馈",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（服务）意见与评价",
+        "important": true,
+        "example": {
+          "en": "The hotel emailed me a link to leave feedback.",
+          "zh": "酒店给我发了邮件链接留评价。",
+          "source": "generated",
+          "checked": false
+        }
+      },
+      {
+        "meaning": "（信息）回馈（较泛）",
+        "important": false,
+        "example": {
+          "en": "We value your feedback to improve our service.",
+          "zh": "我们重视您的反馈以改进服务。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "Could you give us some quick feedback before you go?",
+        "zh": "离开前能给我们留几句简短反馈吗？",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "customer feedback",
+        "meaning": "客户反馈",
+        "example": {
+          "en": "Customer feedback helps the hotel fix recurring issues.",
+          "zh": "客户反馈帮助酒店解决反复出现的问题。"
+        }
+      },
+      {
+        "phrase": "feedback form",
+        "meaning": "意见表",
+        "example": {
+          "en": "There is a feedback form in every room.",
+          "zh": "每间客房里都放有意见表。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "comment",
+        "type": "synonym",
+        "meaning": "评论"
+      },
+      {
+        "word": "review",
+        "type": "synonym",
+        "meaning": "评价"
+      },
+      {
+        "word": "complaint",
+        "type": "confusable",
+        "meaning": "投诉（更偏负面）"
+      },
+      {
+        "word": "response",
+        "type": "family",
+        "meaning": "回应"
+      }
+    ]
+  },
+  {
+    "word": "extension",
+    "phonetic": "[ɪkˈstenʃən]",
+    "pos": "n.",
+    "meaning": "延长；续住",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（住宿）续住、延长时间",
+        "important": true,
+        "example": {
+          "en": "I asked for a one-day extension of my stay.",
+          "zh": "我申请把住宿延长一天。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The front desk approved a two-hour extension for late checkout.",
+        "zh": "前台批准延迟退房多住两小时。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "room extension",
+        "meaning": "续房；延长住期",
+        "example": {
+          "en": "A room extension may change your nightly rate.",
+          "zh": "续房可能会改变每晚房价。"
+        }
+      },
+      {
+        "phrase": "extension of stay",
+        "meaning": "延长停留",
+        "example": {
+          "en": "Visa rules may limit your extension of stay abroad.",
+          "zh": "签证规定可能限制你在国外延长停留。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "extend",
+        "type": "family",
+        "meaning": "延长"
+      },
+      {
+        "word": "prolong",
+        "type": "synonym",
+        "meaning": "延长"
+      },
+      {
+        "word": "shorten",
+        "type": "antonym",
+        "meaning": "缩短"
+      },
+      {
+        "word": "checkout",
+        "type": "confusable",
+        "meaning": "退房（时间点与续住相关）"
+      }
+    ]
+  },
+  {
+    "word": "key card",
+    "phonetic": "[ˈkiː kɑːd]",
+    "pos": "n.",
+    "meaning": "房卡",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "电子门卡（刷卡进门）",
+        "important": true,
+        "example": {
+          "en": "Don't forget to return your key card when you check out.",
+          "zh": "退房时别忘了交还房卡。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "My key card stopped working on the last night.",
+        "zh": "最后一晚我的房卡突然刷不开了。",
+        "source": "generated",
+        "checked": false
+      },
+      {
+        "en": "He tapped the key card on the reader to open the door.",
+        "zh": "他把房卡在感应器上刷了一下开门。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "swipe a key card",
+        "meaning": "刷房卡",
+        "example": {
+          "en": "You need to swipe a key card at the lift for your floor.",
+          "zh": "你需要在电梯里刷房卡才能到你住的楼层。"
+        }
+      },
+      {
+        "phrase": "replace a key card",
+        "meaning": "补办房卡",
+        "example": {
+          "en": "I had to replace a key card after I lost mine.",
+          "zh": "房卡丢了之后我不得不补办一张。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "card key",
+        "type": "confusable",
+        "meaning": "词序易混（标准说法为 key card）"
+      },
+      {
+        "word": "key fob",
+        "type": "confusable",
+        "meaning": "门卡钥匙扣式"
+      },
+      {
+        "word": "room key",
+        "type": "synonym",
+        "meaning": "房钥匙（传统说法）"
+      },
+      {
+        "word": "electronic",
+        "type": "family",
+        "meaning": "电子的"
+      }
+    ]
+  },
+  {
+    "word": "baggage",
+    "phonetic": "[ˈbæɡɪdʒ]",
+    "pos": "n.",
+    "meaning": "行李",
+    "contentStatus": "reviewed",
+    "senses": [
+      {
+        "meaning": "（旅行）行李总称",
+        "important": true,
+        "example": {
+          "en": "We left our baggage with the concierge after checkout.",
+          "zh": "退房后我们把行李寄存在礼宾部。",
+          "source": "generated",
+          "checked": false
+        }
+      }
+    ],
+    "teachingExamples": [
+      {
+        "en": "The hotel can store your baggage for a few hours free of charge.",
+        "zh": "酒店可以免费寄存行李几小时。",
+        "source": "generated",
+        "checked": false
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "baggage claim",
+        "meaning": "行李领取处",
+        "example": {
+          "en": "After checkout we went to baggage claim at the airport.",
+          "zh": "退房后我们去了机场的行李领取处。"
+        }
+      },
+      {
+        "phrase": "excess baggage",
+        "meaning": "超重行李",
+        "example": {
+          "en": "Check excess baggage fees before you fly home.",
+          "zh": "回国乘机前先查超重行李费用。"
+        }
+      },
+      {
+        "phrase": "hand baggage",
+        "meaning": "手提行李",
+        "example": {
+          "en": "Keep valuables in your hand baggage, not in the hold.",
+          "zh": "贵重物品放在手提行李里，不要托运。"
+        }
+      }
+    ],
+    "relatedWords": [
+      {
+        "word": "luggage",
+        "type": "synonym",
+        "meaning": "行李（英式常用）"
+      },
+      {
+        "word": "suitcase",
+        "type": "family",
+        "meaning": "行李箱"
+      },
+      {
+        "word": "carry-on",
+        "type": "confusable",
+        "meaning": "随身行李"
+      },
+      {
+        "word": "belongings",
+        "type": "synonym",
+        "meaning": "财物；随身物品"
+      }
+    ]
+  }
+]

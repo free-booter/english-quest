@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/generate-level-data.mjs travel 1)",
+      "Bash(node scripts/l1-progress.mjs mark travel examples travel-L1-c1-s1)",
+      "Bash(node scripts/l1-progress.mjs status travel)"
+    ]
+  }
+}
